@@ -9,7 +9,7 @@ description: "End-to-end guide to building a secure AI-powered chatbot using Azu
 
 # Building an AI-Powered App Using Azure OpenAI Services
 
-## 1 Introduction to Azure OpenAI
+##  Introduction to Azure OpenAI
 
 In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&A into their apps. **Azure OpenAI Services** makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.
 
@@ -27,7 +27,7 @@ In this post, you’ll learn how to build an **AI-powered chatbot** using:
 
 ---
 
-## 2 Getting API Keys and Setup
+##  Getting API Keys and Setup
 
 ### Prerequisites
 - Azure Subscription  
@@ -55,7 +55,7 @@ AZURE_TENANT_ID=xxxxx
 AZURE_CLIENT_ID=xxxxx
 AZURE_CLIENT_SECRET=xxxxx
 ```
-### 3 Sample App: Chatbot with React Frontend
+###  Sample App: Chatbot with React Frontend
 
 a) Backend with FastAPI
 
@@ -133,7 +133,7 @@ function ChatApp() {
 export default ChatApp;
 ```
 
-### 4 Securing APIs with Azure AD
+###  Securing APIs with Azure AD
 In enterprise apps, you won’t expose the OpenAI API directly. Instead:
 
 ✅ Secure your FastAPI backend using Azure AD tokens
@@ -155,7 +155,7 @@ async def chat(request: dict, token: HTTPAuthorizationCredentials = Depends(bear
 Tip: Use MSAL or Azure AD v2.0 JWT libraries to validate tokens.
 ```
 
-### 5 Use Cases and Limitations
+###  Use Cases and Limitations
 ✅ Common Use Cases
 Chatbots for customer support
 AI assistants in enterprise apps

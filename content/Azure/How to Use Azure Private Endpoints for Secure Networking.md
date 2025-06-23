@@ -9,7 +9,7 @@ description: "Learn how to use Azure Private Endpoints to securely access servic
 
 # 🔐 How to Use Azure Private Endpoints for Secure Networking
 
-## 1️⃣ What is a Private Endpoint?
+##  What is a Private Endpoint?
 
 A **Private Endpoint** in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.
 
@@ -20,7 +20,7 @@ Think of it as a private IP address for an Azure service. This ensures:
 
 ---
 
-## 2️⃣ When to Use Private Endpoints?
+##  When to Use Private Endpoints?
 
 | Scenario                                    | Private Endpoint Recommended? |
 |---------------------------------------------|-------------------------------|
@@ -38,7 +38,7 @@ Think of it as a private IP address for an Azure service. This ensures:
 - Azure Key Vault  
 ---
 
-## 3️⃣ Step-by-Step Example: Secure a Storage Account with Private Endpoint
+## Step-by-Step Example: Secure a Storage Account with Private Endpoint
 ### a) Prerequisites
 - Azure Subscription  
 - Existing Virtual Network (VNet)  
@@ -94,7 +94,7 @@ az storage account update \
   --default-action Deny
 Now, only traffic from the private endpoint in VNet is allowed! 🚀
 ```
-### 4️⃣ Testing with Private IP Only
+###  Testing with Private IP Only
 ```
 a) From VM inside VNet
 # nslookup should resolve to private IP
@@ -106,7 +106,7 @@ b) From outside VNet (should fail)
 curl https://mystorageaccountxyz.blob.core.windows.net
 # Expected: Access denied or timeout
 ```
-### 5️⃣ Summary
+###  Summary
 ✅ Private Endpoints help you securely access Azure services inside your VNet
 ✅ No public IP needed
 ✅ Great for internal, sensitive, or regulated workloads

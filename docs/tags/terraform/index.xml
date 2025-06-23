@@ -21,9 +21,9 @@
 &lt;li>Deploying resources on Azure&lt;/li>
 &lt;/ul>
 &lt;h2 id="steps">Steps&lt;/h2>
-&lt;p>1️⃣ Install Terraform CLI&lt;br>
-2️⃣ Configure your Azure credentials&lt;br>
-3️⃣ Write &lt;code>main.tf&lt;/code> with Azure provider&lt;br>
-4️⃣ Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>apply&lt;/code>&lt;/p>
+&lt;p>Install Terraform CLI&lt;br>
+Configure your Azure credentials&lt;br>
+Write &lt;code>main.tf&lt;/code> with Azure provider&lt;br>
+Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>apply&lt;/code>&lt;/p>
 &lt;h2 id="conclusion">Conclusion&lt;/h2>
 &lt;p>Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p></description></item></channel></rss>

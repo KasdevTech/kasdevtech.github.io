@@ -15,10 +15,10 @@ In this post, we will cover:
 
 ## Steps
 
-1️⃣ Install Terraform CLI  
-2️⃣ Configure your Azure credentials  
-3️⃣ Write `main.tf` with Azure provider  
-4️⃣ Run `terraform init`, `plan`, and `apply`
+Install Terraform CLI  
+Configure your Azure credentials  
+Write `main.tf` with Azure provider  
+Run `terraform init`, `plan`, and `apply`
 
 ## Conclusion
 

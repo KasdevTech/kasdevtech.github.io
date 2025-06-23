@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>How to Start Your Cloud Journey in 2025 — A Practical Guide | kasdevTech - Cloud | Azure | DevOps | AI</title>
+<meta name="keywords" content="Azure, Cloud, DevOps, Kubernetes, Beginner Guide">
+<meta name="description" content="Welcome to kasdevTech — Your Cloud Learning Hub 🚀
+In today’s world, cloud computing is no longer optional — it is essential for businesses, developers, and architects.
+But many beginners feel lost:
+👉 Where do I start?
+👉 Which services should I learn first?
+👉 How can I gain practical experience?
+In this post, I will share a step-by-step practical guide to help you start your cloud journey in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.">
+<meta name="author" content="Kasi Suresh">
+<link rel="canonical" href="http://localhost:1313/posts/how-to-start-cloud-journey-2025/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/how-to-start-cloud-journey-2025/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="kasdevTech - Cloud | Azure | DevOps | AI (Alt + H)">kasdevTech - Cloud | Azure | DevOps | AI</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      How to Start Your Cloud Journey in 2025 — A Practical Guide
+    </h1>
+    <div class="post-meta"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;Kasi Suresh
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="welcome-to-kasdevtech--your-cloud-learning-hub-">Welcome to kasdevTech — Your Cloud Learning Hub 🚀<a hidden class="anchor" aria-hidden="true" href="#welcome-to-kasdevtech--your-cloud-learning-hub-">#</a></h2>
+<p>In today’s world, <strong>cloud computing</strong> is no longer optional — it is <strong>essential</strong> for businesses, developers, and architects.</p>
+<p>But many beginners feel lost:<br>
+👉 <em>Where do I start?</em><br>
+👉 <em>Which services should I learn first?</em><br>
+👉 <em>How can I gain practical experience?</em></p>
+<p>In this post, I will share a <strong>step-by-step practical guide</strong> to help you start your <strong>cloud journey</strong> in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.</p>
+<hr>
+<h2 id="1-understand-cloud-basics">1️⃣ Understand Cloud Basics<a hidden class="anchor" aria-hidden="true" href="#1-understand-cloud-basics">#</a></h2>
+<p>Before diving into Azure or AWS, understand what Cloud Computing is:</p>
+<ul>
+<li><strong>On-Demand Resources:</strong> Pay for what you use (compute, storage, networking)</li>
+<li><strong>Elastic Scaling:</strong> Scale up/down based on demand</li>
+<li><strong>Global Reach:</strong> Deploy apps across global data centers</li>
+<li><strong>Service Models:</strong> IaaS, PaaS, SaaS</li>
+</ul>
+<hr>
+<h2 id="2-choose-your-cloud-platform">2️⃣ Choose Your Cloud Platform<a hidden class="anchor" aria-hidden="true" href="#2-choose-your-cloud-platform">#</a></h2>
+<p>For many developers and architects, <strong>Microsoft Azure</strong> is an excellent choice:</p>
+<ul>
+<li>Deep enterprise support</li>
+<li>Hybrid cloud and on-premises integrations</li>
+<li>Great support for .NET Core, Java, Python, Node.js</li>
+<li>Powerful AI + Data tools (Azure AI, OpenAI, Synapse)</li>
+<li>Kubernetes (AKS) and serverless (Azure Functions)</li>
+</ul>
+<hr>
+<h2 id="3-create-free-azure-account">3️⃣ Create Free Azure Account<a hidden class="anchor" aria-hidden="true" href="#3-create-free-azure-account">#</a></h2>
+<p>👉 <a href="https://azure.microsoft.com/en-us/free/">Start with free Azure account</a></p>
+<ul>
+<li>$200 credits for 30 days</li>
+<li>12 months free services</li>
+<li>Always free services</li>
+</ul>
+<hr>
+<h2 id="4-learn-core-azure-services">4️⃣ Learn Core Azure Services<a hidden class="anchor" aria-hidden="true" href="#4-learn-core-azure-services">#</a></h2>
+<p>Start by learning these essential services:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Azure Resource Manager (ARM)</td>
+          <td>Organize resources</td>
+      </tr>
+      <tr>
+          <td>Azure Portal &amp; CLI</td>
+          <td>Manage resources</td>
+      </tr>
+      <tr>
+          <td>Azure App Service</td>
+          <td>Deploy web apps</td>
+      </tr>
+      <tr>
+          <td>Azure Functions</td>
+          <td>Run serverless code</td>
+      </tr>
+      <tr>
+          <td>Azure Storage</td>
+          <td>Blobs, Files, Queues</td>
+      </tr>
+      <tr>
+          <td>Azure SQL Database</td>
+          <td>Managed database</td>
+      </tr>
+      <tr>
+          <td>Azure Monitor</td>
+          <td>Observability &amp; logs</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="5-understand-kubernetes--containers">5️⃣ Understand Kubernetes &amp; Containers<a hidden class="anchor" aria-hidden="true" href="#5-understand-kubernetes--containers">#</a></h2>
+<p>Modern apps run on containers:</p>
+<ul>
+<li>Learn <strong>Docker</strong> basics</li>
+<li>Explore <strong>Azure Kubernetes Service (AKS)</strong></li>
+<li>Deploy your first microservice app on AKS</li>
+</ul>
+<hr>
+<h2 id="6-build-real-projects">6️⃣ Build Real Projects<a hidden class="anchor" aria-hidden="true" href="#6-build-real-projects">#</a></h2>
+<p>👉 Hands-on learning beats theory!</p>
+<p>Ideas for beginner projects:</p>
+<ul>
+<li>Azure Cost Dashboard (React + FastAPI + Azure APIs)</li>
+<li>Deploy static blog to Azure Static Web Apps</li>
+<li>Set up CI/CD pipeline with GitHub Actions</li>
+<li>Monitor container apps with Azure Monitor</li>
+</ul>
+<hr>
+<h2 id="7-stay-updated">7️⃣ Stay Updated<a hidden class="anchor" aria-hidden="true" href="#7-stay-updated">#</a></h2>
+<p>The cloud world moves fast — stay updated:</p>
+<ul>
+<li>Follow Azure blogs, newsletters</li>
+<li>Join LinkedIn cloud communities</li>
+<li>Follow this blog 🚀 — kasdevTech.com — for hands-on tutorials, tips, and real-world use cases</li>
+</ul>
+<hr>
+<h2 id="final-thoughts">Final Thoughts<a hidden class="anchor" aria-hidden="true" href="#final-thoughts">#</a></h2>
+<p>Starting a cloud journey can seem overwhelming — but with a structured path, anyone can succeed.</p>
+<p>👉 Start small<br>
+👉 Practice regularly<br>
+👉 Build projects<br>
+👉 Share your learning (write blogs!)</p>
+<p>If you have questions — feel free to connect with me or follow for future posts.</p>
+<p>Upcoming blogs:<br>
+✅ <em>Deploying Microservices on Azure Kubernetes Service (AKS)</em><br>
+✅ <em>How to Optimize Azure Costs — Real Tips</em><br>
+✅ <em>CI/CD for Cloud Apps with GitHub Actions</em></p>
+<p><strong>Happy learning, and see you in the next post! 🚀</strong></p>
+<hr>
+<p><strong>Kasi Suresh</strong><br>
+kasdevTech — Cloud | Azure | DevOps | Kubernetes</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/azure/">Azure</a></li>
+      <li><a href="http://localhost:1313/tags/cloud/">Cloud</a></li>
+      <li><a href="http://localhost:1313/tags/devops/">DevOps</a></li>
+      <li><a href="http://localhost:1313/tags/kubernetes/">Kubernetes</a></li>
+      <li><a href="http://localhost:1313/tags/beginner-guide/">Beginner Guide</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">kasdevTech - Cloud | Azure | DevOps | AI</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

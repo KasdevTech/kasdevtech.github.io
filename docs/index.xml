@@ -30,11 +30,7 @@ Linked - &lt;a href="https://www.linkedin.com/in/kasi-suresh-992675177/">https:/
 &lt;li>DevOps &amp;amp; Automation&lt;/li>
 &lt;li>AI/ML 🚀&lt;/li>
 &lt;/ul>
-&lt;p>Follow me for regular updates!&lt;/p></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</guid><description>&lt;p>🔹 1️⃣ Introduction to Azure OpenAI
-In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. Azure OpenAI Services makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p>
-&lt;p>Benefits:&lt;/p>
-&lt;p>No need to host large AI models yourself&lt;/p>
-&lt;p>Microsoft’s enterprise security and compliance&lt;/p></description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevTech.github.io/posts/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/posts/getting-started-with-terraform-on-azure/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Follow me for regular updates!&lt;/p></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</guid><description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevTech.github.io/posts/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/posts/getting-started-with-terraform-on-azure/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p>
 &lt;p>In this post, we will cover:&lt;/p>
 &lt;ul>

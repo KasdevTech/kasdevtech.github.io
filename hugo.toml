@@ -3,35 +3,34 @@ languageCode = 'en-us'
 title = 'kasdevTech - Cloud | Azure | DevOps | AI'
 theme = 'PaperMod'
 
-[params]
-  homeInfoParams = { 
-    Title = "Welcome to kasdevTech 🚀", 
-    Content = "Cloud | Azure | DevOps | Kubernetes | AI" 
-  }
+[params.homeInfoParams]
+  Title = "Welcome to kasdevTech 🚀"
+  Content = "Cloud | Azure | DevOps | Kubernetes | AI"
 
 [menu]
+
   [[menu.main]]
     identifier = "azure"
     name = "Azure"
-    url = "/azure/"
+    url = "/Azure/"
     weight = 1
 
   [[menu.main]]
     identifier = "terraform"
     name = "Terraform"
-    url = "/terraform/"
+    url = "/Terraform/"
     weight = 2
 
   [[menu.main]]
     identifier = "finops"
     name = "FinOps"
-    url = "/finops/"
+    url = "/Finops/"
     weight = 3
 
   [[menu.main]]
     identifier = "devops"
     name = "DevOps"
-    url = "/devops/"
+    url = "/Devops/"
     weight = 4
 
   [[menu.main]]

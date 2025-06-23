@@ -36,28 +36,19 @@ Think of it as a private IP address for an Azure service. This ensures:
 - Azure Cosmos DB  
 - Azure App Services (via Private Link)  
 - Azure Key Vault  
-
 ---
 
 ## 3️⃣ Step-by-Step Example: Secure a Storage Account with Private Endpoint
-
 ### a) Prerequisites
 - Azure Subscription  
 - Existing Virtual Network (VNet)  
 - Existing Storage Account  
-
 ---
-
 ### b) Architecture Diagram
-
-
-Azure VNet | Subnet (10.0.1.0/24) | --> Private IP (e.g. 10.0.1.5) for Storage Account --[Private Endpoint]-- VNet
----
+Azure VNet → Subnet (10.0.1.0/24) → Private IP (e.g. 10.0.1.5) for Storage Account → Private Endpoint → VNet
 
 ### c) Step 1: Create a Private Endpoint
-
 #### CLI Example:
-
 ```
 # Variables
 RG_NAME="demo-rg"
@@ -97,31 +88,24 @@ az network private-dns record-set a create \
 Tip: Auto-managed if you use Azure Portal Private Link center.
 
 e) Step 3: Restrict Public Network Access
-
 az storage account update \
   --name $STORAGE_NAME \
   --resource-group $RG_NAME \
   --default-action Deny
 Now, only traffic from the private endpoint in VNet is allowed! 🚀
 ```
-
 ## 4️⃣ Testing with Private IP Only
-
+```
 a) From VM inside VNet
-
 # nslookup should resolve to private IP
 nslookup mystorageaccountxyz.blob.core.windows.net
-
 # Test connectivity
 curl https://mystorageaccountxyz.blob.core.windows.net
 b) From outside VNet (should fail)
-
 # From your laptop or public IP
 curl https://mystorageaccountxyz.blob.core.windows.net
 # Expected: Access denied or timeout
-
-
-
+```
 ## 5️⃣ Summary
 ✅ Private Endpoints help you securely access Azure services inside your VNet
 ✅ No public IP needed

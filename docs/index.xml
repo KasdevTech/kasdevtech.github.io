@@ -20,7 +20,17 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">inputs&lt;/span>:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">PathtoPublish&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ArtifactName&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;drop&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>About</title><link>https://kasdevTech.github.io/about/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/about/</guid><description>&lt;p>Hi! 👋 I’m &lt;strong>Kasi Suresh&lt;/strong> — Cloud Architect, Azure &amp;amp; DevOps SME.
+Linked - &lt;a href="https://www.linkedin.com/in/kasi-suresh-992675177/">https://www.linkedin.com/in/kasi-suresh-992675177/&lt;/a>&lt;/p>
+&lt;p>This blog shares my learning and experience on:&lt;/p>
+&lt;ul>
+&lt;li>Azure Cloud&lt;/li>
+&lt;li>Terraform IaC&lt;/li>
+&lt;li>FinOps for Cloud Cost Optimization&lt;/li>
+&lt;li>DevOps &amp;amp; Automation&lt;/li>
+&lt;li>AI/ML 🚀&lt;/li>
+&lt;/ul>
+&lt;p>Follow me for regular updates!&lt;/p></description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
 &lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
 &lt;hr>
 &lt;h2 id="why-resize-vms">Why Resize VMs?&lt;/h2>

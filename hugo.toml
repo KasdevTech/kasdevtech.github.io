@@ -1,11 +1,11 @@
 baseURL = 'https://kasdevTech.github.io/'
 languageCode = 'en-us'
-title = 'kasdevTech - Cloud | Azure | DevOps | AI'
+title = 'KasdevTech - Cloud | Azure | DevOps | AI'
 theme = 'PaperMod'
 
 [params]
-  env = "production"
-  title = "kasdevTech - Cloud | Azure | DevOps | AI"
+  env = "Production"
+  title = "KasdevTech - Cloud | Azure | DevOps | AI"
   description = "Learn Azure, Terraform, FinOps, DevOps, and AI with real-world examples"
   author = "Kasi Suresh"
   ShowReadingTime = true

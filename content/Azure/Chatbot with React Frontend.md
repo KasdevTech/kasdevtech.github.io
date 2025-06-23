@@ -7,7 +7,7 @@ tags: [Azure OpenAI, Chatbot, ReactJS, FastAPI, Azure AD, AI, Cloud Apps]
 description: "End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend."
 ---
 
-# 🔟 Building an AI-Powered App Using Azure OpenAI Services
+# Building an AI-Powered App Using Azure OpenAI Services
 
 ## 1️⃣ Introduction to Azure OpenAI
 
@@ -19,7 +19,7 @@ In today’s cloud-native world, many organizations want to add AI features like
 ✅ Pay as you go  
 ✅ Available in various Azure regions  
 
-In this post, you’ll learn how to build an **AI-powered chatbot** using:
+In this post, you’ll learn how to build an **AI-powered chatbot** using:  
 ✅ Azure OpenAI  
 ✅ React.js frontend  
 ✅ FastAPI backend  
@@ -56,8 +56,9 @@ AZURE_CLIENT_ID=xxxxx
 AZURE_CLIENT_SECRET=xxxxx
 3️⃣ Sample App: Chatbot with React Frontend
 a) Backend with FastAPI
-main.py
-
+python
+Copy
+Edit
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import openai
@@ -90,8 +91,9 @@ async def chat(request: dict):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 b) React Frontend (Chat UI)
-ChatApp.jsx
-
+jsx
+Copy
+Edit
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -134,13 +136,11 @@ export default ChatApp;
 4️⃣ Securing APIs with Azure AD
 In enterprise apps, you won’t expose the OpenAI API directly. Instead:
 
-Secure your FastAPI backend using Azure AD tokens
-
-Only authenticated users can call /chat
+✅ Secure your FastAPI backend using Azure AD tokens
+✅ Only authenticated users can call /chat
 
 FastAPI Example with Azure AD:
 
-python
 
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi import Depends
@@ -154,7 +154,7 @@ async def chat(request: dict, token: HTTPAuthorizationCredentials = Depends(bear
     return actual_chat_logic()
 Tip: Use MSAL or Azure AD v2.0 JWT libraries to validate tokens.
 
-5️⃣ Use Cases and Limitations
+## 5️⃣ Use Cases and Limitations
 ✅ Common Use Cases
 Chatbots for customer support
 
@@ -177,14 +177,14 @@ Always validate AI outputs — do not blindly trust!
 
 Requires correct prompt engineering to get the best results
 
-🚀 Conclusion
+## 🚀 Conclusion
 You’ve now seen an end-to-end architecture:
 ✅ React Chat frontend
 ✅ FastAPI secured backend
 ✅ Azure OpenAI services
 ✅ Azure AD authentication
 
-Next Steps
+## Next Steps
 Add more user controls (history, retry, download transcript)
 
 Use Vector DB like Azure AI Search to do “Retrieval Augmented Generation” (RAG)
@@ -192,5 +192,3 @@ Use Vector DB like Azure AI Search to do “Retrieval Augmented Generation” (R
 Add analytics and logging
 
 Monitor usage costs with Azure Monitor and Budget
-
-If you found this helpful — follow KasdevTech for more AI + Azure + Cloud tutorials 🚀

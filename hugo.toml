@@ -19,7 +19,6 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   disableSpecial1stPost = false
 
-# 🚀 SHOW POSTS on HOME (no profileMode)
 
 [params.homeInfoParams]
   Title = "Welcome to kasdevTech 🚀"

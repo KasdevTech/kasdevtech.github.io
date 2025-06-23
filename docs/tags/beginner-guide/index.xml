@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Beginner Guide on kasdevTech - Cloud | Azure | DevOps | AI</title><link>https://kasdevTech.github.io/tags/beginner-guide/</link><description>Recent content in Beginner Guide on kasdevTech - Cloud | Azure | DevOps | AI</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevTech.github.io/tags/beginner-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevTech.github.io/posts/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/posts/how-to-start-cloud-journey-2025/</guid><description>&lt;h2 id="welcome-to-kasdevtech--your-cloud-learning-hub-">Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Beginner Guide on kasdevTech - Cloud | Azure | DevOps | AI</title><link>https://kasdevTech.github.io/tags/beginner-guide/</link><description>Recent content in Beginner Guide on kasdevTech - Cloud | Azure | DevOps | AI</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevTech.github.io/tags/beginner-guide/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevTech.github.io/posts/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/posts/how-to-resize-azure-virtual-machines/</guid><description>&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
+&lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
+&lt;hr>
+&lt;h2 id="why-resize-vms">Why Resize VMs?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Scale Up:&lt;/strong> Handle more traffic or workload&lt;/li>
+&lt;li>&lt;strong>Scale Down:&lt;/strong> Reduce costs for low-traffic periods&lt;/li>
+&lt;li>&lt;strong>Change Type:&lt;/strong> Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="pre-requisites">Pre-requisites&lt;/h2>
+&lt;p>✅ Azure Subscription&lt;br>
+✅ Owner / Contributor permissions on the VM&lt;br>
+✅ VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevTech.github.io/posts/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/posts/how-to-start-cloud-journey-2025/</guid><description>&lt;h2 id="welcome-to-kasdevtech--your-cloud-learning-hub-">Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2>
 &lt;p>In today’s world, &lt;strong>cloud computing&lt;/strong> is no longer optional — it is &lt;strong>essential&lt;/strong> for businesses, developers, and architects.&lt;/p>
 &lt;p>But many beginners feel lost:&lt;br>
 👉 &lt;em>Where do I start?&lt;/em>&lt;br>

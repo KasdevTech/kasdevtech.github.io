@@ -103,8 +103,10 @@ az storage account update \
   --resource-group $RG_NAME \
   --default-action Deny
 Now, only traffic from the private endpoint in VNet is allowed! 🚀
+```
 
-4️⃣ Testing with Private IP Only
+## 4️⃣ Testing with Private IP Only
+
 a) From VM inside VNet
 
 # nslookup should resolve to private IP
@@ -117,7 +119,7 @@ b) From outside VNet (should fail)
 # From your laptop or public IP
 curl https://mystorageaccountxyz.blob.core.windows.net
 # Expected: Access denied or timeout
-```
+
 
 
 ## 5️⃣ Summary

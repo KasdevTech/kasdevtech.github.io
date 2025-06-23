@@ -47,15 +47,15 @@ You’ll get:
 
 ### Example Environment Variables (Backend)
 
-```env
+```
 AZURE_OPENAI_API_KEY=xxxxx
 AZURE_OPENAI_ENDPOINT=https://xxxxxx.openai.azure.com
 AZURE_OPENAI_DEPLOYMENT=gpt-4
 AZURE_TENANT_ID=xxxxx
 AZURE_CLIENT_ID=xxxxx
 AZURE_CLIENT_SECRET=xxxxx
-
-3️⃣ Sample App: Chatbot with React Frontend
+```
+## 3️⃣ Sample App: Chatbot with React Frontend
 
 a) Backend with FastAPI
 from fastapi import FastAPI, HTTPException
@@ -131,7 +131,7 @@ function ChatApp() {
 export default ChatApp;
 
 
-4️⃣ Securing APIs with Azure AD
+## 4️⃣ Securing APIs with Azure AD
 In enterprise apps, you won’t expose the OpenAI API directly. Instead:
 
 ✅ Secure your FastAPI backend using Azure AD tokens

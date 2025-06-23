@@ -54,11 +54,10 @@ AZURE_OPENAI_DEPLOYMENT=gpt-4
 AZURE_TENANT_ID=xxxxx
 AZURE_CLIENT_ID=xxxxx
 AZURE_CLIENT_SECRET=xxxxx
+
 3️⃣ Sample App: Chatbot with React Frontend
+
 a) Backend with FastAPI
-python
-Copy
-Edit
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import openai
@@ -91,9 +90,6 @@ async def chat(request: dict):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 b) React Frontend (Chat UI)
-jsx
-Copy
-Edit
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -133,6 +129,8 @@ function ChatApp() {
 }
 
 export default ChatApp;
+
+
 4️⃣ Securing APIs with Azure AD
 In enterprise apps, you won’t expose the OpenAI API directly. Instead:
 
@@ -154,7 +152,7 @@ async def chat(request: dict, token: HTTPAuthorizationCredentials = Depends(bear
     return actual_chat_logic()
 Tip: Use MSAL or Azure AD v2.0 JWT libraries to validate tokens.
 
-## 5️⃣ Use Cases and Limitations
+### 5️⃣ Use Cases and Limitations
 ✅ Common Use Cases
 Chatbots for customer support
 

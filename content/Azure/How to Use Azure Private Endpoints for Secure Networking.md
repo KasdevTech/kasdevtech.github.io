@@ -50,21 +50,15 @@ Think of it as a private IP address for an Azure service. This ensures:
 
 ### b) Architecture Diagram
 
-+---------------------------+
-| Azure VNet |
-| +---------------------+ |
-| | Subnet (10.0.1.0/24) | --> Private IP (e.g. 10.0.1.5) for Storage
-| +---------------------+ |
-+---------------------------+
 
-Storage Account --[Private Endpoint]-- VNet
+Azure VNet | Subnet (10.0.1.0/24) | --> Private IP (e.g. 10.0.1.5) for Storage Account --[Private Endpoint]-- VNet
 ---
 
 ### c) Step 1: Create a Private Endpoint
 
 #### CLI Example:
 
-```bash
+```
 # Variables
 RG_NAME="demo-rg"
 VNET_NAME="demo-vnet"
@@ -123,7 +117,10 @@ b) From outside VNet (should fail)
 # From your laptop or public IP
 curl https://mystorageaccountxyz.blob.core.windows.net
 # Expected: Access denied or timeout
-5️⃣ Summary
+```
+
+
+## 5️⃣ Summary
 ✅ Private Endpoints help you securely access Azure services inside your VNet
 ✅ No public IP needed
 ✅ Great for internal, sensitive, or regulated workloads

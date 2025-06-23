@@ -8,6 +8,7 @@ theme = 'PaperMod'
   title = "KasdevTech - Cloud | Azure | DevOps | AI"
   description = "Learn Azure, Terraform, FinOps, DevOps, and AI with real-world examples"
   author = "Kasi Suresh"
+  googleAnalytics = "G-DGZYRTL4Y2"
   ShowReadingTime = true
   ShowToc = true
   TocOpen = true
@@ -31,6 +32,7 @@ theme = 'PaperMod'
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/KasdevTech"
+
 
 
 [menu]

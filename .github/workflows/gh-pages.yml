@@ -33,4 +33,4 @@ jobs:
           git config user.email "kasisureshd@outlook.com"
           git add docs
           git commit -m "Deploy Hugo site to GitHub Pages" || echo "No changes to commit"
-          git push https://x-access-token:$GH_PAT@github.com/kasdevTech/kasdevTech.github.io.git main
+          git push origin main

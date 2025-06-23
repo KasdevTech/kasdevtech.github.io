@@ -15,17 +15,29 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
-  disableSpecial1stPost = false
   ShowLastMod = true
   defaultTheme = "light"
 
+  [params.profileMode]
+    enabled = true
+    title = "Kasi Suresh"
+    subtitle = '''Cloud Architect | Azure | Terraform | FinOps | DevOps | AI'''
+    imageUrl = "images/avatar.png"
+    imageTitle = "Profile"
+    imageWidth = 120
+    imageHeight = 120
+    buttons = [
+      { name = "Blog", url = "/posts/" },
+      { name = "About", url = "/about/" }
+    ]
+
 [params.homeInfoParams]
   Title = "Hi 👋, I’m Kasi Suresh"
-  Content = "Welcome to **kasdevTech** — a blog on Azure Cloud, Terraform, FinOps, DevOps, and AI 🚀"
+  Content = '''Welcome to **kasdevTech** — a blog on Azure Cloud, Terraform, FinOps, DevOps, and AI 🚀'''
 
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://linkedin.com/in/your-profile"
+  url = "https://linkedin.com/in/YOUR_REAL_LINKEDIN"
 
 [[params.socialIcons]]
   name = "github"
@@ -33,7 +45,7 @@ theme = 'PaperMod'
 
 [[params.socialIcons]]
   name = "twitter"
-  url = "https://twitter.com/your-twitter"
+  url = "https://twitter.com/YOUR_TWITTER"
 
 [menu]
 

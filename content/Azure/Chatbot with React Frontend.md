@@ -58,6 +58,8 @@ AZURE_CLIENT_SECRET=xxxxx
 ## 3️⃣ Sample App: Chatbot with React Frontend
 
 a) Backend with FastAPI
+
+```
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import openai
@@ -129,7 +131,7 @@ function ChatApp() {
 }
 
 export default ChatApp;
-
+```
 
 ## 4️⃣ Securing APIs with Azure AD
 In enterprise apps, you won’t expose the OpenAI API directly. Instead:
@@ -139,7 +141,7 @@ In enterprise apps, you won’t expose the OpenAI API directly. Instead:
 
 FastAPI Example with Azure AD:
 
-
+```
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi import Depends
 
@@ -151,28 +153,21 @@ async def chat(request: dict, token: HTTPAuthorizationCredentials = Depends(bear
     # If token valid:
     return actual_chat_logic()
 Tip: Use MSAL or Azure AD v2.0 JWT libraries to validate tokens.
+```
 
 ### 5️⃣ Use Cases and Limitations
 ✅ Common Use Cases
 Chatbots for customer support
-
 AI assistants in enterprise apps
-
 Document summarization
-
 Sentiment analysis
-
 Q&A over internal knowledge bases
 
 ⚠️ Limitations
 Cost: OpenAI usage can get expensive at scale
-
 API rate limits per subscription
-
 No control over the model weights (black box)
-
 Always validate AI outputs — do not blindly trust!
-
 Requires correct prompt engineering to get the best results
 
 ## 🚀 Conclusion
@@ -184,9 +179,6 @@ You’ve now seen an end-to-end architecture:
 
 ## Next Steps
 Add more user controls (history, retry, download transcript)
-
 Use Vector DB like Azure AI Search to do “Retrieval Augmented Generation” (RAG)
-
 Add analytics and logging
-
 Monitor usage costs with Azure Monitor and Budget

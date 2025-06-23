@@ -21,7 +21,7 @@ theme = 'PaperMod'
 
 
 [params.homeInfoParams]
-  Title = "Welcome to kasdevTech 🚀"
+  Title = "Welcome to KasdevTech 🚀"
   Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''
 
 [[params.socialIcons]]

@@ -1,4 +1,5 @@
-name: Deploy Hugo site to GitHub Pages (main/docs)
+# .github/workflows/gh-pages.yml
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -7,25 +8,27 @@ on:
 
 jobs:
   deploy:
+    name: Deploy
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.147.0'
-          extended: true
+          hugo-version: '0.147.8' # your version (check with hugo version)
 
       - name: Build Hugo site
         run: hugo --minify --destination docs
 
-      - name: Commit and Push to docs folder
+      - name: Deploy 🚀
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs
           git commit -m "Deploy Hugo site to GitHub Pages" || echo "No changes to commit"
-          git push origin main
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/KasdevTech/kasdevTech.github.io.git main

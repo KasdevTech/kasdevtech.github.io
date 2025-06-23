@@ -55,7 +55,7 @@ AZURE_TENANT_ID=xxxxx
 AZURE_CLIENT_ID=xxxxx
 AZURE_CLIENT_SECRET=xxxxx
 ```
-## 3️⃣ Sample App: Chatbot with React Frontend
+### 3️⃣ Sample App: Chatbot with React Frontend
 
 a) Backend with FastAPI
 
@@ -133,7 +133,7 @@ function ChatApp() {
 export default ChatApp;
 ```
 
-## 4️⃣ Securing APIs with Azure AD
+### 4️⃣ Securing APIs with Azure AD
 In enterprise apps, you won’t expose the OpenAI API directly. Instead:
 
 ✅ Secure your FastAPI backend using Azure AD tokens
@@ -170,14 +170,14 @@ No control over the model weights (black box)
 Always validate AI outputs — do not blindly trust!
 Requires correct prompt engineering to get the best results
 
-## 🚀 Conclusion
+### 🚀 Conclusion
 You’ve now seen an end-to-end architecture:
 ✅ React Chat frontend
 ✅ FastAPI secured backend
 ✅ Azure OpenAI services
 ✅ Azure AD authentication
 
-## Next Steps
+### Next Steps
 Add more user controls (history, retry, download transcript)
 Use Vector DB like Azure AI Search to do “Retrieval Augmented Generation” (RAG)
 Add analytics and logging

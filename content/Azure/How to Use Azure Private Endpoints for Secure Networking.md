@@ -94,7 +94,7 @@ az storage account update \
   --default-action Deny
 Now, only traffic from the private endpoint in VNet is allowed! 🚀
 ```
-## 4️⃣ Testing with Private IP Only
+### 4️⃣ Testing with Private IP Only
 ```
 a) From VM inside VNet
 # nslookup should resolve to private IP
@@ -106,7 +106,7 @@ b) From outside VNet (should fail)
 curl https://mystorageaccountxyz.blob.core.windows.net
 # Expected: Access denied or timeout
 ```
-## 5️⃣ Summary
+### 5️⃣ Summary
 ✅ Private Endpoints help you securely access Azure services inside your VNet
 ✅ No public IP needed
 ✅ Great for internal, sensitive, or regulated workloads

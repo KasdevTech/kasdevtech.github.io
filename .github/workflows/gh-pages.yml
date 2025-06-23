@@ -21,14 +21,16 @@ jobs:
           hugo-version: '0.147.8'
 
       - name: Build Hugo site
-        run: hugo --minify --destination docs
+        run: |
+          hugo --minify --destination docs
+          touch docs/.nojekyll
 
       - name: Deploy 🚀
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "KasdevTech"
+          git config user.email "kasisureshd@outlook.com"
           git add docs
           git commit -m "Deploy Hugo site to GitHub Pages" || echo "No changes to commit"
           git push https://x-access-token:$GH_PAT@github.com/KasdevTech/kasdevTech.github.io.git main

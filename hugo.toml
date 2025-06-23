@@ -17,23 +17,13 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowLastMod = true
   defaultTheme = "light"
+  disableSpecial1stPost = false
 
-  [params.profileMode]
-    enabled = true
-    title = "Kasi Suresh"
-    subtitle = '''Cloud Architect | Azure | Terraform | FinOps | DevOps | AI'''
-    imageUrl = "images/avatar.png"
-    imageTitle = "Profile"
-    imageWidth = 120
-    imageHeight = 120
-    buttons = [
-      { name = "Blog", url = "/posts/" },
-      { name = "About", url = "/about/" }
-    ]
+# 🚀 SHOW POSTS on HOME (no profileMode)
 
 [params.homeInfoParams]
-  Title = "Hi 👋, I’m Kasi Suresh"
-  Content = '''Welcome to **kasdevTech** — a blog on Azure Cloud, Terraform, FinOps, DevOps, and AI 🚀'''
+  Title = "Welcome to kasdevTech 🚀"
+  Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''
 
 [[params.socialIcons]]
   name = "linkedin"

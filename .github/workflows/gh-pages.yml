@@ -26,8 +26,6 @@ jobs:
           touch docs/.nojekyll
 
       - name: Deploy 🚀
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config user.name "KasdevTech"
           git config user.email "kasisureshd@outlook.com"

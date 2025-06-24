@@ -19,8 +19,8 @@ theme = 'PaperMod'
   ShowLastMod = true
   defaultTheme = "auto"
   disableSpecial1stPost = false
-  homeInfoMode = "auto"
-  mainSections = ["posts", "AI", "Azure", "Terraform", "Devops", "Finops"]
+  homeInfoMode = "auto"  # ✅ show latest articles from all sections
+  mainSections = ["posts", "Azure", "AI", "Terraform", "Finops", "Devops"]  # ✅ list all folders
 
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"
@@ -69,7 +69,7 @@ theme = 'PaperMod'
   [[menu.main]]
     identifier = "blog"
     name = "All Posts"
-    url = "/"
+    url = "/posts/"
     weight = 6
 
   [[menu.main]]

@@ -19,7 +19,7 @@ theme = 'PaperMod'
   ShowLastMod = true
   defaultTheme = "auto"
   disableSpecial1stPost = false
-  homeInfoMode = "auto"  # ✅ show latest articles from all sections
+
  
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"

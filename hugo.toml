@@ -19,7 +19,7 @@ theme = 'PaperMod'
   ShowLastMod = true
   defaultTheme = "auto"
   disableSpecial1stPost = false
-  homeInfoMode = "posts"
+  homeInfoMode = "auto"
   mainSections = ["posts", "AI", "Azure", "Terraform", "Devops", "Finops"]
 
 [params.homeInfoParams]

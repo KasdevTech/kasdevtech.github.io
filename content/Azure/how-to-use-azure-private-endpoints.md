@@ -8,7 +8,7 @@ description: "Learn how to use Azure Private Endpoints to securely access servic
 type: "Azure"
 ---
 
-# 🔐 How to Use Azure Private Endpoints for Secure Networking
+
 
 ###  What is a Private Endpoint?
 

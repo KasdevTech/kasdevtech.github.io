@@ -9,8 +9,6 @@ tags: [Prompt Engineering, Azure, AI, Copilot, ChatGPT, Productivity, Architectu
 description: "Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking."
 type: "AI"
 ---
-
-
 Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, **prompt engineering** has become a valuable tool in our toolbox.
 
 Here are **Prompt Engineering for Cloud Architects: 10 Powerful Tips** to boost your productivity, decision-making, and solution design as a Cloud Architect.

@@ -45,14 +45,14 @@
       <description>&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
 &lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h2&gt;
+&lt;h3 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Scale Up:&lt;/strong&gt; Handle more traffic or workload&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Scale Down:&lt;/strong&gt; Reduce costs for low-traffic periods&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Change Type:&lt;/strong&gt; Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;
 &lt;p&gt;✅ Azure Subscription&lt;br&gt;
 ✅ Owner / Contributor permissions on the VM&lt;br&gt;
 ✅ VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/p&gt;</description>
@@ -62,7 +62,7 @@
       <link>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</guid>
-      <description>&lt;h2 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub-&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2&gt;
+      <description>&lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub-&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h3&gt;
 &lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
 &lt;p&gt;But many beginners feel lost:&lt;br&gt;
 👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;

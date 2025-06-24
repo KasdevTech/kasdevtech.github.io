@@ -13,7 +13,6 @@ theme = 'PaperMod'
   description = "Learn Azure, Terraform, FinOps, DevOps, and AI with real-world examples"
   author = "Kasi Suresh"
   googleAnalytics = "G-DGZYRTL4Y2"
-
   ShowReadingTime = true
   ShowWordCount = true
   ShowToc = true
@@ -26,6 +25,7 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   mainSections = ["Azure", "Terraform", "Finops", "Devops", "AI"]
 
+  
   # Enable search with Fuse.js
   ShowSearch = true
   fuseOpts = { isCaseSensitive = false, shouldSort = true, includeMatches = true }
@@ -33,15 +33,6 @@ theme = 'PaperMod'
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"
   Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''
-
-[params.profileMode]
-  enabled = true
-  title = "Kasi Suresh"
-  subtitle = "Cloud Solution Architect | Azure | DevOps | AI"
-  buttons = [
-    { name = "About", url = "/about/" },
-    { name = "GitHub", url = "https://github.com/KasdevTech" }
-  ]
 
 [[params.socialIcons]]
   name = "linkedin"

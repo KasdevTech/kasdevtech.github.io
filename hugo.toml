@@ -20,6 +20,8 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   disableSpecial1stPost = false
 
+  # 🚀 Added: show latest posts on homepage
+  homeInfoMode = "posts"
 
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"
@@ -32,8 +34,6 @@ theme = 'PaperMod'
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/KasdevTech"
-
-
 
 [menu]
 

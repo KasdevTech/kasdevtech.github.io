@@ -20,21 +20,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">inputs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">PathtoPublish&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">ArtifactName&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;drop&amp;#39;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevTech.github.io/posts/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/posts/getting-started-with-terraform-on-azure/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p>
-&lt;p>In this post, we will cover:&lt;/p>
-&lt;ul>
-&lt;li>Setting up Terraform CLI&lt;/li>
-&lt;li>Writing your first Terraform configuration&lt;/li>
-&lt;li>Deploying resources on Azure&lt;/li>
-&lt;/ul>
-&lt;h2 id="steps">Steps&lt;/h2>
-&lt;p>1️⃣ Install Terraform CLI&lt;br>
-2️⃣ Configure your Azure credentials&lt;br>
-3️⃣ Write &lt;code>main.tf&lt;/code> with Azure provider&lt;br>
-4️⃣ Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>apply&lt;/code>&lt;/p>
-&lt;h2 id="conclusion">Conclusion&lt;/h2>
-&lt;p>Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p></description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p>
 &lt;p>In this post, we will cover:&lt;/p>
 &lt;ul>
@@ -61,7 +47,7 @@ Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>app
 &lt;h2 id="pre-requisites">Pre-requisites&lt;/h2>
 &lt;p>✅ Azure Subscription&lt;br>
 ✅ Owner / Contributor permissions on the VM&lt;br>
-✅ VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevTech.github.io/posts/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/posts/how-to-start-cloud-journey-2025/</guid><description>&lt;h2 id="welcome-to-kasdevtech--your-cloud-learning-hub-">Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2>
+✅ VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevTech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>&lt;h2 id="welcome-to-kasdevtech--your-cloud-learning-hub-">Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2>
 &lt;p>In today’s world, &lt;strong>cloud computing&lt;/strong> is no longer optional — it is &lt;strong>essential&lt;/strong> for businesses, developers, and architects.&lt;/p>
 &lt;p>But many beginners feel lost:&lt;br>
 👉 &lt;em>Where do I start?&lt;/em>&lt;br>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Latest Blogs on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Latest Blogs on KasdevTech - Cloud | Azure | DevOps | AI</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title>
+      <link>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</guid>
+      <description>Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking.</description>
+    </item>
+    <item>
+      <title>Sample Azure DevOps Pipeline for .NET App</title>
+      <link>http://localhost:1313/devops/sample-azure-devops-pipeline/</link>
+      <pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate>
+      <guid>http://localhost:1313/devops/sample-azure-devops-pipeline/</guid>
+      <description>&lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;trigger&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pool&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;vmImage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ubuntu-latest&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;task&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;UseDotNet@2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;inputs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;packageType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;sdk&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;8.0.x&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    dotnet build
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    dotnet test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;displayName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Build and Test&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;task&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;PublishBuildArtifacts@1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;inputs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;PathtoPublish&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ArtifactName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;drop&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi! 👋 I’m &lt;strong&gt;Kasi Suresh&lt;/strong&gt; — Cloud Architect, Azure &amp;amp; DevOps SME.
+Linked - &lt;a href=&#34;https://www.linkedin.com/in/kasi-suresh-992675177/&#34;&gt;https://www.linkedin.com/in/kasi-suresh-992675177/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This blog shares my learning and experience on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure Cloud&lt;/li&gt;
+&lt;li&gt;Terraform IaC&lt;/li&gt;
+&lt;li&gt;FinOps for Cloud Cost Optimization&lt;/li&gt;
+&lt;li&gt;DevOps &amp;amp; Automation&lt;/li&gt;
+&lt;li&gt;AI/ML 🚀&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Follow me for regular updates!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building an AI-Powered App Using Azure OpenAI Services</title>
+      <link>http://localhost:1313/azure/chatbot-with-react-frontend/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/chatbot-with-react-frontend/</guid>
+      <description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description>
+    </item>
+    <item>
+      <title>Getting Started with Terraform on Azure</title>
+      <link>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p&gt;
+&lt;p&gt;In this post, we will cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting up Terraform CLI&lt;/li&gt;
+&lt;li&gt;Writing your first Terraform configuration&lt;/li&gt;
+&lt;li&gt;Deploying resources on Azure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
+&lt;p&gt;Install Terraform CLI&lt;br&gt;
+Configure your Azure credentials&lt;br&gt;
+Write &lt;code&gt;main.tf&lt;/code&gt; with Azure provider&lt;br&gt;
+Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and &lt;code&gt;apply&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Resize Azure Virtual Machines</title>
+      <link>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</guid>
+      <description>&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
+&lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scale Up:&lt;/strong&gt; Handle more traffic or workload&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale Down:&lt;/strong&gt; Reduce costs for low-traffic periods&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Change Type:&lt;/strong&gt; Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
+&lt;p&gt;✅ Azure Subscription&lt;br&gt;
+✅ Owner / Contributor permissions on the VM&lt;br&gt;
+✅ VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
+      <link>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub-&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2&gt;
+&lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
+&lt;p&gt;But many beginners feel lost:&lt;br&gt;
+👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;
+👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;
+👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Use Azure Private Endpoints for Secure Networking</title>
+      <link>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</guid>
+      <description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description>
+    </item>
+    <item>
+      <title>Optimizing Azure Costs with FinOps</title>
+      <link>http://localhost:1313/finops/optimizing-azure-costs/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/finops/optimizing-azure-costs/</guid>
+      <description>&lt;h2 id=&#34;what-is-finops&#34;&gt;What is FinOps?&lt;/h2&gt;
+&lt;p&gt;FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p&gt;
+&lt;h2 id=&#34;azure-cost-optimization-tips&#34;&gt;Azure Cost Optimization Tips&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;strong&gt;Azure Advisor&lt;/strong&gt; to find cost-saving recommendations&lt;/li&gt;
+&lt;li&gt;Implement &lt;strong&gt;Budgets &amp;amp; Alerts&lt;/strong&gt; in Azure Cost Management&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;Reserved Instances&lt;/strong&gt; for long-running workloads&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;Private Endpoints&lt;/strong&gt; and reduce egress traffic costs&lt;/li&gt;
+&lt;li&gt;Regularly review &lt;strong&gt;unused resources&lt;/strong&gt; and shut them down&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

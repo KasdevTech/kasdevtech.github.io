@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Azure Storage on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <link>http://localhost:1313/tags/azure-storage/</link>
+    <description>Recent content in Azure Storage on KasdevTech - Cloud | Azure | DevOps | AI</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/azure-storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use Azure Private Endpoints for Secure Networking</title>
+      <link>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</guid>
+      <description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description>
+    </item>
+  </channel>
+</rss>

@@ -7,6 +7,7 @@ author: "Kasi Suresh"
 categories: [Azure, Cloud, AI]
 tags: [Prompt Engineering, Azure, AI, Copilot, ChatGPT, Productivity, Architecture]
 description: "Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking."
+type: "AI"
 ---
 
 # Prompt Engineering for Cloud Architects: 10 Powerful Tips

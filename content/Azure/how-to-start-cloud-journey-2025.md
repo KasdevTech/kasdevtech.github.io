@@ -3,6 +3,7 @@ title: "How to Start Your Cloud Journey in 2025 — A Practical Guide"
 date: 2025-06-23
 author: "Kasi Suresh"
 tags: ["Azure", "Cloud", "DevOps", "Kubernetes", "Beginner Guide"]
+type: "Azure"
 ---
 
 ## Welcome to kasdevTech — Your Cloud Learning Hub 🚀

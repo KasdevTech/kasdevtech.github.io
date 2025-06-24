@@ -1,3 +1,4 @@
 ---
 title: "Terraform"
+type: "Terraform"
 ---

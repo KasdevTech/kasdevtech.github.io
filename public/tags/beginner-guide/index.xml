@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Beginner Guide on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <link>http://localhost:1313/tags/beginner-guide/</link>
+    <description>Recent content in Beginner Guide on KasdevTech - Cloud | Azure | DevOps | AI</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/beginner-guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Resize Azure Virtual Machines</title>
+      <link>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</guid>
+      <description>&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
+&lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scale Up:&lt;/strong&gt; Handle more traffic or workload&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale Down:&lt;/strong&gt; Reduce costs for low-traffic periods&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Change Type:&lt;/strong&gt; Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h2&gt;
+&lt;p&gt;✅ Azure Subscription&lt;br&gt;
+✅ Owner / Contributor permissions on the VM&lt;br&gt;
+✅ VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
+      <link>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub-&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2&gt;
+&lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
+&lt;p&gt;But many beginners feel lost:&lt;br&gt;
+👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;
+👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;
+👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

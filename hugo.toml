@@ -18,12 +18,17 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowLastMod = true
   defaultTheme = "auto"
-  disableSpecial1stPost = false
   mainSections = ["Azure", "Terraform", "Finops", "Devops", "AI"]
- 
+
+
+
+  
+
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"
   Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''
+
+
 
 [[params.socialIcons]]
   name = "linkedin"

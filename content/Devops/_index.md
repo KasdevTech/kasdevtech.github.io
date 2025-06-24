@@ -1,4 +1,4 @@
 ---
-title: "DevOps Articles"
-description: "CI/CD, GitHub Actions, Azure DevOps"
+title: "DevOps"
+type: "DevOps"
 ---

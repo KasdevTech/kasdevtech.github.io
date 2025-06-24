@@ -1,8 +1,8 @@
 ---
 title: "Sample Azure DevOps Pipeline for .NET App"
 date: 2025-06-23T11:20:00+05:30
-draft: false
 tags: [azure, devops, pipeline, ci-cd, cloud]
+type: "DevOps"
 ---
 
 Here is a simple YAML pipeline for building a .NET Core app:

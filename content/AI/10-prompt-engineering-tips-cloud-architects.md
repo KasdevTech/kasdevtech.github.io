@@ -1,19 +1,7 @@
----
-title: "10 Prompt Engineering Tips for Cloud Architects"
-date: 2025-06-24
-author: "Kasi Suresh"
-categories: [AI]
-tags: [AI, Prompt Engineering, Cloud, Azure, Copilot, ChatGPT, Productivity]
-description: "Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, and cloud-native thinking."
----
 
-# 10 Prompt Engineering Tips for Cloud Architects
 
-Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems...
-
-<!-- your blog content here -->
 ---
-title: "10 Prompt Engineering Tips for Cloud Architects"
+title: "Prompt Engineering for Cloud Architects: 10 Powerful Tips"
 date: 2025-06-24
 author: "Kasi Suresh"
 categories: [Azure, Cloud, AI]
@@ -21,11 +9,11 @@ tags: [Prompt Engineering, Azure, AI, Copilot, ChatGPT, Productivity, Architectu
 description: "Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking."
 ---
 
-# 10 Prompt Engineering Tips for Cloud Architects
+# Prompt Engineering for Cloud Architects: 10 Powerful Tips
 
 Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, **prompt engineering** has become a valuable tool in our toolbox.
 
-Here are **10 practical prompt engineering tips** to boost your productivity, decision-making, and solution design as a Cloud Architect.
+Here are **Prompt Engineering for Cloud Architects: 10 Powerful Tips** to boost your productivity, decision-making, and solution design as a Cloud Architect.
 
 ---
 

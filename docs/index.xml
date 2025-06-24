@@ -30,7 +30,7 @@ Linked - &lt;a href="https://www.linkedin.com/in/kasi-suresh-992675177/">https:/
 &lt;li>DevOps &amp;amp; Automation&lt;/li>
 &lt;li>AI/ML 🚀&lt;/li>
 &lt;/ul>
-&lt;p>Follow me for regular updates!&lt;/p></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</guid><description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Follow me for regular updates!&lt;/p></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</guid><description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>&lt;h3 id="introduction">Introduction&lt;/h3>
 &lt;p>Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p>
 &lt;p>In this post, we will cover:&lt;/p>
 &lt;ul>
@@ -38,34 +38,34 @@ Linked - &lt;a href="https://www.linkedin.com/in/kasi-suresh-992675177/">https:/
 &lt;li>Writing your first Terraform configuration&lt;/li>
 &lt;li>Deploying resources on Azure&lt;/li>
 &lt;/ul>
-&lt;h2 id="steps">Steps&lt;/h2>
+&lt;h3 id="steps">Steps&lt;/h3>
 &lt;p>Install Terraform CLI&lt;br>
 Configure your Azure credentials&lt;br>
 Write &lt;code>main.tf&lt;/code> with Azure provider&lt;br>
 Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>apply&lt;/code>&lt;/p>
-&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
 &lt;p>Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p></description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
 &lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
 &lt;hr>
-&lt;h2 id="why-resize-vms">Why Resize VMs?&lt;/h2>
+&lt;h3 id="why-resize-vms">Why Resize VMs?&lt;/h3>
 &lt;ul>
 &lt;li>&lt;strong>Scale Up:&lt;/strong> Handle more traffic or workload&lt;/li>
 &lt;li>&lt;strong>Scale Down:&lt;/strong> Reduce costs for low-traffic periods&lt;/li>
 &lt;li>&lt;strong>Change Type:&lt;/strong> Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="pre-requisites">Pre-requisites&lt;/h2>
+&lt;h3 id="pre-requisites">Pre-requisites&lt;/h3>
 &lt;p>✅ Azure Subscription&lt;br>
 ✅ Owner / Contributor permissions on the VM&lt;br>
-✅ VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevTech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>&lt;h2 id="welcome-to-kasdevtech--your-cloud-learning-hub-">Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h2>
+✅ VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevTech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>&lt;h3 id="welcome-to-kasdevtech--your-cloud-learning-hub-">Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h3>
 &lt;p>In today’s world, &lt;strong>cloud computing&lt;/strong> is no longer optional — it is &lt;strong>essential&lt;/strong> for businesses, developers, and architects.&lt;/p>
 &lt;p>But many beginners feel lost:&lt;br>
 👉 &lt;em>Where do I start?&lt;/em>&lt;br>
 👉 &lt;em>Which services should I learn first?&lt;/em>&lt;br>
 👉 &lt;em>How can I gain practical experience?&lt;/em>&lt;/p>
-&lt;p>In this post, I will share a &lt;strong>step-by-step practical guide&lt;/strong> to help you start your &lt;strong>cloud journey&lt;/strong> in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p></description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevTech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description></item><item><title>Optimizing Azure Costs with FinOps</title><link>https://kasdevTech.github.io/finops/optimizing-azure-costs/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/finops/optimizing-azure-costs/</guid><description>&lt;h2 id="what-is-finops">What is FinOps?&lt;/h2>
+&lt;p>In this post, I will share a &lt;strong>step-by-step practical guide&lt;/strong> to help you start your &lt;strong>cloud journey&lt;/strong> in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p></description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevTech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description></item><item><title>Optimizing Azure Costs with FinOps</title><link>https://kasdevTech.github.io/finops/optimizing-azure-costs/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/finops/optimizing-azure-costs/</guid><description>&lt;h3 id="what-is-finops">What is FinOps?&lt;/h3>
 &lt;p>FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p>
-&lt;h2 id="azure-cost-optimization-tips">Azure Cost Optimization Tips&lt;/h2>
+&lt;h3 id="azure-cost-optimization-tips">Azure Cost Optimization Tips&lt;/h3>
 &lt;ul>
 &lt;li>Use &lt;strong>Azure Advisor&lt;/strong> to find cost-saving recommendations&lt;/li>
 &lt;li>Implement &lt;strong>Budgets &amp;amp; Alerts&lt;/strong> in Azure Cost Management&lt;/li>
@@ -73,5 +73,5 @@ Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>app
 &lt;li>Use &lt;strong>Private Endpoints&lt;/strong> and reduce egress traffic costs&lt;/li>
 &lt;li>Regularly review &lt;strong>unused resources&lt;/strong> and shut them down&lt;/li>
 &lt;/ul>
-&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
 &lt;p>FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p></description></item></channel></rss>

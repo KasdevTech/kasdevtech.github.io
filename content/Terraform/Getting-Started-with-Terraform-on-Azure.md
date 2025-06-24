@@ -6,7 +6,7 @@ type: "Terraform"
 
 ---
 
-## Introduction
+### Introduction
 
 Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.
 
@@ -15,13 +15,13 @@ In this post, we will cover:
 - Writing your first Terraform configuration
 - Deploying resources on Azure
 
-## Steps
+### Steps
 
 Install Terraform CLI  
 Configure your Azure credentials  
 Write `main.tf` with Azure provider  
 Run `terraform init`, `plan`, and `apply`
 
-## Conclusion
+### Conclusion
 
 Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.

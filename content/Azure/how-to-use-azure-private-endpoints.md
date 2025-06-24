@@ -10,7 +10,7 @@ type: "Azure"
 
 # 🔐 How to Use Azure Private Endpoints for Secure Networking
 
-##  What is a Private Endpoint?
+###  What is a Private Endpoint?
 
 A **Private Endpoint** in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.
 
@@ -21,7 +21,7 @@ Think of it as a private IP address for an Azure service. This ensures:
 
 ---
 
-##  When to Use Private Endpoints?
+###  When to Use Private Endpoints?
 
 | Scenario                                    | Private Endpoint Recommended? |
 |---------------------------------------------|-------------------------------|
@@ -39,17 +39,17 @@ Think of it as a private IP address for an Azure service. This ensures:
 - Azure Key Vault  
 ---
 
-## Step-by-Step Example: Secure a Storage Account with Private Endpoint
-### a) Prerequisites
+### Step-by-Step Example: Secure a Storage Account with Private Endpoint
+#### a) Prerequisites
 - Azure Subscription  
 - Existing Virtual Network (VNet)  
 - Existing Storage Account  
 ---
-### b) Architecture Diagram
+#### b) Architecture Diagram
 Azure VNet → Subnet (10.0.1.0/24) → Private IP (e.g. 10.0.1.5) for Storage Account → Private Endpoint → VNet
 
-### c) Step 1: Create a Private Endpoint
-#### CLI Example:
+#### c) Step 1: Create a Private Endpoint
+###### CLI Example:
 ```
 # Variables
 RG_NAME="demo-rg"
@@ -95,7 +95,7 @@ az storage account update \
   --default-action Deny
 Now, only traffic from the private endpoint in VNet is allowed! 🚀
 ```
-###  Testing with Private IP Only
+####  Testing with Private IP Only
 ```
 a) From VM inside VNet
 # nslookup should resolve to private IP
@@ -107,7 +107,7 @@ b) From outside VNet (should fail)
 curl https://mystorageaccountxyz.blob.core.windows.net
 # Expected: Access denied or timeout
 ```
-###  Summary
+####  Summary
 ✅ Private Endpoints help you securely access Azure services inside your VNet
 ✅ No public IP needed
 ✅ Great for internal, sensitive, or regulated workloads

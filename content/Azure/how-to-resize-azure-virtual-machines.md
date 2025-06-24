@@ -12,7 +12,7 @@ In this guide, we’ll walk through **how to resize an Azure VM in 2025** using 
 
 ---
 
-## Why Resize VMs?
+### Why Resize VMs?
 
 - **Scale Up:** Handle more traffic or workload
 - **Scale Down:** Reduce costs for low-traffic periods
@@ -20,7 +20,7 @@ In this guide, we’ll walk through **how to resize an Azure VM in 2025** using 
 
 ---
 
-## Pre-requisites
+### Pre-requisites
 
 ✅ Azure Subscription  
 ✅ Owner / Contributor permissions on the VM  
@@ -28,7 +28,7 @@ In this guide, we’ll walk through **how to resize an Azure VM in 2025** using 
 
 ---
 
-## Resize via Azure Portal
+### Resize via Azure Portal
 
 1️⃣ Navigate to **Virtual Machines**  
 2️⃣ Select your VM  
@@ -40,7 +40,7 @@ In this guide, we’ll walk through **how to resize an Azure VM in 2025** using 
 
 ---
 
-## Resize via Azure CLI
+### Resize via Azure CLI
 
 ```bash
 # Stop and deallocate the VM

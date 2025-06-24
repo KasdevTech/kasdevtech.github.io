@@ -3,13 +3,19 @@ languageCode = 'en-us'
 title = 'KasdevTech - Cloud | Azure | DevOps | AI'
 theme = 'PaperMod'
 
+# Enable JSON & RSS for search and feed
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   env = "Production"
   title = "KasdevTech - Cloud | Azure | DevOps | AI"
   description = "Learn Azure, Terraform, FinOps, DevOps, and AI with real-world examples"
   author = "Kasi Suresh"
   googleAnalytics = "G-DGZYRTL4Y2"
+
   ShowReadingTime = true
+  ShowWordCount = true
   ShowToc = true
   TocOpen = true
   ShowBreadCrumbs = true
@@ -20,15 +26,13 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   mainSections = ["Azure", "Terraform", "Finops", "Devops", "AI"]
 
-
-
-  
+  # Enable search with Fuse.js
+  ShowSearch = true
+  fuseOpts = { isCaseSensitive = false, shouldSort = true, includeMatches = true }
 
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"
   Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''
-
-
 
 [[params.socialIcons]]
   name = "linkedin"

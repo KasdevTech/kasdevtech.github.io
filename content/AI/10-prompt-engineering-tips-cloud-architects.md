@@ -10,7 +10,6 @@ description: "Learn how Cloud Architects can use prompt engineering to superchar
 type: "AI"
 ---
 
-# Prompt Engineering for Cloud Architects: 10 Powerful Tips
 
 Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, **prompt engineering** has become a valuable tool in our toolbox.
 
@@ -18,7 +17,7 @@ Here are **Prompt Engineering for Cloud Architects: 10 Powerful Tips** to boost 
 
 ---
 
-## 🚀 1. Be Clear, Concise, and Contextual
+### 🚀 1. Be Clear, Concise, and Contextual
 
 **Bad Prompt:**  
 > Explain Azure.
@@ -30,7 +29,7 @@ Here are **Prompt Engineering for Cloud Architects: 10 Powerful Tips** to boost 
 
 ---
 
-## 🧱 2. Use Role-Based Prompts
+### 🧱 2. Use Role-Based Prompts
 
 You can tell the AI who it is and who you are.
 
@@ -40,7 +39,7 @@ You can tell the AI who it is and who you are.
 
 ---
 
-## 🧠 3. Use Step-by-Step Breakdown
+### 🧠 3. Use Step-by-Step Breakdown
 
 When designing complex systems, ask for steps, not just answers.
 
@@ -50,7 +49,7 @@ When designing complex systems, ask for steps, not just answers.
 
 ---
 
-## 📄 4. Ask for Templates and Boilerplates
+### 📄 4. Ask for Templates and Boilerplates
 
 Generate reusable content like:
 
@@ -65,7 +64,7 @@ Example:
 
 ---
 
-## 🧪 5. Use Prompt Chaining for Accuracy
+### 🧪 5. Use Prompt Chaining for Accuracy
 
 Break large problems into smaller prompts. Chain outputs.
 
@@ -77,7 +76,7 @@ Break large problems into smaller prompts. Chain outputs.
 
 ---
 
-## 📊 6. Summarize Long Documents
+### 📊 6. Summarize Long Documents
 
 Paste in long JSON ARM templates, error logs, or design docs and ask:
 
@@ -87,7 +86,7 @@ Paste in long JSON ARM templates, error logs, or design docs and ask:
 
 ---
 
-## 🧰 7. Validate Your Architecture
+### 🧰 7. Validate Your Architecture
 
 > *"Act as a Cloud Security Reviewer. Evaluate the following Azure architecture for security gaps."*
 
@@ -95,7 +94,7 @@ Paste in long JSON ARM templates, error logs, or design docs and ask:
 
 ---
 
-## 🔁 8. Automate with AI in DevOps Pipelines
+### 🔁 8. Automate with AI in DevOps Pipelines
 
 Generate YAMLs, CI/CD workflows, GitHub Actions, or Azure DevOps pipelines:
 
@@ -105,7 +104,7 @@ Generate YAMLs, CI/CD workflows, GitHub Actions, or Azure DevOps pipelines:
 
 ---
 
-## 📚 9. Ask for Latest Azure Recommendations
+### 📚 9. Ask for Latest Azure Recommendations
 
 Azure evolves fast. Ask:
 
@@ -115,7 +114,7 @@ Azure evolves fast. Ask:
 
 ---
 
-## 🤖 10. Build AI Assistants for Your Team
+### 🤖 10. Build AI Assistants for Your Team
 
 Use OpenAI + Azure functions to build internal tools:
 
@@ -127,7 +126,7 @@ Use OpenAI + Azure functions to build internal tools:
 
 ---
 
-## 💬 Final Thoughts
+### 💬 Final Thoughts
 
 Prompt engineering isn't about tricking AI. It's about communicating clearly with a tool that *amplifies* your thinking. As Cloud Architects, we're already used to abstraction and design—prompting just makes us faster and sharper.
 

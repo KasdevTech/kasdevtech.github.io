@@ -62,16 +62,22 @@ theme = 'PaperMod'
     weight = 4
 
   [[menu.main]]
+    identifier = "ai"
+    name = "AI"
+    url = "/AI/"
+    weight = 5
+
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/posts/"
-    weight = 5
+    weight = 6
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 6
+    weight = 7
 
 [markup]
   [markup.highlight]

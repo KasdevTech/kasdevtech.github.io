@@ -20,8 +20,7 @@ theme = 'PaperMod'
   defaultTheme = "auto"
   disableSpecial1stPost = false
   homeInfoMode = "auto"  # ✅ show latest articles from all sections
-  mainSections = ["Azure", "AI", "Terraform", "Finops", "Devops"]  # ✅ list all folders
-
+ 
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"
   Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''

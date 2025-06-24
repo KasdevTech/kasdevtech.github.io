@@ -67,16 +67,10 @@ theme = 'PaperMod'
     weight = 5
 
   [[menu.main]]
-    identifier = "blog"
-    name = "All Posts"
-    url = "/"
-    weight = 6
-
-  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 7
+    weight = 6
 
 [markup]
   [markup.highlight]

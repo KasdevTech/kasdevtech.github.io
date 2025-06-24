@@ -19,9 +19,8 @@ theme = 'PaperMod'
   ShowLastMod = true
   defaultTheme = "auto"
   disableSpecial1stPost = false
-
-  # 🚀 Added: show latest posts on homepage
   homeInfoMode = "posts"
+  mainSections = ["posts", "AI", "Azure", "Terraform", "Devops", "Finops"]
 
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech 🚀"
@@ -69,8 +68,8 @@ theme = 'PaperMod'
 
   [[menu.main]]
     identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
+    name = "All Posts"
+    url = "/"
     weight = 6
 
   [[menu.main]]

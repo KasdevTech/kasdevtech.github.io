@@ -95,10 +95,10 @@ az monitor autoscale create \
   --min-count 1 --max-count 5 --count 1
 ```
 #### 🔐 Security Best Practices
-Use private networking (e.g., VNet + NSG)
-Harden VM image (disable password login, use private artifacts)
-Monitor agent health with Azure Monitor
-Periodically update VM images (golden images or packer)
+- Use private networking (e.g., VNet + NSG)
+- Harden VM image (disable password login, use private artifacts)
+- Monitor agent health with Azure Monitor
+- Periodically update VM images (golden images or packer)
 
 ### ✅ Conclusion
 Azure VMSS-backed DevOps agents give you flexibility, security, and scale. With VMSS integration, you no longer need to manually install or configure agents on VMs — Azure DevOps handles it!

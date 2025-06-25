@@ -23,7 +23,7 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowLastMod = true
   defaultTheme = "auto"
-  mainSections = ["Azure", "Terraform", "Finops", "Devops", "AI"]
+  mainSections = ["Azure", "Terraform", "Finops", "DevOps", "AI"]
 
   
   # Enable search with Fuse.js

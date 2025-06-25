@@ -27,7 +27,7 @@ Setting up self-hosted agents using **Azure Virtual Machine Scale Sets (VMSS)** 
 
 ---
 
-### 📌 Step 1: Create a Virtual Machine Scale Set (VMSS)
+#### 📌 Step 1: Create a Virtual Machine Scale Set (VMSS)
 
 You can create this via **Azure CLI** or **Portal**. Below are the CLI steps:
 
@@ -45,26 +45,25 @@ az vmss create \
   --admin-username azureuser \
   --generate-ssh-keys \
   --instance-count 1
-
-🔐 Step 2: Create a Managed Identity for Azure DevOps
+```
+#### 🔐 Step 2: Create a Managed Identity for Azure DevOps
+```
 This identity allows Azure DevOps to access and manage the VMSS.
-------------------------------
 az identity create --name devops-agent-identity --resource-group devops-agents-rg
 
 Get the clientId:
------------------
 az identity show --name devops-agent-identity --resource-group devops-agents-rg --query clientId
-
-🔧 Step 3: Assign Roles to the Managed Identity
+```
+#### 🔧 Step 3: Assign Roles to the Managed Identity
+```
 Assign the Virtual Machine Contributor role to this identity on the VMSS:
----------------
 az role assignment create \
   --assignee <CLIENT_ID> \
   --role "Virtual Machine Contributor" \
   --scope /subscriptions/<SUBSCRIPTION_ID>/resourceGroups/devops-agents-rg/providers/Microsoft.Compute/virtualMachineScaleSets/devops-vmss
-
-⚙️ Step 4: Register VMSS with Azure DevOps as Agent Pool
-
+```
+#### ⚙️ Step 4: Register VMSS with Azure DevOps as Agent Pool
+```
 In Azure DevOps:
 Go to Project Settings > Agent Pools
 Click Add pool > Azure Virtual Machine Scale Set
@@ -74,9 +73,10 @@ Subscription
 Resource Group: devops-agents-rg
 VMSS Name: devops-vmss
 Managed Identity
+```
 
-
-🧪 Step 5: Use the Agent Pool in Your Pipeline
+#### 🧪 Step 5: Use the Agent Pool in Your Pipeline
+```
 pool:
   name: 'vmss-agent-pool'
 
@@ -84,17 +84,17 @@ steps:
 - script: echo "Running build on VMSS agent"
 ```
 
-### 📈 Step 6: Optional - Enable Auto-Scaling Rules
+#### 📈 Step 6: Optional - Enable Auto-Scaling Rules
+```
 You can configure auto-scaling on the VMSS via:
-
 az monitor autoscale create \
   --resource-group devops-agents-rg \
   --resource devops-vmss \
   --resource-type Microsoft.Compute/virtualMachineScaleSets \
   --name vmss-autoscale \
   --min-count 1 --max-count 5 --count 1
-
-### 🔐 Security Best Practices
+```
+#### 🔐 Security Best Practices
 Use private networking (e.g., VNet + NSG)
 Harden VM image (disable password login, use private artifacts)
 Monitor agent health with Azure Monitor

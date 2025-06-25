@@ -26,7 +26,7 @@ Verify installation:
 az bicep version
 
 🏗️ Sample Bicep Template:
-
+-------------------------
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   name: 'kasdevstorage${uniqueString(resourceGroup().id)}'
   location: resourceGroup().location
@@ -37,7 +37,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
 }
 
 📦 Deploy using Azure CLI:
-
+--------------------------
 az deployment group create \
   --resource-group kasdevtech-rg \
   --template-file main.bicep

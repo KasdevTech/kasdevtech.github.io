@@ -21,11 +21,12 @@ Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. I
 
 ```bash
 az bicep install
+
 Verify installation:
-
-
 az bicep version
-🏗️ Sample Bicep Templat
+
+🏗️ Sample Bicep Template:
+
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   name: 'kasdevstorage${uniqueString(resourceGroup().id)}'
   location: resourceGroup().location
@@ -34,7 +35,8 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   }
   kind: 'StorageV2'
 }
-📦 Deploy using Azure CLI
+
+📦 Deploy using Azure CLI:
 
 az deployment group create \
   --resource-group kasdevtech-rg \
@@ -43,9 +45,7 @@ az deployment group create \
 
 ### ✅ Next Steps
 Use modules to reuse code
-
 Integrate Bicep in DevOps pipelines
-
 Combine with Azure Policy for compliance
 
 📘 Stay tuned for more Azure IaC tips and deep dives into Bicep modules, loops, and conditions!

@@ -4,22 +4,22 @@ date: 2025-06-25
 author: "Kasi Suresh"
 categories: [Azure, Automation, AIOps, DevOps]
 tags: [Azure Monitor, Moogsoft, ServiceNow, Automation, Logic Apps, Runbook, Self-Healing]
-description: "How I automated disk space alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support."
+description: "How I automated azure alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support."
 type: "Azure"
 ---
 In one of my recent automation projects, I came across a real-time scenario:  
-An Azure VM's **C:\ drive crosses 80% usage**, and boom — the alert triggers, gets routed to **Moogsoft**, and creates an incident in **ServiceNow**.  
+An Azure Alert once condition met (example:VM's **C:\ drive crosses 80% usage**), and boom — the alert triggers, gets routed to **Moogsoft**, and creates an incident in **ServiceNow**.  
 But before it even hits the L1 queue, I wanted to give automation a shot.
 
-Why assign disk cleanup to an engineer when a bot can do it better — and faster?
+Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?
 ---
 ####  Real Scenario
 
 Here’s what happens traditionally:
 
-- Azure Monitor Alert: C:\ > 80%
-- Moogsoft receives the alert
-- Moogsoft creates an incident in ServiceNow
+- Azure Monitor Alert when conditon met: (C:\ > 80%)
+- Moogsoft/or anyother tool receives the alert throgh webhook
+- Moogsoft/or anyother tool creates an incident in ServiceNow
 - L1 team gets it assigned (and starts with “clearing temp files”)
 
 Let’s not wait till that point.

@@ -31,7 +31,7 @@ theme = 'PaperMod'
   fuseOpts = { isCaseSensitive = false, shouldSort = true, includeMatches = true }
 
 [params.homeInfoParams]
-  Title = "Welcome to KasdevTech 🚀"
+  Title = "Welcome to KasdevTech ☁️"
   Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''
 
 [[params.socialIcons]]

@@ -169,6 +169,35 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Getting Started with Azure Bicep for Infrastructure as Code
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you’re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.
+🔧 Why Bicep? Native to Azure Simplified syntax No state files (unlike Terraform) Excellent tooling in VS Code 🚀 Install Bicep CLI az bicep install Verify installation: az bicep version 🏗️ Sample Bicep Template: ------------------------- resource storageAccount &#39;Microsoft.Storage/storageAccounts@2022-09-01&#39; = { name: &#39;kasdevstorage${uniqueString(resourceGroup().id)}&#39; location: resourceGroup().location sku: { name: &#39;Standard_LRS&#39; } kind: &#39;StorageV2&#39; } 📦 Deploy using Azure CLI: -------------------------- az deployment group create \ --resource-group kasdevtech-rg \ --template-file main.bicep ✅ Next Steps Use modules to reuse code Integrate Bicep in DevOps pipelines Combine with Azure Policy for compliance
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-25 00:00:00 +0000 UTC'>June 25, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;134 words&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Getting Started with Azure Bicep for Infrastructure as Code" href="http://localhost:1313/azure/bicep-getting-started/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Setting up self-hosted agents using Azure Virtual Machine Scale Sets (VMSS) gives you more control, performance, and scalability compared to Microsoft-hosted agents.
+🔧 This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.
+🔍 Use Cases for Self-Hosted Agents Large builds requiring more compute Custom toolchains (e.g., Docker, Terraform, Node.js) Controlled access with internal networking Reducing build time and cost 🧰 Prerequisites Azure DevOps Organization &#43; Project Azure Subscription Contributor or Owner role on Azure VMSS Contributor role for DevOps managed identity 📌 Step 1: Create a Virtual Machine Scale Set (VMSS) You can create this via Azure CLI or Portal. Below are the CLI steps:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-25 00:00:00 +0000 UTC'>June 25, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;396 words&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets" href="http://localhost:1313/devops/self-hosted-agents-vmss/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Prompt Engineering for Cloud Architects: 10 Powerful Tips
     </h2>
   </header>
@@ -180,6 +209,19 @@ Here are Prompt Engineering for Cloud Architects: 10 Powerful Tips to boost your
   </div>
   <footer class="entry-footer"><span title='2025-06-24 00:00:00 +0000 UTC'>June 24, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;564 words&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to Prompt Engineering for Cloud Architects: 10 Powerful Tips" href="http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Sample Azure DevOps Pipeline for .NET App
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Here is a simple YAML pipeline for building a .NET Core app:
+trigger: - main pool: vmImage: &#39;ubuntu-latest&#39; steps: - task: UseDotNet@2 inputs: packageType: &#39;sdk&#39; version: &#39;8.0.x&#39; - script: | dotnet build dotnet test displayName: &#39;Build and Test&#39; - task: PublishBuildArtifacts@1 inputs: PathtoPublish: &#39;$(Build.ArtifactStagingDirectory)&#39; ArtifactName: &#39;drop&#39; </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-23 11:20:00 +0530 IST'>June 23, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;46 words&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Sample Azure DevOps Pipeline for .NET App" href="http://localhost:1313/devops/sample-azure-devops-pipeline/"></a>
 </article>
 
 <article class="post-entry"> 

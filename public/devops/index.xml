@@ -6,8 +6,15 @@
     <description>Recent content in DevOps on KasdevTech - Cloud | Azure | DevOps | AI</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 11:20:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title>
+      <link>http://localhost:1313/devops/self-hosted-agents-vmss/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/self-hosted-agents-vmss/</guid>
+      <description>Step-by-step guide to setting up a self-hosted Azure DevOps agent pool using Azure Virtual Machine Scale Sets (VMSS) with scaling, screenshots, and security best practices.</description>
+    </item>
     <item>
       <title>Sample Azure DevOps Pipeline for .NET App</title>
       <link>http://localhost:1313/devops/sample-azure-devops-pipeline/</link>

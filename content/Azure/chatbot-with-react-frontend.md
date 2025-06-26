@@ -12,16 +12,16 @@ type: "Azure"
 In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&A into their apps. **Azure OpenAI Services** makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.
 
 ### Benefits:
-✅ No need to host large AI models yourself  
-✅ Microsoft’s enterprise security and compliance  
-✅ Pay as you go  
-✅ Available in various Azure regions  
+-  No need to host large AI models yourself  
+-  Microsoft’s enterprise security and compliance  
+-  Pay as you go  
+-  Available in various Azure regions  
 
 In this post, you’ll learn how to build an **AI-powered chatbot** using:  
-✅ Azure OpenAI  
-✅ React.js frontend  
-✅ FastAPI backend  
-✅ Secured with Azure Active Directory (Azure AD)  
+-  Azure OpenAI  
+-  React.js frontend  
+-  FastAPI backend  
+-  Secured with Azure Active Directory (Azure AD)  
 
 ---
 
@@ -134,8 +134,8 @@ export default ChatApp;
 ###  Securing APIs with Azure AD
 In enterprise apps, you won’t expose the OpenAI API directly. Instead:
 
-✅ Secure your FastAPI backend using Azure AD tokens
-✅ Only authenticated users can call /chat
+-  Secure your FastAPI backend using Azure AD tokens
+-  Only authenticated users can call /chat
 
 FastAPI Example with Azure AD:
 
@@ -154,29 +154,29 @@ Tip: Use MSAL or Azure AD v2.0 JWT libraries to validate tokens.
 ```
 
 ###  Use Cases and Limitations
-✅ Common Use Cases
+- Common Use Cases
 Chatbots for customer support
 AI assistants in enterprise apps
 Document summarization
 Sentiment analysis
 Q&A over internal knowledge bases
 
-⚠️ Limitations
+- Limitations
 Cost: OpenAI usage can get expensive at scale
 API rate limits per subscription
 No control over the model weights (black box)
 Always validate AI outputs — do not blindly trust!
 Requires correct prompt engineering to get the best results
 
-### 🚀 Conclusion
+####  Conclusion
 You’ve now seen an end-to-end architecture:
-✅ React Chat frontend
-✅ FastAPI secured backend
-✅ Azure OpenAI services
-✅ Azure AD authentication
+- React Chat frontend
+- FastAPI secured backend
+- Azure OpenAI services
+- Azure AD authentication
 
-### Next Steps
-Add more user controls (history, retry, download transcript)
-Use Vector DB like Azure AI Search to do “Retrieval Augmented Generation” (RAG)
-Add analytics and logging
-Monitor usage costs with Azure Monitor and Budget
+#### Next Steps
+- Add more user controls (history, retry, download transcript)
+- Use Vector DB like Azure AI Search to do “Retrieval Augmented Generation” (RAG)
+- Add analytics and logging
+- Monitor usage costs with Azure Monitor and Budget

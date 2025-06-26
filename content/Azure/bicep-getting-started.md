@@ -10,14 +10,14 @@ type: "Azure"
 
 Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you're used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.
 
-### 🔧 Why Bicep?
+### Why Bicep?
 
 - Native to Azure
 - Simplified syntax
 - No state files (unlike Terraform)
 - Excellent tooling in VS Code
 
-### 🚀 Install Bicep CLI
+###  Install Bicep CLI
 
 ```bash
 az bicep install
@@ -43,7 +43,7 @@ az deployment group create \
   --template-file main.bicep
 ```
 
-### ✅ Next Steps
+###  Next Steps
 Use modules to reuse code
 Integrate Bicep in DevOps pipelines
 Combine with Azure Policy for compliance

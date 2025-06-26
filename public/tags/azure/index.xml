@@ -6,8 +6,15 @@
     <description>Recent content in Azure on KasdevTech - Cloud | Azure | DevOps | AI</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
+      <link>http://localhost:1313/azure/bicep-getting-started/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/bicep-getting-started/</guid>
+      <description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description>
+    </item>
     <item>
       <title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title>
       <link>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</link>

@@ -22,19 +22,19 @@ In this guide, we’ll walk through **how to resize an Azure VM in 2025** using 
 
 ### Pre-requisites
 
-✅ Azure Subscription  
-✅ Owner / Contributor permissions on the VM  
-✅ VM must be in a **Stopped (Deallocated)** state to resize
+-  Azure Subscription  
+-  Owner / Contributor permissions on the VM  
+-  VM must be in a **Stopped (Deallocated)** state to resize
 
 ---
 
 ### Resize via Azure Portal
 
-1️⃣ Navigate to **Virtual Machines**  
-2️⃣ Select your VM  
-3️⃣ Click **Size** under the "Settings" section  
-4️⃣ Select a new size (you will see estimated cost/month)  
-5️⃣ Click **Resize**
+1️ Navigate to **Virtual Machines**  
+2️ Select your VM  
+3️ Click **Size** under the "Settings" section  
+4️ Select a new size (you will see estimated cost/month)  
+5️ Click **Resize**
 
 > If the current hardware cluster doesn’t support the target size, you must stop (deallocate) the VM first.
 

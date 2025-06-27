@@ -15,7 +15,7 @@ Here are **Prompt Engineering for Cloud Architects: 10 Powerful Tips** to boost 
 
 ---
 
-### 🚀 1. Be Clear, Concise, and Contextual
+###  1. Be Clear, Concise, and Contextual
 
 **Bad Prompt:**  
 > Explain Azure.
@@ -23,21 +23,21 @@ Here are **Prompt Engineering for Cloud Architects: 10 Powerful Tips** to boost 
 **Better Prompt:**  
 > Explain the key components of Azure networking in the context of hybrid cloud connectivity.
 
-✅ **Tip:** Give enough context. Add roles like “act as a cloud architect designing hybrid connectivity.”
+ **Tip:** Give enough context. Add roles like “act as a cloud architect designing hybrid connectivity.”
 
 ---
 
-### 🧱 2. Use Role-Based Prompts
+###  2. Use Role-Based Prompts
 
 You can tell the AI who it is and who you are.
 
 > *"Act as a Microsoft Azure Solution Architect. Help me design a multi-region architecture using AKS with traffic manager, private endpoints, and Log Analytics integration."*
 
-🎯 **Why it matters:** Sets expectations for the AI’s tone, expertise level, and response depth.
+ **Why it matters:** Sets expectations for the AI’s tone, expertise level, and response depth.
 
 ---
 
-### 🧠 3. Use Step-by-Step Breakdown
+### 3. Use Step-by-Step Breakdown
 
 When designing complex systems, ask for steps, not just answers.
 
@@ -47,7 +47,7 @@ When designing complex systems, ask for steps, not just answers.
 
 ---
 
-### 📄 4. Ask for Templates and Boilerplates
+###  4. Ask for Templates and Boilerplates
 
 Generate reusable content like:
 
@@ -62,7 +62,7 @@ Example:
 
 ---
 
-### 🧪 5. Use Prompt Chaining for Accuracy
+###  5. Use Prompt Chaining for Accuracy
 
 Break large problems into smaller prompts. Chain outputs.
 
@@ -70,49 +70,49 @@ Break large problems into smaller prompts. Chain outputs.
 2. Then: "Give security best practices for each decision."
 3. Then: "Generate a policy document based on above."
 
-🎯 This gives *precision + depth*.
+ This gives *precision + depth*.
 
 ---
 
-### 📊 6. Summarize Long Documents
+###  6. Summarize Long Documents
 
 Paste in long JSON ARM templates, error logs, or design docs and ask:
 
 > *"Summarize this ARM template and highlight the resources and security settings."*
 
-⚡ Fast insights when reviewing other teams’ work or Azure Blueprints.
+ Fast insights when reviewing other teams’ work or Azure Blueprints.
 
 ---
 
-### 🧰 7. Validate Your Architecture
+### 7. Validate Your Architecture
 
 > *"Act as a Cloud Security Reviewer. Evaluate the following Azure architecture for security gaps."*
 
-🛡️ Great way to proactively stress-test your designs or governance models.
+ Great way to proactively stress-test your designs or governance models.
 
 ---
 
-### 🔁 8. Automate with AI in DevOps Pipelines
+###  8. Automate with AI in DevOps Pipelines
 
 Generate YAMLs, CI/CD workflows, GitHub Actions, or Azure DevOps pipelines:
 
 > *"Generate a YAML for Azure DevOps pipeline to deploy a .NET Core app to AKS with Helm."*
 
-🔥 Speeds up boilerplate creation so you focus on logic.
+ Speeds up boilerplate creation so you focus on logic.
 
 ---
 
-### 📚 9. Ask for Latest Azure Recommendations
+###  9. Ask for Latest Azure Recommendations
 
 Azure evolves fast. Ask:
 
 > *“What are the 2025 best practices for managing cost in AKS workloads?”*
 
-🔄 Helps you keep architecture in line with *cloud-native evolutions.*
+ Helps you keep architecture in line with *cloud-native evolutions.*
 
 ---
 
-### 🤖 10. Build AI Assistants for Your Team
+###  10. Build AI Assistants for Your Team
 
 Use OpenAI + Azure functions to build internal tools:
 
@@ -120,11 +120,11 @@ Use OpenAI + Azure functions to build internal tools:
 > - AI chatbot for Azure cost optimization  
 > - Prompt templates for Bicep, Terraform, or FinOps  
 
-🧱 *Prompt engineering becomes part of your cloud architecture toolkit.*
+ *Prompt engineering becomes part of your cloud architecture toolkit.*
 
 ---
 
-### 💬 Final Thoughts
+### Final Thoughts
 
 Prompt engineering isn't about tricking AI. It's about communicating clearly with a tool that *amplifies* your thinking. As Cloud Architects, we're already used to abstraction and design—prompting just makes us faster and sharper.
 
@@ -132,7 +132,7 @@ Start small. Save your best prompts. Build a library. Share with your team.
 
 ---
 
-📢 **Have any favorite prompts or use cases? Share them in the comments or tag me on [LinkedIn](https://www.linkedin.com/in/kasisuresh/).**
+ **Have any favorite prompts or use cases? Share them in the comments or tag me on [LinkedIn](https://www.linkedin.com/in/kasisuresh/).**
 
 ---
 

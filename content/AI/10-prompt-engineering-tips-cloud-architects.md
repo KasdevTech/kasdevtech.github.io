@@ -132,7 +132,7 @@ Start small. Save your best prompts. Build a library. Share with your team.
 
 ---
 
- **Have any favorite prompts or use cases? Share them in the comments or tag me on [LinkedIn](https://www.linkedin.com/in/kasisuresh/).**
+ **Have any favorite prompts or use cases? Share them in the comments or tag me on [LinkedIn](https://www.linkedin.com/in/kasi-suresh-992675177/).**
 
 ---
 

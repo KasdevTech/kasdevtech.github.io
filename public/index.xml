@@ -1,47 +1,148 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to KasdevTech ☁️ on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <title>Welcome to KasdevTech on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to KasdevTech ☁️ on KasdevTech - Cloud | Azure | DevOps | AI</description>
-    <generator>Hugo -- 0.147.8</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Welcome to KasdevTech on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title>
       <link>http://localhost:1313/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid>
-      <description>How I automated azure alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support.</description>
+      <description>
+        
+          
+            &lt;p&gt;In one of my recent automation projects, I came across a real-time scenario:&lt;br&gt;
+An Azure Alert once condition met (example:VM&amp;rsquo;s &lt;strong&gt;C:\ drive crosses 80% usage&lt;/strong&gt;), and boom — the alert triggers, gets routed to &lt;strong&gt;Moogsoft&lt;/strong&gt;, and creates an incident in &lt;strong&gt;ServiceNow&lt;/strong&gt;.&lt;br&gt;
+But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p&gt;
+&lt;h2 id=&#34;why-assign-alertincident-disk-cleanup-to-an-engineer-when-a-bot-can-do-it-better--and-faster&#34;&gt;Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?&lt;/h2&gt;
+&lt;h4 id=&#34;real-scenario&#34;&gt;Real Scenario&lt;/h4&gt;
+&lt;p&gt;Here’s what happens traditionally:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
       <link>http://localhost:1313/azure/bicep-getting-started/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/bicep-getting-started/</guid>
-      <description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description>
+      <description>
+        
+          
+            &lt;p&gt;Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p&gt;
+&lt;h3 id=&#34;why-bicep&#34;&gt;Why Bicep?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Native to Azure&lt;/li&gt;
+&lt;li&gt;Simplified syntax&lt;/li&gt;
+&lt;li&gt;No state files (unlike Terraform)&lt;/li&gt;
+&lt;li&gt;Excellent tooling in VS Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;install-bicep-cli&#34;&gt;Install Bicep CLI&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az bicep install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Verify installation:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az bicep version
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;🏗️ Sample Bicep Template:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;resource storageAccount &lt;span class=&#34;s1&#34;&gt;&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  name: &lt;span class=&#34;s1&#34;&gt;&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  location: resourceGroup&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;.location
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  sku: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    name: &lt;span class=&#34;s1&#34;&gt;&amp;#39;Standard_LRS&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  kind: &lt;span class=&#34;s1&#34;&gt;&amp;#39;StorageV2&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;📦 Deploy using Azure CLI:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az deployment group create &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  --resource-group kasdevtech-rg &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  --template-file main.bicep
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h3&gt;
+&lt;p&gt;Use modules to reuse code
+Integrate Bicep in DevOps pipelines
+Combine with Azure Policy for compliance&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title>
       <link>http://localhost:1313/devops/self-hosted-agents-vmss/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/self-hosted-agents-vmss/</guid>
-      <description>Step-by-step guide to setting up a self-hosted Azure DevOps agent pool using Azure Virtual Machine Scale Sets (VMSS) with scaling, screenshots, and security best practices.</description>
+      <description>
+        
+          
+            &lt;p&gt;Setting up self-hosted agents using &lt;strong&gt;Azure Virtual Machine Scale Sets (VMSS)&lt;/strong&gt; gives you more &lt;strong&gt;control, performance, and scalability&lt;/strong&gt; compared to Microsoft-hosted agents.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;use-cases-for-self-hosted-agents&#34;&gt;Use Cases for Self-Hosted Agents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Large builds requiring more compute&lt;/li&gt;
+&lt;li&gt;Custom toolchains (e.g., Docker, Terraform, Node.js)&lt;/li&gt;
+&lt;li&gt;Controlled access with internal networking&lt;/li&gt;
+&lt;li&gt;Reducing build time and cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure DevOps Organization + Project&lt;/li&gt;
+&lt;li&gt;Azure Subscription&lt;/li&gt;
+&lt;li&gt;Contributor or Owner role on Azure&lt;/li&gt;
+&lt;li&gt;VMSS Contributor role for DevOps managed identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;step-1-create-a-virtual-machine-scale-set-vmss&#34;&gt;Step 1: Create a Virtual Machine Scale Set (VMSS)&lt;/h4&gt;
+&lt;p&gt;You can create this via &lt;strong&gt;Azure CLI&lt;/strong&gt; or &lt;strong&gt;Portal&lt;/strong&gt;. Below are the CLI steps:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title>
       <link>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</link>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</guid>
-      <description>Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking.</description>
+      <description>
+        
+          
+            &lt;p&gt;Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, &lt;strong&gt;prompt engineering&lt;/strong&gt; has become a valuable tool in our toolbox.&lt;/p&gt;
+&lt;p&gt;Here are &lt;strong&gt;Prompt Engineering for Cloud Architects: 10 Powerful Tips&lt;/strong&gt; to boost your productivity, decision-making, and solution design as a Cloud Architect.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-be-clear-concise-and-contextual&#34;&gt;1. Be Clear, Concise, and Contextual&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Bad Prompt:&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Sample Azure DevOps Pipeline for .NET App</title>
       <link>http://localhost:1313/devops/sample-azure-devops-pipeline/</link>
       <pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate>
+      
       <guid>http://localhost:1313/devops/sample-azure-devops-pipeline/</guid>
-      <description>&lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;trigger&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
@@ -63,21 +164,48 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;inputs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;PathtoPublish&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ArtifactName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;drop&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Building an AI-Powered App Using Azure OpenAI Services</title>
       <link>http://localhost:1313/azure/chatbot-with-react-frontend/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/chatbot-with-react-frontend/</guid>
-      <description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description>
+      <description>
+        
+          
+            &lt;h3 id=&#34;introduction-to-azure-openai&#34;&gt;Introduction to Azure OpenAI&lt;/h3&gt;
+&lt;p&gt;In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. &lt;strong&gt;Azure OpenAI Services&lt;/strong&gt; makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p&gt;
+&lt;h3 id=&#34;benefits&#34;&gt;Benefits:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;No need to host large AI models yourself&lt;/li&gt;
+&lt;li&gt;Microsoft’s enterprise security and compliance&lt;/li&gt;
+&lt;li&gt;Pay as you go&lt;/li&gt;
+&lt;li&gt;Available in various Azure regions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this post, you’ll learn how to build an &lt;strong&gt;AI-powered chatbot&lt;/strong&gt; using:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Getting Started with Terraform on Azure</title>
       <link>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p&gt;
 &lt;p&gt;In this post, we will cover:&lt;/p&gt;
 &lt;ul&gt;
@@ -91,14 +219,23 @@ Configure your Azure credentials&lt;br&gt;
 Write &lt;code&gt;main.tf&lt;/code&gt; with Azure provider&lt;br&gt;
 Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and &lt;code&gt;apply&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;</description>
+&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Resize Azure Virtual Machines</title>
       <link>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</guid>
-      <description>&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
 &lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h3&gt;
@@ -120,34 +257,101 @@ Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and 
 2️ Select your VM&lt;br&gt;
 3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;
 4️ Select a new size (you will see estimated cost/month)&lt;br&gt;
-5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;</description>
+5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
       <link>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</guid>
-      <description>&lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
 &lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
 &lt;p&gt;But many beginners feel lost:&lt;br&gt;
 👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;
 👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;
 👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;</description>
+&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
       <link>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</guid>
-      <description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description>
+      <description>
+        
+          
+            &lt;h3 id=&#34;what-is-a-private-endpoint&#34;&gt;What is a Private Endpoint?&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;Private Endpoint&lt;/strong&gt; in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.&lt;/p&gt;
+&lt;p&gt;Think of it as a private IP address for an Azure service. This ensures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No traffic goes over the internet&lt;/li&gt;
+&lt;li&gt;Improved security (zero public exposure)&lt;/li&gt;
+&lt;li&gt;You can apply &lt;strong&gt;NSG&lt;/strong&gt;, &lt;strong&gt;firewall&lt;/strong&gt;, and &lt;strong&gt;custom routing&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;when-to-use-private-endpoints&#34;&gt;When to Use Private Endpoints?&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Scenario&lt;/th&gt;
+          &lt;th&gt;Private Endpoint Recommended?&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Critical data (PII, financial, healthcare)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Internal line-of-business apps&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Public APIs serving global customers&lt;/td&gt;
+          &lt;td&gt;No — consider public endpoint&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hybrid network (on-premises + Azure)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Regulatory/compliance (GDPR, HIPAA, PCI)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Common Use Cases:&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Optimizing Azure Costs with FinOps</title>
       <link>http://localhost:1313/finops/optimizing-azure-costs/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/finops/optimizing-azure-costs/</guid>
-      <description>&lt;h3 id=&#34;what-is-finops&#34;&gt;What is FinOps?&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;what-is-finops&#34;&gt;What is FinOps?&lt;/h3&gt;
 &lt;p&gt;FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p&gt;
 &lt;h3 id=&#34;azure-cost-optimization-tips&#34;&gt;Azure Cost Optimization Tips&lt;/h3&gt;
 &lt;ul&gt;
@@ -158,25 +362,12 @@ Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and 
 &lt;li&gt;Regularly review &lt;strong&gt;unused resources&lt;/strong&gt; and shut them down&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p&gt;</description>
+&lt;p&gt;FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;👋 Hello! I&amp;rsquo;m Kasi Suresh&lt;/p&gt;
-&lt;p&gt;I’m a Cloud Architect and Azure enthusiast, passionate about solving real-world problems with scalable, secure, and automated solutions.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;KasdevTech&lt;/strong&gt; is my platform to share insights on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Azure architecture&lt;/li&gt;
-&lt;li&gt;DevOps automation&lt;/li&gt;
-&lt;li&gt;FinOps &amp;amp; cloud cost control&lt;/li&gt;
-&lt;li&gt;Terraform, Bicep, GitHub, AI in the cloud&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;🖥️  Why I Built KasdevTech&lt;/p&gt;
-&lt;p&gt;I wanted to create a &lt;strong&gt;clean, developer-friendly place&lt;/strong&gt; to learn and share. Everything here is based on &lt;strong&gt;real experience&lt;/strong&gt;, not just documentation.&lt;/p&gt;</description>
-    </item>
+    
   </channel>
 </rss>

@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Azure on KasdevTech - Cloud | Azure | DevOps | AI</title><link>https://kasdevTech.github.io/categories/azure/</link><description>Recent content in Azure on KasdevTech - Cloud | Azure | DevOps | AI</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevTech.github.io/categories/azure/index.xml" rel="self" type="application/rss+xml"/><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevTech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>How I automated azure alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support.</description></item><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevTech.github.io/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/bicep-getting-started/</guid><description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description></item><item><title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title><link>https://kasdevTech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link><pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid><description>Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking.</description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/chatbot-with-react-frontend/</guid><description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title><link>https://kasdevtech.com/categories/azure/</link><description>Recent content in Azure on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml"/><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>
+&lt;p>In one of my recent automation projects, I came across a real-time scenario:&lt;br>
+An Azure Alert once condition met (example:VM&amp;rsquo;s &lt;strong>C:\ drive crosses 80% usage&lt;/strong>), and boom — the alert triggers, gets routed to &lt;strong>Moogsoft&lt;/strong>, and creates an incident in &lt;strong>ServiceNow&lt;/strong>.&lt;br>
+But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p>
+&lt;h2 id="why-assign-alertincident-disk-cleanup-to-an-engineer-when-a-bot-can-do-it-better--and-faster">Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?&lt;/h2>
+&lt;h4 id="real-scenario">Real Scenario&lt;/h4>
+&lt;p>Here’s what happens traditionally:&lt;/p></description></item><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevtech.com/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.com/azure/bicep-getting-started/</guid><description>
+&lt;p>Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p>
+&lt;h3 id="why-bicep">Why Bicep?&lt;/h3>
+&lt;ul>
+&lt;li>Native to Azure&lt;/li>
+&lt;li>Simplified syntax&lt;/li>
+&lt;li>No state files (unlike Terraform)&lt;/li>
+&lt;li>Excellent tooling in VS Code&lt;/li>
+&lt;/ul>
+&lt;h3 id="install-bicep-cli">Install Bicep CLI&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">az bicep install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Verify installation:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">az bicep version
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">🏗️ Sample Bicep Template:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">-------------------------
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">resource storageAccount &lt;span class="s1">&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> name: &lt;span class="s1">&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> location: resourceGroup&lt;span class="o">()&lt;/span>.location
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> sku: &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> name: &lt;span class="s1">&amp;#39;Standard_LRS&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> kind: &lt;span class="s1">&amp;#39;StorageV2&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">📦 Deploy using Azure CLI:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">--------------------------
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">az deployment group create &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> --resource-group kasdevtech-rg &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> --template-file main.bicep
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="next-steps">Next Steps&lt;/h3>
+&lt;p>Use modules to reuse code
+Integrate Bicep in DevOps pipelines
+Combine with Azure Policy for compliance&lt;/p></description></item><item><title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title><link>https://kasdevtech.com/ai/10-prompt-engineering-tips-cloud-architects/</link><pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.com/ai/10-prompt-engineering-tips-cloud-architects/</guid><description>
+&lt;p>Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, &lt;strong>prompt engineering&lt;/strong> has become a valuable tool in our toolbox.&lt;/p>
+&lt;p>Here are &lt;strong>Prompt Engineering for Cloud Architects: 10 Powerful Tips&lt;/strong> to boost your productivity, decision-making, and solution design as a Cloud Architect.&lt;/p>
+&lt;hr>
+&lt;h3 id="1-be-clear-concise-and-contextual">1. Be Clear, Concise, and Contextual&lt;/h3>
+&lt;p>&lt;strong>Bad Prompt:&lt;/strong>&lt;/p></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevtech.com/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.com/azure/chatbot-with-react-frontend/</guid><description>
+&lt;h3 id="introduction-to-azure-openai">Introduction to Azure OpenAI&lt;/h3>
+&lt;p>In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. &lt;strong>Azure OpenAI Services&lt;/strong> makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p>
+&lt;h3 id="benefits">Benefits:&lt;/h3>
+&lt;ul>
+&lt;li>No need to host large AI models yourself&lt;/li>
+&lt;li>Microsoft’s enterprise security and compliance&lt;/li>
+&lt;li>Pay as you go&lt;/li>
+&lt;li>Available in various Azure regions&lt;/li>
+&lt;/ul>
+&lt;p>In this post, you’ll learn how to build an &lt;strong>AI-powered chatbot&lt;/strong> using:&lt;/p></description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</guid><description>
+&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
 &lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
 &lt;hr>
 &lt;h3 id="why-resize-vms">Why Resize VMs?&lt;/h3>
@@ -20,4 +76,45 @@
 2️ Select your VM&lt;br>
 3️ Click &lt;strong>Size&lt;/strong> under the &amp;ldquo;Settings&amp;rdquo; section&lt;br>
 4️ Select a new size (you will see estimated cost/month)&lt;br>
-5️ Click &lt;strong>Resize&lt;/strong>&lt;/p></description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevTech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevTech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description></item></channel></rss>
+5️ Click &lt;strong>Resize&lt;/strong>&lt;/p></description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</guid><description>
+&lt;h3 id="what-is-a-private-endpoint">What is a Private Endpoint?&lt;/h3>
+&lt;p>A &lt;strong>Private Endpoint&lt;/strong> in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.&lt;/p>
+&lt;p>Think of it as a private IP address for an Azure service. This ensures:&lt;/p>
+&lt;ul>
+&lt;li>No traffic goes over the internet&lt;/li>
+&lt;li>Improved security (zero public exposure)&lt;/li>
+&lt;li>You can apply &lt;strong>NSG&lt;/strong>, &lt;strong>firewall&lt;/strong>, and &lt;strong>custom routing&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="when-to-use-private-endpoints">When to Use Private Endpoints?&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Scenario&lt;/th>
+&lt;th>Private Endpoint Recommended?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Critical data (PII, financial, healthcare)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Internal line-of-business apps&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Public APIs serving global customers&lt;/td>
+&lt;td>No — consider public endpoint&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hybrid network (on-premises + Azure)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Regulatory/compliance (GDPR, HIPAA, PCI)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Common Use Cases:&lt;/strong>&lt;/p></description></item></channel></rss>

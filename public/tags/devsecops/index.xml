@@ -1,19 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DevSecOps on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <title>DevSecOps on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title>
     <link>http://localhost:1313/tags/devsecops/</link>
-    <description>Recent content in DevSecOps on KasdevTech - Cloud | Azure | DevOps | AI</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <description>Recent content in DevSecOps on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/devsecops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/devsecops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
       <link>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</guid>
-      <description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description>
+      <description>
+        
+          
+            &lt;h3 id=&#34;what-is-a-private-endpoint&#34;&gt;What is a Private Endpoint?&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;Private Endpoint&lt;/strong&gt; in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.&lt;/p&gt;
+&lt;p&gt;Think of it as a private IP address for an Azure service. This ensures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No traffic goes over the internet&lt;/li&gt;
+&lt;li&gt;Improved security (zero public exposure)&lt;/li&gt;
+&lt;li&gt;You can apply &lt;strong&gt;NSG&lt;/strong&gt;, &lt;strong&gt;firewall&lt;/strong&gt;, and &lt;strong&gt;custom routing&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;when-to-use-private-endpoints&#34;&gt;When to Use Private Endpoints?&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Scenario&lt;/th&gt;
+          &lt;th&gt;Private Endpoint Recommended?&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Critical data (PII, financial, healthcare)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Internal line-of-business apps&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Public APIs serving global customers&lt;/td&gt;
+          &lt;td&gt;No — consider public endpoint&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hybrid network (on-premises + Azure)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Regulatory/compliance (GDPR, HIPAA, PCI)&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Common Use Cases:&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

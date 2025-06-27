@@ -1,19 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IaC on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <title>IaC on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title>
     <link>http://localhost:1313/tags/iac/</link>
-    <description>Recent content in IaC on KasdevTech - Cloud | Azure | DevOps | AI</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <description>Recent content in IaC on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/iac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/iac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
       <link>http://localhost:1313/azure/bicep-getting-started/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/bicep-getting-started/</guid>
-      <description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description>
+      <description>
+        
+          
+            &lt;p&gt;Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p&gt;
+&lt;h3 id=&#34;why-bicep&#34;&gt;Why Bicep?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Native to Azure&lt;/li&gt;
+&lt;li&gt;Simplified syntax&lt;/li&gt;
+&lt;li&gt;No state files (unlike Terraform)&lt;/li&gt;
+&lt;li&gt;Excellent tooling in VS Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;install-bicep-cli&#34;&gt;Install Bicep CLI&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az bicep install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Verify installation:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az bicep version
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;🏗️ Sample Bicep Template:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;resource storageAccount &lt;span class=&#34;s1&#34;&gt;&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  name: &lt;span class=&#34;s1&#34;&gt;&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  location: resourceGroup&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;.location
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  sku: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    name: &lt;span class=&#34;s1&#34;&gt;&amp;#39;Standard_LRS&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  kind: &lt;span class=&#34;s1&#34;&gt;&amp;#39;StorageV2&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;📦 Deploy using Azure CLI:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az deployment group create &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  --resource-group kasdevtech-rg &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  --template-file main.bicep
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h3&gt;
+&lt;p&gt;Use modules to reuse code
+Integrate Bicep in DevOps pipelines
+Combine with Azure Policy for compliance&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

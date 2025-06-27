@@ -1,33 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <title>Azure on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title>
     <link>http://localhost:1313/tags/azure/</link>
-    <description>Recent content in Azure on KasdevTech - Cloud | Azure | DevOps | AI</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <description>Recent content in Azure on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
       <link>http://localhost:1313/azure/bicep-getting-started/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/bicep-getting-started/</guid>
-      <description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description>
+      <description>
+        
+          
+            &lt;p&gt;Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p&gt;
+&lt;h3 id=&#34;why-bicep&#34;&gt;Why Bicep?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Native to Azure&lt;/li&gt;
+&lt;li&gt;Simplified syntax&lt;/li&gt;
+&lt;li&gt;No state files (unlike Terraform)&lt;/li&gt;
+&lt;li&gt;Excellent tooling in VS Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;install-bicep-cli&#34;&gt;Install Bicep CLI&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az bicep install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Verify installation:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az bicep version
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;🏗️ Sample Bicep Template:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;resource storageAccount &lt;span class=&#34;s1&#34;&gt;&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  name: &lt;span class=&#34;s1&#34;&gt;&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  location: resourceGroup&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;.location
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  sku: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    name: &lt;span class=&#34;s1&#34;&gt;&amp;#39;Standard_LRS&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  kind: &lt;span class=&#34;s1&#34;&gt;&amp;#39;StorageV2&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;📦 Deploy using Azure CLI:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;--------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;az deployment group create &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  --resource-group kasdevtech-rg &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  --template-file main.bicep
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h3&gt;
+&lt;p&gt;Use modules to reuse code
+Integrate Bicep in DevOps pipelines
+Combine with Azure Policy for compliance&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title>
       <link>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</link>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</guid>
-      <description>Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking.</description>
+      <description>
+        
+          
+            &lt;p&gt;Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, &lt;strong&gt;prompt engineering&lt;/strong&gt; has become a valuable tool in our toolbox.&lt;/p&gt;
+&lt;p&gt;Here are &lt;strong&gt;Prompt Engineering for Cloud Architects: 10 Powerful Tips&lt;/strong&gt; to boost your productivity, decision-making, and solution design as a Cloud Architect.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;1-be-clear-concise-and-contextual&#34;&gt;1. Be Clear, Concise, and Contextual&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Bad Prompt:&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Sample Azure DevOps Pipeline for .NET App</title>
       <link>http://localhost:1313/devops/sample-azure-devops-pipeline/</link>
       <pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate>
+      
       <guid>http://localhost:1313/devops/sample-azure-devops-pipeline/</guid>
-      <description>&lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;trigger&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
@@ -49,14 +107,23 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;inputs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;PathtoPublish&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ArtifactName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;drop&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Getting Started with Terraform on Azure</title>
       <link>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p&gt;
 &lt;p&gt;In this post, we will cover:&lt;/p&gt;
 &lt;ul&gt;
@@ -70,14 +137,23 @@ Configure your Azure credentials&lt;br&gt;
 Write &lt;code&gt;main.tf&lt;/code&gt; with Azure provider&lt;br&gt;
 Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and &lt;code&gt;apply&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;</description>
+&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Resize Azure Virtual Machines</title>
       <link>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</guid>
-      <description>&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
 &lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h3&gt;
@@ -99,20 +175,34 @@ Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and 
 2️ Select your VM&lt;br&gt;
 3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;
 4️ Select a new size (you will see estimated cost/month)&lt;br&gt;
-5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;</description>
+5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
       <link>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</guid>
-      <description>&lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
 &lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
 &lt;p&gt;But many beginners feel lost:&lt;br&gt;
 👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;
 👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;
 👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;</description>
+&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

@@ -1,89 +1,77 @@
-baseURL = 'https://kasdevTech.github.io/'
-languageCode = 'en-us'
-title = 'KasdevTech - Cloud | Azure | DevOps | AI'
-theme = 'PaperMod'
+baseURL = "https://kasdevtech.com/"
+languageCode = "en-us"
+title = "KasdevTech – Cloud | Azure| DevOps | IAC | AI"
+theme = "clarity"
+enableGitInfo = true
 
-# Enable JSON & RSS for search and feed
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[pagination]
+  pagerSize = 10
+
 [params]
-  env = "Production"
-  title = "KasdevTech - Cloud | Azure | DevOps | AI"
-  description = "Learn Azure, Terraform, FinOps, DevOps, and AI with real-world examples"
+  title = "KasdevTech – Cloud | Azure | DevOps | AI"
+  description = "Enterprise-grade cloud content and tools for Azure, DevOps, FinOps, and AI"
   author = "Kasi Suresh"
-  googleAnalytics = "G-DGZYRTL4Y2"
-  ShowReadingTime = true
-  ShowWordCount = true
-  ShowToc = true
-  TocOpen = true
-  ShowBreadCrumbs = true
-  ShowPostNavLinks = true
-  ShowShareButtons = true
-  ShowCodeCopyButtons = true
-  ShowLastMod = true
-  defaultTheme = "auto"
-  mainSections = ["Azure", "Terraform", "Finops", "DevOps", "AI"]
-  logo = "images/kasdev.png"
+  env = "production"
+  navbar_title = "KasdevTech"
   favicon = "/images/kasdev.png"
+  site_logo = "/images/kasdev.png"
   ogImage = "/images/kasdev.png"
   keywords = ["Azure", "Cloud", "DevOps", "AI", "FinOps", "Terraform", "KasdevTech", "Kasi Suresh"]
-  siteImage = "/images/kasdev.png"
-
-  
-  # Enable search with Fuse.js
-  ShowSearch = true
-  fuseOpts = { isCaseSensitive = false, shouldSort = true, includeMatches = true }
+  defaultTheme = "auto"
+  theme_color = "auto"
+  sidebar_search = true
+  mainSections = ["Azure", "Terraform", "FinOps", "DevOps", "AI"]
 
 [params.seo]
   metaRobots = "index, follow"
-  
-[params.homeInfoParams]
-  Title = "Welcome to KasdevTech ☁️"
-  Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''
 
-[[params.socialIcons]]
+[[params.social]]
   name = "linkedin"
+  icon = "linkedin"
   url = "https://linkedin.com/in/kasi-suresh-992675177"
 
-[[params.socialIcons]]
+[[params.social]]
   name = "github"
+  icon = "github"
   url = "https://github.com/KasdevTech"
 
 [menu]
 
   [[menu.main]]
-    identifier = "azure"
+   identifier = "home"
+   name = "Home"
+   url = "/"
+   weight = 0
+
+  [[menu.main]]
     name = "Azure"
-    url = "/Azure/"
+    url = "/azure/"
     weight = 1
 
   [[menu.main]]
-    identifier = "terraform"
     name = "Terraform"
-    url = "/Terraform/"
+    url = "/terraform/"
     weight = 2
 
   [[menu.main]]
-    identifier = "finops"
     name = "FinOps"
-    url = "/Finops/"
+    url = "/finops/"
     weight = 3
 
   [[menu.main]]
-    identifier = "devops"
     name = "DevOps"
-    url = "/Devops/"
+    url = "/devops/"
     weight = 4
 
   [[menu.main]]
-    identifier = "ai"
     name = "AI"
-    url = "/AI/"
+    url = "/ai/"
     weight = 5
 
   [[menu.main]]
-    identifier = "about"
     name = "About"
     url = "/about/"
     weight = 6

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure Cost Management on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <title>Azure Cost Management on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title>
     <link>http://localhost:1313/tags/azure-cost-management/</link>
-    <description>Recent content in Azure Cost Management on KasdevTech - Cloud | Azure | DevOps | AI</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <description>Recent content in Azure Cost Management on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/azure-cost-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/azure-cost-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Azure Costs with FinOps</title>
       <link>http://localhost:1313/finops/optimizing-azure-costs/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/finops/optimizing-azure-costs/</guid>
-      <description>&lt;h3 id=&#34;what-is-finops&#34;&gt;What is FinOps?&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;what-is-finops&#34;&gt;What is FinOps?&lt;/h3&gt;
 &lt;p&gt;FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p&gt;
 &lt;h3 id=&#34;azure-cost-optimization-tips&#34;&gt;Azure Cost Optimization Tips&lt;/h3&gt;
 &lt;ul&gt;
@@ -24,7 +27,12 @@
 &lt;li&gt;Regularly review &lt;strong&gt;unused resources&lt;/strong&gt; and shut them down&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p&gt;</description>
+&lt;p&gt;FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

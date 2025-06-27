@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Infrastructure as Code on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <title>Infrastructure as Code on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title>
     <link>http://localhost:1313/tags/infrastructure-as-code/</link>
-    <description>Recent content in Infrastructure as Code on KasdevTech - Cloud | Azure | DevOps | AI</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <description>Recent content in Infrastructure as Code on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/infrastructure-as-code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/infrastructure-as-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started with Terraform on Azure</title>
       <link>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p&gt;
 &lt;p&gt;In this post, we will cover:&lt;/p&gt;
 &lt;ul&gt;
@@ -27,7 +30,12 @@ Configure your Azure credentials&lt;br&gt;
 Write &lt;code&gt;main.tf&lt;/code&gt; with Azure provider&lt;br&gt;
 Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and &lt;code&gt;apply&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;</description>
+&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

@@ -24,6 +24,7 @@ theme = 'PaperMod'
   ShowLastMod = true
   defaultTheme = "auto"
   mainSections = ["Azure", "Terraform", "Finops", "DevOps", "AI"]
+  logo = "/images/kasdev.png"
 
   
   # Enable search with Fuse.js

@@ -15,9 +15,9 @@ type: "Azure"
 A **Private Endpoint** in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.
 
 Think of it as a private IP address for an Azure service. This ensures:
-✅ No traffic goes over the internet  
-✅ Improved security (zero public exposure)  
-✅ You can apply **NSG**, **firewall**, and **custom routing**  
+-  No traffic goes over the internet  
+-  Improved security (zero public exposure)  
+-  You can apply **NSG**, **firewall**, and **custom routing**  
 
 ---
 
@@ -25,11 +25,11 @@ Think of it as a private IP address for an Azure service. This ensures:
 
 | Scenario                                    | Private Endpoint Recommended? |
 |---------------------------------------------|-------------------------------|
-| Critical data (PII, financial, healthcare)   | ✅ Yes                        |
-| Internal line-of-business apps              | ✅ Yes                        |
-| Public APIs serving global customers        | ❌ No — consider public endpoint |
-| Hybrid network (on-premises + Azure)        | ✅ Yes                        |
-| Regulatory/compliance (GDPR, HIPAA, PCI)    | ✅ Yes                        |
+| Critical data (PII, financial, healthcare)  |  Yes                          |
+| Internal line-of-business apps              |  Yes                          |
+| Public APIs serving global customers        |  No — consider public endpoint|
+| Hybrid network (on-premises + Azure)        |  Yes                          |
+| Regulatory/compliance (GDPR, HIPAA, PCI)    |  Yes                          |
 
 **Common Use Cases:**
 - Azure Storage Account  
@@ -108,7 +108,7 @@ curl https://mystorageaccountxyz.blob.core.windows.net
 # Expected: Access denied or timeout
 ```
 ####  Summary
-✅ Private Endpoints help you securely access Azure services inside your VNet
-✅ No public IP needed
-✅ Great for internal, sensitive, or regulated workloads
-✅ Works across Azure Storage, SQL, CosmosDB, Key Vault, App Services, and more
+- Private Endpoints help you securely access Azure services inside your VNet
+- No public IP needed
+- Great for internal, sensitive, or regulated workloads
+- Works across Azure Storage, SQL, CosmosDB, Key Vault, App Services, and more

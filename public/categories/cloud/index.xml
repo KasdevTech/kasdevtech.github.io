@@ -31,9 +31,18 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;
-&lt;p&gt;✅ Azure Subscription&lt;br&gt;
-✅ Owner / Contributor permissions on the VM&lt;br&gt;
-✅ VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/p&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;Azure Subscription&lt;/li&gt;
+&lt;li&gt;Owner / Contributor permissions on the VM&lt;/li&gt;
+&lt;li&gt;VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;resize-via-azure-portal&#34;&gt;Resize via Azure Portal&lt;/h3&gt;
+&lt;p&gt;1️ Navigate to &lt;strong&gt;Virtual Machines&lt;/strong&gt;&lt;br&gt;
+2️ Select your VM&lt;br&gt;
+3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;
+4️ Select a new size (you will see estimated cost/month)&lt;br&gt;
+5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

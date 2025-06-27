@@ -112,9 +112,9 @@ Starting a cloud journey can seem overwhelming — but with a structured path, a
 If you have questions — feel free to connect with me or follow for future posts.
 
 Upcoming blogs:  
-✅ *Deploying Microservices on Azure Kubernetes Service (AKS)*  
-✅ *How to Optimize Azure Costs — Real Tips*  
-✅ *CI/CD for Cloud Apps with GitHub Actions*
+- *Deploying Microservices on Azure Kubernetes Service (AKS)*  
+- *How to Optimize Azure Costs — Real Tips*  
+- *CI/CD for Cloud Apps with GitHub Actions*
 
 **Happy learning, and see you in the next post! **
 

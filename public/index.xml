@@ -13,7 +13,7 @@
       <link>http://localhost:1313/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid>
-      <description>How I automated disk space alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support.</description>
+      <description>How I automated azure alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support.</description>
     </item>
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
@@ -126,16 +126,25 @@ Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and 
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;
-&lt;p&gt;✅ Azure Subscription&lt;br&gt;
-✅ Owner / Contributor permissions on the VM&lt;br&gt;
-✅ VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/p&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;Azure Subscription&lt;/li&gt;
+&lt;li&gt;Owner / Contributor permissions on the VM&lt;/li&gt;
+&lt;li&gt;VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;resize-via-azure-portal&#34;&gt;Resize via Azure Portal&lt;/h3&gt;
+&lt;p&gt;1️ Navigate to &lt;strong&gt;Virtual Machines&lt;/strong&gt;&lt;br&gt;
+2️ Select your VM&lt;br&gt;
+3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;
+4️ Select a new size (you will see estimated cost/month)&lt;br&gt;
+5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
       <link>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</guid>
-      <description>&lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub-&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub 🚀&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
 &lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
 &lt;p&gt;But many beginners feel lost:&lt;br&gt;
 👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;

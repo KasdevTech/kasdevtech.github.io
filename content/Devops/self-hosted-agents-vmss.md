@@ -9,10 +9,10 @@ type: "DevOps"
 ---
 Setting up self-hosted agents using **Azure Virtual Machine Scale Sets (VMSS)** gives you more **control, performance, and scalability** compared to Microsoft-hosted agents.
 
-> 🔧 This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.
+>  This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.
 
 ---
-### 🔍 Use Cases for Self-Hosted Agents
+###  Use Cases for Self-Hosted Agents
 - Large builds requiring more compute
 - Custom toolchains (e.g., Docker, Terraform, Node.js)
 - Controlled access with internal networking
@@ -32,10 +32,10 @@ Setting up self-hosted agents using **Azure Virtual Machine Scale Sets (VMSS)** 
 You can create this via **Azure CLI** or **Portal**. Below are the CLI steps:
 
 ```bash
-### 🔹 Create Resource Group
+###  Create Resource Group
 az group create --name devops-agents-rg --location eastus
 
-🔹 Create VM Scale Set
+ Create VM Scale Set
 ---------------------
 az vmss create \
   --resource-group devops-agents-rg \
@@ -46,7 +46,7 @@ az vmss create \
   --generate-ssh-keys \
   --instance-count 1
 ```
-#### 🔐 Step 2: Create a Managed Identity for Azure DevOps
+#### Step 2: Create a Managed Identity for Azure DevOps
 ```
 This identity allows Azure DevOps to access and manage the VMSS.
 az identity create --name devops-agent-identity --resource-group devops-agents-rg

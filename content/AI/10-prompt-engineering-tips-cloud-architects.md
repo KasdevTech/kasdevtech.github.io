@@ -43,7 +43,7 @@ When designing complex systems, ask for steps, not just answers.
 
 > *“Give me a step-by-step process to migrate an on-premise .NET monolith to Azure Kubernetes Service with DevOps CI/CD.”*
 
-🔍 **Bonus:** Ask it to generate architecture diagrams in PlantUML or Mermaid.
+ **Bonus:** Ask it to generate architecture diagrams in PlantUML or Mermaid.
 
 ---
 

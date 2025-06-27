@@ -93,7 +93,7 @@ az storage account update \
   --name $STORAGE_NAME \
   --resource-group $RG_NAME \
   --default-action Deny
-Now, only traffic from the private endpoint in VNet is allowed! 🚀
+Now, only traffic from the private endpoint in VNet is allowed! 
 ```
 ####  Testing with Private IP Only
 ```

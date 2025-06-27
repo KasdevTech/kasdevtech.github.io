@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OpenAI on KasdevTech – Cloud | Azure| DevOps | IAC | AI</title>
+    <title>OpenAI on KasdevTech</title>
     <link>http://localhost:1313/categories/openai/</link>
-    <description>Recent content in OpenAI on KasdevTech – Cloud | Azure| DevOps | IAC | AI</description>
+    <description>Recent content in OpenAI on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/openai/index.xml" rel="self" type="application/rss+xml" />

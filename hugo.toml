@@ -1,6 +1,6 @@
 baseURL = "https://kasdevtech.com/"
 languageCode = "en-us"
-title = "KasdevTech – Cloud | Azure| DevOps | IAC | AI"
+title = "KasdevTech"
 theme = "clarity"
 enableGitInfo = true
 
@@ -16,7 +16,7 @@ enableGitInfo = true
   author = "Kasi Suresh"
   env = "production"
   navbar_title = "KasdevTech"
-  favicon = "/images/kasdev.png"
+  favicon = "/favicon.ico"
   site_logo = "/images/kasdev.png"
   ogImage = "/images/kasdev.png"
   keywords = ["Azure", "Cloud", "DevOps", "AI", "FinOps", "Terraform", "KasdevTech", "Kasi Suresh"]
@@ -24,7 +24,7 @@ enableGitInfo = true
   theme_color = "auto"
   sidebar_search = true
   mainSections = ["Azure", "Terraform", "FinOps", "DevOps", "AI"]
-
+  preloadJS = false
 [params.seo]
   metaRobots = "index, follow"
 

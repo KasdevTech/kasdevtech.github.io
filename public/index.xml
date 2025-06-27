@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Latest Blogs on KasdevTech - Cloud | Azure | DevOps | AI</title>
+    <title>Welcome to KasdevTech ☁️ on KasdevTech - Cloud | Azure | DevOps | AI</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Latest Blogs on KasdevTech - Cloud | Azure | DevOps | AI</description>
+    <description>Recent content in Welcome to KasdevTech ☁️ on KasdevTech - Cloud | Azure | DevOps | AI</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
@@ -64,23 +64,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;PathtoPublish&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ArtifactName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;drop&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hi! 👋 I’m &lt;strong&gt;Kasi Suresh&lt;/strong&gt; — Cloud Architect, Azure &amp;amp; DevOps SME.
-Linked - &lt;a href=&#34;https://www.linkedin.com/in/kasi-suresh-992675177/&#34;&gt;https://www.linkedin.com/in/kasi-suresh-992675177/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This blog shares my learning and experience on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Azure Cloud&lt;/li&gt;
-&lt;li&gt;Terraform IaC&lt;/li&gt;
-&lt;li&gt;FinOps for Cloud Cost Optimization&lt;/li&gt;
-&lt;li&gt;DevOps &amp;amp; Automation&lt;/li&gt;
-&lt;li&gt;AI/ML 🚀&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Follow me for regular updates!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building an AI-Powered App Using Azure OpenAI Services</title>
@@ -176,6 +159,24 @@ Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and 
 &lt;/ul&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;👋 Hello! I&amp;rsquo;m Kasi Suresh&lt;/p&gt;
+&lt;p&gt;I’m a Cloud Architect and Azure enthusiast, passionate about solving real-world problems with scalable, secure, and automated solutions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;KasdevTech&lt;/strong&gt; is my platform to share insights on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure architecture&lt;/li&gt;
+&lt;li&gt;DevOps automation&lt;/li&gt;
+&lt;li&gt;FinOps &amp;amp; cloud cost control&lt;/li&gt;
+&lt;li&gt;Terraform, Bicep, GitHub, AI in the cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;🖥️  Why I Built KasdevTech&lt;/p&gt;
+&lt;p&gt;I wanted to create a &lt;strong&gt;clean, developer-friendly place&lt;/strong&gt; to learn and share. Everything here is based on &lt;strong&gt;real experience&lt;/strong&gt;, not just documentation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

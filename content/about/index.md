@@ -1,18 +1,29 @@
 ---
 title: "About"
-date: 2025-06-23
 ---
 
-Hi! 👋 I’m **Kasi Suresh** — Cloud Architect, Azure & DevOps SME.
-Linked - https://www.linkedin.com/in/kasi-suresh-992675177/
+👋 Hello! I'm Kasi Suresh
 
-This blog shares my learning and experience on:
-- Azure Cloud
-- Terraform IaC
-- FinOps for Cloud Cost Optimization
-- DevOps & Automation
-- AI/ML 🚀
+I’m a Cloud Architect and Azure enthusiast, passionate about solving real-world problems with scalable, secure, and automated solutions.
 
-Follow me for regular updates!
+**KasdevTech** is my platform to share insights on:
 
+- Azure architecture
+- DevOps automation
+- FinOps & cloud cost control
+- Terraform, Bicep, GitHub, AI in the cloud
 
+---
+
+🖥️  Why I Built KasdevTech
+
+I wanted to create a **clean, developer-friendly place** to learn and share. Everything here is based on **real experience**, not just documentation.
+
+Whether you're a beginner or a senior engineer, you’ll find something useful.
+
+---
+
+ 🤝 Let’s Connect
+
+- [LinkedIn](https://linkedin.com/in/kasi-suresh-992675177)
+- [GitHub](https://github.com/KasdevTech)

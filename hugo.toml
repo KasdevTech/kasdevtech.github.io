@@ -24,13 +24,20 @@ theme = 'PaperMod'
   ShowLastMod = true
   defaultTheme = "auto"
   mainSections = ["Azure", "Terraform", "Finops", "DevOps", "AI"]
-  logo = "/images/kasdev.png"
+  logo = "images/kasdev.png"
+  favicon = "/images/kasdev.png"
+  ogImage = "/images/kasdev.png"
+  keywords = ["Azure", "Cloud", "DevOps", "AI", "FinOps", "Terraform", "KasdevTech", "Kasi Suresh"]
+  siteImage = "/images/kasdev.png"
 
   
   # Enable search with Fuse.js
   ShowSearch = true
   fuseOpts = { isCaseSensitive = false, shouldSort = true, includeMatches = true }
 
+[params.seo]
+  metaRobots = "index, follow"
+  
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech ☁️"
   Content = '''A blog on Azure Cloud, Terraform, FinOps, DevOps, and AI'''

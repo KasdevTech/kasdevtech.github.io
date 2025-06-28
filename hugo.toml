@@ -15,9 +15,14 @@ summaryLength = 70
   ShowToc = true
   ShowCodeCopyButtons = true
   mainSections = ["Azure", "Terraform", "FinOps", "DevOps", "AI"]
+  
 [params.homeInfoParams]
-  Title = "Welcome to KasdevTech 🚀"
+  Title = "Welcome to KasdevTech "
   Content = "Cloud-native blogs on Azure, DevOps, FinOps & more."
+
+[params.assets]
+  logo = "images/kasdev.png"
+  favicon = "images/favicon.ico"  
 
 [menu]
   [[menu.main]]
@@ -46,6 +51,11 @@ summaryLength = 70
   weight = 5
 
  [[menu.main]]
+  name = "Finsight"
+  url = "/finsight/"
+  weight = 6
+
+ [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 6
+  weight = 7

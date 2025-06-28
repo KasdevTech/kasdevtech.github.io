@@ -4,8 +4,317 @@
     <title>Tags on KasdevTech</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 15:03:30 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>http://localhost:1313/tags/azure/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure DevOps</title>
+      <link>http://localhost:1313/tags/azure-devops/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure Monitor</title>
+      <link>http://localhost:1313/tags/azure-monitor/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-monitor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bicep</title>
+      <link>http://localhost:1313/tags/bicep/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bicep/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>http://localhost:1313/tags/devops/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IaC</title>
+      <link>http://localhost:1313/tags/iac/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/iac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logic Apps</title>
+      <link>http://localhost:1313/tags/logic-apps/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/logic-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Moogsoft</title>
+      <link>http://localhost:1313/tags/moogsoft/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/moogsoft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipeline</title>
+      <link>http://localhost:1313/tags/pipeline/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pipeline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Runbook</title>
+      <link>http://localhost:1313/tags/runbook/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/runbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scale Set</title>
+      <link>http://localhost:1313/tags/scale-set/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scale-set/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Healing</title>
+      <link>http://localhost:1313/tags/self-healing/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/self-healing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosted Agent</title>
+      <link>http://localhost:1313/tags/self-hosted-agent/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/self-hosted-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ServiceNow</title>
+      <link>http://localhost:1313/tags/servicenow/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/servicenow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VMSS</title>
+      <link>http://localhost:1313/tags/vmss/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vmss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:1313/tags/architecture/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGPT</title>
+      <link>http://localhost:1313/tags/chatgpt/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Copilot</title>
+      <link>http://localhost:1313/tags/copilot/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/copilot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:1313/tags/productivity/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt Engineering</title>
+      <link>http://localhost:1313/tags/prompt-engineering/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ci-Cd</title>
+      <link>http://localhost:1313/tags/ci-cd/</link>
+      <pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/ci-cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/tags/cloud/</link>
+      <pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate>
+      <guid>http://localhost:1313/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure AD</title>
+      <link>http://localhost:1313/tags/azure-ad/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-ad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure Cost Management</title>
+      <link>http://localhost:1313/tags/azure-cost-management/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-cost-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure OpenAI</title>
+      <link>http://localhost:1313/tags/azure-openai/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure Private Endpoint</title>
+      <link>http://localhost:1313/tags/azure-private-endpoint/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-private-endpoint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure Storage</title>
+      <link>http://localhost:1313/tags/azure-storage/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beginner Guide</title>
+      <link>http://localhost:1313/tags/beginner-guide/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/beginner-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chatbot</title>
+      <link>http://localhost:1313/tags/chatbot/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Apps</title>
+      <link>http://localhost:1313/tags/cloud-apps/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloud-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Optimization</title>
+      <link>http://localhost:1313/tags/cloud-optimization/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloud-optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevSecOps</title>
+      <link>http://localhost:1313/tags/devsecops/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/devsecops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FastAPI</title>
+      <link>http://localhost:1313/tags/fastapi/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FinOps</title>
+      <link>http://localhost:1313/tags/finops/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/finops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure as Code</title>
+      <link>http://localhost:1313/tags/infrastructure-as-code/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/infrastructure-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/tags/kubernetes/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>http://localhost:1313/tags/networking/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReactJS</title>
+      <link>http://localhost:1313/tags/reactjs/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reactjs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resize</title>
+      <link>http://localhost:1313/tags/resize/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/resize/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>http://localhost:1313/tags/terraform/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/terraform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vm</title>
+      <link>http://localhost:1313/tags/vm/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vm/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

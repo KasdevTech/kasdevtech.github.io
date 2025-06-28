@@ -4,46 +4,16 @@
     <title>Resize on KasdevTech</title>
     <link>http://localhost:1313/tags/resize/</link>
     <description>Recent content in Resize on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/resize/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 00:21:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/resize/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Resize Azure Virtual Machines</title>
       <link>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/how-to-resize-azure-virtual-machines/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
-&lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Scale Up:&lt;/strong&gt; Handle more traffic or workload&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scale Down:&lt;/strong&gt; Reduce costs for low-traffic periods&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Change Type:&lt;/strong&gt; Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Azure Subscription&lt;/li&gt;
-&lt;li&gt;Owner / Contributor permissions on the VM&lt;/li&gt;
-&lt;li&gt;VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;resize-via-azure-portal&#34;&gt;Resize via Azure Portal&lt;/h3&gt;
-&lt;p&gt;1️ Navigate to &lt;strong&gt;Virtual Machines&lt;/strong&gt;&lt;br&gt;
-2️ Select your VM&lt;br&gt;
-3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;
-4️ Select a new size (you will see estimated cost/month)&lt;br&gt;
-5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;&#xA;&lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;why-resize-vms&#34;&gt;Why Resize VMs?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scale Up:&lt;/strong&gt; Handle more traffic or workload&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scale Down:&lt;/strong&gt; Reduce costs for low-traffic periods&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Change Type:&lt;/strong&gt; Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Azure Subscription&lt;/li&gt;&#xA;&lt;li&gt;Owner / Contributor permissions on the VM&lt;/li&gt;&#xA;&lt;li&gt;VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;resize-via-azure-portal&#34;&gt;Resize via Azure Portal&lt;/h3&gt;&#xA;&lt;p&gt;1️ Navigate to &lt;strong&gt;Virtual Machines&lt;/strong&gt;&lt;br&gt;&#xA;2️ Select your VM&lt;br&gt;&#xA;3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;&#xA;4️ Select a new size (you will see estimated cost/month)&lt;br&gt;&#xA;5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

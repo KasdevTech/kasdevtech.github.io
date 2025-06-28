@@ -4,33 +4,16 @@
     <title>ReactJS on KasdevTech</title>
     <link>http://localhost:1313/categories/reactjs/</link>
     <description>Recent content in ReactJS on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 00:21:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/reactjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building an AI-Powered App Using Azure OpenAI Services</title>
       <link>http://localhost:1313/azure/chatbot-with-react-frontend/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/chatbot-with-react-frontend/</guid>
-      <description>
-        
-          
-            &lt;h3 id=&#34;introduction-to-azure-openai&#34;&gt;Introduction to Azure OpenAI&lt;/h3&gt;
-&lt;p&gt;In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. &lt;strong&gt;Azure OpenAI Services&lt;/strong&gt; makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p&gt;
-&lt;h3 id=&#34;benefits&#34;&gt;Benefits:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;No need to host large AI models yourself&lt;/li&gt;
-&lt;li&gt;Microsoft’s enterprise security and compliance&lt;/li&gt;
-&lt;li&gt;Pay as you go&lt;/li&gt;
-&lt;li&gt;Available in various Azure regions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this post, you’ll learn how to build an &lt;strong&gt;AI-powered chatbot&lt;/strong&gt; using:&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>&lt;h3 id=&#34;introduction-to-azure-openai&#34;&gt;Introduction to Azure OpenAI&lt;/h3&gt;&#xA;&lt;p&gt;In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. &lt;strong&gt;Azure OpenAI Services&lt;/strong&gt; makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p&gt;&#xA;&lt;h3 id=&#34;benefits&#34;&gt;Benefits:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;No need to host large AI models yourself&lt;/li&gt;&#xA;&lt;li&gt;Microsoft’s enterprise security and compliance&lt;/li&gt;&#xA;&lt;li&gt;Pay as you go&lt;/li&gt;&#xA;&lt;li&gt;Available in various Azure regions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In this post, you’ll learn how to build an &lt;strong&gt;AI-powered chatbot&lt;/strong&gt; using:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

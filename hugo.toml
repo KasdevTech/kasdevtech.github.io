@@ -18,7 +18,7 @@ summaryLength = 70
   customCSS = ["css/custom.css"]
 
 [params.homeInfoParams]
-  Title = "WWelcome to KasdevTech ☁️ "
+  Title = "Welcome to KasdevTech ☁️ "
   Content = "Cloud-native blogs on Azure, DevOps, FinOps & more."
 
 [params.assets]

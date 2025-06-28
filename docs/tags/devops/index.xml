@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Devops on KasdevTech</title><link>https://kasdevtech.github.io/tags/devops/</link><description>Recent content in Devops on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevtech.github.io/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid><description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description></item><item><title>Sample Azure DevOps Pipeline for .NET App</title><link>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</link><pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate><guid>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</guid><description>&lt;p>Here is a simple YAML pipeline for building a .NET Core app:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">pool&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">vmImage&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;ubuntu-latest&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">steps&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">task&lt;/span>: &lt;span style="color:#ae81ff">UseDotNet@2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">inputs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">packageType&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;sdk&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">version&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;8.0.x&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">script&lt;/span>: |&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> dotnet build
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> dotnet test&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">displayName&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;Build and Test&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">task&lt;/span>: &lt;span style="color:#ae81ff">PublishBuildArtifacts@1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">inputs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">PathtoPublish&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ArtifactName&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;drop&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>&lt;h3 id="welcome-to-kasdevtech--your-cloud-learning-hub">Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3>
+&lt;p>In today’s world, &lt;strong>cloud computing&lt;/strong> is no longer optional — it is &lt;strong>essential&lt;/strong> for businesses, developers, and architects.&lt;/p>
+&lt;p>But many beginners feel lost:&lt;br>
+👉 &lt;em>Where do I start?&lt;/em>&lt;br>
+👉 &lt;em>Which services should I learn first?&lt;/em>&lt;br>
+👉 &lt;em>How can I gain practical experience?&lt;/em>&lt;/p>
+&lt;p>In this post, I will share a &lt;strong>step-by-step practical guide&lt;/strong> to help you start your &lt;strong>cloud journey&lt;/strong> in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p></description></item></channel></rss>

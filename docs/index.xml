@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Welcome to KasdevTech on KasdevTech</title><link>https://kasdevtech.github.io/</link><description>Recent content in Welcome to KasdevTech on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>How I automated azure alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support.</description></item><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevtech.github.io/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid><description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description></item><item><title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title><link>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</guid><description>Step-by-step guide to setting up a self-hosted Azure DevOps agent pool using Azure Virtual Machine Scale Sets (VMSS) with scaling, screenshots, and security best practices.</description></item><item><title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title><link>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link><pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid><description>Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking.</description></item><item><title>Sample Azure DevOps Pipeline for .NET App</title><link>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</link><pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate><guid>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</guid><description>&lt;p>Here is a simple YAML pipeline for building a .NET Core app:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">pool&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">vmImage&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;ubuntu-latest&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">steps&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">task&lt;/span>: &lt;span style="color:#ae81ff">UseDotNet@2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">inputs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">packageType&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;sdk&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">version&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;8.0.x&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">script&lt;/span>: |&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> dotnet build
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> dotnet test&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">displayName&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;Build and Test&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">task&lt;/span>: &lt;span style="color:#ae81ff">PublishBuildArtifacts@1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">inputs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">PathtoPublish&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ArtifactName&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;drop&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</guid><description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p>
+&lt;p>In this post, we will cover:&lt;/p>
+&lt;ul>
+&lt;li>Setting up Terraform CLI&lt;/li>
+&lt;li>Writing your first Terraform configuration&lt;/li>
+&lt;li>Deploying resources on Azure&lt;/li>
+&lt;/ul>
+&lt;h3 id="steps">Steps&lt;/h3>
+&lt;p>Install Terraform CLI&lt;br>
+Configure your Azure credentials&lt;br>
+Write &lt;code>main.tf&lt;/code> with Azure provider&lt;br>
+Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>apply&lt;/code>&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p></description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
+&lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
+&lt;hr>
+&lt;h3 id="why-resize-vms">Why Resize VMs?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Scale Up:&lt;/strong> Handle more traffic or workload&lt;/li>
+&lt;li>&lt;strong>Scale Down:&lt;/strong> Reduce costs for low-traffic periods&lt;/li>
+&lt;li>&lt;strong>Change Type:&lt;/strong> Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="pre-requisites">Pre-requisites&lt;/h3>
+&lt;ul>
+&lt;li>Azure Subscription&lt;/li>
+&lt;li>Owner / Contributor permissions on the VM&lt;/li>
+&lt;li>VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="resize-via-azure-portal">Resize via Azure Portal&lt;/h3>
+&lt;p>1️ Navigate to &lt;strong>Virtual Machines&lt;/strong>&lt;br>
+2️ Select your VM&lt;br>
+3️ Click &lt;strong>Size&lt;/strong> under the &amp;ldquo;Settings&amp;rdquo; section&lt;br>
+4️ Select a new size (you will see estimated cost/month)&lt;br>
+5️ Click &lt;strong>Resize&lt;/strong>&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>&lt;h3 id="welcome-to-kasdevtech--your-cloud-learning-hub">Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3>
+&lt;p>In today’s world, &lt;strong>cloud computing&lt;/strong> is no longer optional — it is &lt;strong>essential&lt;/strong> for businesses, developers, and architects.&lt;/p>
+&lt;p>But many beginners feel lost:&lt;br>
+👉 &lt;em>Where do I start?&lt;/em>&lt;br>
+👉 &lt;em>Which services should I learn first?&lt;/em>&lt;br>
+👉 &lt;em>How can I gain practical experience?&lt;/em>&lt;/p>
+&lt;p>In this post, I will share a &lt;strong>step-by-step practical guide&lt;/strong> to help you start your &lt;strong>cloud journey&lt;/strong> in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p></description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description></item><item><title>Optimizing Azure Costs with FinOps</title><link>https://kasdevtech.github.io/finops/optimizing-azure-costs/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/finops/optimizing-azure-costs/</guid><description>&lt;h3 id="what-is-finops">What is FinOps?&lt;/h3>
+&lt;p>FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p>
+&lt;h3 id="azure-cost-optimization-tips">Azure Cost Optimization Tips&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>Azure Advisor&lt;/strong> to find cost-saving recommendations&lt;/li>
+&lt;li>Implement &lt;strong>Budgets &amp;amp; Alerts&lt;/strong> in Azure Cost Management&lt;/li>
+&lt;li>Use &lt;strong>Reserved Instances&lt;/strong> for long-running workloads&lt;/li>
+&lt;li>Use &lt;strong>Private Endpoints&lt;/strong> and reduce egress traffic costs&lt;/li>
+&lt;li>Regularly review &lt;strong>unused resources&lt;/strong> and shut them down&lt;/li>
+&lt;/ul>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p></description></item><item><title>About Kasi Suresh</title><link>https://kasdevtech.github.io/about/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/about/</guid><description>Learn more about Kasi and the vision behind KasdevTech</description></item></channel></rss>

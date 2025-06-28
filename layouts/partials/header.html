@@ -1,0 +1,166 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  
+  <!-- Preload favicon to avoid FOUT -->
+  
+  
+</head>
+
+<style>
+  .kasdev-header {
+    position: sticky;
+    top: 0;
+    background: #092e56;
+    padding: 4px 8px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 0.5px solid #444;
+  }
+  .kasdev-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .kasdev-logo img {
+    height: 48px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .kasdev-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  .kasdev-nav {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .kasdev-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  .kasdev-nav a:hover,
+  .kasdev-nav a.active {
+    color: #1e90ff;
+    font-weight: bold;
+  }
+  .kasdev-tagline {
+    text-align: center;
+    font-size: 1rem;
+    padding: 12px;
+    background-color: #202e31;
+    color: #ccc;
+  }
+  .kasdev-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 12px;
+  }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+  .hamburger span {
+    background: #fff;
+    height: 2px;
+    width: 24px;
+  }
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  @media (max-width: 768px) {
+    .kasdev-nav {
+      display: none;
+    }
+    .hamburger {
+      display: flex;
+    }
+    .mobile-nav.active {
+      display: flex;
+    }
+  }
+</style>
+
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
+
+  function toggleMobileNav() {
+    const nav = document.querySelector('.mobile-nav');
+    nav.classList.toggle('active');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const links = document.querySelectorAll('.kasdev-nav a');
+    links.forEach(link => {
+      if (link.href === window.location.href) {
+        link.classList.add('active');
+      }
+    });
+  });
+</script>
+
+<header class="kasdev-header">
+  <div style="display: flex; align-items: center; gap: 12px;">
+    <a href="/" class="kasdev-logo">
+      <img src="/images/kasdev.png" alt="Kasdev Logo" />
+      <span class="kasdev-title">KasdevTech – Cloud | Azure | DevOps | AI</span>
+    </a>
+    <button onclick="toggleDarkMode()" class="kasdev-toggle" title="Toggle dark mode">🌓</button>
+    <div class="hamburger" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <nav class="kasdev-nav">
+    <a href="/azure/">Azure</a>
+    <a href="/terraform/">Terraform</a>
+    <a href="/finops/">FinOps</a>
+    <a href="/devops/">DevOps</a>
+    <a href="/ai/">AI</a>
+    <a href="/about/">About</a>
+  </nav>
+</header>
+
+<nav class="mobile-nav">
+  <a href="/azure/">Azure</a>
+  <a href="/terraform/">Terraform</a>
+  <a href="/finops/">FinOps</a>
+  <a href="/devops/">DevOps</a>
+  <a href="/ai/">AI</a>
+  <a href="/about/">About</a>
+</nav>
+
+<div class="kasdev-tagline">
+  Learn Azure, Terraform, DevOps, and AI with real-world cloud problems and their solutions.
+                     
+
+</div>
+
+<style>
+  body.dark-mode {
+    background-color: #121212;
+    color: #ddd;
+  }
+  body.dark-mode a {
+    color: #80bfff;
+  }
+</style>

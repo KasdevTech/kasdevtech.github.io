@@ -1,0 +1,4 @@
+---
+title: "FinOps"
+type: "FinOps"
+---

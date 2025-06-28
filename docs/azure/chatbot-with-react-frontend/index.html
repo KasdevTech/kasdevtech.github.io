@@ -1,0 +1,239 @@
+<html lang=en><head><title>Building an AI-Powered App Using Azure OpenAI Services | KasdevTech</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv=X-UA-Compatible content="IE=edge"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta name=description content="End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend."><meta name=twitter:card content="summary"><meta name=twitter:creator content><meta name=twitter:title content="Building an AI-Powered App Using Azure OpenAI Services"><meta name=twitter:image content="https://kasdevtech.com/"><meta property="og:url" content="https://kasdevtech.com/azure/chatbot-with-react-frontend/"><meta property="og:title" content="Building an AI-Powered App Using Azure OpenAI Services"><meta property="og:description" content="End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend."><meta property="og:image" content="https://kasdevtech.com/"><meta name=keywords content="Azure,Cloud,DevOps,AI,FinOps,Terraform,KasdevTech,Kasi Suresh,Azure OpenAI,Chatbot,ReactJS,FastAPI,Azure AD,AI,Cloud Apps"><link rel=apple-touch-icon sizes=180x180 href=https://kasdevtech.com/icons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://kasdevtech.com/icons/favicon-32x32.png><link rel=manifest href=https://kasdevtech.com/icons/site.webmanifest><link rel=canonical href=https://kasdevtech.com/azure/chatbot-with-react-frontend/><link rel=preload href=https://kasdevtech.com/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css integrity="sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" as=style crossorigin=anonymous><link rel=preload href=https://kasdevtech.com/en/js/bundle.75c7a8301e33cf2d7695e0a41eb4f3e1b8f704b87ed1e81899e633e273388b30428e8e58c6697a0d770fcc074aff0eea11e2fe597a4477b5f63871d7e850c541.js as=script integrity="sha512-dceoMB4zzy12leCkHrTz4bj3BLh+0egYmeYz4nM4izBCjo5Yxml6DXcPzAdK/w7qEeL+WXpEd7X2OHHX6FDFQQ==" crossorigin=anonymous><link rel=stylesheet type=text/css href=https://kasdevtech.com/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css integrity="sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" crossorigin=anonymous></head><body style="margin:0;font-family:segoe ui,Tahoma,Geneva,Verdana,sans-serif"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Building an AI-Powered App Using Azure OpenAI Services | KasdevTech</title><link rel=icon href=https://kasdevtech.com/favicon1.ico type=image/x-icon><link rel="shortcut icon" href=https://kasdevtech.com/favicon1.ico type=image/x-icon></head><style>.kasdev-header{position:sticky;top:0;background:#092e56;padding:4px 8px;z-index:1000;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;border-bottom:.5px solid #444}.kasdev-logo{display:flex;align-items:center;gap:20px}.kasdev-logo img{height:48px;max-width:100%;flex-shrink:0}.kasdev-title{font-size:1.4rem;font-weight:700;color:#fff;white-space:nowrap}.kasdev-nav{display:flex;gap:16px;align-items:center}.kasdev-nav a{color:#fff;text-decoration:none;font-size:1.1rem}.kasdev-nav a:hover,.kasdev-nav a.active{color:#1e90ff;font-weight:700}.kasdev-tagline{text-align:center;font-size:1rem;padding:12px;background-color:#202e31;color:#ccc}.kasdev-toggle{background:0 0;border:none;color:#fff;font-size:1.2rem;cursor:pointer;margin-left:12px}.hamburger{display:none;flex-direction:column;gap:4px;cursor:pointer}.hamburger span{background:#fff;height:2px;width:24px}.mobile-nav{display:none;flex-direction:column;gap:10px;margin-top:12px}@media(max-width:768px){.kasdev-nav{display:none}.hamburger{display:flex}.mobile-nav.active{display:flex}}</style><script>function toggleDarkMode(){document.body.classList.toggle("dark-mode")}function toggleMobileNav(){const e=document.querySelector(".mobile-nav");e.classList.toggle("active")}document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelectorAll(".kasdev-nav a");e.forEach(e=>{e.href===window.location.href&&e.classList.add("active")})})</script><header class=kasdev-header><div style=display:flex;align-items:center;gap:12px><a href=/ class=kasdev-logo><img src=/images/kasdev.png alt="Kasdev Logo">
+<span class=kasdev-title>KasdevTech – Cloud | Azure | DevOps | AI</span>
+</a><button onclick=toggleDarkMode() class=kasdev-toggle title="Toggle dark mode">🌓</button><div class=hamburger onclick=toggleMobileNav()><span></span><span></span><span></span></div></div><nav class=kasdev-nav><a href=/azure/>Azure</a>
+<a href=/terraform/>Terraform</a>
+<a href=/finops/>FinOps</a>
+<a href=/devops/>DevOps</a>
+<a href=/ai/>AI</a>
+<a href=/about/>About</a></nav></header><nav class=mobile-nav><a href=/azure/>Azure</a>
+<a href=/terraform/>Terraform</a>
+<a href=/finops/>FinOps</a>
+<a href=/devops/>DevOps</a>
+<a href=/ai/>AI</a>
+<a href=/about/>About</a></nav><div class=kasdev-tagline>Learn Azure, Terraform, DevOps, and AI with real-world cloud problems and their solutions.</div><style>body.dark-mode{background-color:#121212;color:#ddd}body.dark-mode a{color:#80bfff}</style><main style="padding:32px 16px;max-width:1350px;width:100%;margin:auto"><div class="grid-inverse wrap content"><article class=post_content><h1 class=post_title>Building an AI-Powered App Using Azure OpenAI Services</h1><div class=post_meta><span><svg class="icon"><title>calendar</title><use xlink:href="#calendar"/></svg>
+</span><span class=post_date>Jun 23, 2025
+</span><span class=post_time>· 3 min read</span><span>&nbsp;· <a href=https://kasdevtech.com/tags/azure-openai/ title="Azure OpenAI" class="post_tag button button_translucent">Azure OpenAI
+</a><a href=https://kasdevtech.com/tags/chatbot/ title=Chatbot class="post_tag button button_translucent">Chatbot
+</a><a href=https://kasdevtech.com/tags/reactjs/ title=ReactJS class="post_tag button button_translucent">ReactJS
+</a><a href=https://kasdevtech.com/tags/fastapi/ title=FastAPI class="post_tag button button_translucent">FastAPI
+</a><a href=https://kasdevtech.com/tags/azure-ad/ title="Azure AD" class="post_tag button button_translucent">Azure AD
+</a><a href=https://kasdevtech.com/tags/ai/ title=AI class="post_tag button button_translucent">AI
+</a><a href=https://kasdevtech.com/tags/cloud-apps/ title="Cloud Apps" class="post_tag button button_translucent">Cloud Apps
+</a></span><span class=page_only>&nbsp;·<div class=post_share>Share on:
+<a href="https://twitter.com/intent/tweet?text=Building%20an%20AI-Powered%20App%20Using%20Azure%20OpenAI%20Services&url=https%3a%2f%2fkasdevtech.com%2fazure%2fchatbot-with-react-frontend%2f&tw_p=tweetbutton" class=twitter title="Share on Twitter" target=_blank rel=nofollow><svg class="icon"><title>twitter</title><use xlink:href="#twitter"/></svg>
+</a><a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkasdevtech.com%2fazure%2fchatbot-with-react-frontend%2f&t=Building%20an%20AI-Powered%20App%20Using%20Azure%20OpenAI%20Services" class=facebook title="Share on Facebook" target=_blank rel=nofollow><svg class="icon"><title>facebook</title><use xlink:href="#facebook"/></svg>
+</a><a href=#linkedinshare id=linkedinshare class=linkedin title="Share on LinkedIn" rel=nofollow><svg class="icon"><title>linkedin</title><use xlink:href="#linkedin"/></svg>
+</a><a href=https://kasdevtech.com/azure/chatbot-with-react-frontend/ title="Copy Link" class="link link_yank"><svg class="icon"><title>copy</title><use xlink:href="#copy"/></svg></a></div></span></div><div class=post_body><h3 id=introduction-to-azure-openai>Introduction to Azure OpenAI</h3><p>In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;A into their apps. <strong>Azure OpenAI Services</strong> makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.</p><h3 id=benefits>Benefits:</h3><ul><li>No need to host large AI models yourself</li><li>Microsoft’s enterprise security and compliance</li><li>Pay as you go</li><li>Available in various Azure regions</li></ul><p>In this post, you’ll learn how to build an <strong>AI-powered chatbot</strong> using:</p><ul><li>Azure OpenAI</li><li>React.js frontend</li><li>FastAPI backend</li><li>Secured with Azure Active Directory (Azure AD)</li></ul><hr><h3 id=getting-api-keys-and-setup>Getting API Keys and Setup</h3><h3 id=prerequisites>Prerequisites</h3><ul><li>Azure Subscription</li><li>OpenAI resource created in Azure</li><li>React and Node.js installed</li><li>Python 3.10+ installed</li></ul><h3 id=create-openai-resource>Create OpenAI Resource</h3><ol><li>Go to Azure Portal → Create Resource → <strong>Azure OpenAI</strong></li><li>Select Region (e.g. East US or West Europe)</li><li>Select Pricing Tier</li><li>Deploy → Navigate to <strong>Keys & Endpoint</strong></li></ol><p>You’ll get:</p><ul><li><code>AZURE_OPENAI_API_KEY</code></li><li><code>AZURE_OPENAI_ENDPOINT</code></li></ul><h3 id=example-environment-variables-backend>Example Environment Variables (Backend)</h3><pre tabindex=0><code>AZURE_OPENAI_API_KEY=xxxxx
+AZURE_OPENAI_ENDPOINT=https://xxxxxx.openai.azure.com
+AZURE_OPENAI_DEPLOYMENT=gpt-4
+AZURE_TENANT_ID=xxxxx
+AZURE_CLIENT_ID=xxxxx
+AZURE_CLIENT_SECRET=xxxxx
+</code></pre><h3 id=sample-app-chatbot-with-react-frontend>Sample App: Chatbot with React Frontend</h3><p>a) Backend with FastAPI</p><pre tabindex=0><code>from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+import openai
+import os
+
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[&#34;*&#34;],  
+    allow_methods=[&#34;*&#34;],
+    allow_headers=[&#34;*&#34;],
+)
+
+openai.api_key = os.getenv(&#34;AZURE_OPENAI_API_KEY&#34;)
+openai.api_base = os.getenv(&#34;AZURE_OPENAI_ENDPOINT&#34;)
+openai.api_type = &#34;azure&#34;
+openai.api_version = &#34;2023-05-15&#34;
+
+@app.post(&#34;/chat&#34;)
+async def chat(request: dict):
+    try:
+        messages = request.get(&#34;messages&#34;, [])
+        response = openai.ChatCompletion.create(
+            engine=os.getenv(&#34;AZURE_OPENAI_DEPLOYMENT&#34;),
+            messages=messages,
+            max_tokens=500
+        )
+        return {&#34;response&#34;: response.choices[0].message[&#34;content&#34;]}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+b) React Frontend (Chat UI)
+import React, { useState } from &#39;react&#39;;
+import axios from &#39;axios&#39;;
+
+function ChatApp() {
+  const [messages, setMessages] = useState([{ role: &#34;system&#34;, content: &#34;You are a helpful assistant.&#34; }]);
+  const [input, setInput] = useState(&#39;&#39;);
+  const [response, setResponse] = useState(&#39;&#39;);
+
+  const handleSend = async () =&gt; {
+    const newMessages = [...messages, { role: &#34;user&#34;, content: input }];
+    setMessages(newMessages);
+
+    try {
+      const res = await axios.post(&#39;/chat&#39;, { messages: newMessages });
+      setResponse(res.data.response);
+      setMessages([...newMessages, { role: &#34;assistant&#34;, content: res.data.response }]);
+      setInput(&#39;&#39;);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  return (
+    &lt;div style={{ padding: &#39;20px&#39; }}&gt;
+      &lt;h1&gt;AI Chatbot with Azure OpenAI&lt;/h1&gt;
+      &lt;div style={{ border: &#39;1px solid #ccc&#39;, padding: &#39;10px&#39;, height: &#39;300px&#39;, overflowY: &#39;auto&#39; }}&gt;
+        {messages.map((msg, i) =&gt; (
+          &lt;div key={i} style={{ margin: &#39;5px 0&#39; }}&gt;
+            &lt;b&gt;{msg.role}: &lt;/b&gt; {msg.content}
+          &lt;/div&gt;
+        ))}
+      &lt;/div&gt;
+      &lt;input value={input} onChange={e =&gt; setInput(e.target.value)} style={{ width: &#39;80%&#39;, padding: &#39;10px&#39; }} /&gt;
+      &lt;button onClick={handleSend} style={{ padding: &#39;10px&#39;, marginLeft: &#39;5px&#39; }}&gt;Send&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default ChatApp;
+</code></pre><h3 id=securing-apis-with-azure-ad>Securing APIs with Azure AD</h3><p>In enterprise apps, you won’t expose the OpenAI API directly. Instead:</p><ul><li>Secure your FastAPI backend using Azure AD tokens</li><li>Only authenticated users can call /chat</li></ul><p>FastAPI Example with Azure AD:</p><pre tabindex=0><code>from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi import Depends
+
+bearer_scheme = HTTPBearer()
+
+@app.post(&#34;/chat&#34;)
+async def chat(request: dict, token: HTTPAuthorizationCredentials = Depends(bearer_scheme)):
+    # Validate token (you can use MSAL or Azure AD JWT validation libraries)
+    # If token valid:
+    return actual_chat_logic()
+Tip: Use MSAL or Azure AD v2.0 JWT libraries to validate tokens.
+</code></pre><h3 id=use-cases-and-limitations>Use Cases and Limitations</h3><ul><li><p>Common Use Cases
+Chatbots for customer support
+AI assistants in enterprise apps
+Document summarization
+Sentiment analysis
+Q&amp;A over internal knowledge bases</p></li><li><p>Limitations
+Cost: OpenAI usage can get expensive at scale
+API rate limits per subscription
+No control over the model weights (black box)
+Always validate AI outputs — do not blindly trust!
+Requires correct prompt engineering to get the best results</p></li></ul><h4 id=conclusion>Conclusion</h4><p>You’ve now seen an end-to-end architecture:</p><ul><li>React Chat frontend</li><li>FastAPI secured backend</li><li>Azure OpenAI services</li><li>Azure AD authentication</li></ul><h4 id=next-steps>Next Steps</h4><ul><li>Add more user controls (history, retry, download transcript)</li><li>Use Vector DB like Azure AI Search to do “Retrieval Augmented Generation” (RAG)</li><li>Add analytics and logging</li><li>Monitor usage costs with Azure Monitor and Budget</li></ul></div><div class=post_comments></div></article><aside class=sidebar><section class=sidebar_inner><br><h2 class=mt-4>Recent Posts</h2><ul class=flex-column><li><a href=https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/ class=nav-link title="End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft & ServiceNow">End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft & ServiceNow</a></li><li><a href=https://kasdevtech.com/azure/bicep-getting-started/ class=nav-link title="Getting Started with Azure Bicep for Infrastructure as Code">Getting Started with Azure Bicep for Infrastructure as Code</a></li><li><a href=https://kasdevtech.com/devops/self-hosted-agents-vmss/ class=nav-link title="How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets">How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</a></li><li><a href=https://kasdevtech.com/ai/10-prompt-engineering-tips-cloud-architects/ class=nav-link title="Prompt Engineering for Cloud Architects: 10 Powerful Tips">Prompt Engineering for Cloud Architects: 10 Powerful Tips</a></li><li><a href=https://kasdevtech.com/devops/sample-azure-devops-pipeline/ class=nav-link title="Sample Azure DevOps Pipeline for .NET App">Sample Azure DevOps Pipeline for .NET App</a></li><li><a href=https://kasdevtech.com/azure/chatbot-with-react-frontend/ class=nav-link title="Building an AI-Powered App Using Azure OpenAI Services">Building an AI-Powered App Using Azure OpenAI Services</a></li><li><a href=https://kasdevtech.com/terraform/getting-started-with-terraform-on-azure/ class=nav-link title="Getting Started with Terraform on Azure">Getting Started with Terraform on Azure</a></li><li><a href=https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/ class=nav-link title="How to Resize Azure Virtual Machines">How to Resize Azure Virtual Machines</a></li></ul><div><h2 class="mt-4 taxonomy" id=categories-section>Categories</h2><nav class=tags_nav><a href=https://kasdevtech.com/categories/azure/ class="post_tag button button_translucent" title=azure>AZURE
+<span class=button_tally>6</span>
+</a><a href=https://kasdevtech.com/categories/ai/ class="post_tag button button_translucent" title=ai>AI
+<span class=button_tally>2</span>
+</a><a href=https://kasdevtech.com/categories/cloud/ class="post_tag button button_translucent" title=cloud>CLOUD
+<span class=button_tally>2</span>
+</a><a href=https://kasdevtech.com/categories/aiops/ class="post_tag button button_translucent" title=aiops>AIOPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/automation/ class="post_tag button button_translucent" title=automation>AUTOMATION
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/azure-devops/ class="post_tag button button_translucent" title="azure devops">AZURE DEVOPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/ci/cd/ class="post_tag button button_translucent" title=ci/cd>CI/CD
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/devops/ class="post_tag button button_translucent" title=devops>DEVOPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/infrastructure/ class="post_tag button button_translucent" title=infrastructure>INFRASTRUCTURE
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/infrastructure-as-code/ class="post_tag button button_translucent" title="infrastructure as code">INFRASTRUCTURE AS CODE
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/networking/ class="post_tag button button_translucent" title=networking>NETWORKING
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/openai/ class="post_tag button button_translucent" title=openai>OPENAI
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/reactjs/ class="post_tag button button_translucent" title=reactjs>REACTJS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/categories/security/ class="post_tag button button_translucent" title=security>SECURITY
+<span class=button_tally>1</span></a></nav></div><div><h2 class="mt-4 taxonomy" id=tags-section>Tags</h2><nav class=tags_nav><a href=https://kasdevtech.com/tags/azure/ class="post_tag button button_translucent" title=azure>AZURE
+<span class=button_tally>6</span>
+</a><a href=https://kasdevtech.com/tags/cloud/ class="post_tag button button_translucent" title=cloud>CLOUD
+<span class=button_tally>3</span>
+</a><a href=https://kasdevtech.com/tags/devops/ class="post_tag button button_translucent" title=devops>DEVOPS
+<span class=button_tally>3</span>
+</a><a href=https://kasdevtech.com/tags/ai/ class="post_tag button button_translucent" title=ai>AI
+<span class=button_tally>2</span>
+</a><a href=https://kasdevtech.com/tags/beginner-guide/ class="post_tag button button_translucent" title="beginner guide">BEGINNER GUIDE
+<span class=button_tally>2</span>
+</a><a href=https://kasdevtech.com/tags/pipeline/ class="post_tag button button_translucent" title=pipeline>PIPELINE
+<span class=button_tally>2</span>
+</a><a href=https://kasdevtech.com/tags/architecture/ class="post_tag button button_translucent" title=architecture>ARCHITECTURE
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/automation/ class="post_tag button button_translucent" title=automation>AUTOMATION
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/azure-ad/ class="post_tag button button_translucent" title="azure ad">AZURE AD
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/azure-cost-management/ class="post_tag button button_translucent" title="azure cost management">AZURE COST MANAGEMENT
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/azure-devops/ class="post_tag button button_translucent" title="azure devops">AZURE DEVOPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/azure-monitor/ class="post_tag button button_translucent" title="azure monitor">AZURE MONITOR
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/azure-openai/ class="post_tag button button_translucent" title="azure openai">AZURE OPENAI
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/azure-private-endpoint/ class="post_tag button button_translucent" title="azure private endpoint">AZURE PRIVATE ENDPOINT
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/azure-storage/ class="post_tag button button_translucent" title="azure storage">AZURE STORAGE
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/bicep/ class="post_tag button button_translucent" title=bicep>BICEP
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/chatbot/ class="post_tag button button_translucent" title=chatbot>CHATBOT
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/chatgpt/ class="post_tag button button_translucent" title=chatgpt>CHATGPT
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/ci-cd/ class="post_tag button button_translucent" title=ci-cd>CI-CD
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/cloud-apps/ class="post_tag button button_translucent" title="cloud apps">CLOUD APPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/cloud-optimization/ class="post_tag button button_translucent" title="cloud optimization">CLOUD OPTIMIZATION
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/copilot/ class="post_tag button button_translucent" title=copilot>COPILOT
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/devsecops/ class="post_tag button button_translucent" title=devsecops>DEVSECOPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/fastapi/ class="post_tag button button_translucent" title=fastapi>FASTAPI
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/finops/ class="post_tag button button_translucent" title=finops>FINOPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/iac/ class="post_tag button button_translucent" title=iac>IAC
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/infrastructure-as-code/ class="post_tag button button_translucent" title="infrastructure as code">INFRASTRUCTURE AS CODE
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/kubernetes/ class="post_tag button button_translucent" title=kubernetes>KUBERNETES
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/logic-apps/ class="post_tag button button_translucent" title="logic apps">LOGIC APPS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/moogsoft/ class="post_tag button button_translucent" title=moogsoft>MOOGSOFT
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/networking/ class="post_tag button button_translucent" title=networking>NETWORKING
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/productivity/ class="post_tag button button_translucent" title=productivity>PRODUCTIVITY
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/prompt-engineering/ class="post_tag button button_translucent" title="prompt engineering">PROMPT ENGINEERING
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/reactjs/ class="post_tag button button_translucent" title=reactjs>REACTJS
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/resize/ class="post_tag button button_translucent" title=resize>RESIZE
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/runbook/ class="post_tag button button_translucent" title=runbook>RUNBOOK
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/scale-set/ class="post_tag button button_translucent" title="scale set">SCALE SET
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/security/ class="post_tag button button_translucent" title=security>SECURITY
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/self-healing/ class="post_tag button button_translucent" title=self-healing>SELF-HEALING
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/self-hosted-agent/ class="post_tag button button_translucent" title="self-hosted agent">SELF-HOSTED AGENT
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/servicenow/ class="post_tag button button_translucent" title=servicenow>SERVICENOW
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/terraform/ class="post_tag button button_translucent" title=terraform>TERRAFORM
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/vm/ class="post_tag button button_translucent" title=vm>VM
+<span class=button_tally>1</span>
+</a><a href=https://kasdevtech.com/tags/vmss/ class="post_tag button button_translucent" title=vmss>VMSS
+<span class=button_tally>1</span></a></nav></div></section></aside></div></main><footer style=text-align:center;padding:20px;color:#888;font-size:.9rem><p>© 2025 KasdevTech. All rights reserved.</p><p><a href=https://linkedin.com/in/kasi-suresh-992675177 style=color:#ccc>LinkedIn</a> |
+<a href=https://github.com/KasdevTech style=color:#ccc>GitHub</a></p></footer></body></html>

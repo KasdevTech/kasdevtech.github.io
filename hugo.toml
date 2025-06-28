@@ -1,0 +1,81 @@
+baseURL = "https://kasdevtech.com/"
+languageCode = "en-us"
+title = "KasdevTech"
+theme = "clarity"
+enableGitInfo = true
+
+[outputs]
+  home = ["HTML"]
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  title = "KasdevTech – Cloud | Azure | DevOps | AI"
+  description = "Enterprise-grade cloud content and tools for Azure, DevOps, FinOps, and AI"
+  author = "Kasi Suresh"
+  env = "production"
+  navbar_title = "KasdevTech"
+  favicon = "/favicon.ico"
+  site_logo = "/images/kasdev.png"
+  ogImage = "/images/kasdev.png"
+  keywords = ["Azure", "Cloud", "DevOps", "AI", "FinOps", "Terraform", "KasdevTech", "Kasi Suresh"]
+  defaultTheme = "auto"
+  theme_color = "auto"
+  sidebar_search = true
+  mainSections = ["Azure", "Terraform", "FinOps", "DevOps", "AI"]
+  preloadJS = false
+[params.seo]
+  metaRobots = "index, follow"
+
+[[params.social]]
+  name = "linkedin"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/kasi-suresh-992675177"
+
+[[params.social]]
+  name = "github"
+  icon = "github"
+  url = "https://github.com/KasdevTech"
+
+[menu]
+
+  [[menu.main]]
+   identifier = "home"
+   name = "Home"
+   url = "/"
+   weight = 0
+
+  [[menu.main]]
+    name = "Azure"
+    url = "/azure/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Terraform"
+    url = "/terraform/"
+    weight = 2
+
+  [[menu.main]]
+    name = "FinOps"
+    url = "/finops/"
+    weight = 3
+
+  [[menu.main]]
+    name = "DevOps"
+    url = "/devops/"
+    weight = 4
+
+  [[menu.main]]
+    name = "AI"
+    url = "/ai/"
+    weight = 5
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
+
+[markup]
+  [markup.highlight]
+    noClasses = false

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kasdevtech.com/sitemap.xml

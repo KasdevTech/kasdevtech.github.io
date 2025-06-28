@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resize on KasdevTech</title><link>https://kasdevtech.com/tags/resize/</link><description>Recent content in Resize on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/resize/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</guid><description>
+&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
+&lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
+&lt;hr>
+&lt;h3 id="why-resize-vms">Why Resize VMs?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Scale Up:&lt;/strong> Handle more traffic or workload&lt;/li>
+&lt;li>&lt;strong>Scale Down:&lt;/strong> Reduce costs for low-traffic periods&lt;/li>
+&lt;li>&lt;strong>Change Type:&lt;/strong> Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="pre-requisites">Pre-requisites&lt;/h3>
+&lt;ul>
+&lt;li>Azure Subscription&lt;/li>
+&lt;li>Owner / Contributor permissions on the VM&lt;/li>
+&lt;li>VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="resize-via-azure-portal">Resize via Azure Portal&lt;/h3>
+&lt;p>1️ Navigate to &lt;strong>Virtual Machines&lt;/strong>&lt;br>
+2️ Select your VM&lt;br>
+3️ Click &lt;strong>Size&lt;/strong> under the &amp;ldquo;Settings&amp;rdquo; section&lt;br>
+4️ Select a new size (you will see estimated cost/month)&lt;br>
+5️ Click &lt;strong>Resize&lt;/strong>&lt;/p></description></item></channel></rss>

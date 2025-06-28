@@ -15,6 +15,7 @@ summaryLength = 70
   ShowToc = true
   ShowCodeCopyButtons = true
   mainSections = ["Azure", "Terraform", "FinOps", "DevOps", "AI"]
+  customCSS = ["css/custom.css"]
   
 [params.homeInfoParams]
   Title = "Welcome to KasdevTech "

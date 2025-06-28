@@ -1,656 +1,240 @@
-<html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  
-<title>Kubernetes | KasdevTech</title>
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en" dir="auto">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-<meta property="og:locale" content="en" />
-
-<meta property="og:type" content="article">
-<meta name="description" content="" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Kubernetes" />
-<meta name="twitter:image" content="http://localhost:1313/"/>
-<meta property="og:url" content="http://localhost:1313/tags/kubernetes/" />
-<meta property="og:title" content="Kubernetes" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="http://localhost:1313/" />
-  <meta name="keywords" content="Azure,Cloud,DevOps,AI,FinOps,Terraform,KasdevTech,Kasi Suresh" />
-
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/icons/favicon-32x32.png">
-<link rel="manifest" href="http://localhost:1313/icons/site.webmanifest">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Kubernetes | KasdevTech</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="Kasi Suresh">
 <link rel="canonical" href="http://localhost:1313/tags/kubernetes/">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/kubernetes/index.xml" title="KasdevTech" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/kubernetes/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/kubernetes/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-<link rel="preload" href="http://localhost:1313/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity = "sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" as="style" crossorigin="anonymous">
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
 
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
 
-
-<link rel="preload" href="http://localhost:1313/en/js/bundle.698af129358133dc3d8640763d07323ac60fa49281b0a438ac7bd15445d00b467c8209fea9775331115edbb6cce777077ca2169a30c92039edf2f6a9d6d69226.js" as="script" integrity=
-"sha512-aYrxKTWBM9w9hkB2PQcyOsYPpJKBsKQ4rHvRVEXQC0Z8ggn&#43;qXdTMRFe27bM53cHfKIWmjDJIDnt8vap1taSJg==" crossorigin="anonymous">
-
-
-<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity="sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" crossorigin="anonymous">
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/tags/kubernetes/">
+  <meta property="og:site_name" content="KasdevTech">
+  <meta property="og:title" content="Kubernetes">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kubernetes">
+<meta name="twitter:description" content="">
 
 </head>
-<body style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kubernetes | KasdevTech</title>
-  
-  
-  
-  <link rel="icon" href="http://localhost:1313/favicon1.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="http://localhost:1313/favicon1.ico" type="image/x-icon">
-</head>
 
-<style>
-  .kasdev-header {
-    position: sticky;
-    top: 0;
-    background: #092e56;
-    padding: 4px 8px;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    border-bottom: 0.5px solid #444;
-  }
-  .kasdev-logo {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  .kasdev-logo img {
-    height: 48px;
-    max-width: 100%;
-    flex-shrink: 0;
-  }
-  .kasdev-title {
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #ffffff;
-    white-space: nowrap;
-  }
-  .kasdev-nav {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-  }
-  .kasdev-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.1rem;
-  }
-  .kasdev-nav a:hover,
-  .kasdev-nav a.active {
-    color: #1e90ff;
-    font-weight: bold;
-  }
-  .kasdev-tagline {
-    text-align: center;
-    font-size: 1rem;
-    padding: 12px;
-    background-color: #202e31;
-    color: #ccc;
-  }
-  .kasdev-toggle {
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
-    margin-left: 12px;
-  }
-  .hamburger {
-    display: none;
-    flex-direction: column;
-    gap: 4px;
-    cursor: pointer;
-  }
-  .hamburger span {
-    background: #fff;
-    height: 2px;
-    width: 24px;
-  }
-  .mobile-nav {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 12px;
-  }
-
-  @media (max-width: 768px) {
-    .kasdev-nav {
-      display: none;
-    }
-    .hamburger {
-      display: flex;
-    }
-    .mobile-nav.active {
-      display: flex;
-    }
-  }
-</style>
-
+<body class="list" id="top">
 <script>
-  function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-  }
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
 
-  function toggleMobileNav() {
-    const nav = document.querySelector('.mobile-nav');
-    nav.classList.toggle('active');
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('.kasdev-nav a');
-    links.forEach(link => {
-      if (link.href === window.location.href) {
-        link.classList.add('active');
-      }
-    });
-  });
 </script>
 
-<header class="kasdev-header">
-  <div style="display: flex; align-items: center; gap: 12px;">
-    <a href="/" class="kasdev-logo">
-      <img src="/images/kasdev.png" alt="Kasdev Logo" />
-      <span class="kasdev-title">KasdevTech – Cloud | Azure | DevOps | AI</span>
-    </a>
-    <button onclick="toggleDarkMode()" class="kasdev-toggle" title="Toggle dark mode">🌓</button>
-    <div class="hamburger" onclick="toggleMobileNav()">
-      <span></span><span></span><span></span>
-    </div>
-  </div>
-
-  <nav class="kasdev-nav">
-    <a href="/azure/">Azure</a>
-    <a href="/terraform/">Terraform</a>
-    <a href="/finops/">FinOps</a>
-    <a href="/devops/">DevOps</a>
-    <a href="/ai/">AI</a>
-    <a href="/about/">About</a>
-  </nav>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="KasdevTech (Alt + H)">KasdevTech</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/azure/" title="Azure">
+                    <span>Azure</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/devops/" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/finops/" title="FinOps">
+                    <span>FinOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/terraform/" title="Terraform">
+                    <span>Terraform</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/ai/" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Kubernetes
+  </h1>
 </header>
 
-<nav class="mobile-nav">
-  <a href="/azure/">Azure</a>
-  <a href="/terraform/">Terraform</a>
-  <a href="/finops/">FinOps</a>
-  <a href="/devops/">DevOps</a>
-  <a href="/ai/">AI</a>
-  <a href="/about/">About</a>
-</nav>
-
-<div class="kasdev-tagline">
-  Learn Azure, Terraform, DevOps, and AI with real-world cloud problems and their solutions.
-                     
-
-</div>
-
-<style>
-  body.dark-mode {
-    background-color: #121212;
-    color: #ddd;
-  }
-  body.dark-mode a {
-    color: #80bfff;
-  }
-</style>
-
-
-  <main style="padding: 32px 16px; max-width: 1350px; width: 100%; margin: auto;">
-    
-
-
-
-<div class="grid-inverse wrap content">
-  <div>
-    <ul class="posts" id="posts">
-        <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="http://localhost:1313/azure/how-to-start-cloud-journey-2025/" title="How to Start Your Cloud Journey in 2025 — A Practical Guide">How to Start Your Cloud Journey in 2025 — A Practical Guide</a>
-      </h3>
-      
-  <div class="post_meta">
-    <span><svg class="icon">
-  <title>calendar</title>
-  <use xlink:href="#calendar"></use>
-</svg>
-</span>
-    <span class="post_date">
-      Jun 23, 2025	  
-    </span>
-    <span class="post_time"> · 3 min read</span><span>&nbsp;· <a href='http://localhost:1313/tags/azure/' title="Azure" class="post_tag button button_translucent">Azure
-        </a><a href='http://localhost:1313/tags/cloud/' title="Cloud" class="post_tag button button_translucent">Cloud
-        </a><a href='http://localhost:1313/tags/devops/' title="DevOps" class="post_tag button button_translucent">DevOps
-        </a><a href='http://localhost:1313/tags/kubernetes/' title="Kubernetes" class="post_tag button button_translucent">Kubernetes
-        </a><a href='http://localhost:1313/tags/beginner-guide/' title="Beginner Guide" class="post_tag button button_translucent">Beginner Guide
-        </a>
-    </span>
-    <span class="page_only">&nbsp;·
-  <div class="post_share">
-    Share on:
-    <a href="https://twitter.com/intent/tweet?text=How%20to%20Start%20Your%20Cloud%20Journey%20in%202025%20%e2%80%94%20A%20Practical%20Guide&url=http%3a%2f%2flocalhost%3a1313%2fazure%2fhow-to-start-cloud-journey-2025%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>twitter</title>
-  <use xlink:href="#twitter"></use>
-</svg>
-
-    </a>
-    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fazure%2fhow-to-start-cloud-journey-2025%2f&t=How%20to%20Start%20Your%20Cloud%20Journey%20in%202025%20%e2%80%94%20A%20Practical%20Guide" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
-      <svg class="icon">
-  <title>facebook</title>
-  <use xlink:href="#facebook"></use>
-</svg>
-
-    </a>
-    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
-      <svg class="icon">
-  <title>linkedin</title>
-  <use xlink:href="#linkedin"></use>
-</svg>
-
-    </a>
-    <a href="http://localhost:1313/azure/how-to-start-cloud-journey-2025/" title="Copy Link" class="link link_yank">
-      <svg class="icon">
-  <title>copy</title>
-  <use xlink:href="#copy"></use>
-</svg>
-
-    </a>
-  </div>
-  </span>
-  </div>
-
-    </div>
-      <div class="excerpt_footer">
-        <div class="pale">
-          
-            <p>Welcome to kasdevTech — Your Cloud Learning Hub In today’s world, cloud computing is no longer optional — it is essential for businesses, developers, and architects.
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to Start Your Cloud Journey in 2025 — A Practical Guide
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Welcome to kasdevTech — Your Cloud Learning Hub In today’s world, cloud computing is no longer optional — it is essential for businesses, developers, and architects.
 But many beginners feel lost:
 👉 Where do I start?
 👉 Which services should I learn first?
 👉 How can I gain practical experience?
-In this post, I will share …</p>
-          
-          <br>
-          <a href="http://localhost:1313/azure/how-to-start-cloud-journey-2025/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
-
-      <li>
-      </li>
-    </ul>
+In this post, I will share a step-by-step practical guide to help you start your cloud journey in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.
+...</p>
   </div>
-<aside class="sidebar">
-  <section class="sidebar_inner">
-    <br>
+  <footer class="entry-footer"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to How to Start Your Cloud Journey in 2025 — A Practical Guide" href="http://localhost:1313/azure/how-to-start-cloud-journey-2025/"></a>
+</article>
+    </main>
     
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">KasdevTech</a></span> · 
 
-
-    
-    <h2 class="mt-4">Recent Posts</h2>
-    <ul class="flex-column">
-      <li>
-        <a href="http://localhost:1313/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/" class="nav-link" title="End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow">End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</a>
-      </li>
-      <li>
-        <a href="http://localhost:1313/azure/bicep-getting-started/" class="nav-link" title="Getting Started with Azure Bicep for Infrastructure as Code">Getting Started with Azure Bicep for Infrastructure as Code</a>
-      </li>
-      <li>
-        <a href="http://localhost:1313/devops/self-hosted-agents-vmss/" class="nav-link" title="How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets">How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</a>
-      </li>
-      <li>
-        <a href="http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/" class="nav-link" title="Prompt Engineering for Cloud Architects: 10 Powerful Tips">Prompt Engineering for Cloud Architects: 10 Powerful Tips</a>
-      </li>
-      <li>
-        <a href="http://localhost:1313/devops/sample-azure-devops-pipeline/" class="nav-link" title="Sample Azure DevOps Pipeline for .NET App">Sample Azure DevOps Pipeline for .NET App</a>
-      </li>
-      <li>
-        <a href="http://localhost:1313/azure/chatbot-with-react-frontend/" class="nav-link" title="Building an AI-Powered App Using Azure OpenAI Services">Building an AI-Powered App Using Azure OpenAI Services</a>
-      </li>
-      <li>
-        <a href="http://localhost:1313/terraform/getting-started-with-terraform-on-azure/" class="nav-link" title="Getting Started with Terraform on Azure">Getting Started with Terraform on Azure</a>
-      </li>
-      <li>
-        <a href="http://localhost:1313/azure/how-to-resize-azure-virtual-machines/" class="nav-link" title="How to Resize Azure Virtual Machines">How to Resize Azure Virtual Machines</a>
-      </li>
-    </ul>
-    <div>
-      <h2 class="mt-4 taxonomy" id="categories-section">Categories</h2>
-      <nav class="tags_nav">
-        <a href='http://localhost:1313/categories/azure/' class="post_tag button button_translucent" title="azure">
-          AZURE
-          <span class="button_tally">6</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/ai/' class="post_tag button button_translucent" title="ai">
-          AI
-          <span class="button_tally">2</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/cloud/' class="post_tag button button_translucent" title="cloud">
-          CLOUD
-          <span class="button_tally">2</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/aiops/' class="post_tag button button_translucent" title="aiops">
-          AIOPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/automation/' class="post_tag button button_translucent" title="automation">
-          AUTOMATION
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/azure-devops/' class="post_tag button button_translucent" title="azure devops">
-          AZURE DEVOPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/ci/cd/' class="post_tag button button_translucent" title="ci/cd">
-          CI/CD
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/devops/' class="post_tag button button_translucent" title="devops">
-          DEVOPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/infrastructure/' class="post_tag button button_translucent" title="infrastructure">
-          INFRASTRUCTURE
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/infrastructure-as-code/' class="post_tag button button_translucent" title="infrastructure as code">
-          INFRASTRUCTURE AS CODE
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/networking/' class="post_tag button button_translucent" title="networking">
-          NETWORKING
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/openai/' class="post_tag button button_translucent" title="openai">
-          OPENAI
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/reactjs/' class="post_tag button button_translucent" title="reactjs">
-          REACTJS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/categories/security/' class="post_tag button button_translucent" title="security">
-          SECURITY
-          <span class="button_tally">1</span>
-        </a>
-        
-        
-      </nav>
-    </div>
-    <div>
-      <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
-      <nav class="tags_nav">
-        <a href='http://localhost:1313/tags/azure/' class="post_tag button button_translucent" title="azure">
-          AZURE
-          <span class="button_tally">6</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/cloud/' class="post_tag button button_translucent" title="cloud">
-          CLOUD
-          <span class="button_tally">3</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/devops/' class="post_tag button button_translucent" title="devops">
-          DEVOPS
-          <span class="button_tally">3</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/ai/' class="post_tag button button_translucent" title="ai">
-          AI
-          <span class="button_tally">2</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/beginner-guide/' class="post_tag button button_translucent" title="beginner guide">
-          BEGINNER GUIDE
-          <span class="button_tally">2</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/pipeline/' class="post_tag button button_translucent" title="pipeline">
-          PIPELINE
-          <span class="button_tally">2</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/architecture/' class="post_tag button button_translucent" title="architecture">
-          ARCHITECTURE
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/automation/' class="post_tag button button_translucent" title="automation">
-          AUTOMATION
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/azure-ad/' class="post_tag button button_translucent" title="azure ad">
-          AZURE AD
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/azure-cost-management/' class="post_tag button button_translucent" title="azure cost management">
-          AZURE COST MANAGEMENT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/azure-devops/' class="post_tag button button_translucent" title="azure devops">
-          AZURE DEVOPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/azure-monitor/' class="post_tag button button_translucent" title="azure monitor">
-          AZURE MONITOR
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/azure-openai/' class="post_tag button button_translucent" title="azure openai">
-          AZURE OPENAI
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/azure-private-endpoint/' class="post_tag button button_translucent" title="azure private endpoint">
-          AZURE PRIVATE ENDPOINT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/azure-storage/' class="post_tag button button_translucent" title="azure storage">
-          AZURE STORAGE
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/bicep/' class="post_tag button button_translucent" title="bicep">
-          BICEP
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/chatbot/' class="post_tag button button_translucent" title="chatbot">
-          CHATBOT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/chatgpt/' class="post_tag button button_translucent" title="chatgpt">
-          CHATGPT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/ci-cd/' class="post_tag button button_translucent" title="ci-cd">
-          CI-CD
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/cloud-apps/' class="post_tag button button_translucent" title="cloud apps">
-          CLOUD APPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/cloud-optimization/' class="post_tag button button_translucent" title="cloud optimization">
-          CLOUD OPTIMIZATION
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/copilot/' class="post_tag button button_translucent" title="copilot">
-          COPILOT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/devsecops/' class="post_tag button button_translucent" title="devsecops">
-          DEVSECOPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/fastapi/' class="post_tag button button_translucent" title="fastapi">
-          FASTAPI
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/finops/' class="post_tag button button_translucent" title="finops">
-          FINOPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/iac/' class="post_tag button button_translucent" title="iac">
-          IAC
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/infrastructure-as-code/' class="post_tag button button_translucent" title="infrastructure as code">
-          INFRASTRUCTURE AS CODE
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/kubernetes/' class="post_tag button button_translucent" title="kubernetes">
-          KUBERNETES
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/logic-apps/' class="post_tag button button_translucent" title="logic apps">
-          LOGIC APPS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/moogsoft/' class="post_tag button button_translucent" title="moogsoft">
-          MOOGSOFT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/networking/' class="post_tag button button_translucent" title="networking">
-          NETWORKING
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/productivity/' class="post_tag button button_translucent" title="productivity">
-          PRODUCTIVITY
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/prompt-engineering/' class="post_tag button button_translucent" title="prompt engineering">
-          PROMPT ENGINEERING
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/reactjs/' class="post_tag button button_translucent" title="reactjs">
-          REACTJS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/resize/' class="post_tag button button_translucent" title="resize">
-          RESIZE
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/runbook/' class="post_tag button button_translucent" title="runbook">
-          RUNBOOK
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/scale-set/' class="post_tag button button_translucent" title="scale set">
-          SCALE SET
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/security/' class="post_tag button button_translucent" title="security">
-          SECURITY
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/self-healing/' class="post_tag button button_translucent" title="self-healing">
-          SELF-HEALING
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/self-hosted-agent/' class="post_tag button button_translucent" title="self-hosted agent">
-          SELF-HOSTED AGENT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/servicenow/' class="post_tag button button_translucent" title="servicenow">
-          SERVICENOW
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/terraform/' class="post_tag button button_translucent" title="terraform">
-          TERRAFORM
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/vm/' class="post_tag button button_translucent" title="vm">
-          VM
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/tags/vmss/' class="post_tag button button_translucent" title="vmss">
-          VMSS
-          <span class="button_tally">1</span>
-        </a>
-        
-        
-      </nav>
-    </div>
-  </section>
-</aside>
-
-</div>
-
-
-  </main>
-
-  <footer style="text-align: center; padding: 20px; color: #888; font-size: 0.9rem;">
-  <p>© 2025 KasdevTech. All rights reserved.</p>
-  <p>
-    <a href="https://linkedin.com/in/kasi-suresh-992675177" style="color: #ccc;">LinkedIn</a> |
-    <a href="https://github.com/KasdevTech" style="color: #ccc;">GitHub</a>
-  </p>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
 
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
+
 </html>

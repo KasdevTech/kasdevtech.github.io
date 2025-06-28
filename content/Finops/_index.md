@@ -1,4 +1,0 @@
----
-title: "FinOps"
-type: "FinOps"
----

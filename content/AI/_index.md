@@ -1,4 +1,0 @@
----
-title: "AI"
-type: "AI"
----

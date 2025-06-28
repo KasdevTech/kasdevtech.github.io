@@ -16,9 +16,9 @@ summaryLength = 70
   ShowCodeCopyButtons = true
   mainSections = ["Azure", "Terraform", "FinOps", "DevOps", "AI"]
   customCSS = ["css/custom.css"]
-  
+
 [params.homeInfoParams]
-  Title = "Welcome to KasdevTech "
+  Title = "WWelcome to KasdevTech ☁️ "
   Content = "Cloud-native blogs on Azure, DevOps, FinOps & more."
 
 [params.assets]

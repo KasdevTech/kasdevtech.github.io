@@ -1,9 +1,9 @@
 ---
-title: "🛠️ Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners"
-date: 2025-06-28
+title: "Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners"
+date: 2025-06-30
 tags: ["Azure", "Application Gateway", "502 Error", "Troubleshooting", "Beginner"]
 categories: ["Azure"]
-description: "Step-by-step guide to troubleshoot and fix 502 errors on Azure Application Gateway. Easy enough for L1 engineers, clear enough for production."
+description: "Step-by-step guide to troubleshoot and fix 502 errors on Azure Application Gateway. Easy enough for Beginners, clear enough for production."
 type: "Azure"
 ---
 
@@ -47,12 +47,13 @@ Look for:
 | 1        |  Healthy   | "Received 200 from backend"  |
 
 If you see  **Unhealthy** – note the reason (e.g., "Probe failed with status 403").
----
+
 
 #### Step 4: Understand the Health Probe
-App Gateway uses a **health probe** (like a heartbeat check) to see if the backend is healthy.
-By default, the probe goes to `/` on your app — if that path returns 403 or 404, AppGW thinks it’s broken!
----
+
+ App Gateway uses a health probe(like a heartbeat check) to see if the backend is healthy.
+ By default, the probe goes to `/` on your app — if that path returns 403 or 404, AppGW thinks it’s broken!
+
 
 #### Step 5: Check Your App Service or Backend
 1. Open your App Service or backend in Azure.
@@ -62,11 +63,11 @@ By default, the probe goes to `/` on your app — if that path returns 403 or 40
 4. If yes, you need to **expose a simple health check endpoint**.
 ---
 
-##  Step 6: Add a Custom Health Endpoint
+####  Step 6: Add a Custom Health Endpoint
 
 In your backend app, create a new path like `/healthz`.
 
-### Example in Python Flask:
+#### Example in Python Flask:
 
 ```python
 @app.route("/healthz")

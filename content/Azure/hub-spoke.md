@@ -7,7 +7,7 @@ description: "Understand Hub-Spoke network architecture in Azure, how VNet peeri
 type: "Azure"
 ---
 
-#### Azure Hub-Spoke Architecture – Real World VNet Design
+#### Azure Hub-Spoke Architecture
 
 Once you understand VNets and Subnets, the next step is designing how they connect. One of the most **popular architectures** in Azure is called the **Hub-Spoke Model**.
 

@@ -1,5 +1,5 @@
 ---
-title: "Azure Hub-Spoke Architecture & VNet Peering Explained"
+title: "Azure Hub-Spoke Architecture & VNet Peering"
 date: 2025-07-01
 tags: ["Azure", "Networking", "Hub-Spoke", "VNet Peering"]
 categories: ["Azure Networking"]

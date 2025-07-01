@@ -6,14 +6,28 @@
     <description>Recent content in Azure on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Azure Virtual Network Basics – Public vs Private Networks</title>
+      <link>http://localhost:1313/azure/azure-network-basics/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-network-basics/</guid>
+      <description>Understand the basics of Azure Virtual Networks, what public and private networks mean in the cloud, and how IPs work in Azure.</description>
+    </item>
+    <item>
+      <title>Azure Hub-Spoke Architecture &amp; VNet Peering Explained</title>
+      <link>http://localhost:1313/azure/hub-spoke/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/hub-spoke/</guid>
+      <description>Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.</description>
+    </item>
     <item>
       <title>Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners</title>
       <link>http://localhost:1313/azure/application-gateway-502-error/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/azure/application-gateway-502-error/</guid>
-      <description>Step-by-step guide to troubleshoot and fix 502 errors on Azure Application Gateway. Easy enough for L1 engineers, clear enough for production.</description>
+      <description>Step-by-step guide to troubleshoot and fix 502 errors on Azure Application Gateway. Easy enough for Beginners, clear enough for production.</description>
     </item>
     <item>
       <title> AKS Node Disk Pressure </title>

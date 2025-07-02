@@ -6,8 +6,78 @@
     <description>Recent content in Tags on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure</title>
+      <link>http://localhost:1313/tags/azure/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ExpressRoute</title>
+      <link>http://localhost:1313/tags/expressroute/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/expressroute/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>http://localhost:1313/tags/networking/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>P2S</title>
+      <link>http://localhost:1313/tags/p2s/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/p2s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>S2S</title>
+      <link>http://localhost:1313/tags/s2s/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/s2s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPN Gateway</title>
+      <link>http://localhost:1313/tags/vpn-gateway/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vpn-gateway/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Basics</title>
+      <link>http://localhost:1313/tags/cloud-basics/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloud-basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hub-Spoke</title>
+      <link>http://localhost:1313/tags/hub-spoke/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hub-spoke/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VNet</title>
+      <link>http://localhost:1313/tags/vnet/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VNet Peering</title>
+      <link>http://localhost:1313/tags/vnet-peering/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vnet-peering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>502 Error</title>
       <link>http://localhost:1313/tags/502-error/</link>
@@ -20,13 +90,6 @@
       <link>http://localhost:1313/tags/application-gateway/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/application-gateway/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Azure</title>
-      <link>http://localhost:1313/tags/azure/</link>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/azure/</guid>
       <description></description>
     </item>
     <item>
@@ -307,13 +370,6 @@
       <link>http://localhost:1313/tags/infrastructure-as-code/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/infrastructure-as-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Networking</title>
-      <link>http://localhost:1313/tags/networking/</link>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/networking/</guid>
       <description></description>
     </item>
     <item>

@@ -6,8 +6,22 @@
     <description>Recent content on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
+      <link>http://localhost:1313/azure/azure-routing-simplified/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-routing-simplified/</guid>
+      <description>Learn how Azure routes traffic inside virtual networks. Understand UDRs (User Defined Routes), System Routes, and BGP basics.</description>
+    </item>
+    <item>
+      <title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title>
+      <link>http://localhost:1313/azure/azure-vpn-gateway-vs-expressroute/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-vpn-gateway-vs-expressroute/</guid>
+      <description>Understand how to connect your on-premises to Azure using VPN Gateway or ExpressRoute. Learn the difference between Site-to-Site and Point-to-Site.</description>
+    </item>
     <item>
       <title> Azure Virtual Network Basics – Public vs Private Networks</title>
       <link>http://localhost:1313/azure/azure-network-basics/</link>
@@ -16,7 +30,7 @@
       <description>Understand the basics of Azure Virtual Networks, what public and private networks mean in the cloud, and how IPs work in Azure.</description>
     </item>
     <item>
-      <title>Azure Hub-Spoke Architecture &amp; VNet Peering Explained</title>
+      <title>Azure Hub-Spoke Architecture &amp; VNet Peering</title>
       <link>http://localhost:1313/azure/hub-spoke/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/azure/hub-spoke/</guid>

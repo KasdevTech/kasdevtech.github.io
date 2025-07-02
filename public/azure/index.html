@@ -169,6 +169,39 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Routing Simplified – UDR, Route Tables &amp; BGP
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Routing – UDR, Route Tables, and BGP Ever wonder how traffic knows where to go inside your VNet? That magic is thanks to Routing – and in Azure, it’s handled by:
+System Routes User Defined Routes (UDR) Border Gateway Protocol (BGP) System Routes (Default) Azure automatically adds system routes to all subnets.
+Examples:
+Destination Next Hop 0.0.0.0/0 Internet Virtual Network 168.63.129.16 Virtual Network These work fine in most cases — until you need customization.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-02 00:00:00 +0000 UTC'>July 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Routing Simplified – UDR, Route Tables & BGP" href="http://localhost:1313/azure/azure-routing-simplified/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure VPN Gateway vs ExpressRoute – S2S vs P2S
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure VPN Gateway vs ExpressRoute – What Should You Use? Now that we understand VNets and peering, let’s talk about how to connect your on-premises network to Azure.
+Two main options:
+Azure VPN Gateway Azure ExpressRoute And under VPN Gateway, two common scenarios:
+Site-to-Site (S2S) VPN Point-to-Site (P2S) VPN Let’s break them all down simply.
+What is Azure VPN Gateway? Azure VPN Gateway is a managed network gateway in Azure. It lets you:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-02 00:00:00 +0000 UTC'>July 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure VPN Gateway vs ExpressRoute – S2S vs P2S" href="http://localhost:1313/azure/azure-vpn-gateway-vs-expressroute/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent"> Azure Virtual Network Basics – Public vs Private Networks
     </h2>
   </header>
@@ -183,17 +216,18 @@ What is a VNet? A Virtual Network (VNet) in Azure is like your private data cent
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure Hub-Spoke Architecture &amp; VNet Peering Explained
+    <h2 class="entry-hint-parent">Azure Hub-Spoke Architecture &amp; VNet Peering
     </h2>
   </header>
   <div class="entry-content">
-    <p>Azure Hub-Spoke Architecture – Real World VNet Design Once you understand VNets and Subnets, the next step is designing how they connect. One of the most popular architectures in Azure is called the Hub-Spoke Model.
+    <p>Azure Hub-Spoke Architecture Once you understand VNets and Subnets, the next step is designing how they connect. One of the most popular architectures in Azure is called the Hub-Spoke Model.
 What is the Hub-Spoke Model? Think of the Hub as the central point where all shared services live — like a corporate office.
 Each Spoke is a separate environment — like dev, test, or app workloads.
+&#43;-----------------------&#43; | Hub VNet | | (Firewall, VPN, etc) | &#43;-----------------------&#43; / | \ / | \ &#43;--------&#43; &#43;--------&#43; &#43;--------&#43; | Spoke1 | | Spoke2 | | Spoke3 | &#43;--------&#43; &#43;--------&#43; &#43;--------&#43; What is VNet Peering? VNet Peering allows two VNets to communicate privately using Azure backbone (no internet).
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-07-01 00:00:00 +0000 UTC'>July 1, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure Hub-Spoke Architecture & VNet Peering Explained" href="http://localhost:1313/azure/hub-spoke/"></a>
+  <a class="entry-link" aria-label="post link to Azure Hub-Spoke Architecture & VNet Peering" href="http://localhost:1313/azure/hub-spoke/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -290,39 +324,12 @@ Why Resize VMs? Scale Up: Handle more traffic or workload Scale Down: Reduce cos
   <footer class="entry-footer"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to How to Resize Azure Virtual Machines" href="http://localhost:1313/azure/how-to-resize-azure-virtual-machines/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Start Your Cloud Journey in 2025 — A Practical Guide
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Welcome to kasdevTech — Your Cloud Learning Hub In today’s world, cloud computing is no longer optional — it is essential for businesses, developers, and architects.
-But many beginners feel lost:
-👉 Where do I start?
-👉 Which services should I learn first?
-👉 How can I gain practical experience?
-In this post, I will share a step-by-step practical guide to help you start your cloud journey in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to How to Start Your Cloud Journey in 2025 — A Practical Guide" href="http://localhost:1313/azure/how-to-start-cloud-journey-2025/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Use Azure Private Endpoints for Secure Networking
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>What is a Private Endpoint? A Private Endpoint in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.
-Think of it as a private IP address for an Azure service. This ensures:
-No traffic goes over the internet Improved security (zero public exposure) You can apply NSG, firewall, and custom routing When to Use Private Endpoints? Scenario Private Endpoint Recommended? Critical data (PII, financial, healthcare) Yes Internal line-of-business apps Yes Public APIs serving global customers No — consider public endpoint Hybrid network (on-premises &#43; Azure) Yes Regulatory/compliance (GDPR, HIPAA, PCI) Yes Common Use Cases:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to How to Use Azure Private Endpoints for Secure Networking" href="http://localhost:1313/azure/how-to-use-azure-private-endpoints/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/azure/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

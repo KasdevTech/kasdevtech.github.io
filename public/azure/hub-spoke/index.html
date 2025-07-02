@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Azure Hub-Spoke Architecture &amp; VNet Peering Explained | KasdevTech</title>
+<title>Azure Hub-Spoke Architecture &amp; VNet Peering | KasdevTech</title>
 <meta name="keywords" content="Azure, Networking, Hub-Spoke, VNet Peering">
 <meta name="description" content="Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.">
 <meta name="author" content="Kasi Suresh">
@@ -57,7 +57,7 @@
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/azure/hub-spoke/">
   <meta property="og:site_name" content="KasdevTech">
-  <meta property="og:title" content="Azure Hub-Spoke Architecture & VNet Peering Explained">
+  <meta property="og:title" content="Azure Hub-Spoke Architecture & VNet Peering">
   <meta property="og:description" content="Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
@@ -69,7 +69,7 @@
     <meta property="article:tag" content="Hub-Spoke">
     <meta property="article:tag" content="VNet Peering">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Azure Hub-Spoke Architecture &amp; VNet Peering Explained">
+<meta name="twitter:title" content="Azure Hub-Spoke Architecture &amp; VNet Peering">
 <meta name="twitter:description" content="Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.">
 
 
@@ -87,7 +87,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Azure Hub-Spoke Architecture \u0026 VNet Peering Explained",
+      "name": "Azure Hub-Spoke Architecture \u0026 VNet Peering",
       "item": "http://localhost:1313/azure/hub-spoke/"
     }
   ]
@@ -97,14 +97,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Azure Hub-Spoke Architecture \u0026 VNet Peering Explained",
-  "name": "Azure Hub-Spoke Architecture \u0026 VNet Peering Explained",
+  "headline": "Azure Hub-Spoke Architecture \u0026 VNet Peering",
+  "name": "Azure Hub-Spoke Architecture \u0026 VNet Peering",
   "description": "Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.",
   "keywords": [
     "Azure", "Networking", "Hub-Spoke", "VNet Peering"
   ],
-  "articleBody": "Azure Hub-Spoke Architecture – Real World VNet Design Once you understand VNets and Subnets, the next step is designing how they connect. One of the most popular architectures in Azure is called the Hub-Spoke Model.\nWhat is the Hub-Spoke Model? Think of the Hub as the central point where all shared services live — like a corporate office.\nEach Spoke is a separate environment — like dev, test, or app workloads.\n+-----------------------+ | Hub VNet | | (Firewall, VPN, etc) | +-----------------------+ / | \\ / | \\ +--------+ +--------+ +--------+ | Spoke1 | | Spoke2 | | Spoke3 | +--------+ +--------+ +--------+ What is VNet Peering? VNet Peering allows two VNets to communicate privately using Azure backbone (no internet).\nTypes of Peering: Intra-region: Same Azure region (fastest, lowest latency) Global Peering: Different regions (e.g., East US ↔ West Europe) Key Facts: Fast (Azure backbone) Low-latency No public IPs required No extra hops — direct connection Resources can talk using private IPs Peering Gotchas Peering is not transitive If A ↔ B and B ↔ C, A cannot talk to C Need to enable traffic flow in both directions (if required) Watch out for overlapping IP address spaces — peering won’t work Why Use Hub-Spoke? Centralized security (firewalls in hub) Single VPN/ExpressRoute connection shared with all spokes Simpler management of shared services like DNS, Bastion, etc. Cost-effective: Share expensive appliances like firewalls across environments Learn More VNet Peering Overview Hub-Spoke Reference Architecture Next up: VPN Gateway vs ExpressRoute and when to use S2S or P2S connections!\n– Kasi @ KasdevTech or LinkedIn\nWhat’s Next? Tomorrow’s post can cover: VPN Gateway vs ExpressRoute – S2S vs P2S Routing in Azure – Route tables, UDR, BGP ",
-  "wordCount" : "284",
+  "articleBody": "Azure Hub-Spoke Architecture Once you understand VNets and Subnets, the next step is designing how they connect. One of the most popular architectures in Azure is called the Hub-Spoke Model.\nWhat is the Hub-Spoke Model? Think of the Hub as the central point where all shared services live — like a corporate office.\nEach Spoke is a separate environment — like dev, test, or app workloads.\n+-----------------------+ | Hub VNet | | (Firewall, VPN, etc) | +-----------------------+ / | \\ / | \\ +--------+ +--------+ +--------+ | Spoke1 | | Spoke2 | | Spoke3 | +--------+ +--------+ +--------+ What is VNet Peering? VNet Peering allows two VNets to communicate privately using Azure backbone (no internet).\nTypes of Peering: Intra-region: Same Azure region (fastest, lowest latency) Global Peering: Different regions (e.g., East US ↔ West Europe) Key Facts: Fast (Azure backbone) Low-latency No public IPs required No extra hops — direct connection Resources can talk using private IPs Peering Gotchas Peering is not transitive If A ↔ B and B ↔ C, A cannot talk to C Need to enable traffic flow in both directions (if required) Watch out for overlapping IP address spaces — peering won’t work Why Use Hub-Spoke? Centralized security (firewalls in hub) Single VPN/ExpressRoute connection shared with all spokes Simpler management of shared services like DNS, Bastion, etc. Cost-effective: Share expensive appliances like firewalls across environments Learn More VNet Peering Overview Hub-Spoke Reference Architecture Next up: VPN Gateway vs ExpressRoute and when to use S2S or P2S connections!\n– Kasi @ KasdevTech or LinkedIn\nWhat’s Next? Tomorrow’s post can cover: VPN Gateway vs ExpressRoute – S2S vs P2S Routing in Azure – Route tables, UDR, BGP ",
+  "wordCount" : "279",
   "inLanguage": "en",
   "datePublished": "2025-07-01T00:00:00Z",
   "dateModified": "2025-07-01T00:00:00Z",
@@ -212,7 +212,7 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Azure Hub-Spoke Architecture &amp; VNet Peering Explained
+      Azure Hub-Spoke Architecture &amp; VNet Peering
     </h1>
     <div class="post-description">
       Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.
@@ -228,7 +228,7 @@
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#azure-hub-spoke-architecture--real-world-vnet-design" aria-label="Azure Hub-Spoke Architecture – Real World VNet Design">Azure Hub-Spoke Architecture – Real World VNet Design</a></li>
+                    <a href="#azure-hub-spoke-architecture" aria-label="Azure Hub-Spoke Architecture">Azure Hub-Spoke Architecture</a></li>
                 <li>
                     <a href="#what-is-the-hub-spoke-model" aria-label="What is the Hub-Spoke Model?">What is the Hub-Spoke Model?</a></li>
                 <li>
@@ -249,7 +249,7 @@
     </details>
 </div>
 
-  <div class="post-content"><h4 id="azure-hub-spoke-architecture--real-world-vnet-design">Azure Hub-Spoke Architecture – Real World VNet Design<a hidden class="anchor" aria-hidden="true" href="#azure-hub-spoke-architecture--real-world-vnet-design">#</a></h4>
+  <div class="post-content"><h4 id="azure-hub-spoke-architecture">Azure Hub-Spoke Architecture<a hidden class="anchor" aria-hidden="true" href="#azure-hub-spoke-architecture">#</a></h4>
 <p>Once you understand VNets and Subnets, the next step is designing how they connect. One of the most <strong>popular architectures</strong> in Azure is called the <strong>Hub-Spoke Model</strong>.</p>
 <h4 id="what-is-the-hub-spoke-model">What is the Hub-Spoke Model?<a hidden class="anchor" aria-hidden="true" href="#what-is-the-hub-spoke-model">#</a></h4>
 <p>Think of the <strong>Hub</strong> as the central point where all shared services live — like a corporate office.</p>

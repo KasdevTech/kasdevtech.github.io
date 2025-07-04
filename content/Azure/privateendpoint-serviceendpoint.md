@@ -1,5 +1,5 @@
 ---
-title: "🔗 Azure Private Endpoint vs Service Endpoint – What's the Difference?"
+title: "Azure Private Endpoint vs Service Endpoint"
 date: 2025-07-04
 tags: ["Azure", "Networking", "Private Endpoint", "Service Endpoint", "Security"]
 categories: ["Azure Networking"]

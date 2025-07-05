@@ -32,9 +32,9 @@ jobs:
 ```
 
 #### Optimize the Build
-Avoid long dependency installations (e.g., move to cache or Docker layer)
-Parallelize jobs using strategy and matrix
-Use restoreCache and saveCache for npm, pip, Maven, etc.
+- Avoid long dependency installations (e.g., move to cache or Docker layer)
+- Parallelize jobs using strategy and matrix
+- Use restoreCache and saveCache for npm, pip, Maven, etc.
 
 #### Use Self-Hosted Agent (No Hard Timeout)
 Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.

@@ -16,6 +16,10 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">steps&lt;/span>:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">script&lt;/span>: &lt;span style="color:#ae81ff">echo &amp;#34;Building...&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="optimize-the-build">Optimize the Build&lt;/h4>
-&lt;p>Avoid long dependency installations (e.g., move to cache or Docker layer)
-Parallelize jobs using strategy and matrix
-Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/p></description></item></channel></rss>
+&lt;ul>
+&lt;li>Avoid long dependency installations (e.g., move to cache or Docker layer)&lt;/li>
+&lt;li>Parallelize jobs using strategy and matrix&lt;/li>
+&lt;li>Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li>
+&lt;/ul>
+&lt;h4 id="use-self-hosted-agent-no-hard-timeout">Use Self-Hosted Agent (No Hard Timeout)&lt;/h4>
+&lt;p>Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p></description></item></channel></rss>

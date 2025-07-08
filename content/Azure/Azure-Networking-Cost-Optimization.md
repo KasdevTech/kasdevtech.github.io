@@ -18,7 +18,7 @@ This post covers:
 
 
 
-## 💸 What Costs the Most?
+#### What Costs the Most?
 
 | Resource             | Cost Impact                        |
 |----------------------|-------------------------------------|

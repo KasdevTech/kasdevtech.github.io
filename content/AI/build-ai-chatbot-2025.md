@@ -1,5 +1,5 @@
 ---
-title: "How to Build Your Own AI Chatbot in 2025 – Step-by-Step Guide"
+title: "How to Build Your Own AI Chatbot"
 date: 2025-07-08
 description: "Build a production-ready GenAI chatbot using OpenAI, FastAPI, and React in 2025."
 tags: [GenAI, AI Chatbot, FastAPI, OpenAI, RAG]

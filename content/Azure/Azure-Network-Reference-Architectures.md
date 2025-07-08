@@ -84,6 +84,6 @@ For companies operating across multiple geographies.
 - [Microsoft Hub-Spoke Network Reference](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
 - [Private Link Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/private-link/private-link-overview)
 
-Next: How to **monitor** and **optimize cost** in your Azure networks 💰
+Next: How to **monitor** and **optimize cost** in your Azure networks 
 
 **– Kasi @ [KasdevTech](https://kasdevtech.com)** or [LinkedIn](https://www.linkedin.com/in/kasi-suresh-992675177/)

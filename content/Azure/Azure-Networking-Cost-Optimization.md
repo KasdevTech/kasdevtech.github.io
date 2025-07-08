@@ -1,6 +1,6 @@
 ---
 title: "Azure Networking Cost Optimization & Monitoring Best Practices"
-date: 2025-07-02
+date: 2025-07-08
 tags: ["Azure", "Networking", "Cost", "Monitoring", "Best Practices"]
 categories: ["Azure Networking"]
 description: "Learn how to save costs on Azure networking components and monitor key metrics for VNet health, Firewall, and bandwidth usage."

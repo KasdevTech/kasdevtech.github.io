@@ -7,11 +7,11 @@ summary: "Faced a corrupted Terraform state file in Azure Blob Storage? Here's a
 type: "Terraform"
 ---
 
-> 🛑 Encountered this error?
->
-> ```
-> Error: state snapshot was corrupt
-> ```
+#### Encountered this error?
+
+```
+Error: state snapshot was corrupt
+```
 
 #### The Problem
 

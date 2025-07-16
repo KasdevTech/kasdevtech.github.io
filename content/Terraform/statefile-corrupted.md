@@ -1,5 +1,5 @@
 ---
-title: "Terraform State Corruption in Azure — Recovered in 4 Steps"
+title: "Terraform State Corruption in Azure — Recovered"
 date: 2025-07-16
 author: "Kasi Suresh"
 tags: ["Terraform", "Azure", "Troubleshooting"]

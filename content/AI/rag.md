@@ -1,5 +1,5 @@
 ---
-title: "RAG (Retrieval-Augmented Generation) Explained with Real Example"
+title: "RAG (Retrieval-Augmented Generation) "
 date: 2025-07-21
 description: "Understand RAG (Retrieval-Augmented Generation) in simple terms with a real-world implementation using OpenAI and ChromaDB."
 tags: [RAG, GenAI, OpenAI, ChromaDB, LangChain]
@@ -39,7 +39,7 @@ Let’s walk through an architecture example of a **chatbot that answers questio
 - FastAPI (backend)
 - React (frontend)
 
-#### Example Flow
+#### Sample Flow
 
 ```
 User Question → FastAPI Endpoint → Search in ChromaDB → Top K Chunks → Prompt GPT-4 → Response → Frontend

@@ -1,5 +1,5 @@
 ---
-title: "Terraform Destroy Fails in Azure Due to Resource Dependencies — Here's the Fix"
+title: "Terraform Destroy Fails in Azure Due to Resource Dependencies"
 date: 2025-07-16
 author: "Kasi Suresh"
 tags: ["Terraform", "Azure", "Destroy", "Troubleshooting"]

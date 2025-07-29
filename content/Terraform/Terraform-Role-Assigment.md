@@ -7,7 +7,7 @@ summary: "Terraform often fails when assigning roles in Azure due to RBAC permis
 type: "Terraform"
 ---
 
-> ❌ Error:
+>  Error:
 >
 > ```
 > Error: creating Role Assignment: authorization.RoleAssignmentsClient#Create: Failure sending request

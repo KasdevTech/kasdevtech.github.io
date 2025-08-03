@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>State Lock on KasdevTech</title><link>https://kasdevtech.github.io/tags/state-lock/</link><description>Recent content in State Lock on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/state-lock/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title><link>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</link><pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</guid><description>&lt;p>If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p>
+&lt;p>Error: Error acquiring the state lock: state blob is already locked&lt;/p>
+&lt;p>You&amp;rsquo;re facing a &lt;strong>Terraform state lock&lt;/strong> issue — and it can block your pipeline!&lt;/p>
+&lt;h4 id="what-causes-it">What Causes It?&lt;/h4>
+&lt;ul>
+&lt;li>A previous run crashed or was canceled&lt;/li>
+&lt;li>Two pipelines tried to modify state simultaneously&lt;/li>
+&lt;li>State is locked but not released due to network timeout&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-fix">Step-by-Step Fix&lt;/h4>
+&lt;h4 id="manually-unlock-state">Manually Unlock State&lt;/h4>
+&lt;p>Use this command from your local machine (or DevOps pipeline):&lt;/p></description></item></channel></rss>

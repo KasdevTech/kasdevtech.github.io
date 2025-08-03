@@ -1,12 +1,12 @@
 ---
-title: "Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'? Here’s how to fix it"
+title: "Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'"
 date: 2025-08-03
 tags: ["Azure VM", "Troubleshooting", "Boot diagnostics", "Serial Console", "NSG", "Repair"]
 categories: ["Azure Compute", "Azure Virtual Machines"]
 description: "Your Azure VM stuck on 'Starting' or 'Failed'? Learn how to troubleshoot using Boot Diagnostics, Serial Console, and recovery tools."
 ---
 
-#### Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'? Here’s how to fix it
+#### Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'
 
 You hit Start on your Azure VM… and it gets stuck in:
 

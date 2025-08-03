@@ -1,6 +1,6 @@
 
 ---
-title: "Azure Application Gateway – Backend Health Unknown? "
+title: "Azure Application Gateway – Backend Health Unknown"
 date: 2025-08-03
 tags: ["Azure Application Gateway", "Troubleshooting", "Probes", "NSG", "Load Balancer"]
 categories: ["Azure Networking", "Application Gateway"]
@@ -144,4 +144,4 @@ Need help debugging your Gateway?
 
 Drop a comment or reach out on LinkedIn!
 
-– Kasi @ KasdevTech 🚀
+– Kasi @ KasdevTech 

@@ -1,6 +1,6 @@
 
 ---
-title: "🚧 Azure Application Gateway – Backend Health Unknown? Fix Step-by-Step"
+title: "Azure Application Gateway – Backend Health Unknown? "
 date: 2025-08-03
 tags: ["Azure Application Gateway", "Troubleshooting", "Probes", "NSG", "Load Balancer"]
 categories: ["Azure Networking", "Application Gateway"]
@@ -8,7 +8,7 @@ description: "App Gateway backend shows 'Unknown' or 'Unhealthy'? Follow this de
 type: "Azure"
 ---
 
-### Azure Application Gateway – Backend Health Unknown? Fix Step-by-Step
+### Azure Application Gateway – Backend Health Unknown?
 
 If you’re using Azure Application Gateway and you see:
 

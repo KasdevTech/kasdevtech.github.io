@@ -1,5 +1,5 @@
 ---
-title: "🛠️ Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'? Here’s how to fix it"
+title: "Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'? Here’s how to fix it"
 date: 2025-08-03
 tags: ["Azure VM", "Troubleshooting", "Boot diagnostics", "Serial Console", "NSG", "Repair"]
 categories: ["Azure Compute", "Azure Virtual Machines"]
@@ -68,10 +68,10 @@ You can fix fstab, services, or disable broken extensions directly.
 #### Step 3: Run “Redeploy VM”
 Go to VM → Support + Troubleshooting → Redeploy
 This:
-Moves your VM to another host
-Retains public/private IP and disk
-Fixes hypervisor-side issues
-Works well for random "Failed to start" errors.
+- Moves your VM to another host
+- Retains public/private IP and disk
+- Fixes hypervisor-side issues
+- Works well for random "Failed to start" errors.
 
 #### Step 4: Reset SSH or RDP Access (if login fails)
 VM → Reset password → Choose OS → Reset login
@@ -84,10 +84,10 @@ az vm user update --name vm1 --resource-group myRG \
 
 ```  
 #### Step 5: Disk Repair (Advanced)
-Stop VM
-Detach OS disk
-Attach to a healthy rescue VM
-Mount and inspect disk:
+- Stop VM
+- Detach OS disk
+- Attach to a healthy rescue VM
+- Mount and inspect disk:
 ```
 sudo fdisk -l
 sudo mount /dev/sdc1 /mnt
@@ -101,26 +101,28 @@ Azure platform IPs (168.63.129.16)
 DNS (8.8.8.8 or 168.63.129.16)
 If UDRs block outbound or Boot diagnostics, VM won't load properly
 
-#### Summary Fix Table
-Fix	Use When
-Boot diagnostics screenshot	See if OS booted
-Serial Console	Fix login or boot issues
-Redeploy VM	Platform/infrastructure issues
-Reset SSH/RDP	Login or key problems
-Disk Repair via Rescue VM	Corrupt boot or config file
-NSG/UDR fix	Connectivity / agent failures
+#### Summary Table
+
+| Fix                         | Use When                       |
+| --------------------------- | ------------------------------ |
+| Boot diagnostics screenshot | See if OS booted               |
+| Serial Console              | Fix login or boot issues       |
+| Redeploy VM                 | Platform/infrastructure issues |
+| Reset SSH/RDP               | Login or key problems          |
+| Disk Repair via Rescue VM   | Corrupt boot or config file    |
+| NSG/UDR fix                 | Connectivity / agent failures  |
 
 #### Pro Tips
-Always enable Boot Diagnostics for all VMs
-Take snapshot before running updates
-Use custom script extension to auto repair
-Use Availability Set or Zone to avoid platform issues
+- Always enable Boot Diagnostics for all VMs
+- Take snapshot before running updates
+- Use custom script extension to auto repair
+- Use Availability Set or Zone to avoid platform issues
 
 #### Resources
-Azure VM Serial Console
-Redeploy VM guide
-Run command from portal
-Facing the boot error right now?
+- Azure VM Serial Console
+- Redeploy VM guide
+- Run command from portal
+- Facing the boot error right now?
 
 Message me on LinkedIn for a walkthrough.
 

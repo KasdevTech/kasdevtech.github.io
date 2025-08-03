@@ -135,16 +135,13 @@ az network nsg rule create \
 ```
 
 Final Tips:
-Use custom probes over default probes
-Always test probe path manually in browser or Postman
-For HTTPS, check backend certs and hostname validation
-Use FQDN only if DNS is guaranteed to resolve
-
-References:
-Troubleshoot App Gateway backend health
-Custom probes
+- Use custom probes over default probes
+- Always test probe path manually in browser or Postman
+- For HTTPS, check backend certs and hostname validation
+- Use FQDN only if DNS is guaranteed to resolve
 
 Need help debugging your Gateway?
+
 Drop a comment or reach out on LinkedIn!
 
 – Kasi @ KasdevTech 🚀

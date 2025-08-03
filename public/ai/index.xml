@@ -6,8 +6,22 @@
     <description>Recent content in AI on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RAG (Retrieval-Augmented Generation) </title>
+      <link>http://localhost:1313/ai/rag/</link>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/rag/</guid>
+      <description>Understand RAG (Retrieval-Augmented Generation) in simple terms with a real-world implementation using OpenAI and ChromaDB.</description>
+    </item>
+    <item>
+      <title>How to Build Your Own AI Chatbot</title>
+      <link>http://localhost:1313/ai/build-ai-chatbot-2025/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/build-ai-chatbot-2025/</guid>
+      <description>Build a production-ready GenAI chatbot using OpenAI, FastAPI, and React in 2025.</description>
+    </item>
     <item>
       <title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title>
       <link>http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/</link>

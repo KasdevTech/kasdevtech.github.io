@@ -6,10 +6,80 @@
     <description>Recent content in Azure on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S Explained</title>
+      <title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title>
+      <link>http://localhost:1313/terraform/terraform-init-fails/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-init-fails/</guid>
+      <description>Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&amp;rsquo;s how I fixed it using service principal and storage configuration updates.</description>
+    </item>
+    <item>
+      <title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title>
+      <link>http://localhost:1313/terraform/terraform-role-assigment/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-role-assigment/</guid>
+      <description>Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here&amp;rsquo;s how I fixed this in a CI/CD pipeline using the right roles and automation.</description>
+    </item>
+    <item>
+      <title>Automate Azure Cleanup — Before It Costs</title>
+      <link>http://localhost:1313/azure/azurecleanup/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azurecleanup/</guid>
+      <description>Learn how to built a weekly automated Azure cleanup flow using PowerShell, Logic Apps, and Teams approvals to avoid surprise cloud bills.</description>
+    </item>
+    <item>
+      <title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title>
+      <link>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</guid>
+      <description>Running &lt;code&gt;terraform destroy&lt;/code&gt; in Azure sometimes fails due to implicit resource dependencies. Here&amp;rsquo;s how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</description>
+    </item>
+    <item>
+      <title>Terraform State Corruption in Azure — Recovered</title>
+      <link>http://localhost:1313/terraform/statefile-corrupted/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/statefile-corrupted/</guid>
+      <description>Faced a corrupted Terraform state file in Azure Blob Storage? Here&amp;rsquo;s a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</description>
+    </item>
+    <item>
+      <title>Azure Network Reference Architectures</title>
+      <link>http://localhost:1313/azure/azure-network-reference-architectures/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-network-reference-architectures/</guid>
+      <description>Understand how enterprise-grade networks are designed in Azure using hub-spoke, firewall, VPN/ExpressRoute, private link, and more.</description>
+    </item>
+    <item>
+      <title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title>
+      <link>http://localhost:1313/azure/azure-networking-cost-optimization/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-networking-cost-optimization/</guid>
+      <description>Learn how to save costs on Azure networking components and monitor key metrics for VNet health, Firewall, and bandwidth usage.</description>
+    </item>
+    <item>
+      <title>Azure Private Endpoint vs Service Endpoint</title>
+      <link>http://localhost:1313/azure/privateendpoint-serviceendpoint/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/privateendpoint-serviceendpoint/</guid>
+      <description>Understand the difference between Azure Private Endpoint and Service Endpoint, when to use each, and how they affect VNet security and traffic routing.</description>
+    </item>
+    <item>
+      <title> Azure NSG vs ASG – Network Security for VNets </title>
+      <link>http://localhost:1313/azure/nsg-asg/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/nsg-asg/</guid>
+      <description>Understand Network Security Groups (NSG) and Application Security Groups (ASG) in Azure. Learn how they protect your VNets and workloads.</description>
+    </item>
+    <item>
+      <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
+      <link>http://localhost:1313/azure/azure-routing-simplified/</link>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-routing-simplified/</guid>
+      <description>Learn how Azure routes traffic inside virtual networks. Understand UDRs (User Defined Routes), System Routes, and BGP basics.</description>
+    </item>
+    <item>
+      <title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title>
       <link>http://localhost:1313/azure/azure-vpn-gateway-vs-expressroute/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/azure/azure-vpn-gateway-vs-expressroute/</guid>

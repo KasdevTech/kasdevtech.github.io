@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on KasdevTech</title>
+    <link>http://localhost:1313/categories/git/</link>
+    <description>Recent content in Git on KasdevTech</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title>
+      <link>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid>
+      <description>&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
+&lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
+&lt;h4 id=&#34;common-causes&#34;&gt;Common Causes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Repository renamed or deleted&lt;/li&gt;
+&lt;li&gt;Permissions changed in the project&lt;/li&gt;
+&lt;li&gt;PAT token expired (for GitHub or external repos)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;fixing-the-issue&#34;&gt;Fixing the Issue&lt;/h4&gt;
+&lt;h4 id=&#34;azure-repos-git&#34;&gt;Azure Repos Git&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to &lt;code&gt;Repos&lt;/code&gt; in your project&lt;/li&gt;
+&lt;li&gt;Check if the repo still exists and hasn’t been renamed&lt;/li&gt;
+&lt;li&gt;Confirm the branch in your trigger matches the YAML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;trigger&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;branches&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;include&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;github-repositories&#34;&gt;GitHub Repositories&lt;/h4&gt;
+&lt;p&gt;Go to Project Settings → Service Connections
+Open your GitHub connection
+Re-authenticate or update the PAT/token
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

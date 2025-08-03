@@ -154,6 +154,37 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?
+Error: The repository ‘’ could not be found or no longer exists.
+Common Causes Repository renamed or deleted Permissions changed in the project PAT token expired (for GitHub or external repos) Fixing the Issue Azure Repos Git Navigate to Repos in your project Check if the repo still exists and hasn’t been renamed Confirm the branch in your trigger matches the YAML trigger: branches: include: - main GitHub Repositories Go to Project Settings → Service Connections Open your GitHub connection Re-authenticate or update the PAT/token Ensure scopes: repo, workflow, admin:repo_hook
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-04 00:00:00 +0000 UTC'>July 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections" href="http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Deploying resources from Azure Pipelines and running into the dreaded AuthorizationFailed error? You’re not alone!
+Error: AuthorizationFailed: The client does not have authorization to perform action ‘Microsoft.Web/sites/write’…
+Root Cause This error usually occurs because the service principal used in your Azure DevOps service connection does not have the required role-based access control (RBAC) permissions on the target resource group or subscription.
+Step-by-Step Fix Verify the Service Connection Identity Go to Project Settings → Service Connections Click on your Azure Resource Manager connection Note the Object ID of the service principal Assign the Correct Role in Azure Portal Navigate to your Resource Group (or Subscription) Go to Access Control (IAM) → Add Role Assignment Select the role (e.g., Contributor or Web App Contributor) Assign it to the service principal Review Pipeline YAML Make sure you’re referencing the correct service connection:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-04 00:00:00 +0000 UTC'>July 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources" href="http://localhost:1313/devops/azuredevops-permission-error/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets
     </h2>
   </header>

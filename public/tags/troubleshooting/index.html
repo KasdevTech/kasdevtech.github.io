@@ -154,6 +154,103 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Application Gateway – Backend Health Unknown? 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Application Gateway – Backend Health Unknown? If you’re using Azure Application Gateway and you see:
+Backend health: UNKNOWN
+Backend health: UNHEALTHY
+Don’t panic. This is a common issue — and we’ll walk through how to fix it end-to-end, even if you’re new to Azure.
+What Does “Unknown” or “Unhealthy” Mean? Unknown = App Gateway can’t reach the backend (network issue) Unhealthy = App Gateway can reach the backend, but probe failed (wrong path, port, etc.) Step-by-Step Troubleshooting Step 1: Check Backend Pool IP/VM Go to: App Gateway → Backend pools Confirm:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-03 00:00:00 +0000 UTC'>August 3, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Application Gateway – Backend Health Unknown? " href="http://localhost:1313/azure/appgw_issues/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here’s how I fixed it using service principal and storage configuration updates.</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-29 00:00:00 +0000 UTC'>July 29, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Terraform Init Fails in CI/CD — Fixed Remote Backend & Auth Issues" href="http://localhost:1313/terraform/terraform-init-fails/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here’s how I fixed this in a CI/CD pipeline using the right roles and automation.</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-29 00:00:00 +0000 UTC'>July 29, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC & Automation" href="http://localhost:1313/terraform/terraform-role-assigment/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Terraform Destroy Fails in Azure Due to Resource Dependencies
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Running terraform destroy in Azure sometimes fails due to implicit resource dependencies. Here’s how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-16 00:00:00 +0000 UTC'>July 16, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Terraform Destroy Fails in Azure Due to Resource Dependencies" href="http://localhost:1313/terraform/terraform-destroy-fails-in-azure/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Terraform State Corruption in Azure — Recovered
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Faced a corrupted Terraform state file in Azure Blob Storage? Here’s a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-16 00:00:00 +0000 UTC'>July 16, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Terraform State Corruption in Azure — Recovered" href="http://localhost:1313/terraform/statefile-corrupted/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure DevOps pipeline stuck on ‘Initialize job’? Step-by-step fix Ever had your Azure DevOps pipeline hang at the very first step – Initialize job – and not move forward?
+This issue is frustrating and common — especially with self-hosted agents, permissions misconfiguration, or pipeline resource locks.
+Let’s break down exactly how to troubleshoot and fix this problem step-by-step.
+What does ‘Initialize job’ actually mean? It’s the very first phase in a pipeline run:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-09 00:00:00 +0000 UTC'>July 9, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix" href="http://localhost:1313/devops/pipelinestuck/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Does your build or deployment fail after 60 minutes? You might be hitting a default timeout on Azure Pipelines.
+Error Message [error]The job was canceled after reaching the timeout limit of 60 minutes.
+Default Limits Microsoft-hosted agents: 60 minutes per job (can be increased) Self-hosted agents: You control the timeout Increase Timeout in YAML Add the timeoutInMinutes setting to your job:
+jobs: - job: Build timeoutInMinutes: 120 pool: vmImage: &#39;ubuntu-latest&#39; steps: - script: echo &#34;Building...&#34; Optimize the Build Avoid long dependency installations (e.g., move to cache or Docker layer) Parallelize jobs using strategy and matrix Use restoreCache and saveCache for npm, pip, Maven, etc. Use Self-Hosted Agent (No Hard Timeout) Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-05 00:00:00 +0000 UTC'>July 5, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures" href="http://localhost:1313/devops/pipeline-timeout-issues/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners
     </h2>
   </header>

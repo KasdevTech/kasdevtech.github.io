@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues | KasdevTech</title>
+<meta name="keywords" content="Terraform, Azure, CI/CD, Remote Backend, Troubleshooting">
+<meta name="description" content="Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&rsquo;s how I fixed it using service principal and storage configuration updates.">
+<meta name="author" content="Kasi Suresh">
+<link rel="canonical" href="http://localhost:1313/terraform/terraform-init-fails/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/terraform/terraform-init-fails/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/terraform/terraform-init-fails/">
+  <meta property="og:site_name" content="KasdevTech">
+  <meta property="og:title" content="Terraform Init Fails in CI/CD — Fixed Remote Backend & Auth Issues">
+  <meta property="og:description" content="Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here’s how I fixed it using service principal and storage configuration updates.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="terraform">
+    <meta property="article:published_time" content="2025-07-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-07-29T00:00:00+00:00">
+    <meta property="article:tag" content="Terraform">
+    <meta property="article:tag" content="Azure">
+    <meta property="article:tag" content="CI/CD">
+    <meta property="article:tag" content="Remote Backend">
+    <meta property="article:tag" content="Troubleshooting">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues">
+<meta name="twitter:description" content="Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&rsquo;s how I fixed it using service principal and storage configuration updates.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Terraform",
+      "item": "http://localhost:1313/terraform/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Terraform Init Fails in CI/CD — Fixed Remote Backend \u0026 Auth Issues",
+      "item": "http://localhost:1313/terraform/terraform-init-fails/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Terraform Init Fails in CI/CD — Fixed Remote Backend \u0026 Auth Issues",
+  "name": "Terraform Init Fails in CI\/CD — Fixed Remote Backend \u0026 Auth Issues",
+  "description": "Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here\u0026rsquo;s how I fixed it using service principal and storage configuration updates.",
+  "keywords": [
+    "Terraform", "Azure", "CI/CD", "Remote Backend", "Troubleshooting"
+  ],
+  "articleBody": " Error:\nError loading state: Error retrieving keys from storage account The Problem In a GitHub Actions pipeline, terraform init failed when trying to initialize the remote backend pointing to an Azure Storage Account.\nRoot Causes Missing or incorrect authentication to Azure Backend block has invalid resource_group_name, container_name, or storage_account_name Identity used by pipeline doesn’t have Storage Blob Data Contributor Step-by-Step Fix Step 1: Validate backend Configuration terraform { backend \"azurerm\" { resource_group_name = \"tf-rg\" storage_account_name = \"kasdevtfstate\" container_name = \"tfstate\" key = \"prod.terraform.tfstate\" } } Make sure all values are correct and exist in Azure.\nStep 2: Check the Identity Used in CI/CD If using GitHub Actions with OIDC: Check the federated credential mapping in Azure AD Ensure client_id, tenant_id, and subscription_id are correctly exported\nStep 3: Assign Storage Role Use this command to allow Terraform to read/write state:\naz role assignment create \\ --assignee \\ --role \"Storage Blob Data Contributor\" \\ --scope \"/subscriptions//resourceGroups/tf-rg/providers/Microsoft.Storage/storageAccounts/kasdevtfstate\" Step 4: Re-run terraform init In GitHub Actions:\n- name: Terraform Init run: terraform init env: ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }} ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }} ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }} Tips to be consider Ensure container_name exists before init Avoid manual storage account creation—automate it using CLI or Terraform Use -reconfigure in terraform init if backend config changes\nConclusion Terraform init failures in CI/CD are usually tied to remote backend or identity misconfigurations. Validating backend values and assigning correct RBAC permissions solves 95% of the cases.\n– Kasi @ KasdevTech or LinkedIn\n",
+  "wordCount" : "245",
+  "inLanguage": "en",
+  "datePublished": "2025-07-29T00:00:00Z",
+  "dateModified": "2025-07-29T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Kasi Suresh"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/terraform/terraform-init-fails/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "KasdevTech",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/images/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="KasdevTech (Alt + H)">KasdevTech</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/azure/" title="Azure">
+                    <span>Azure</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/devops/" title="DevOps">
+                    <span>DevOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/finops/" title="FinOps">
+                    <span>FinOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/terraform/" title="Terraform">
+                    <span>Terraform</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/ai/" title="AI">
+                    <span>AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/finsight/" title="Finsight">
+                    <span>Finsight</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues
+    </h1>
+    <div class="post-meta"><span title='2025-07-29 00:00:00 +0000 UTC'>July 29, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#the-problem" aria-label="The Problem">The Problem</a></li>
+                <li>
+                    <a href="#root-causes" aria-label="Root Causes">Root Causes</a></li>
+                <li>
+                    <a href="#step-by-step-fix" aria-label="Step-by-Step Fix">Step-by-Step Fix</a></li>
+                <li>
+                    <a href="#step-1-validate-backend-configuration" aria-label="Step 1: Validate backend Configuration">Step 1: Validate backend Configuration</a></li>
+                <li>
+                    <a href="#step-2-check-the-identity-used-in-cicd" aria-label="Step 2: Check the Identity Used in CI/CD">Step 2: Check the Identity Used in CI/CD</a></li>
+                <li>
+                    <a href="#step-3-assign-storage-role" aria-label="Step 3: Assign Storage Role">Step 3: Assign Storage Role</a></li>
+                <li>
+                    <a href="#step-4-re-run-terraform-init" aria-label="Step 4: Re-run terraform init">Step 4: Re-run terraform init</a></li>
+                <li>
+                    <a href="#tips-to-be-consider" aria-label="Tips to be consider">Tips to be consider</a></li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<p>Error:</p>
+<pre tabindex="0"><code>Error loading state: Error retrieving keys from storage account
+</code></pre></blockquote>
+<hr>
+<h4 id="the-problem">The Problem<a hidden class="anchor" aria-hidden="true" href="#the-problem">#</a></h4>
+<p>In a GitHub Actions pipeline, <code>terraform init</code> failed when trying to initialize the remote backend pointing to an Azure Storage Account.</p>
+<h4 id="root-causes">Root Causes<a hidden class="anchor" aria-hidden="true" href="#root-causes">#</a></h4>
+<ul>
+<li>Missing or incorrect authentication to Azure</li>
+<li>Backend block has invalid <code>resource_group_name</code>, <code>container_name</code>, or <code>storage_account_name</code></li>
+<li>Identity used by pipeline doesn’t have <strong>Storage Blob Data Contributor</strong></li>
+</ul>
+<h4 id="step-by-step-fix">Step-by-Step Fix<a hidden class="anchor" aria-hidden="true" href="#step-by-step-fix">#</a></h4>
+<h4 id="step-1-validate-backend-configuration">Step 1: Validate <code>backend</code> Configuration<a hidden class="anchor" aria-hidden="true" href="#step-1-validate-backend-configuration">#</a></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-hcl" data-lang="hcl"><span style="display:flex;"><span><span style="color:#66d9ef">terraform</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">backend</span> <span style="color:#e6db74">&#34;azurerm&#34;</span> {
+</span></span><span style="display:flex;"><span>    resource_group_name  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tf-rg&#34;</span>
+</span></span><span style="display:flex;"><span>    storage_account_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;kasdevtfstate&#34;</span>
+</span></span><span style="display:flex;"><span>    container_name       <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tfstate&#34;</span>
+</span></span><span style="display:flex;"><span>    key                  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;prod.terraform.tfstate&#34;</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Make sure all values are correct and exist in Azure.</p>
+<h4 id="step-2-check-the-identity-used-in-cicd">Step 2: Check the Identity Used in CI/CD<a hidden class="anchor" aria-hidden="true" href="#step-2-check-the-identity-used-in-cicd">#</a></h4>
+<p>If using GitHub Actions with OIDC:
+Check the federated credential mapping in Azure AD
+Ensure client_id, tenant_id, and subscription_id are correctly exported</p>
+<h4 id="step-3-assign-storage-role">Step 3: Assign Storage Role<a hidden class="anchor" aria-hidden="true" href="#step-3-assign-storage-role">#</a></h4>
+<p>Use this command to allow Terraform to read/write state:</p>
+<pre tabindex="0"><code>az role assignment create \
+  --assignee &lt;client_id&gt; \
+  --role &#34;Storage Blob Data Contributor&#34; \
+  --scope &#34;/subscriptions/&lt;subId&gt;/resourceGroups/tf-rg/providers/Microsoft.Storage/storageAccounts/kasdevtfstate&#34;
+</code></pre><h4 id="step-4-re-run-terraform-init">Step 4: Re-run terraform init<a hidden class="anchor" aria-hidden="true" href="#step-4-re-run-terraform-init">#</a></h4>
+<p>In GitHub Actions:</p>
+<pre tabindex="0"><code>- name: Terraform Init
+  run: terraform init
+  env:
+    ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+    ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+    ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+</code></pre><h4 id="tips-to-be-consider">Tips to be consider<a hidden class="anchor" aria-hidden="true" href="#tips-to-be-consider">#</a></h4>
+<p>Ensure container_name exists before init
+Avoid manual storage account creation—automate it using CLI or Terraform
+Use -reconfigure in terraform init if backend config changes</p>
+<h4 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h4>
+<p>Terraform init failures in CI/CD are usually tied to remote backend or identity misconfigurations. Validating backend values and assigning correct RBAC permissions solves 95% of the cases.</p>
+<p><strong>– Kasi @ <a href="https://kasdevtech.com">KasdevTech</a></strong> or <a href="https://www.linkedin.com/in/kasi-suresh-992675177/">LinkedIn</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/terraform/">Terraform</a></li>
+      <li><a href="http://localhost:1313/tags/azure/">Azure</a></li>
+      <li><a href="http://localhost:1313/tags/ci/cd/">CI/CD</a></li>
+      <li><a href="http://localhost:1313/tags/remote-backend/">Remote Backend</a></li>
+      <li><a href="http://localhost:1313/tags/troubleshooting/">Troubleshooting</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">KasdevTech</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

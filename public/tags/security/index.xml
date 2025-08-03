@@ -6,8 +6,22 @@
     <description>Recent content in Security on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Private Endpoint vs Service Endpoint</title>
+      <link>http://localhost:1313/azure/privateendpoint-serviceendpoint/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/privateendpoint-serviceendpoint/</guid>
+      <description>Understand the difference between Azure Private Endpoint and Service Endpoint, when to use each, and how they affect VNet security and traffic routing.</description>
+    </item>
+    <item>
+      <title> Azure NSG vs ASG – Network Security for VNets </title>
+      <link>http://localhost:1313/azure/nsg-asg/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/nsg-asg/</guid>
+      <description>Understand Network Security Groups (NSG) and Application Security Groups (ASG) in Azure. Learn how they protect your VNets and workloads.</description>
+    </item>
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
       <link>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</link>

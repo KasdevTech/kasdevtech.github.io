@@ -6,8 +6,15 @@
     <description>Recent content in Automation on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automate Azure Cleanup — Before It Costs</title>
+      <link>http://localhost:1313/azure/azurecleanup/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azurecleanup/</guid>
+      <description>Learn how to built a weekly automated Azure cleanup flow using PowerShell, Logic Apps, and Teams approvals to avoid surprise cloud bills.</description>
+    </item>
     <item>
       <title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title>
       <link>http://localhost:1313/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>

@@ -6,8 +6,26 @@
     <description>Recent content in Azure Storage on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/azure-storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title>
+      <link>http://localhost:1313/devops/terraform-withsatelock-failure/</link>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/terraform-withsatelock-failure/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;
+&lt;p&gt;Error: Error acquiring the state lock: state blob is already locked&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re facing a &lt;strong&gt;Terraform state lock&lt;/strong&gt; issue — and it can block your pipeline!&lt;/p&gt;
+&lt;h4 id=&#34;what-causes-it&#34;&gt;What Causes It?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A previous run crashed or was canceled&lt;/li&gt;
+&lt;li&gt;Two pipelines tried to modify state simultaneously&lt;/li&gt;
+&lt;li&gt;State is locked but not released due to network timeout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-by-step-fix&#34;&gt;Step-by-Step Fix&lt;/h4&gt;
+&lt;h4 id=&#34;manually-unlock-state&#34;&gt;Manually Unlock State&lt;/h4&gt;
+&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
       <link>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</link>

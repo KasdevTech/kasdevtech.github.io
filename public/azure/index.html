@@ -169,6 +169,106 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Application Gateway – Backend Health Unknown? 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Application Gateway – Backend Health Unknown? If you’re using Azure Application Gateway and you see:
+Backend health: UNKNOWN
+Backend health: UNHEALTHY
+Don’t panic. This is a common issue — and we’ll walk through how to fix it end-to-end, even if you’re new to Azure.
+What Does “Unknown” or “Unhealthy” Mean? Unknown = App Gateway can’t reach the backend (network issue) Unhealthy = App Gateway can reach the backend, but probe failed (wrong path, port, etc.) Step-by-Step Troubleshooting Step 1: Check Backend Pool IP/VM Go to: App Gateway → Backend pools Confirm:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-03 00:00:00 +0000 UTC'>August 3, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Application Gateway – Backend Health Unknown? " href="http://localhost:1313/azure/appgw_issues/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Automate Azure Cleanup — Before It Costs
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Automate Azure Cleanup — Before It Costs Me Most of us don’t realize how fast an Azure bill can grow — until we get that painful monthly invoice.
+The surprise? It’s rarely because of production workloads.
+It’s the small, forgotten things:
+Test VMs that should’ve been deleted Staging App Services left running Orphaned managed disks Zombie NICs that no one even remembers creating These idle resources quietly drain money.
+Solution: Weekly Automated Cleanup Instead of manually checking everything, I built a simple system that does it all for me — safely and automatically.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-28 00:00:00 +0000 UTC'>July 28, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Automate Azure Cleanup — Before It Costs" href="http://localhost:1313/azure/azurecleanup/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Network Reference Architectures
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Network Reference Architectures By now, you’ve learned about VNets, peering, firewalls, DNS, and more.
+Let’s bring it all together with real Azure networking architectures you can apply in production.
+Design Pattern 1: Hub-Spoke with VPN Gateway Perfect for hybrid connectivity and centralized control.
+Key Features: Central Hub VNet with: VPN Gateway Azure Firewall or NVA DDoS Protection Multiple Spoke VNets for apps/environments VNet Peering for traffic Diagram: [On-Premises] | ====== Site-to-Site VPN ====== | &#43;------------------&#43; | Hub VNet | | VPN &#43; Firewall | &#43;------------------&#43; / | \ / | \ [Spoke A] [Spoke B] [Spoke C] Design Pattern 2: Private Link &#43; NAT Gateway For secure outbound and fully private access to PaaS.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Network Reference Architectures" href="http://localhost:1313/azure/azure-network-reference-architectures/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Networking Cost Optimization &amp; Monitoring Best Practices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Networking Cost Optimization &amp; Monitoring Azure networking is powerful — but can get expensive if you’re not careful.
+This post covers:
+What costs the most in Azure networking? How to reduce cost without compromising security Tools to monitor and alert for network health What Costs the Most? Resource Cost Impact Azure Firewall $$$ — Pay per deployment &#43; GB used ExpressRoute $$$ — Monthly base &#43; bandwidth Data Transfer Charges for traffic between regions or zones VPN Gateway Based on SKU and time Peering Inbound = Free, Outbound = $$$ Public IP Basic = Free, Standard = Billable Cost Optimization Tips Use NAT Gateway Instead of Load Balancer SNAT Avoid port exhaustion More scalable for outbound traffic Predictable IP and cost Consolidate Firewalls in Hub One Azure Firewall in the Hub VNet Route all traffic through it Use UDRs and ASGs to enforce control Avoid Cross-Region Traffic Peering across regions = paid outbound Keep apps and databases in same region when possible Use Azure Cost Management Enable tags on VNet, Firewall, NAT Gateway Group by project/team/app Set up budgets and alerts Monitoring Tools Tool Use For Network Watcher Packet capture, NSG flow logs Azure Monitor Metrics for Firewall, VPN, Gateway Log Analytics Query NSG and Firewall logs Connection Monitor End-to-end checks (latency, loss) Monitor These Metrics Firewall throughput NAT Gateway SNAT ports used VPN Tunnel status (S2S, P2S) Inbound/outbound bytes per VNet Number of dropped packets (NSG) Set Alerts (Examples) Alert if VPN Gateway is down Alert if Azure Firewall hits 80% throughput Alert on unexpected data transfer spikes Final Tip Secure, scalable Azure networking is possible without breaking the bank.
+But it requires:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Networking Cost Optimization & Monitoring Best Practices" href="http://localhost:1313/azure/azure-networking-cost-optimization/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Private Endpoint vs Service Endpoint
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Private Endpoint vs Service Endpoint So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…
+Should I use a Service Endpoint or a Private Endpoint?
+These two features are critical for securing Azure PaaS services. But they’re not the same.
+Let’s break them down clearly with real-world context.
+What is a Service Endpoint? Service Endpoints extend your VNet’s private IP to Azure PaaS services.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-04 00:00:00 +0000 UTC'>July 4, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Private Endpoint vs Service Endpoint" href="http://localhost:1313/azure/privateendpoint-serviceendpoint/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent"> Azure NSG vs ASG – Network Security for VNets 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure NSG vs ASG In cloud networking, firewalls and access control are your first line of defense.
+In Azure, the two main tools for this are:
+Network Security Group (NSG) Application Security Group (ASG) Let’s explore what they are, how they work, and how to use them together.
+What is a Network Security Group (NSG)? An NSG acts like a virtual firewall. You can apply it to:
+Subnets Network interfaces (NICs) NSG Rules look like: Priority Direction Source Destination Port Action 100 Inbound Any 10.0.1.4 80 Allow 200 Inbound Any Any * Deny Azure processes rules top-down, based on priority (lower = higher priority).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-03 00:00:00 +0000 UTC'>July 3, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to  Azure NSG vs ASG – Network Security for VNets " href="http://localhost:1313/azure/nsg-asg/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Azure Routing Simplified – UDR, Route Tables &amp; BGP
     </h2>
   </header>
@@ -228,101 +328,6 @@ Each Spoke is a separate environment — like dev, test, or app workloads.
   </div>
   <footer class="entry-footer"><span title='2025-07-01 00:00:00 +0000 UTC'>July 1, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to Azure Hub-Spoke Architecture & VNet Peering" href="http://localhost:1313/azure/hub-spoke/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>If you’ve seen this before, don’t panic. This guide walks you through:
-What a 502 error means in Azure How to identify the root cause How to fix it with simple step-by-step actions Step-by-Step Troubleshooting Step 1: Reproduce the Problem Go to the App Gateway public IP or custom domain (e.g., https://myappexampleapp.com)
-Check if the site is returning this: 502 - Web server received an invalid response while acting as a gateway or proxy server. This means App Gateway couldn’t reach your backend properly — not that the app is down.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-30 00:00:00 +0000 UTC'>June 30, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners" href="http://localhost:1313/azure/application-gateway-502-error/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent"> AKS Node Disk Pressure 
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>What Happened? Hey folks,
-Let me share a real incident we faced in production on Azure Kubernetes Service (AKS). Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming DiskPressure on some nodes.
-We didn’t make any infra changes recently, so the obvious question was:
-What’s going on inside the AKS nodes?
-Root Cause Analysis We dug into the node metrics using Azure Monitor and kubectl describe node. Here’s what we found:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-28 00:00:00 +0000 UTC'>June 28, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to  AKS Node Disk Pressure " href="http://localhost:1313/azure/aks-node-disk-pressure/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>In one of my recent automation projects, I came across a real-time scenario:
-An Azure Alert once condition met (example:VM’s C:\ drive crosses 80% usage), and boom — the alert triggers, gets routed to Moogsoft, and creates an incident in ServiceNow.
-But before it even hits the L1 queue, I wanted to give automation a shot.
-Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster? Real Scenario Here’s what happens traditionally:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-25 00:00:00 +0000 UTC'>June 25, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft & ServiceNow" href="http://localhost:1313/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Getting Started with Azure Bicep for Infrastructure as Code
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you’re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.
-Why Bicep? Native to Azure Simplified syntax No state files (unlike Terraform) Excellent tooling in VS Code Install Bicep CLI az bicep install Verify installation: az bicep version 🏗️ Sample Bicep Template: ------------------------- resource storageAccount &#39;Microsoft.Storage/storageAccounts@2022-09-01&#39; = { name: &#39;kasdevstorage${uniqueString(resourceGroup().id)}&#39; location: resourceGroup().location sku: { name: &#39;Standard_LRS&#39; } kind: &#39;StorageV2&#39; } 📦 Deploy using Azure CLI: -------------------------- az deployment group create \ --resource-group kasdevtech-rg \ --template-file main.bicep Next Steps Use modules to reuse code Integrate Bicep in DevOps pipelines Combine with Azure Policy for compliance
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-25 00:00:00 +0000 UTC'>June 25, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Getting Started with Azure Bicep for Infrastructure as Code" href="http://localhost:1313/azure/bicep-getting-started/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Building an AI-Powered App Using Azure OpenAI Services
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction to Azure OpenAI In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;A into their apps. Azure OpenAI Services makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.
-Benefits: No need to host large AI models yourself Microsoft’s enterprise security and compliance Pay as you go Available in various Azure regions In this post, you’ll learn how to build an AI-powered chatbot using:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Building an AI-Powered App Using Azure OpenAI Services" href="http://localhost:1313/azure/chatbot-with-react-frontend/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Resize Azure Virtual Machines
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.
-In this guide, we’ll walk through how to resize an Azure VM in 2025 using both the Azure Portal and CLI.
-Why Resize VMs? Scale Up: Handle more traffic or workload Scale Down: Reduce costs for low-traffic periods Change Type: Move to different series (ex: from DSv2 to B series for dev/test) Pre-requisites Azure Subscription Owner / Contributor permissions on the VM VM must be in a Stopped (Deallocated) state to resize Resize via Azure Portal 1️ Navigate to Virtual Machines
-2️ Select your VM
-3️ Click Size under the “Settings” section
-4️ Select a new size (you will see estimated cost/month)
-5️ Click Resize
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to How to Resize Azure Virtual Machines" href="http://localhost:1313/azure/how-to-resize-azure-virtual-machines/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

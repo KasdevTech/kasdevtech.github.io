@@ -6,8 +6,36 @@
     <description>Recent content in Terraform on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title>
+      <link>http://localhost:1313/terraform/terraform-init-fails/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-init-fails/</guid>
+      <description>Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&amp;rsquo;s how I fixed it using service principal and storage configuration updates.</description>
+    </item>
+    <item>
+      <title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title>
+      <link>http://localhost:1313/terraform/terraform-role-assigment/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-role-assigment/</guid>
+      <description>Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here&amp;rsquo;s how I fixed this in a CI/CD pipeline using the right roles and automation.</description>
+    </item>
+    <item>
+      <title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title>
+      <link>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</guid>
+      <description>Running &lt;code&gt;terraform destroy&lt;/code&gt; in Azure sometimes fails due to implicit resource dependencies. Here&amp;rsquo;s how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</description>
+    </item>
+    <item>
+      <title>Terraform State Corruption in Azure — Recovered</title>
+      <link>http://localhost:1313/terraform/statefile-corrupted/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/statefile-corrupted/</guid>
+      <description>Faced a corrupted Terraform state file in Azure Blob Storage? Here&amp;rsquo;s a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</description>
+    </item>
     <item>
       <title>Getting Started with Terraform on Azure</title>
       <link>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</link>

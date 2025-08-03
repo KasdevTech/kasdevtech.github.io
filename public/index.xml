@@ -6,8 +6,270 @@
     <description>Recent content on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Application Gateway – Backend Health Unknown? </title>
+      <link>http://localhost:1313/azure/appgw_issues/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/appgw_issues/</guid>
+      <description>App Gateway backend shows &amp;#39;Unknown&amp;#39; or &amp;#39;Unhealthy&amp;#39;? Follow this detailed troubleshooting guide to fix it.</description>
+    </item>
+    <item>
+      <title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title>
+      <link>http://localhost:1313/terraform/terraform-init-fails/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-init-fails/</guid>
+      <description>Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&amp;rsquo;s how I fixed it using service principal and storage configuration updates.</description>
+    </item>
+    <item>
+      <title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title>
+      <link>http://localhost:1313/terraform/terraform-role-assigment/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-role-assigment/</guid>
+      <description>Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here&amp;rsquo;s how I fixed this in a CI/CD pipeline using the right roles and automation.</description>
+    </item>
+    <item>
+      <title>Automate Azure Cleanup — Before It Costs</title>
+      <link>http://localhost:1313/azure/azurecleanup/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azurecleanup/</guid>
+      <description>Learn how to built a weekly automated Azure cleanup flow using PowerShell, Logic Apps, and Teams approvals to avoid surprise cloud bills.</description>
+    </item>
+    <item>
+      <title>RAG (Retrieval-Augmented Generation) </title>
+      <link>http://localhost:1313/ai/rag/</link>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/rag/</guid>
+      <description>Understand RAG (Retrieval-Augmented Generation) in simple terms with a real-world implementation using OpenAI and ChromaDB.</description>
+    </item>
+    <item>
+      <title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title>
+      <link>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</guid>
+      <description>Running &lt;code&gt;terraform destroy&lt;/code&gt; in Azure sometimes fails due to implicit resource dependencies. Here&amp;rsquo;s how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</description>
+    </item>
+    <item>
+      <title>Terraform State Corruption in Azure — Recovered</title>
+      <link>http://localhost:1313/terraform/statefile-corrupted/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/statefile-corrupted/</guid>
+      <description>Faced a corrupted Terraform state file in Azure Blob Storage? Here&amp;rsquo;s a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</description>
+    </item>
+    <item>
+      <title>Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix</title>
+      <link>http://localhost:1313/devops/pipelinestuck/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/pipelinestuck/</guid>
+      <description>Fix Azure DevOps pipeline hangs at &amp;#39;Initialize job&amp;#39; phase. Complete checklist with real root causes and fixes from production.</description>
+    </item>
+    <item>
+      <title>Azure Network Reference Architectures</title>
+      <link>http://localhost:1313/azure/azure-network-reference-architectures/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-network-reference-architectures/</guid>
+      <description>Understand how enterprise-grade networks are designed in Azure using hub-spoke, firewall, VPN/ExpressRoute, private link, and more.</description>
+    </item>
+    <item>
+      <title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title>
+      <link>http://localhost:1313/azure/azure-networking-cost-optimization/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azure-networking-cost-optimization/</guid>
+      <description>Learn how to save costs on Azure networking components and monitor key metrics for VNet health, Firewall, and bandwidth usage.</description>
+    </item>
+    <item>
+      <title>How to Build Your Own AI Chatbot</title>
+      <link>http://localhost:1313/ai/build-ai-chatbot-2025/</link>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/build-ai-chatbot-2025/</guid>
+      <description>Build a production-ready GenAI chatbot using OpenAI, FastAPI, and React in 2025.</description>
+    </item>
+    <item>
+      <title>Fixing &#39;az login&#39; Authentication Failures in IaC Pipelines</title>
+      <link>http://localhost:1313/devops/authentication-failure/</link>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/authentication-failure/</guid>
+      <description>&lt;p&gt;You added an &lt;code&gt;az login&lt;/code&gt; command to your pipeline… and now the pipeline fails?&lt;/p&gt;
+&lt;p&gt;ERROR: Please run &amp;lsquo;az login&amp;rsquo; to setup account&lt;/p&gt;
+&lt;h4 id=&#34;root-cause&#34;&gt;Root Cause&lt;/h4&gt;
+&lt;p&gt;The Azure CLI needs credentials to authenticate. When run in a pipeline, &lt;code&gt;az login&lt;/code&gt; needs to be done &lt;strong&gt;non-interactively&lt;/strong&gt; using a &lt;strong&gt;service principal&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;solution-use-service-principal-with-secrets&#34;&gt;Solution: Use Service Principal with Secrets&lt;/h4&gt;
+&lt;p&gt;Add a login step like this in your YAML:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;: |&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    az login --service-principal \
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;             --username $appId \
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;             --password $clientSecret \
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;             --tenant $tenantId&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;env&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;appId&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;$(azureAppId)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;clientSecret&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;$(azureClientSecret)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;tenantId&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;$(azureTenantId)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;Then store these as secrets in Pipeline → Library → Secure files or variable groups.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;use-azurecli2-task-instead&#34;&gt;Use AzureCLI@2 Task Instead&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- task: AzureCLI@2
+  inputs:
+    azureSubscription: &amp;#39;MyServiceConnection&amp;#39;
+    scriptType: bash
+    scriptLocation: inlineScript
+    inlineScript: |
+      az account show
+This auto-authenticates using the linked service connection.
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
+&lt;p&gt;Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title>
+      <link>http://localhost:1313/devops/terraform-withsatelock-failure/</link>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/terraform-withsatelock-failure/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;
+&lt;p&gt;Error: Error acquiring the state lock: state blob is already locked&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re facing a &lt;strong&gt;Terraform state lock&lt;/strong&gt; issue — and it can block your pipeline!&lt;/p&gt;
+&lt;h4 id=&#34;what-causes-it&#34;&gt;What Causes It?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;A previous run crashed or was canceled&lt;/li&gt;
+&lt;li&gt;Two pipelines tried to modify state simultaneously&lt;/li&gt;
+&lt;li&gt;State is locked but not released due to network timeout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-by-step-fix&#34;&gt;Step-by-Step Fix&lt;/h4&gt;
+&lt;h4 id=&#34;manually-unlock-state&#34;&gt;Manually Unlock State&lt;/h4&gt;
+&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures</title>
+      <link>http://localhost:1313/devops/pipeline-timeout-issues/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/pipeline-timeout-issues/</guid>
+      <description>&lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
+&lt;h4 id=&#34;error-message&#34;&gt;Error Message&lt;/h4&gt;
+&lt;p&gt;[error]The job was canceled after reaching the timeout limit of 60 minutes.&lt;/p&gt;
+&lt;h4 id=&#34;default-limits&#34;&gt;Default Limits&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft-hosted agents&lt;/strong&gt;: 60 minutes per job (can be increased)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosted agents&lt;/strong&gt;: You control the timeout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;increase-timeout-in-yaml&#34;&gt;Increase Timeout in YAML&lt;/h4&gt;
+&lt;p&gt;Add the &lt;code&gt;timeoutInMinutes&lt;/code&gt; setting to your job:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;jobs&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#f92672&#34;&gt;job&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Build&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;timeoutInMinutes&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;120&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;pool&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;vmImage&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ubuntu-latest&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;echo &amp;#34;Building...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;optimize-the-build&#34;&gt;Optimize the Build&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid long dependency installations (e.g., move to cache or Docker layer)&lt;/li&gt;
+&lt;li&gt;Parallelize jobs using strategy and matrix&lt;/li&gt;
+&lt;li&gt;Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;use-self-hosted-agent-no-hard-timeout&#34;&gt;Use Self-Hosted Agent (No Hard Timeout)&lt;/h4&gt;
+&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Azure Pipeline Not Triggering Automatically on Push – YAML Trigger Issues</title>
+      <link>http://localhost:1313/devops/trigger-issues/</link>
+      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/trigger-issues/</guid>
+      <description>&lt;p&gt;Ever pushed code and expected the pipeline to run… but nothing happens?
+This is one of the most common issues teams face after setting up YAML-based Azure Pipelines.&lt;/p&gt;
+&lt;h4 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;No pipeline run triggered after pushing code&lt;/li&gt;
+&lt;li&gt;Manual runs work fine&lt;/li&gt;
+&lt;li&gt;Pipeline shows: &lt;code&gt;No CI trigger found for this repo&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;common-causes&#34;&gt;Common Causes&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Missing &lt;code&gt;trigger&lt;/code&gt; block in YAML&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Wrong branch name under &lt;code&gt;trigger&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;YAML file is in a non-default location or branch&lt;/li&gt;
+&lt;li&gt;Triggers disabled in pipeline UI&lt;/li&gt;
+&lt;li&gt;Repo is disconnected or has permission issues&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;define-the-trigger-block-properly&#34;&gt;Define the Trigger Block Properly&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;trigger&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;branches&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;include&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;If you&amp;#39;re using develop, adjust accordingly.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;check-pipeline-settings-in-azure-devops&#34;&gt;Check Pipeline Settings in Azure DevOps&lt;/h4&gt;
+&lt;p&gt;Go to Pipelines → Click your pipeline → Edit
+Click the 3 dots → Triggers
+Ensure CI Trigger is enabled&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title>
+      <link>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid>
+      <description>&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
+&lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
+&lt;h4 id=&#34;common-causes&#34;&gt;Common Causes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Repository renamed or deleted&lt;/li&gt;
+&lt;li&gt;Permissions changed in the project&lt;/li&gt;
+&lt;li&gt;PAT token expired (for GitHub or external repos)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;fixing-the-issue&#34;&gt;Fixing the Issue&lt;/h4&gt;
+&lt;h4 id=&#34;azure-repos-git&#34;&gt;Azure Repos Git&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to &lt;code&gt;Repos&lt;/code&gt; in your project&lt;/li&gt;
+&lt;li&gt;Check if the repo still exists and hasn’t been renamed&lt;/li&gt;
+&lt;li&gt;Confirm the branch in your trigger matches the YAML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;trigger&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;branches&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;include&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      - &lt;span style=&#34;color:#ae81ff&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;github-repositories&#34;&gt;GitHub Repositories&lt;/h4&gt;
+&lt;p&gt;Go to Project Settings → Service Connections
+Open your GitHub connection
+Re-authenticate or update the PAT/token
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Azure Private Endpoint vs Service Endpoint</title>
+      <link>http://localhost:1313/azure/privateendpoint-serviceendpoint/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/privateendpoint-serviceendpoint/</guid>
+      <description>Understand the difference between Azure Private Endpoint and Service Endpoint, when to use each, and how they affect VNet security and traffic routing.</description>
+    </item>
+    <item>
+      <title>Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources</title>
+      <link>http://localhost:1313/devops/azuredevops-permission-error/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devops/azuredevops-permission-error/</guid>
+      <description>&lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;
+&lt;p&gt;Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p&gt;
+&lt;h4 id=&#34;root-cause&#34;&gt;Root Cause&lt;/h4&gt;
+&lt;p&gt;This error usually occurs because the &lt;strong&gt;service principal&lt;/strong&gt; used in your Azure DevOps &lt;strong&gt;service connection&lt;/strong&gt; does not have the required &lt;strong&gt;role-based access control (RBAC)&lt;/strong&gt; permissions on the target resource group or subscription.&lt;/p&gt;
+&lt;h4 id=&#34;step-by-step-fix&#34;&gt;Step-by-Step Fix&lt;/h4&gt;
+&lt;h4 id=&#34;verify-the-service-connection-identity&#34;&gt;Verify the Service Connection Identity&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;code&gt;Project Settings&lt;/code&gt; → &lt;code&gt;Service Connections&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on your Azure Resource Manager connection&lt;/li&gt;
+&lt;li&gt;Note the &lt;strong&gt;Object ID&lt;/strong&gt; of the service principal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;assign-the-correct-role-in-azure-portal&#34;&gt;Assign the Correct Role in Azure Portal&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to your &lt;strong&gt;Resource Group&lt;/strong&gt; (or Subscription)&lt;/li&gt;
+&lt;li&gt;Go to &lt;code&gt;Access Control (IAM)&lt;/code&gt; → &lt;code&gt;Add Role Assignment&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Select the role (e.g., &lt;code&gt;Contributor&lt;/code&gt; or &lt;code&gt;Web App Contributor&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Assign it to the &lt;strong&gt;service principal&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;review-pipeline-yaml&#34;&gt;Review Pipeline YAML&lt;/h4&gt;
+&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title> Azure NSG vs ASG – Network Security for VNets </title>
+      <link>http://localhost:1313/azure/nsg-asg/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/nsg-asg/</guid>
+      <description>Understand Network Security Groups (NSG) and Application Security Groups (ASG) in Azure. Learn how they protect your VNets and workloads.</description>
+    </item>
     <item>
       <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
       <link>http://localhost:1313/azure/azure-routing-simplified/</link>

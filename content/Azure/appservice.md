@@ -59,7 +59,7 @@ Verify connection strings (DB, Storage, APIs)
 
 Ensure ASPNETCORE_ENVIRONMENT or WEBSITE_NODE_DEFAULT_VERSION is set correctly
 
-## ##Step 4: Check Deployment Logs
+#### Step 4: Check Deployment Logs
 If you’re deploying with CI/CD (Azure DevOps, GitHub Actions), open the Deployment Center logs.
 
 ```

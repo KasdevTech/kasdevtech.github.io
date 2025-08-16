@@ -31,24 +31,24 @@ az monitor metrics list \
 This gives you CPU usage minute by minute.
 
 #### Step 2: Use App Service Diagnostics
-In the App Service → Diagnose and Solve Problems:
-Select Availability & Performance
-Check High CPU Analysis or High Memory Analysis
+- In the App Service → Diagnose and Solve Problems:
+- Select Availability & Performance
+- Check High CPU Analysis or High Memory Analysis
 This shows you:
-Top requests consuming resources
-Long-running threads
-Memory leaks
+- Top requests consuming resources
+- Long-running threads
+- Memory leaks
 
 #### Step 3: Profile the App
-Enable Application Insights Profiler:
-Portal → App Service → Application Insights → Turn On Profiler
-Capture snapshots during high load
-Review flame charts to see slow functions or memory leaks
+- Enable Application Insights Profiler:
+- Portal → App Service → Application Insights → Turn On Profiler
+- Capture snapshots during high load
+- Review flame charts to see slow functions or memory leaks
 
 #### Step 4: Scale Out or Scale Up
-Sometimes, the fix is simple: add more resources.
-Scale Up → Increase plan (B1 → S1 → P1v3)
-Scale Out → Add more instances
+- Sometimes, the fix is simple: add more resources.
+- Scale Up → Increase plan (B1 → S1 → P1v3)
+- Scale Out → Add more instances
 
 ```
 az appservice plan update \
@@ -59,22 +59,22 @@ az appservice plan update \
 This adds 3 worker instances to balance load.
 
 #### Step 5: Optimize the App
-High CPU isn’t always Azure’s fault. Check for:
-Infinite loops in code
-Heavy synchronous operations
-Poor database queries
+- High CPU isn’t always Azure’s fault. Check for:
+- Infinite loops in code
+- Heavy synchronous operations
+- Poor database queries
 
 ✅ Use async programming
 ✅ Cache results in Azure Cache for Redis
 ✅ Optimize database queries with indexes
 
 #### Step 6: Use Autoscale
-Enable Autoscale Rules to handle traffic spikes:
-Portal → App Service Plan → Scale Out (App Service Plan)
+- Enable Autoscale Rules to handle traffic spikes:
+- Portal → App Service Plan → Scale Out (App Service Plan)
 
 Example:
-Scale out if CPU > 75% for 10 minutes
-Scale back in when CPU < 40%
+- Scale out if CPU > 75% for 10 minutes
+- Scale back in when CPU < 40%
 
 #### Step 7: Restart and Recover
 If your app gets stuck:
@@ -85,17 +85,17 @@ Sometimes a simple restart clears memory leaks temporarily until you apply a per
 
 #### Common Causes of High CPU/Memory
 
-Unoptimized Code → Loops, blocking threads, recursive calls
-Leaky Dependencies → Not disposing connections properly
-Bad DB Queries → Full table scans
-Large Payloads → JSON/XML parsing at scale
-Traffic Surge → Sudden load without autoscale
+- Unoptimized Code → Loops, blocking threads, recursive calls
+- Leaky Dependencies → Not disposing connections properly
+- Bad DB Queries → Full table scans
+- Large Payloads → JSON/XML parsing at scale
+- Traffic Surge → Sudden load without autoscale
 
 #### Best Practices
-Always enable Application Insights for monitoring
-Use Azure Front Door or Azure CDN to offload static content
-Offload long jobs to Azure Functions or Azure WebJobs
-Test performance with Azure Load Testing
+- Always enable Application Insights for monitoring
+- Use Azure Front Door or Azure CDN to offload static content
+- Offload long jobs to Azure Functions or Azure WebJobs
+- Test performance with Azure Load Testing
 
 #### Final Take
 High CPU and memory issues in Azure App Service are often a mix of code inefficiency + resource limits.

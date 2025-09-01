@@ -4,6 +4,7 @@ date: 2025-09-01
 author: "Kasi Suresh"
 tags: ["Terraform", "Azure", "State", "Troubleshooting"]
 summary: "Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here's how I used `terraform import` to fix drift and sync state."
+type: "Terraform"
 ---
 
 > ❌ Error:

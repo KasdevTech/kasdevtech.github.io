@@ -6,8 +6,22 @@
     <description>Recent content in Devops on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing High CPU and Memory Usage in Azure App Service</title>
+      <link>http://localhost:1313/azure/appservice-high-cpu/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/appservice-high-cpu/</guid>
+      <description>A step-by-step guide to troubleshoot and resolve performance issues in Azure App Service caused by high CPU or memory usage.</description>
+    </item>
+    <item>
+      <title>Troubleshooting Azure App Service Startup Failures</title>
+      <link>http://localhost:1313/azure/appservice/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/appservice/</guid>
+      <description>Step-by-step guide to diagnose and fix Azure App Service startup failures, including logs, Kudu console, and common misconfigurations.</description>
+    </item>
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
       <link>http://localhost:1313/azure/bicep-getting-started/</link>

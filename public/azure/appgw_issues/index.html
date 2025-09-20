@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Azure Application Gateway – Backend Health Unknown?  | KasdevTech</title>
+<title>Azure Application Gateway – Backend Health Unknown | KasdevTech</title>
 <meta name="keywords" content="Azure Application Gateway, Troubleshooting, Probes, NSG, Load Balancer">
 <meta name="description" content="App Gateway backend shows &#39;Unknown&#39; or &#39;Unhealthy&#39;? Follow this detailed troubleshooting guide to fix it.">
 <meta name="author" content="Kasi Suresh">
@@ -57,7 +57,7 @@
     </style>
 </noscript><meta property="og:url" content="http://localhost:1313/azure/appgw_issues/">
   <meta property="og:site_name" content="KasdevTech">
-  <meta property="og:title" content="Azure Application Gateway – Backend Health Unknown? ">
+  <meta property="og:title" content="Azure Application Gateway – Backend Health Unknown">
   <meta property="og:description" content="App Gateway backend shows &#39;Unknown&#39; or &#39;Unhealthy&#39;? Follow this detailed troubleshooting guide to fix it.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
@@ -70,7 +70,7 @@
     <meta property="article:tag" content="NSG">
     <meta property="article:tag" content="Load Balancer">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Azure Application Gateway – Backend Health Unknown? ">
+<meta name="twitter:title" content="Azure Application Gateway – Backend Health Unknown">
 <meta name="twitter:description" content="App Gateway backend shows &#39;Unknown&#39; or &#39;Unhealthy&#39;? Follow this detailed troubleshooting guide to fix it.">
 
 
@@ -88,7 +88,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Azure Application Gateway – Backend Health Unknown? ",
+      "name": "Azure Application Gateway – Backend Health Unknown",
       "item": "http://localhost:1313/azure/appgw_issues/"
     }
   ]
@@ -98,14 +98,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Azure Application Gateway – Backend Health Unknown? ",
-  "name": "Azure Application Gateway – Backend Health Unknown? ",
+  "headline": "Azure Application Gateway – Backend Health Unknown",
+  "name": "Azure Application Gateway – Backend Health Unknown",
   "description": "App Gateway backend shows 'Unknown' or 'Unhealthy'? Follow this detailed troubleshooting guide to fix it.",
   "keywords": [
     "Azure Application Gateway", "Troubleshooting", "Probes", "NSG", "Load Balancer"
   ],
-  "articleBody": "Azure Application Gateway – Backend Health Unknown? If you’re using Azure Application Gateway and you see:\nBackend health: UNKNOWN\nBackend health: UNHEALTHY\nDon’t panic. This is a common issue — and we’ll walk through how to fix it end-to-end, even if you’re new to Azure.\nWhat Does “Unknown” or “Unhealthy” Mean? Unknown = App Gateway can’t reach the backend (network issue) Unhealthy = App Gateway can reach the backend, but probe failed (wrong path, port, etc.) Step-by-Step Troubleshooting Step 1: Check Backend Pool IP/VM Go to: App Gateway → Backend pools Confirm:\nCorrect IP or FQDN The backend (VM, App, etc.) is running If using FQDN, DNS must be resolvable Step 2: Validate Probes App Gateway → Health Probes\nConfirm the path exists — e.g., /health, /status, etc. Check protocol (HTTP or HTTPS) Ensure custom host name (if used) matches backend cert (for HTTPS) Avoid using / as probe path for apps that require login or redirect.\nStep 3: Review Listener + HTTP Settings App Gateway → HTTP Settings\nBackend port = matches backend (usually 80 or 443) Use correct protocol If HTTPS: Set pick host name from backend, or set manually Associate with correct probe Step 4: Backend NSG and Routes Check backend subnet’s NSG:\nAllow:\nInbound from App Gateway subnet on port 80/443 Outbound to App Gateway if response is needed Check UDR (User Defined Routes):\nAvoid sending App Gateway traffic to NVA/firewall unless configured properly.\nStep 5: Diagnose from App Gateway Go to:\nApp Gateway → Backend health\nHere you’ll see:\nBackend Status Code Description 10.0.1.4 Unknown 0 No response 10.0.1.5 Unhealthy 403 Probe failed auth Click each backend to view probe logs and exact error\nStep 6: Use Network Watcher Enable Connection Troubleshoot from:\nNetwork Watcher → Connection troubleshoot\nTest from App Gateway subnet → Backend IP:Port Verify reachability and response time Fix Summary Issue Fix Backend health Unknown NSG/UDR block, wrong IP, DNS issue Backend health Unhealthy Wrong probe path, wrong port/cert HTTPS failing probe Hostname mismatch or cert issue DNS FQDN backend unreachable Private DNS or no resolution VMs in stopped state Start them or replace in backend pool Quick Fix – Sample NSG Rule az network nsg rule create \\ --resource-group myRG \\ --nsg-name backend-nsg \\ --name AllowAppGw \\ --priority 100 \\ --direction Inbound \\ --access Allow \\ --protocol Tcp \\ --source-address-prefixes \\ --destination-port-ranges 80 443 Final Tips: Use custom probes over default probes Always test probe path manually in browser or Postman For HTTPS, check backend certs and hostname validation Use FQDN only if DNS is guaranteed to resolve\nReferences: Troubleshoot App Gateway backend health Custom probes\nNeed help debugging your Gateway? Drop a comment or reach out on LinkedIn!\n– Kasi @ KasdevTech 🚀\n",
-  "wordCount" : "454",
+  "articleBody": "Azure Application Gateway – Backend Health Unknown? If you’re using Azure Application Gateway and you see:\nBackend health: UNKNOWN\nBackend health: UNHEALTHY\nDon’t panic. This is a common issue — and we’ll walk through how to fix it end-to-end, even if you’re new to Azure.\nWhat Does “Unknown” or “Unhealthy” Mean? Unknown = App Gateway can’t reach the backend (network issue) Unhealthy = App Gateway can reach the backend, but probe failed (wrong path, port, etc.) Step-by-Step Troubleshooting Step 1: Check Backend Pool IP/VM Go to: App Gateway → Backend pools Confirm:\nCorrect IP or FQDN The backend (VM, App, etc.) is running If using FQDN, DNS must be resolvable Step 2: Validate Probes App Gateway → Health Probes\nConfirm the path exists — e.g., /health, /status, etc. Check protocol (HTTP or HTTPS) Ensure custom host name (if used) matches backend cert (for HTTPS) Avoid using / as probe path for apps that require login or redirect.\nStep 3: Review Listener + HTTP Settings App Gateway → HTTP Settings\nBackend port = matches backend (usually 80 or 443) Use correct protocol If HTTPS: Set pick host name from backend, or set manually Associate with correct probe Step 4: Backend NSG and Routes Check backend subnet’s NSG:\nAllow:\nInbound from App Gateway subnet on port 80/443 Outbound to App Gateway if response is needed Check UDR (User Defined Routes):\nAvoid sending App Gateway traffic to NVA/firewall unless configured properly.\nStep 5: Diagnose from App Gateway Go to:\nApp Gateway → Backend health\nHere you’ll see:\nBackend Status Code Description 10.0.1.4 Unknown 0 No response 10.0.1.5 Unhealthy 403 Probe failed auth Click each backend to view probe logs and exact error\nStep 6: Use Network Watcher Enable Connection Troubleshoot from:\nNetwork Watcher → Connection troubleshoot\nTest from App Gateway subnet → Backend IP:Port Verify reachability and response time Fix Summary Issue Fix Backend health Unknown NSG/UDR block, wrong IP, DNS issue Backend health Unhealthy Wrong probe path, wrong port/cert HTTPS failing probe Hostname mismatch or cert issue DNS FQDN backend unreachable Private DNS or no resolution VMs in stopped state Start them or replace in backend pool Quick Fix – Sample NSG Rule az network nsg rule create \\ --resource-group myRG \\ --nsg-name backend-nsg \\ --name AllowAppGw \\ --priority 100 \\ --direction Inbound \\ --access Allow \\ --protocol Tcp \\ --source-address-prefixes \\ --destination-port-ranges 80 443 Final Tips:\nUse custom probes over default probes Always test probe path manually in browser or Postman For HTTPS, check backend certs and hostname validation Use FQDN only if DNS is guaranteed to resolve Need help debugging your Gateway?\nDrop a comment or reach out on LinkedIn!\n– Kasi @ KasdevTech\n",
+  "wordCount" : "445",
   "inLanguage": "en",
   "datePublished": "2025-08-03T00:00:00Z",
   "dateModified": "2025-08-03T00:00:00Z",
@@ -213,7 +213,7 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Azure Application Gateway – Backend Health Unknown? 
+      Azure Application Gateway – Backend Health Unknown
     </h1>
     <div class="post-description">
       App Gateway backend shows &#39;Unknown&#39; or &#39;Unhealthy&#39;? Follow this detailed troubleshooting guide to fix it.
@@ -385,17 +385,16 @@ Confirm:</p>
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --protocol Tcp <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --source-address-prefixes &lt;AppGwSubnetPrefix&gt; <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  --destination-port-ranges <span style="color:#ae81ff">80</span> <span style="color:#ae81ff">443</span>
-</span></span></code></pre></div><p>Final Tips:
-Use custom probes over default probes
-Always test probe path manually in browser or Postman
-For HTTPS, check backend certs and hostname validation
-Use FQDN only if DNS is guaranteed to resolve</p>
-<p>References:
-Troubleshoot App Gateway backend health
-Custom probes</p>
-<p>Need help debugging your Gateway?
-Drop a comment or reach out on LinkedIn!</p>
-<p>– Kasi @ KasdevTech 🚀</p>
+</span></span></code></pre></div><p>Final Tips:</p>
+<ul>
+<li>Use custom probes over default probes</li>
+<li>Always test probe path manually in browser or Postman</li>
+<li>For HTTPS, check backend certs and hostname validation</li>
+<li>Use FQDN only if DNS is guaranteed to resolve</li>
+</ul>
+<p>Need help debugging your Gateway?</p>
+<p>Drop a comment or reach out on LinkedIn!</p>
+<p>– Kasi @ KasdevTech</p>
 
 
   </div>

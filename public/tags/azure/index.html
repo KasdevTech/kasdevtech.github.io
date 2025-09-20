@@ -154,6 +154,50 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Terraform Import in Azure — Fixing Out-of-Band Changes
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here’s how I used terraform import to fix drift and sync state.</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-01 00:00:00 +0000 UTC'>September 1, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Terraform Import in Azure — Fixing Out-of-Band Changes" href="http://localhost:1313/terraform/out-of-band-changes/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Fixing High CPU and Memory Usage in Azure App Service
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Fixing High CPU and Memory Usage in Azure App Service Your app is running fine, and then suddenly… users complain about slowness or the app even crashes.
+When you check the Azure Portal, you see CPU pegged at 90–100% or memory exhausted.
+This is a very common real-world issue in Azure App Service. Let’s walk step by step.
+Step 1: Monitor Metrics Go to: Azure Portal → App Service → Metrics → CPU Percentage / Memory Working Set Look for spikes during:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-16 00:00:00 +0000 UTC'>August 16, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Fixing High CPU and Memory Usage in Azure App Service" href="http://localhost:1313/azure/appservice-high-cpu/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Troubleshooting Azure App Service Startup Failures
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Troubleshooting Azure App Service Startup Failures One of the most common issues with Azure App Service is when your web app refuses to start after deployment.
+The symptoms usually look like this:
+The app returns HTTP 500 – Internal Server Error You see Service Unavailable (503) The container or code doesn’t start properly This is a real-world headache because you deploy with confidence, but the app never comes up.
+Step 1: Check App Service Logs Enable Application Logging and Web Server Logging.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-16 00:00:00 +0000 UTC'>August 16, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Troubleshooting Azure App Service Startup Failures" href="http://localhost:1313/azure/appservice/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues
     </h2>
   </header>
@@ -247,56 +291,6 @@ But it requires:
   </div>
   <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to Azure Networking Cost Optimization & Monitoring Best Practices" href="http://localhost:1313/azure/azure-networking-cost-optimization/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure Private Endpoint vs Service Endpoint
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Azure Private Endpoint vs Service Endpoint So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…
-Should I use a Service Endpoint or a Private Endpoint?
-These two features are critical for securing Azure PaaS services. But they’re not the same.
-Let’s break them down clearly with real-world context.
-What is a Service Endpoint? Service Endpoints extend your VNet’s private IP to Azure PaaS services.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-04 00:00:00 +0000 UTC'>July 4, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure Private Endpoint vs Service Endpoint" href="http://localhost:1313/azure/privateendpoint-serviceendpoint/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent"> Azure NSG vs ASG – Network Security for VNets 
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Azure NSG vs ASG In cloud networking, firewalls and access control are your first line of defense.
-In Azure, the two main tools for this are:
-Network Security Group (NSG) Application Security Group (ASG) Let’s explore what they are, how they work, and how to use them together.
-What is a Network Security Group (NSG)? An NSG acts like a virtual firewall. You can apply it to:
-Subnets Network interfaces (NICs) NSG Rules look like: Priority Direction Source Destination Port Action 100 Inbound Any 10.0.1.4 80 Allow 200 Inbound Any Any * Deny Azure processes rules top-down, based on priority (lower = higher priority).
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-03 00:00:00 +0000 UTC'>July 3, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to  Azure NSG vs ASG – Network Security for VNets " href="http://localhost:1313/azure/nsg-asg/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure Routing Simplified – UDR, Route Tables &amp; BGP
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Azure Routing – UDR, Route Tables, and BGP Ever wonder how traffic knows where to go inside your VNet? That magic is thanks to Routing – and in Azure, it’s handled by:
-System Routes User Defined Routes (UDR) Border Gateway Protocol (BGP) System Routes (Default) Azure automatically adds system routes to all subnets.
-Examples:
-Destination Next Hop 0.0.0.0/0 Internet Virtual Network 168.63.129.16 Virtual Network These work fine in most cases — until you need customization.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-02 00:00:00 +0000 UTC'>July 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure Routing Simplified – UDR, Route Tables & BGP" href="http://localhost:1313/azure/azure-routing-simplified/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

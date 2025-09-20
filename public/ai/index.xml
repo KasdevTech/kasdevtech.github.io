@@ -6,8 +6,15 @@
     <description>Recent content in AI on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Agents – The Next Evolution of Automation</title>
+      <link>http://localhost:1313/ai/ai-agents/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/ai-agents/</guid>
+      <description>AI agents are the future of autonomous work. Learn what they are, how they function, and where businesses are already using them.</description>
+    </item>
     <item>
       <title>RAG (Retrieval-Augmented Generation) </title>
       <link>http://localhost:1313/ai/rag/</link>

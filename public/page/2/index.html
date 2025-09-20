@@ -163,6 +163,67 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure DevOps pipeline stuck on ‘Initialize job’? Step-by-step fix Ever had your Azure DevOps pipeline hang at the very first step – Initialize job – and not move forward?
+This issue is frustrating and common — especially with self-hosted agents, permissions misconfiguration, or pipeline resource locks.
+Let’s break down exactly how to troubleshoot and fix this problem step-by-step.
+What does ‘Initialize job’ actually mean? It’s the very first phase in a pipeline run:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-09 00:00:00 +0000 UTC'>July 9, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix" href="http://localhost:1313/devops/pipelinestuck/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Network Reference Architectures
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Network Reference Architectures By now, you’ve learned about VNets, peering, firewalls, DNS, and more.
+Let’s bring it all together with real Azure networking architectures you can apply in production.
+Design Pattern 1: Hub-Spoke with VPN Gateway Perfect for hybrid connectivity and centralized control.
+Key Features: Central Hub VNet with: VPN Gateway Azure Firewall or NVA DDoS Protection Multiple Spoke VNets for apps/environments VNet Peering for traffic Diagram: [On-Premises] | ====== Site-to-Site VPN ====== | &#43;------------------&#43; | Hub VNet | | VPN &#43; Firewall | &#43;------------------&#43; / | \ / | \ [Spoke A] [Spoke B] [Spoke C] Design Pattern 2: Private Link &#43; NAT Gateway For secure outbound and fully private access to PaaS.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Network Reference Architectures" href="http://localhost:1313/azure/azure-network-reference-architectures/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Networking Cost Optimization &amp; Monitoring Best Practices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Networking Cost Optimization &amp; Monitoring Azure networking is powerful — but can get expensive if you’re not careful.
+This post covers:
+What costs the most in Azure networking? How to reduce cost without compromising security Tools to monitor and alert for network health What Costs the Most? Resource Cost Impact Azure Firewall $$$ — Pay per deployment &#43; GB used ExpressRoute $$$ — Monthly base &#43; bandwidth Data Transfer Charges for traffic between regions or zones VPN Gateway Based on SKU and time Peering Inbound = Free, Outbound = $$$ Public IP Basic = Free, Standard = Billable Cost Optimization Tips Use NAT Gateway Instead of Load Balancer SNAT Avoid port exhaustion More scalable for outbound traffic Predictable IP and cost Consolidate Firewalls in Hub One Azure Firewall in the Hub VNet Route all traffic through it Use UDRs and ASGs to enforce control Avoid Cross-Region Traffic Peering across regions = paid outbound Keep apps and databases in same region when possible Use Azure Cost Management Enable tags on VNet, Firewall, NAT Gateway Group by project/team/app Set up budgets and alerts Monitoring Tools Tool Use For Network Watcher Packet capture, NSG flow logs Azure Monitor Metrics for Firewall, VPN, Gateway Log Analytics Query NSG and Firewall logs Connection Monitor End-to-end checks (latency, loss) Monitor These Metrics Firewall throughput NAT Gateway SNAT ports used VPN Tunnel status (S2S, P2S) Inbound/outbound bytes per VNet Number of dropped packets (NSG) Set Alerts (Examples) Alert if VPN Gateway is down Alert if Azure Firewall hits 80% throughput Alert on unexpected data transfer spikes Final Tip Secure, scalable Azure networking is possible without breaking the bank.
+But it requires:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Networking Cost Optimization & Monitoring Best Practices" href="http://localhost:1313/azure/azure-networking-cost-optimization/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to Build Your Own AI Chatbot
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Want to build your own AI-powered chatbot for your business or blog? Here’s a simplified step-by-step blueprint that works in 2025:
+Tech Stack Backend: FastAPI &#43; OpenAI API Frontend: React &#43; Tailwind CSS Memory / Search: ChromaDB or Pinecone Hosting: Render.com &#43; GitHub Pages (free tier) Steps to Build Get an OpenAI API Key from https://platform.openai.com Setup FastAPI App with a /chat endpoint Use ChromaDB or Pinecone to store and retrieve past questions/answers (for RAG) Create React Chat UI with an input box, chat bubbles, and streaming response Deploy Frontend to GitHub Pages and Backend to Render.com (free tier) </p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to How to Build Your Own AI Chatbot" href="http://localhost:1313/ai/build-ai-chatbot-2025/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Fixing &#39;az login&#39; Authentication Failures in IaC Pipelines
     </h2>
   </header>
@@ -254,72 +315,6 @@ What is a Service Endpoint? Service Endpoints extend your VNet’s private IP to
   </div>
   <footer class="entry-footer"><span title='2025-07-04 00:00:00 +0000 UTC'>July 4, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to Azure Private Endpoint vs Service Endpoint" href="http://localhost:1313/azure/privateendpoint-serviceendpoint/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Deploying resources from Azure Pipelines and running into the dreaded AuthorizationFailed error? You’re not alone!
-Error: AuthorizationFailed: The client does not have authorization to perform action ‘Microsoft.Web/sites/write’…
-Root Cause This error usually occurs because the service principal used in your Azure DevOps service connection does not have the required role-based access control (RBAC) permissions on the target resource group or subscription.
-Step-by-Step Fix Verify the Service Connection Identity Go to Project Settings → Service Connections Click on your Azure Resource Manager connection Note the Object ID of the service principal Assign the Correct Role in Azure Portal Navigate to your Resource Group (or Subscription) Go to Access Control (IAM) → Add Role Assignment Select the role (e.g., Contributor or Web App Contributor) Assign it to the service principal Review Pipeline YAML Make sure you’re referencing the correct service connection:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-04 00:00:00 +0000 UTC'>July 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources" href="http://localhost:1313/devops/azuredevops-permission-error/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent"> Azure NSG vs ASG – Network Security for VNets 
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Azure NSG vs ASG In cloud networking, firewalls and access control are your first line of defense.
-In Azure, the two main tools for this are:
-Network Security Group (NSG) Application Security Group (ASG) Let’s explore what they are, how they work, and how to use them together.
-What is a Network Security Group (NSG)? An NSG acts like a virtual firewall. You can apply it to:
-Subnets Network interfaces (NICs) NSG Rules look like: Priority Direction Source Destination Port Action 100 Inbound Any 10.0.1.4 80 Allow 200 Inbound Any Any * Deny Azure processes rules top-down, based on priority (lower = higher priority).
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-03 00:00:00 +0000 UTC'>July 3, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to  Azure NSG vs ASG – Network Security for VNets " href="http://localhost:1313/azure/nsg-asg/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure Routing Simplified – UDR, Route Tables &amp; BGP
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Azure Routing – UDR, Route Tables, and BGP Ever wonder how traffic knows where to go inside your VNet? That magic is thanks to Routing – and in Azure, it’s handled by:
-System Routes User Defined Routes (UDR) Border Gateway Protocol (BGP) System Routes (Default) Azure automatically adds system routes to all subnets.
-Examples:
-Destination Next Hop 0.0.0.0/0 Internet Virtual Network 168.63.129.16 Virtual Network These work fine in most cases — until you need customization.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-02 00:00:00 +0000 UTC'>July 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure Routing Simplified – UDR, Route Tables & BGP" href="http://localhost:1313/azure/azure-routing-simplified/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure VPN Gateway vs ExpressRoute – S2S vs P2S
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Azure VPN Gateway vs ExpressRoute – What Should You Use? Now that we understand VNets and peering, let’s talk about how to connect your on-premises network to Azure.
-Two main options:
-Azure VPN Gateway Azure ExpressRoute And under VPN Gateway, two common scenarios:
-Site-to-Site (S2S) VPN Point-to-Site (P2S) VPN Let’s break them all down simply.
-What is Azure VPN Gateway? Azure VPN Gateway is a managed network gateway in Azure. It lets you:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-02 00:00:00 +0000 UTC'>July 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure VPN Gateway vs ExpressRoute – S2S vs P2S" href="http://localhost:1313/azure/azure-vpn-gateway-vs-expressroute/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

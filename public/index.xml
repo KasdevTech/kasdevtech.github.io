@@ -6,14 +6,49 @@
     <description>Recent content on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Azure Application Gateway – Backend Health Unknown? </title>
+      <title>Terraform Import in Azure — Fixing Out-of-Band Changes</title>
+      <link>http://localhost:1313/terraform/out-of-band-changes/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/out-of-band-changes/</guid>
+      <description>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&amp;rsquo;s how I used &lt;code&gt;terraform import&lt;/code&gt; to fix drift and sync state.</description>
+    </item>
+    <item>
+      <title>AI Agents – The Next Evolution of Automation</title>
+      <link>http://localhost:1313/ai/ai-agents/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/ai-agents/</guid>
+      <description>AI agents are the future of autonomous work. Learn what they are, how they function, and where businesses are already using them.</description>
+    </item>
+    <item>
+      <title>Fixing High CPU and Memory Usage in Azure App Service</title>
+      <link>http://localhost:1313/azure/appservice-high-cpu/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/appservice-high-cpu/</guid>
+      <description>A step-by-step guide to troubleshoot and resolve performance issues in Azure App Service caused by high CPU or memory usage.</description>
+    </item>
+    <item>
+      <title>Troubleshooting Azure App Service Startup Failures</title>
+      <link>http://localhost:1313/azure/appservice/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/appservice/</guid>
+      <description>Step-by-step guide to diagnose and fix Azure App Service startup failures, including logs, Kudu console, and common misconfigurations.</description>
+    </item>
+    <item>
+      <title>Azure Application Gateway – Backend Health Unknown</title>
       <link>http://localhost:1313/azure/appgw_issues/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/azure/appgw_issues/</guid>
       <description>App Gateway backend shows &amp;#39;Unknown&amp;#39; or &amp;#39;Unhealthy&amp;#39;? Follow this detailed troubleshooting guide to fix it.</description>
+    </item>
+    <item>
+      <title>Azure VM Boot Issue – VM stuck in &#39;Starting&#39; or &#39;Failed&#39;</title>
+      <link>http://localhost:1313/azure/azurevm_issues/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/azure/azurevm_issues/</guid>
+      <description>Your Azure VM stuck on &amp;#39;Starting&amp;#39; or &amp;#39;Failed&amp;#39;? Learn how to troubleshoot using Boot Diagnostics, Serial Console, and recovery tools.</description>
     </item>
     <item>
       <title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title>

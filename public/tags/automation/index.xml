@@ -6,8 +6,15 @@
     <description>Recent content in Automation on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Agents – The Next Evolution of Automation</title>
+      <link>http://localhost:1313/ai/ai-agents/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai/ai-agents/</guid>
+      <description>AI agents are the future of autonomous work. Learn what they are, how they function, and where businesses are already using them.</description>
+    </item>
     <item>
       <title>Automate Azure Cleanup — Before It Costs</title>
       <link>http://localhost:1313/azure/azurecleanup/</link>

@@ -163,6 +163,72 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Deploying resources from Azure Pipelines and running into the dreaded AuthorizationFailed error? You’re not alone!
+Error: AuthorizationFailed: The client does not have authorization to perform action ‘Microsoft.Web/sites/write’…
+Root Cause This error usually occurs because the service principal used in your Azure DevOps service connection does not have the required role-based access control (RBAC) permissions on the target resource group or subscription.
+Step-by-Step Fix Verify the Service Connection Identity Go to Project Settings → Service Connections Click on your Azure Resource Manager connection Note the Object ID of the service principal Assign the Correct Role in Azure Portal Navigate to your Resource Group (or Subscription) Go to Access Control (IAM) → Add Role Assignment Select the role (e.g., Contributor or Web App Contributor) Assign it to the service principal Review Pipeline YAML Make sure you’re referencing the correct service connection:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-04 00:00:00 +0000 UTC'>July 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources" href="http://localhost:1313/devops/azuredevops-permission-error/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent"> Azure NSG vs ASG – Network Security for VNets 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure NSG vs ASG In cloud networking, firewalls and access control are your first line of defense.
+In Azure, the two main tools for this are:
+Network Security Group (NSG) Application Security Group (ASG) Let’s explore what they are, how they work, and how to use them together.
+What is a Network Security Group (NSG)? An NSG acts like a virtual firewall. You can apply it to:
+Subnets Network interfaces (NICs) NSG Rules look like: Priority Direction Source Destination Port Action 100 Inbound Any 10.0.1.4 80 Allow 200 Inbound Any Any * Deny Azure processes rules top-down, based on priority (lower = higher priority).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-03 00:00:00 +0000 UTC'>July 3, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to  Azure NSG vs ASG – Network Security for VNets " href="http://localhost:1313/azure/nsg-asg/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Routing Simplified – UDR, Route Tables &amp; BGP
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Routing – UDR, Route Tables, and BGP Ever wonder how traffic knows where to go inside your VNet? That magic is thanks to Routing – and in Azure, it’s handled by:
+System Routes User Defined Routes (UDR) Border Gateway Protocol (BGP) System Routes (Default) Azure automatically adds system routes to all subnets.
+Examples:
+Destination Next Hop 0.0.0.0/0 Internet Virtual Network 168.63.129.16 Virtual Network These work fine in most cases — until you need customization.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-02 00:00:00 +0000 UTC'>July 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Routing Simplified – UDR, Route Tables & BGP" href="http://localhost:1313/azure/azure-routing-simplified/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure VPN Gateway vs ExpressRoute – S2S vs P2S
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure VPN Gateway vs ExpressRoute – What Should You Use? Now that we understand VNets and peering, let’s talk about how to connect your on-premises network to Azure.
+Two main options:
+Azure VPN Gateway Azure ExpressRoute And under VPN Gateway, two common scenarios:
+Site-to-Site (S2S) VPN Point-to-Site (P2S) VPN Let’s break them all down simply.
+What is Azure VPN Gateway? Azure VPN Gateway is a managed network gateway in Azure. It lets you:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-02 00:00:00 +0000 UTC'>July 2, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure VPN Gateway vs ExpressRoute – S2S vs P2S" href="http://localhost:1313/azure/azure-vpn-gateway-vs-expressroute/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent"> Azure Virtual Network Basics – Public vs Private Networks
     </h2>
   </header>
@@ -251,63 +317,6 @@ Why Bicep? Native to Azure Simplified syntax No state files (unlike Terraform) E
   </div>
   <footer class="entry-footer"><span title='2025-06-25 00:00:00 +0000 UTC'>June 25, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to Getting Started with Azure Bicep for Infrastructure as Code" href="http://localhost:1313/azure/bicep-getting-started/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Setting up self-hosted agents using Azure Virtual Machine Scale Sets (VMSS) gives you more control, performance, and scalability compared to Microsoft-hosted agents.
-This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.
-Use Cases for Self-Hosted Agents Large builds requiring more compute Custom toolchains (e.g., Docker, Terraform, Node.js) Controlled access with internal networking Reducing build time and cost Prerequisites Azure DevOps Organization &#43; Project Azure Subscription Contributor or Owner role on Azure VMSS Contributor role for DevOps managed identity Step 1: Create a Virtual Machine Scale Set (VMSS) You can create this via Azure CLI or Portal. Below are the CLI steps:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-25 00:00:00 +0000 UTC'>June 25, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets" href="http://localhost:1313/devops/self-hosted-agents-vmss/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Prompt Engineering for Cloud Architects: 10 Powerful Tips
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, prompt engineering has become a valuable tool in our toolbox.
-Here are Prompt Engineering for Cloud Architects: 10 Powerful Tips to boost your productivity, decision-making, and solution design as a Cloud Architect.
-1. Be Clear, Concise, and Contextual Bad Prompt:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-24 00:00:00 +0000 UTC'>June 24, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Prompt Engineering for Cloud Architects: 10 Powerful Tips" href="http://localhost:1313/ai/10-prompt-engineering-tips-cloud-architects/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Sample Azure DevOps Pipeline for .NET App
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Here is a simple YAML pipeline for building a .NET Core app:
-trigger: - main pool: vmImage: &#39;ubuntu-latest&#39; steps: - task: UseDotNet@2 inputs: packageType: &#39;sdk&#39; version: &#39;8.0.x&#39; - script: | dotnet build dotnet test displayName: &#39;Build and Test&#39; - task: PublishBuildArtifacts@1 inputs: PathtoPublish: &#39;$(Build.ArtifactStagingDirectory)&#39; ArtifactName: &#39;drop&#39; </p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-23 11:20:00 +0530 IST'>June 23, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Sample Azure DevOps Pipeline for .NET App" href="http://localhost:1313/devops/sample-azure-devops-pipeline/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Building an AI-Powered App Using Azure OpenAI Services
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction to Azure OpenAI In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;A into their apps. Azure OpenAI Services makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.
-Benefits: No need to host large AI models yourself Microsoft’s enterprise security and compliance Pay as you go Available in various Azure regions In this post, you’ll learn how to build an AI-powered chatbot using:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-23 00:00:00 +0000 UTC'>June 23, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Building an AI-Powered App Using Azure OpenAI Services" href="http://localhost:1313/azure/chatbot-with-react-frontend/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

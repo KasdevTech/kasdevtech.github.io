@@ -6,8 +6,15 @@
     <description>Recent content in Terraform on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Import in Azure — Fixing Out-of-Band Changes</title>
+      <link>http://localhost:1313/terraform/out-of-band-changes/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terraform/out-of-band-changes/</guid>
+      <description>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&amp;rsquo;s how I used &lt;code&gt;terraform import&lt;/code&gt; to fix drift and sync state.</description>
+    </item>
     <item>
       <title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title>
       <link>http://localhost:1313/terraform/terraform-init-fails/</link>

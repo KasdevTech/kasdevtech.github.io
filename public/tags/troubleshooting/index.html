@@ -154,7 +154,51 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure Application Gateway – Backend Health Unknown? 
+    <h2 class="entry-hint-parent">Terraform Import in Azure — Fixing Out-of-Band Changes
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here’s how I used terraform import to fix drift and sync state.</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-01 00:00:00 +0000 UTC'>September 1, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Terraform Import in Azure — Fixing Out-of-Band Changes" href="http://localhost:1313/terraform/out-of-band-changes/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Fixing High CPU and Memory Usage in Azure App Service
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Fixing High CPU and Memory Usage in Azure App Service Your app is running fine, and then suddenly… users complain about slowness or the app even crashes.
+When you check the Azure Portal, you see CPU pegged at 90–100% or memory exhausted.
+This is a very common real-world issue in Azure App Service. Let’s walk step by step.
+Step 1: Monitor Metrics Go to: Azure Portal → App Service → Metrics → CPU Percentage / Memory Working Set Look for spikes during:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-16 00:00:00 +0000 UTC'>August 16, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Fixing High CPU and Memory Usage in Azure App Service" href="http://localhost:1313/azure/appservice-high-cpu/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Troubleshooting Azure App Service Startup Failures
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Troubleshooting Azure App Service Startup Failures One of the most common issues with Azure App Service is when your web app refuses to start after deployment.
+The symptoms usually look like this:
+The app returns HTTP 500 – Internal Server Error You see Service Unavailable (503) The container or code doesn’t start properly This is a real-world headache because you deploy with confidence, but the app never comes up.
+Step 1: Check App Service Logs Enable Application Logging and Web Server Logging.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-16 00:00:00 +0000 UTC'>August 16, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Troubleshooting Azure App Service Startup Failures" href="http://localhost:1313/azure/appservice/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Application Gateway – Backend Health Unknown
     </h2>
   </header>
   <div class="entry-content">
@@ -166,7 +210,25 @@ What Does “Unknown” or “Unhealthy” Mean? Unknown = App Gateway can’t r
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2025-08-03 00:00:00 +0000 UTC'>August 3, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure Application Gateway – Backend Health Unknown? " href="http://localhost:1313/azure/appgw_issues/"></a>
+  <a class="entry-link" aria-label="post link to Azure Application Gateway – Backend Health Unknown" href="http://localhost:1313/azure/appgw_issues/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure VM Boot Issue – VM stuck in &#39;Starting&#39; or &#39;Failed&#39;
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure VM Boot Issue – VM stuck in ‘Starting’ or ‘Failed’ You hit Start on your Azure VM… and it gets stuck in:
+“Starting…”
+“Provisioning failed”
+“Failed to start VM”
+You’re not alone — this is a common issue. In this blog, I’ll show you how to troubleshoot and fix it using step-by-step, beginner-friendly methods.
+Common Causes Problem Example Corrupt OS disk Kernel panic / bluescreen VM extension failed “Failed to install extension” NSG or route blocking Boot agent No serial output DNS or DHCP misconfigured Stuck boot or network unreachable OS-level login or update hang Incomplete patch Step-by-step Fix Guide Step 1: Open Boot Diagnostics Go to your VM → Boot diagnostics
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-03 00:00:00 +0000 UTC'>August 3, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure VM Boot Issue – VM stuck in &#39;Starting&#39; or &#39;Failed&#39;" href="http://localhost:1313/azure/azurevm_issues/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -232,54 +294,12 @@ What does ‘Initialize job’ actually mean? It’s the very first phase in a p
   <footer class="entry-footer"><span title='2025-07-09 00:00:00 +0000 UTC'>July 9, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix" href="http://localhost:1313/devops/pipelinestuck/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Does your build or deployment fail after 60 minutes? You might be hitting a default timeout on Azure Pipelines.
-Error Message [error]The job was canceled after reaching the timeout limit of 60 minutes.
-Default Limits Microsoft-hosted agents: 60 minutes per job (can be increased) Self-hosted agents: You control the timeout Increase Timeout in YAML Add the timeoutInMinutes setting to your job:
-jobs: - job: Build timeoutInMinutes: 120 pool: vmImage: &#39;ubuntu-latest&#39; steps: - script: echo &#34;Building...&#34; Optimize the Build Avoid long dependency installations (e.g., move to cache or Docker layer) Parallelize jobs using strategy and matrix Use restoreCache and saveCache for npm, pip, Maven, etc. Use Self-Hosted Agent (No Hard Timeout) Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-07-05 00:00:00 +0000 UTC'>July 5, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures" href="http://localhost:1313/devops/pipeline-timeout-issues/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>If you’ve seen this before, don’t panic. This guide walks you through:
-What a 502 error means in Azure How to identify the root cause How to fix it with simple step-by-step actions Step-by-Step Troubleshooting Step 1: Reproduce the Problem Go to the App Gateway public IP or custom domain (e.g., https://myappexampleapp.com)
-Check if the site is returning this: 502 - Web server received an invalid response while acting as a gateway or proxy server. This means App Gateway couldn’t reach your backend properly — not that the app is down.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-30 00:00:00 +0000 UTC'>June 30, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners" href="http://localhost:1313/azure/application-gateway-502-error/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent"> AKS Node Disk Pressure 
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>What Happened? Hey folks,
-Let me share a real incident we faced in production on Azure Kubernetes Service (AKS). Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming DiskPressure on some nodes.
-We didn’t make any infra changes recently, so the obvious question was:
-What’s going on inside the AKS nodes?
-Root Cause Analysis We dug into the node metrics using Azure Monitor and kubectl describe node. Here’s what we found:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-06-28 00:00:00 +0000 UTC'>June 28, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to  AKS Node Disk Pressure " href="http://localhost:1313/azure/aks-node-disk-pressure/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/tags/troubleshooting/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

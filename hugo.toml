@@ -32,6 +32,12 @@ summaryLength = 70
   weight = 1
 
   [[menu.main]]
+  parent = "Azure"
+  name = "AZ-104"
+  url = "/azure/AZ-104/"
+  weight = 1
+
+  [[menu.main]]
   name = "DevOps"
   url = "/devops/"
   weight = 2

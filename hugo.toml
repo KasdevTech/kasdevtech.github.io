@@ -37,7 +37,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   text = "KasdevTech"
 
 [params.profileMode]
-  enabled = true
+  enabled = false
   title = "KasdevTech"
   subtitle = "Enterprise-grade cloud content and tools for Azure, DevOps, FinOps, and AI"
   imageUrl = "/images/kasdev.png"

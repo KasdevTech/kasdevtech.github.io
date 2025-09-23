@@ -7,6 +7,13 @@ enableRobotsTXT = true
 enableInlineShortcodes = true
 summaryLength = 70
 
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   env = "production"
   author = "Kasi Suresh"

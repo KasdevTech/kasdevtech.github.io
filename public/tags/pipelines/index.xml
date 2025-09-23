@@ -21,7 +21,7 @@
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid>
       <description>&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
-&lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
+&lt;p&gt;Error: The repository ‘&lt;repo-name&gt;’ could not be found or no longer exists.&lt;/p&gt;
 &lt;h4 id=&#34;common-causes&#34;&gt;Common Causes&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Repository renamed or deleted&lt;/li&gt;

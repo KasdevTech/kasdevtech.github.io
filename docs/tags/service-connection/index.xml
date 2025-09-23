@@ -25,7 +25,7 @@ az account show
 This auto-authenticates using the linked service connection.
 &lt;/code>&lt;/pre>&lt;h4 id="conclusion">Conclusion&lt;/h4>
 &lt;p>Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p></description></item><item><title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title><link>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid><description>&lt;p>Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p>
-&lt;p>Error: The repository ‘&lt;!-- raw HTML omitted -->’ could not be found or no longer exists.&lt;/p>
+&lt;p>Error: The repository ‘&lt;repo-name>’ could not be found or no longer exists.&lt;/p>
 &lt;h4 id="common-causes">Common Causes&lt;/h4>
 &lt;ul>
 &lt;li>Repository renamed or deleted&lt;/li>

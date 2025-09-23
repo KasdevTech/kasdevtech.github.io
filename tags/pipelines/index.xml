@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pipelines on KasdevTech</title><link>https://kasdevtech.github.io/tags/pipelines/</link><description>Recent content in Pipelines on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/pipelines/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure DevOps pipeline stuck on 'Initialize job' Step-by-step fix</title><link>https://kasdevtech.github.io/devops/pipelinestuck/</link><pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/pipelinestuck/</guid><description>
-&lt;h4 id="azure-devops-pipeline-stuck-on-initialize-job-step-by-step-fix"&gt;Azure DevOps pipeline stuck on &amp;lsquo;Initialize job&amp;rsquo;? Step-by-step fix&lt;/h4&gt;
-&lt;p&gt;Ever had your Azure DevOps pipeline &lt;strong&gt;hang at the very first step&lt;/strong&gt; – &lt;em&gt;Initialize job&lt;/em&gt; – and not move forward?&lt;/p&gt;
-&lt;p&gt;This issue is frustrating and common — especially with &lt;strong&gt;self-hosted agents&lt;/strong&gt;, permissions misconfiguration, or pipeline resource locks.&lt;/p&gt;
-&lt;p&gt;Let’s break down exactly how to troubleshoot and fix this problem step-by-step.&lt;/p&gt;
-&lt;h4 id="what-does-initialize-job-actually-mean"&gt;What does &amp;lsquo;Initialize job&amp;rsquo; actually mean?&lt;/h4&gt;
-&lt;p&gt;It’s the &lt;strong&gt;very first phase&lt;/strong&gt; in a pipeline run:&lt;/p&gt;</description></item><item><title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title><link>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid><description>
-&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
-&lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
-&lt;h4 id="common-causes"&gt;Common Causes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Repository renamed or deleted&lt;/li&gt;
-&lt;li&gt;Permissions changed in the project&lt;/li&gt;
-&lt;li&gt;PAT token expired (for GitHub or external repos)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="fixing-the-issue"&gt;Fixing the Issue&lt;/h4&gt;
-&lt;h4 id="azure-repos-git"&gt;Azure Repos Git&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Navigate to &lt;code&gt;Repos&lt;/code&gt; in your project&lt;/li&gt;
-&lt;li&gt;Check if the repo still exists and hasn’t been renamed&lt;/li&gt;
-&lt;li&gt;Confirm the branch in your trigger matches the YAML&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;trigger&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;branches&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;include&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;main&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="github-repositories"&gt;GitHub Repositories&lt;/h4&gt;
-&lt;p&gt;Go to Project Settings → Service Connections
+&lt;h4 id="azure-devops-pipeline-stuck-on-initialize-job-step-by-step-fix">Azure DevOps pipeline stuck on &amp;lsquo;Initialize job&amp;rsquo;? Step-by-step fix&lt;/h4>
+&lt;p>Ever had your Azure DevOps pipeline &lt;strong>hang at the very first step&lt;/strong> – &lt;em>Initialize job&lt;/em> – and not move forward?&lt;/p>
+&lt;p>This issue is frustrating and common — especially with &lt;strong>self-hosted agents&lt;/strong>, permissions misconfiguration, or pipeline resource locks.&lt;/p>
+&lt;p>Let’s break down exactly how to troubleshoot and fix this problem step-by-step.&lt;/p>
+&lt;h4 id="what-does-initialize-job-actually-mean">What does &amp;lsquo;Initialize job&amp;rsquo; actually mean?&lt;/h4>
+&lt;p>It’s the &lt;strong>very first phase&lt;/strong> in a pipeline run:&lt;/p></description></item><item><title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title><link>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid><description>
+&lt;p>Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p>
+&lt;p>Error: The repository ‘&lt;!-- raw HTML omitted -->’ could not be found or no longer exists.&lt;/p>
+&lt;h4 id="common-causes">Common Causes&lt;/h4>
+&lt;ul>
+&lt;li>Repository renamed or deleted&lt;/li>
+&lt;li>Permissions changed in the project&lt;/li>
+&lt;li>PAT token expired (for GitHub or external repos)&lt;/li>
+&lt;/ul>
+&lt;h4 id="fixing-the-issue">Fixing the Issue&lt;/h4>
+&lt;h4 id="azure-repos-git">Azure Repos Git&lt;/h4>
+&lt;ul>
+&lt;li>Navigate to &lt;code>Repos&lt;/code> in your project&lt;/li>
+&lt;li>Check if the repo still exists and hasn’t been renamed&lt;/li>
+&lt;li>Confirm the branch in your trigger matches the YAML&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">include&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="github-repositories">GitHub Repositories&lt;/h4>
+&lt;p>Go to Project Settings → Service Connections
 Open your GitHub connection
 Re-authenticate or update the PAT/token
-Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description></item></channel></rss>
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p></description></item></channel></rss>

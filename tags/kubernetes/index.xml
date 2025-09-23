@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubernetes on KasdevTech</title><link>https://kasdevtech.github.io/tags/kubernetes/</link><description>Recent content in Kubernetes on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml"/><item><title> AKS Node Disk Pressure</title><link>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</guid><description>
-&lt;h4 id="what-happened"&gt;What Happened?&lt;/h4&gt;
-&lt;p&gt;Hey folks,&lt;br&gt;
-Let me share a real incident we faced in production on &lt;strong&gt;Azure Kubernetes Service (AKS)&lt;/strong&gt;. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code&gt;DiskPressure&lt;/code&gt; on some nodes.&lt;/p&gt;
-&lt;p&gt;We didn’t make any infra changes recently, so the obvious question was:&lt;br&gt;
-&lt;strong&gt;What’s going on inside the AKS nodes?&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id="root-cause-analysis"&gt;Root Cause Analysis&lt;/h4&gt;
-&lt;p&gt;We dug into the node metrics using &lt;strong&gt;Azure Monitor&lt;/strong&gt; and &lt;code&gt;kubectl describe node&lt;/code&gt;. Here’s what we found:&lt;/p&gt;</description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>
-&lt;h3 id="welcome-to-kasdevtech--your-cloud-learning-hub"&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
-&lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
-&lt;p&gt;But many beginners feel lost:&lt;br&gt;
-👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;
-👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;
-👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;</description></item></channel></rss>
+&lt;h4 id="what-happened">What Happened?&lt;/h4>
+&lt;p>Hey folks,&lt;br>
+Let me share a real incident we faced in production on &lt;strong>Azure Kubernetes Service (AKS)&lt;/strong>. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code>DiskPressure&lt;/code> on some nodes.&lt;/p>
+&lt;p>We didn’t make any infra changes recently, so the obvious question was:&lt;br>
+&lt;strong>What’s going on inside the AKS nodes?&lt;/strong>&lt;/p>
+&lt;h4 id="root-cause-analysis">Root Cause Analysis&lt;/h4>
+&lt;p>We dug into the node metrics using &lt;strong>Azure Monitor&lt;/strong> and &lt;code>kubectl describe node&lt;/code>. Here’s what we found:&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>
+&lt;h3 id="welcome-to-kasdevtech--your-cloud-learning-hub">Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3>
+&lt;p>In today’s world, &lt;strong>cloud computing&lt;/strong> is no longer optional — it is &lt;strong>essential&lt;/strong> for businesses, developers, and architects.&lt;/p>
+&lt;p>But many beginners feel lost:&lt;br>
+👉 &lt;em>Where do I start?&lt;/em>&lt;br>
+👉 &lt;em>Which services should I learn first?&lt;/em>&lt;br>
+👉 &lt;em>How can I gain practical experience?&lt;/em>&lt;/p>
+&lt;p>In this post, I will share a &lt;strong>step-by-step practical guide&lt;/strong> to help you start your &lt;strong>cloud journey&lt;/strong> in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p></description></item></channel></rss>

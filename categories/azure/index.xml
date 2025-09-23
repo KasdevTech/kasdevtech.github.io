@@ -1,140 +1,140 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure on KasdevTech</title><link>https://kasdevtech.github.io/categories/azure/</link><description>Recent content in Azure on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/categories/azure/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners</title><link>https://kasdevtech.github.io/azure/application-gateway-502-error/</link><pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/application-gateway-502-error/</guid><description>
-&lt;p&gt;If you’ve seen this before, don’t panic. This guide walks you through:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What a 502 error means in Azure&lt;/li&gt;
-&lt;li&gt;How to identify the root cause&lt;/li&gt;
-&lt;li&gt;How to fix it with simple step-by-step actions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id="step-by-step-troubleshooting"&gt;Step-by-Step Troubleshooting&lt;/h4&gt;
-&lt;h4 id="step-1-reproduce-the-problem"&gt;Step 1: Reproduce the Problem&lt;/h4&gt;
-&lt;p&gt;Go to the App Gateway public IP or custom domain (e.g., &lt;code&gt;https://myappexampleapp.com&lt;/code&gt;)&lt;br&gt;
+&lt;p>If you’ve seen this before, don’t panic. This guide walks you through:&lt;/p>
+&lt;ul>
+&lt;li>What a 502 error means in Azure&lt;/li>
+&lt;li>How to identify the root cause&lt;/li>
+&lt;li>How to fix it with simple step-by-step actions&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="step-by-step-troubleshooting">Step-by-Step Troubleshooting&lt;/h4>
+&lt;h4 id="step-1-reproduce-the-problem">Step 1: Reproduce the Problem&lt;/h4>
+&lt;p>Go to the App Gateway public IP or custom domain (e.g., &lt;code>https://myappexampleapp.com&lt;/code>)&lt;br>
 Check if the site is returning this:
 502 - Web server received an invalid response while acting as a gateway or proxy server.
-This means App Gateway couldn’t reach your backend &lt;strong&gt;properly&lt;/strong&gt; — not that the app is down.&lt;/p&gt;</description></item><item><title> AKS Node Disk Pressure</title><link>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</guid><description>
-&lt;h4 id="what-happened"&gt;What Happened?&lt;/h4&gt;
-&lt;p&gt;Hey folks,&lt;br&gt;
-Let me share a real incident we faced in production on &lt;strong&gt;Azure Kubernetes Service (AKS)&lt;/strong&gt;. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code&gt;DiskPressure&lt;/code&gt; on some nodes.&lt;/p&gt;
-&lt;p&gt;We didn’t make any infra changes recently, so the obvious question was:&lt;br&gt;
-&lt;strong&gt;What’s going on inside the AKS nodes?&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id="root-cause-analysis"&gt;Root Cause Analysis&lt;/h4&gt;
-&lt;p&gt;We dug into the node metrics using &lt;strong&gt;Azure Monitor&lt;/strong&gt; and &lt;code&gt;kubectl describe node&lt;/code&gt;. Here’s what we found:&lt;/p&gt;</description></item><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>
-&lt;p&gt;In one of my recent automation projects, I came across a real-time scenario:&lt;br&gt;
-An Azure Alert once condition met (example:VM&amp;rsquo;s &lt;strong&gt;C:\ drive crosses 80% usage&lt;/strong&gt;), and boom — the alert triggers, gets routed to &lt;strong&gt;Moogsoft&lt;/strong&gt;, and creates an incident in &lt;strong&gt;ServiceNow&lt;/strong&gt;.&lt;br&gt;
-But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p&gt;
-&lt;h2 id="why-assign-alertincident-disk-cleanup-to-an-engineer-when-a-bot-can-do-it-better--and-faster"&gt;Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?&lt;/h2&gt;
-&lt;h4 id="real-scenario"&gt;Real Scenario&lt;/h4&gt;
-&lt;p&gt;Here’s what happens traditionally:&lt;/p&gt;</description></item><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevtech.github.io/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid><description>
-&lt;p&gt;Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p&gt;
-&lt;h3 id="why-bicep"&gt;Why Bicep?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Native to Azure&lt;/li&gt;
-&lt;li&gt;Simplified syntax&lt;/li&gt;
-&lt;li&gt;No state files (unlike Terraform)&lt;/li&gt;
-&lt;li&gt;Excellent tooling in VS Code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="install-bicep-cli"&gt;Install Bicep CLI&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;az bicep install
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Verify installation:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;az bicep version
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;🏗️ Sample Bicep Template:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;-------------------------
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;resource storageAccount &lt;span style="color:#e6db74"&gt;&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; name: &lt;span style="color:#e6db74"&gt;&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; location: resourceGroup&lt;span style="color:#f92672"&gt;()&lt;/span&gt;.location
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; sku: &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; name: &lt;span style="color:#e6db74"&gt;&amp;#39;Standard_LRS&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; kind: &lt;span style="color:#e6db74"&gt;&amp;#39;StorageV2&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;📦 Deploy using Azure CLI:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;--------------------------
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;az deployment group create &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;&lt;/span&gt; --resource-group kasdevtech-rg &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;&lt;/span&gt; --template-file main.bicep
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="next-steps"&gt;Next Steps&lt;/h3&gt;
-&lt;p&gt;Use modules to reuse code
+This means App Gateway couldn’t reach your backend &lt;strong>properly&lt;/strong> — not that the app is down.&lt;/p></description></item><item><title> AKS Node Disk Pressure</title><link>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</guid><description>
+&lt;h4 id="what-happened">What Happened?&lt;/h4>
+&lt;p>Hey folks,&lt;br>
+Let me share a real incident we faced in production on &lt;strong>Azure Kubernetes Service (AKS)&lt;/strong>. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code>DiskPressure&lt;/code> on some nodes.&lt;/p>
+&lt;p>We didn’t make any infra changes recently, so the obvious question was:&lt;br>
+&lt;strong>What’s going on inside the AKS nodes?&lt;/strong>&lt;/p>
+&lt;h4 id="root-cause-analysis">Root Cause Analysis&lt;/h4>
+&lt;p>We dug into the node metrics using &lt;strong>Azure Monitor&lt;/strong> and &lt;code>kubectl describe node&lt;/code>. Here’s what we found:&lt;/p></description></item><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>
+&lt;p>In one of my recent automation projects, I came across a real-time scenario:&lt;br>
+An Azure Alert once condition met (example:VM&amp;rsquo;s &lt;strong>C:\ drive crosses 80% usage&lt;/strong>), and boom — the alert triggers, gets routed to &lt;strong>Moogsoft&lt;/strong>, and creates an incident in &lt;strong>ServiceNow&lt;/strong>.&lt;br>
+But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p>
+&lt;h2 id="why-assign-alertincident-disk-cleanup-to-an-engineer-when-a-bot-can-do-it-better--and-faster">Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?&lt;/h2>
+&lt;h4 id="real-scenario">Real Scenario&lt;/h4>
+&lt;p>Here’s what happens traditionally:&lt;/p></description></item><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevtech.github.io/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid><description>
+&lt;p>Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p>
+&lt;h3 id="why-bicep">Why Bicep?&lt;/h3>
+&lt;ul>
+&lt;li>Native to Azure&lt;/li>
+&lt;li>Simplified syntax&lt;/li>
+&lt;li>No state files (unlike Terraform)&lt;/li>
+&lt;li>Excellent tooling in VS Code&lt;/li>
+&lt;/ul>
+&lt;h3 id="install-bicep-cli">Install Bicep CLI&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>az bicep install
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Verify installation:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>az bicep version
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>🏗️ Sample Bicep Template:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>-------------------------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>resource storageAccount &lt;span style="color:#e6db74">&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#f92672">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> name: &lt;span style="color:#e6db74">&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> location: resourceGroup&lt;span style="color:#f92672">()&lt;/span>.location
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sku: &lt;span style="color:#f92672">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> name: &lt;span style="color:#e6db74">&amp;#39;Standard_LRS&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> kind: &lt;span style="color:#e6db74">&amp;#39;StorageV2&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>📦 Deploy using Azure CLI:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--------------------------
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>az deployment group create &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --resource-group kasdevtech-rg &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">&lt;/span> --template-file main.bicep
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="next-steps">Next Steps&lt;/h3>
+&lt;p>Use modules to reuse code
 Integrate Bicep in DevOps pipelines
-Combine with Azure Policy for compliance&lt;/p&gt;</description></item><item><title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title><link>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link><pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid><description>
-&lt;p&gt;Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, &lt;strong&gt;prompt engineering&lt;/strong&gt; has become a valuable tool in our toolbox.&lt;/p&gt;
-&lt;p&gt;Here are &lt;strong&gt;Prompt Engineering for Cloud Architects: 10 Powerful Tips&lt;/strong&gt; to boost your productivity, decision-making, and solution design as a Cloud Architect.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id="1-be-clear-concise-and-contextual"&gt;1. Be Clear, Concise, and Contextual&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Bad Prompt:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</guid><description>
-&lt;h3 id="introduction-to-azure-openai"&gt;Introduction to Azure OpenAI&lt;/h3&gt;
-&lt;p&gt;In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. &lt;strong&gt;Azure OpenAI Services&lt;/strong&gt; makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p&gt;
-&lt;h3 id="benefits"&gt;Benefits:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;No need to host large AI models yourself&lt;/li&gt;
-&lt;li&gt;Microsoft’s enterprise security and compliance&lt;/li&gt;
-&lt;li&gt;Pay as you go&lt;/li&gt;
-&lt;li&gt;Available in various Azure regions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this post, you’ll learn how to build an &lt;strong&gt;AI-powered chatbot&lt;/strong&gt; using:&lt;/p&gt;</description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>
-&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
-&lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id="why-resize-vms"&gt;Why Resize VMs?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Scale Up:&lt;/strong&gt; Handle more traffic or workload&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scale Down:&lt;/strong&gt; Reduce costs for low-traffic periods&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Change Type:&lt;/strong&gt; Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id="pre-requisites"&gt;Pre-requisites&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Azure Subscription&lt;/li&gt;
-&lt;li&gt;Owner / Contributor permissions on the VM&lt;/li&gt;
-&lt;li&gt;VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id="resize-via-azure-portal"&gt;Resize via Azure Portal&lt;/h3&gt;
-&lt;p&gt;1️ Navigate to &lt;strong&gt;Virtual Machines&lt;/strong&gt;&lt;br&gt;
-2️ Select your VM&lt;br&gt;
-3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;
-4️ Select a new size (you will see estimated cost/month)&lt;br&gt;
-5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>
-&lt;h3 id="what-is-a-private-endpoint"&gt;What is a Private Endpoint?&lt;/h3&gt;
-&lt;p&gt;A &lt;strong&gt;Private Endpoint&lt;/strong&gt; in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.&lt;/p&gt;
-&lt;p&gt;Think of it as a private IP address for an Azure service. This ensures:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;No traffic goes over the internet&lt;/li&gt;
-&lt;li&gt;Improved security (zero public exposure)&lt;/li&gt;
-&lt;li&gt;You can apply &lt;strong&gt;NSG&lt;/strong&gt;, &lt;strong&gt;firewall&lt;/strong&gt;, and &lt;strong&gt;custom routing&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id="when-to-use-private-endpoints"&gt;When to Use Private Endpoints?&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Scenario&lt;/th&gt;
-&lt;th&gt;Private Endpoint Recommended?&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Critical data (PII, financial, healthcare)&lt;/td&gt;
-&lt;td&gt;Yes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Internal line-of-business apps&lt;/td&gt;
-&lt;td&gt;Yes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Public APIs serving global customers&lt;/td&gt;
-&lt;td&gt;No — consider public endpoint&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Hybrid network (on-premises + Azure)&lt;/td&gt;
-&lt;td&gt;Yes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Regulatory/compliance (GDPR, HIPAA, PCI)&lt;/td&gt;
-&lt;td&gt;Yes&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Common Use Cases:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
+Combine with Azure Policy for compliance&lt;/p></description></item><item><title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title><link>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link><pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid><description>
+&lt;p>Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, &lt;strong>prompt engineering&lt;/strong> has become a valuable tool in our toolbox.&lt;/p>
+&lt;p>Here are &lt;strong>Prompt Engineering for Cloud Architects: 10 Powerful Tips&lt;/strong> to boost your productivity, decision-making, and solution design as a Cloud Architect.&lt;/p>
+&lt;hr>
+&lt;h3 id="1-be-clear-concise-and-contextual">1. Be Clear, Concise, and Contextual&lt;/h3>
+&lt;p>&lt;strong>Bad Prompt:&lt;/strong>&lt;/p></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</guid><description>
+&lt;h3 id="introduction-to-azure-openai">Introduction to Azure OpenAI&lt;/h3>
+&lt;p>In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. &lt;strong>Azure OpenAI Services&lt;/strong> makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p>
+&lt;h3 id="benefits">Benefits:&lt;/h3>
+&lt;ul>
+&lt;li>No need to host large AI models yourself&lt;/li>
+&lt;li>Microsoft’s enterprise security and compliance&lt;/li>
+&lt;li>Pay as you go&lt;/li>
+&lt;li>Available in various Azure regions&lt;/li>
+&lt;/ul>
+&lt;p>In this post, you’ll learn how to build an &lt;strong>AI-powered chatbot&lt;/strong> using:&lt;/p></description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>
+&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
+&lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
+&lt;hr>
+&lt;h3 id="why-resize-vms">Why Resize VMs?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Scale Up:&lt;/strong> Handle more traffic or workload&lt;/li>
+&lt;li>&lt;strong>Scale Down:&lt;/strong> Reduce costs for low-traffic periods&lt;/li>
+&lt;li>&lt;strong>Change Type:&lt;/strong> Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="pre-requisites">Pre-requisites&lt;/h3>
+&lt;ul>
+&lt;li>Azure Subscription&lt;/li>
+&lt;li>Owner / Contributor permissions on the VM&lt;/li>
+&lt;li>VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="resize-via-azure-portal">Resize via Azure Portal&lt;/h3>
+&lt;p>1️ Navigate to &lt;strong>Virtual Machines&lt;/strong>&lt;br>
+2️ Select your VM&lt;br>
+3️ Click &lt;strong>Size&lt;/strong> under the &amp;ldquo;Settings&amp;rdquo; section&lt;br>
+4️ Select a new size (you will see estimated cost/month)&lt;br>
+5️ Click &lt;strong>Resize&lt;/strong>&lt;/p></description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>
+&lt;h3 id="what-is-a-private-endpoint">What is a Private Endpoint?&lt;/h3>
+&lt;p>A &lt;strong>Private Endpoint&lt;/strong> in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.&lt;/p>
+&lt;p>Think of it as a private IP address for an Azure service. This ensures:&lt;/p>
+&lt;ul>
+&lt;li>No traffic goes over the internet&lt;/li>
+&lt;li>Improved security (zero public exposure)&lt;/li>
+&lt;li>You can apply &lt;strong>NSG&lt;/strong>, &lt;strong>firewall&lt;/strong>, and &lt;strong>custom routing&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="when-to-use-private-endpoints">When to Use Private Endpoints?&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Scenario&lt;/th>
+&lt;th>Private Endpoint Recommended?&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Critical data (PII, financial, healthcare)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Internal line-of-business apps&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Public APIs serving global customers&lt;/td>
+&lt;td>No — consider public endpoint&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hybrid network (on-premises + Azure)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Regulatory/compliance (GDPR, HIPAA, PCI)&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Common Use Cases:&lt;/strong>&lt;/p></description></item></channel></rss>

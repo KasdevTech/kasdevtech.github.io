@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on KasdevTech</title><link>https://kasdevtech.github.io/tags/automation/</link><description>Recent content in Automation on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Agents – The Next Evolution of Automation</title><link>https://kasdevtech.github.io/ai/ai-agents/</link><pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/ai-agents/</guid><description>
-&lt;p&gt;Automation has always been about &lt;strong&gt;making machines do repetitive work&lt;/strong&gt;. But 2025 marks a shift—machines can now &lt;strong&gt;think, decide, and act independently&lt;/strong&gt;. Enter &lt;strong&gt;AI Agents&lt;/strong&gt;.&lt;/p&gt;
-&lt;h4 id="what-is-an-ai-agent"&gt;What is an AI Agent?&lt;/h4&gt;
-&lt;p&gt;An &lt;strong&gt;AI Agent&lt;/strong&gt; is a system that can:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Perceive&lt;/strong&gt; (understand inputs from users, APIs, or environments)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reason&lt;/strong&gt; (decide the next action using AI models)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Act&lt;/strong&gt; (execute a task autonomously—like sending an email, booking a meeting, or writing code)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Unlike traditional bots, agents can use &lt;strong&gt;tools, APIs, and memory&lt;/strong&gt; to complete multi-step tasks.&lt;/p&gt;</description></item><item><title>Automate Azure Cleanup — Before It Costs</title><link>https://kasdevtech.github.io/azure/azurecleanup/</link><pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azurecleanup/</guid><description>
-&lt;h3 id="automate-azure-cleanup--before-it-costs-me"&gt;Automate Azure Cleanup — Before It Costs Me&lt;/h3&gt;
-&lt;p&gt;Most of us don’t realize how fast an Azure bill can grow — until we get that painful monthly invoice.&lt;/p&gt;
-&lt;p&gt;The surprise? It’s rarely because of production workloads.&lt;/p&gt;
-&lt;p&gt;It’s the small, forgotten things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Test VMs that should’ve been deleted&lt;/li&gt;
-&lt;li&gt;Staging App Services left running&lt;/li&gt;
-&lt;li&gt;Orphaned managed disks&lt;/li&gt;
-&lt;li&gt;Zombie NICs that no one even remembers creating&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These idle resources quietly drain money.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id="solution-weekly-automated-cleanup"&gt;Solution: Weekly Automated Cleanup&lt;/h3&gt;
-&lt;p&gt;Instead of manually checking everything, I built a simple system that does it all for me — safely and automatically.&lt;/p&gt;</description></item><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>
-&lt;p&gt;In one of my recent automation projects, I came across a real-time scenario:&lt;br&gt;
-An Azure Alert once condition met (example:VM&amp;rsquo;s &lt;strong&gt;C:\ drive crosses 80% usage&lt;/strong&gt;), and boom — the alert triggers, gets routed to &lt;strong&gt;Moogsoft&lt;/strong&gt;, and creates an incident in &lt;strong&gt;ServiceNow&lt;/strong&gt;.&lt;br&gt;
-But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p&gt;
-&lt;h2 id="why-assign-alertincident-disk-cleanup-to-an-engineer-when-a-bot-can-do-it-better--and-faster"&gt;Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?&lt;/h2&gt;
-&lt;h4 id="real-scenario"&gt;Real Scenario&lt;/h4&gt;
-&lt;p&gt;Here’s what happens traditionally:&lt;/p&gt;</description></item></channel></rss>
+&lt;p>Automation has always been about &lt;strong>making machines do repetitive work&lt;/strong>. But 2025 marks a shift—machines can now &lt;strong>think, decide, and act independently&lt;/strong>. Enter &lt;strong>AI Agents&lt;/strong>.&lt;/p>
+&lt;h4 id="what-is-an-ai-agent">What is an AI Agent?&lt;/h4>
+&lt;p>An &lt;strong>AI Agent&lt;/strong> is a system that can:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Perceive&lt;/strong> (understand inputs from users, APIs, or environments)&lt;/li>
+&lt;li>&lt;strong>Reason&lt;/strong> (decide the next action using AI models)&lt;/li>
+&lt;li>&lt;strong>Act&lt;/strong> (execute a task autonomously—like sending an email, booking a meeting, or writing code)&lt;/li>
+&lt;/ol>
+&lt;p>Unlike traditional bots, agents can use &lt;strong>tools, APIs, and memory&lt;/strong> to complete multi-step tasks.&lt;/p></description></item><item><title>Automate Azure Cleanup — Before It Costs</title><link>https://kasdevtech.github.io/azure/azurecleanup/</link><pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azurecleanup/</guid><description>
+&lt;h3 id="automate-azure-cleanup--before-it-costs-me">Automate Azure Cleanup — Before It Costs Me&lt;/h3>
+&lt;p>Most of us don’t realize how fast an Azure bill can grow — until we get that painful monthly invoice.&lt;/p>
+&lt;p>The surprise? It’s rarely because of production workloads.&lt;/p>
+&lt;p>It’s the small, forgotten things:&lt;/p>
+&lt;ul>
+&lt;li>Test VMs that should’ve been deleted&lt;/li>
+&lt;li>Staging App Services left running&lt;/li>
+&lt;li>Orphaned managed disks&lt;/li>
+&lt;li>Zombie NICs that no one even remembers creating&lt;/li>
+&lt;/ul>
+&lt;p>These idle resources quietly drain money.&lt;/p>
+&lt;hr>
+&lt;h3 id="solution-weekly-automated-cleanup">Solution: Weekly Automated Cleanup&lt;/h3>
+&lt;p>Instead of manually checking everything, I built a simple system that does it all for me — safely and automatically.&lt;/p></description></item><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>
+&lt;p>In one of my recent automation projects, I came across a real-time scenario:&lt;br>
+An Azure Alert once condition met (example:VM&amp;rsquo;s &lt;strong>C:\ drive crosses 80% usage&lt;/strong>), and boom — the alert triggers, gets routed to &lt;strong>Moogsoft&lt;/strong>, and creates an incident in &lt;strong>ServiceNow&lt;/strong>.&lt;br>
+But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p>
+&lt;h2 id="why-assign-alertincident-disk-cleanup-to-an-engineer-when-a-bot-can-do-it-better--and-faster">Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?&lt;/h2>
+&lt;h4 id="real-scenario">Real Scenario&lt;/h4>
+&lt;p>Here’s what happens traditionally:&lt;/p></description></item></channel></rss>

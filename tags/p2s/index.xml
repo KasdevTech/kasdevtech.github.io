@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>P2S on KasdevTech</title><link>https://kasdevtech.github.io/tags/p2s/</link><description>Recent content in P2S on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/p2s/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title><link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid><description>
-&lt;h4 id="azure-vpn-gateway-vs-expressroute--what-should-you-use"&gt;Azure VPN Gateway vs ExpressRoute – What Should You Use?&lt;/h4&gt;
-&lt;p&gt;Now that we understand VNets and peering, let’s talk about &lt;strong&gt;how to connect your on-premises network to Azure&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Two main options:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Azure VPN Gateway&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Azure ExpressRoute&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;And under VPN Gateway, two common scenarios:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Site-to-Site (S2S) VPN&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Point-to-Site (P2S) VPN&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let’s break them all down simply.&lt;/p&gt;
-&lt;h4 id="what-is-azure-vpn-gateway"&gt;What is Azure VPN Gateway?&lt;/h4&gt;
-&lt;p&gt;Azure VPN Gateway is a &lt;strong&gt;managed network gateway&lt;/strong&gt; in Azure. It lets you:&lt;/p&gt;</description></item></channel></rss>
+&lt;h4 id="azure-vpn-gateway-vs-expressroute--what-should-you-use">Azure VPN Gateway vs ExpressRoute – What Should You Use?&lt;/h4>
+&lt;p>Now that we understand VNets and peering, let’s talk about &lt;strong>how to connect your on-premises network to Azure&lt;/strong>.&lt;/p>
+&lt;p>Two main options:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Azure VPN Gateway&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Azure ExpressRoute&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>And under VPN Gateway, two common scenarios:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Site-to-Site (S2S) VPN&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Point-to-Site (P2S) VPN&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Let’s break them all down simply.&lt;/p>
+&lt;h4 id="what-is-azure-vpn-gateway">What is Azure VPN Gateway?&lt;/h4>
+&lt;p>Azure VPN Gateway is a &lt;strong>managed network gateway&lt;/strong> in Azure. It lets you:&lt;/p></description></item></channel></rss>

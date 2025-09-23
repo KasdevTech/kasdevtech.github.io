@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service Connection on KasdevTech</title><link>https://kasdevtech.github.io/tags/service-connection/</link><description>Recent content in Service Connection on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/service-connection/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing 'az login' Authentication Failures in IaC Pipelines</title><link>https://kasdevtech.github.io/devops/authentication-failure/</link><pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/authentication-failure/</guid><description>
-&lt;p&gt;You added an &lt;code&gt;az login&lt;/code&gt; command to your pipeline… and now the pipeline fails?&lt;/p&gt;
-&lt;p&gt;ERROR: Please run &amp;lsquo;az login&amp;rsquo; to setup account&lt;/p&gt;
-&lt;h4 id="root-cause"&gt;Root Cause&lt;/h4&gt;
-&lt;p&gt;The Azure CLI needs credentials to authenticate. When run in a pipeline, &lt;code&gt;az login&lt;/code&gt; needs to be done &lt;strong&gt;non-interactively&lt;/strong&gt; using a &lt;strong&gt;service principal&lt;/strong&gt;.&lt;/p&gt;
-&lt;h4 id="solution-use-service-principal-with-secrets"&gt;Solution: Use Service Principal with Secrets&lt;/h4&gt;
-&lt;p&gt;Add a login step like this in your YAML:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#f92672"&gt;script&lt;/span&gt;: |&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; az login --service-principal \
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; --username $appId \
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; --password $clientSecret \
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; --tenant $tenantId&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;env&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;appId&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;$(azureAppId)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;clientSecret&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;$(azureClientSecret)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;tenantId&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;$(azureTenantId)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;Then store these as secrets in Pipeline → Library → Secure files or variable groups.&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="use-azurecli2-task-instead"&gt;Use AzureCLI@2 Task Instead&lt;/h4&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;- task: AzureCLI@2
+&lt;p>You added an &lt;code>az login&lt;/code> command to your pipeline… and now the pipeline fails?&lt;/p>
+&lt;p>ERROR: Please run &amp;lsquo;az login&amp;rsquo; to setup account&lt;/p>
+&lt;h4 id="root-cause">Root Cause&lt;/h4>
+&lt;p>The Azure CLI needs credentials to authenticate. When run in a pipeline, &lt;code>az login&lt;/code> needs to be done &lt;strong>non-interactively&lt;/strong> using a &lt;strong>service principal&lt;/strong>.&lt;/p>
+&lt;h4 id="solution-use-service-principal-with-secrets">Solution: Use Service Principal with Secrets&lt;/h4>
+&lt;p>Add a login step like this in your YAML:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">script&lt;/span>: |&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> az login --service-principal \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --username $appId \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --password $clientSecret \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --tenant $tenantId&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">env&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">appId&lt;/span>: &lt;span style="color:#ae81ff">$(azureAppId)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">clientSecret&lt;/span>: &lt;span style="color:#ae81ff">$(azureClientSecret)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">tenantId&lt;/span>: &lt;span style="color:#ae81ff">$(azureTenantId)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">Then store these as secrets in Pipeline → Library → Secure files or variable groups.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="use-azurecli2-task-instead">Use AzureCLI@2 Task Instead&lt;/h4>
+&lt;pre tabindex="0">&lt;code>- task: AzureCLI@2
 inputs:
 azureSubscription: &amp;#39;MyServiceConnection&amp;#39;
 scriptType: bash
@@ -24,29 +24,29 @@ scriptLocation: inlineScript
 inlineScript: |
 az account show
 This auto-authenticates using the linked service connection.
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id="conclusion"&gt;Conclusion&lt;/h4&gt;
-&lt;p&gt;Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p&gt;</description></item><item><title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title><link>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid><description>
-&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
-&lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
-&lt;h4 id="common-causes"&gt;Common Causes&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Repository renamed or deleted&lt;/li&gt;
-&lt;li&gt;Permissions changed in the project&lt;/li&gt;
-&lt;li&gt;PAT token expired (for GitHub or external repos)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="fixing-the-issue"&gt;Fixing the Issue&lt;/h4&gt;
-&lt;h4 id="azure-repos-git"&gt;Azure Repos Git&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Navigate to &lt;code&gt;Repos&lt;/code&gt; in your project&lt;/li&gt;
-&lt;li&gt;Check if the repo still exists and hasn’t been renamed&lt;/li&gt;
-&lt;li&gt;Confirm the branch in your trigger matches the YAML&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;trigger&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;branches&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;include&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;main&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="github-repositories"&gt;GitHub Repositories&lt;/h4&gt;
-&lt;p&gt;Go to Project Settings → Service Connections
+&lt;/code>&lt;/pre>&lt;h4 id="conclusion">Conclusion&lt;/h4>
+&lt;p>Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p></description></item><item><title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title><link>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid><description>
+&lt;p>Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p>
+&lt;p>Error: The repository ‘&lt;!-- raw HTML omitted -->’ could not be found or no longer exists.&lt;/p>
+&lt;h4 id="common-causes">Common Causes&lt;/h4>
+&lt;ul>
+&lt;li>Repository renamed or deleted&lt;/li>
+&lt;li>Permissions changed in the project&lt;/li>
+&lt;li>PAT token expired (for GitHub or external repos)&lt;/li>
+&lt;/ul>
+&lt;h4 id="fixing-the-issue">Fixing the Issue&lt;/h4>
+&lt;h4 id="azure-repos-git">Azure Repos Git&lt;/h4>
+&lt;ul>
+&lt;li>Navigate to &lt;code>Repos&lt;/code> in your project&lt;/li>
+&lt;li>Check if the repo still exists and hasn’t been renamed&lt;/li>
+&lt;li>Confirm the branch in your trigger matches the YAML&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">include&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="github-repositories">GitHub Repositories&lt;/h4>
+&lt;p>Go to Project Settings → Service Connections
 Open your GitHub connection
 Re-authenticate or update the PAT/token
-Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description></item></channel></rss>
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p></description></item></channel></rss>

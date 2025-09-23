@@ -3,30 +3,30 @@ Sometimes resources created manually in the Azure Portal need to be managed by T
 Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here's how I fixed this in a CI/CD pipeline using the right roles and automation.</description></item><item><title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title><link>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</guid><description>
 Running `terraform destroy` in Azure sometimes fails due to implicit resource dependencies. Here's how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</description></item><item><title>Terraform State Corruption in Azure — Recovered</title><link>https://kasdevtech.github.io/terraform/statefile-corrupted/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/statefile-corrupted/</guid><description>
 Faced a corrupted Terraform state file in Azure Blob Storage? Here's a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</description></item><item><title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title><link>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</link><pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</guid><description>
-&lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;
-&lt;p&gt;Error: Error acquiring the state lock: state blob is already locked&lt;/p&gt;
-&lt;p&gt;You&amp;rsquo;re facing a &lt;strong&gt;Terraform state lock&lt;/strong&gt; issue — and it can block your pipeline!&lt;/p&gt;
-&lt;h4 id="what-causes-it"&gt;What Causes It?&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;A previous run crashed or was canceled&lt;/li&gt;
-&lt;li&gt;Two pipelines tried to modify state simultaneously&lt;/li&gt;
-&lt;li&gt;State is locked but not released due to network timeout&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="step-by-step-fix"&gt;Step-by-Step Fix&lt;/h4&gt;
-&lt;h4 id="manually-unlock-state"&gt;Manually Unlock State&lt;/h4&gt;
-&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;</description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>
-&lt;h3 id="introduction"&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p&gt;
-&lt;p&gt;In this post, we will cover:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Setting up Terraform CLI&lt;/li&gt;
-&lt;li&gt;Writing your first Terraform configuration&lt;/li&gt;
-&lt;li&gt;Deploying resources on Azure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="steps"&gt;Steps&lt;/h3&gt;
-&lt;p&gt;Install Terraform CLI&lt;br&gt;
-Configure your Azure credentials&lt;br&gt;
-Write &lt;code&gt;main.tf&lt;/code&gt; with Azure provider&lt;br&gt;
-Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and &lt;code&gt;apply&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id="conclusion"&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;</description></item></channel></rss>
+&lt;p>If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p>
+&lt;p>Error: Error acquiring the state lock: state blob is already locked&lt;/p>
+&lt;p>You&amp;rsquo;re facing a &lt;strong>Terraform state lock&lt;/strong> issue — and it can block your pipeline!&lt;/p>
+&lt;h4 id="what-causes-it">What Causes It?&lt;/h4>
+&lt;ul>
+&lt;li>A previous run crashed or was canceled&lt;/li>
+&lt;li>Two pipelines tried to modify state simultaneously&lt;/li>
+&lt;li>State is locked but not released due to network timeout&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-fix">Step-by-Step Fix&lt;/h4>
+&lt;h4 id="manually-unlock-state">Manually Unlock State&lt;/h4>
+&lt;p>Use this command from your local machine (or DevOps pipeline):&lt;/p></description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>
+&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p>
+&lt;p>In this post, we will cover:&lt;/p>
+&lt;ul>
+&lt;li>Setting up Terraform CLI&lt;/li>
+&lt;li>Writing your first Terraform configuration&lt;/li>
+&lt;li>Deploying resources on Azure&lt;/li>
+&lt;/ul>
+&lt;h3 id="steps">Steps&lt;/h3>
+&lt;p>Install Terraform CLI&lt;br>
+Configure your Azure credentials&lt;br>
+Write &lt;code>main.tf&lt;/code> with Azure provider&lt;br>
+Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>apply&lt;/code>&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p></description></item></channel></rss>

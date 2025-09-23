@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debugging on KasdevTech</title><link>https://kasdevtech.github.io/tags/debugging/</link><description>Recent content in Debugging on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/debugging/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Pipeline Not Triggering Automatically on Push – YAML Trigger Issues</title><link>https://kasdevtech.github.io/devops/trigger-issues/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/trigger-issues/</guid><description>
-&lt;p&gt;Ever pushed code and expected the pipeline to run… but nothing happens?
-This is one of the most common issues teams face after setting up YAML-based Azure Pipelines.&lt;/p&gt;
-&lt;h4 id="symptoms"&gt;Symptoms&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;No pipeline run triggered after pushing code&lt;/li&gt;
-&lt;li&gt;Manual runs work fine&lt;/li&gt;
-&lt;li&gt;Pipeline shows: &lt;code&gt;No CI trigger found for this repo&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="common-causes"&gt;Common Causes&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Missing &lt;code&gt;trigger&lt;/code&gt; block in YAML&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Wrong branch name under &lt;code&gt;trigger&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;YAML file is in a non-default location or branch&lt;/li&gt;
-&lt;li&gt;Triggers disabled in pipeline UI&lt;/li&gt;
-&lt;li&gt;Repo is disconnected or has permission issues&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id="define-the-trigger-block-properly"&gt;Define the Trigger Block Properly&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;trigger&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;branches&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;include&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;main&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;If you&amp;#39;re using develop, adjust accordingly.&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="check-pipeline-settings-in-azure-devops"&gt;Check Pipeline Settings in Azure DevOps&lt;/h4&gt;
-&lt;p&gt;Go to Pipelines → Click your pipeline → Edit
+&lt;p>Ever pushed code and expected the pipeline to run… but nothing happens?
+This is one of the most common issues teams face after setting up YAML-based Azure Pipelines.&lt;/p>
+&lt;h4 id="symptoms">Symptoms&lt;/h4>
+&lt;ul>
+&lt;li>No pipeline run triggered after pushing code&lt;/li>
+&lt;li>Manual runs work fine&lt;/li>
+&lt;li>Pipeline shows: &lt;code>No CI trigger found for this repo&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h4 id="common-causes">Common Causes&lt;/h4>
+&lt;ol>
+&lt;li>&lt;strong>Missing &lt;code>trigger&lt;/code> block in YAML&lt;/strong>&lt;/li>
+&lt;li>Wrong branch name under &lt;code>trigger&lt;/code>&lt;/li>
+&lt;li>YAML file is in a non-default location or branch&lt;/li>
+&lt;li>Triggers disabled in pipeline UI&lt;/li>
+&lt;li>Repo is disconnected or has permission issues&lt;/li>
+&lt;/ol>
+&lt;h4 id="define-the-trigger-block-properly">Define the Trigger Block Properly&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">include&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">If you&amp;#39;re using develop, adjust accordingly.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="check-pipeline-settings-in-azure-devops">Check Pipeline Settings in Azure DevOps&lt;/h4>
+&lt;p>Go to Pipelines → Click your pipeline → Edit
 Click the 3 dots → Triggers
-Ensure CI Trigger is enabled&lt;/p&gt;</description></item></channel></rss>
+Ensure CI Trigger is enabled&lt;/p></description></item></channel></rss>

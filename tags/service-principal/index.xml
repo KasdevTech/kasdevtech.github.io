@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service Principal on KasdevTech</title><link>https://kasdevtech.github.io/tags/service-principal/</link><description>Recent content in Service Principal on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/service-principal/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing 'Permission Denied' Errors While Deploying from Azure Pipelines to Azure Resources</title><link>https://kasdevtech.github.io/devops/azuredevops-permission-error/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-permission-error/</guid><description>
-&lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;
-&lt;p&gt;Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p&gt;
-&lt;h4 id="root-cause"&gt;Root Cause&lt;/h4&gt;
-&lt;p&gt;This error usually occurs because the &lt;strong&gt;service principal&lt;/strong&gt; used in your Azure DevOps &lt;strong&gt;service connection&lt;/strong&gt; does not have the required &lt;strong&gt;role-based access control (RBAC)&lt;/strong&gt; permissions on the target resource group or subscription.&lt;/p&gt;
-&lt;h4 id="step-by-step-fix"&gt;Step-by-Step Fix&lt;/h4&gt;
-&lt;h4 id="verify-the-service-connection-identity"&gt;Verify the Service Connection Identity&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Go to &lt;code&gt;Project Settings&lt;/code&gt; → &lt;code&gt;Service Connections&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Click on your Azure Resource Manager connection&lt;/li&gt;
-&lt;li&gt;Note the &lt;strong&gt;Object ID&lt;/strong&gt; of the service principal&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="assign-the-correct-role-in-azure-portal"&gt;Assign the Correct Role in Azure Portal&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Navigate to your &lt;strong&gt;Resource Group&lt;/strong&gt; (or Subscription)&lt;/li&gt;
-&lt;li&gt;Go to &lt;code&gt;Access Control (IAM)&lt;/code&gt; → &lt;code&gt;Add Role Assignment&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Select the role (e.g., &lt;code&gt;Contributor&lt;/code&gt; or &lt;code&gt;Web App Contributor&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Assign it to the &lt;strong&gt;service principal&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="review-pipeline-yaml"&gt;Review Pipeline YAML&lt;/h4&gt;
-&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;</description></item></channel></rss>
+&lt;p>Deploying resources from Azure Pipelines and running into the dreaded &lt;code>AuthorizationFailed&lt;/code> error? You’re not alone!&lt;/p>
+&lt;p>Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p>
+&lt;h4 id="root-cause">Root Cause&lt;/h4>
+&lt;p>This error usually occurs because the &lt;strong>service principal&lt;/strong> used in your Azure DevOps &lt;strong>service connection&lt;/strong> does not have the required &lt;strong>role-based access control (RBAC)&lt;/strong> permissions on the target resource group or subscription.&lt;/p>
+&lt;h4 id="step-by-step-fix">Step-by-Step Fix&lt;/h4>
+&lt;h4 id="verify-the-service-connection-identity">Verify the Service Connection Identity&lt;/h4>
+&lt;ul>
+&lt;li>Go to &lt;code>Project Settings&lt;/code> → &lt;code>Service Connections&lt;/code>&lt;/li>
+&lt;li>Click on your Azure Resource Manager connection&lt;/li>
+&lt;li>Note the &lt;strong>Object ID&lt;/strong> of the service principal&lt;/li>
+&lt;/ul>
+&lt;h4 id="assign-the-correct-role-in-azure-portal">Assign the Correct Role in Azure Portal&lt;/h4>
+&lt;ul>
+&lt;li>Navigate to your &lt;strong>Resource Group&lt;/strong> (or Subscription)&lt;/li>
+&lt;li>Go to &lt;code>Access Control (IAM)&lt;/code> → &lt;code>Add Role Assignment&lt;/code>&lt;/li>
+&lt;li>Select the role (e.g., &lt;code>Contributor&lt;/code> or &lt;code>Web App Contributor&lt;/code>)&lt;/li>
+&lt;li>Assign it to the &lt;strong>service principal&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="review-pipeline-yaml">Review Pipeline YAML&lt;/h4>
+&lt;p>Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p></description></item></channel></rss>

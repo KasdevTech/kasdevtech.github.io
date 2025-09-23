@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure Cost Management on KasdevTech</title><link>https://kasdevtech.github.io/tags/azure-cost-management/</link><description>Recent content in Azure Cost Management on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/azure-cost-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing Azure Costs with FinOps</title><link>https://kasdevtech.github.io/finops/optimizing-azure-costs/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/finops/optimizing-azure-costs/</guid><description>
-&lt;h3 id="what-is-finops"&gt;What is FinOps?&lt;/h3&gt;
-&lt;p&gt;FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p&gt;
-&lt;h3 id="azure-cost-optimization-tips"&gt;Azure Cost Optimization Tips&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Use &lt;strong&gt;Azure Advisor&lt;/strong&gt; to find cost-saving recommendations&lt;/li&gt;
-&lt;li&gt;Implement &lt;strong&gt;Budgets &amp;amp; Alerts&lt;/strong&gt; in Azure Cost Management&lt;/li&gt;
-&lt;li&gt;Use &lt;strong&gt;Reserved Instances&lt;/strong&gt; for long-running workloads&lt;/li&gt;
-&lt;li&gt;Use &lt;strong&gt;Private Endpoints&lt;/strong&gt; and reduce egress traffic costs&lt;/li&gt;
-&lt;li&gt;Regularly review &lt;strong&gt;unused resources&lt;/strong&gt; and shut them down&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="conclusion"&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p&gt;</description></item></channel></rss>
+&lt;h3 id="what-is-finops">What is FinOps?&lt;/h3>
+&lt;p>FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p>
+&lt;h3 id="azure-cost-optimization-tips">Azure Cost Optimization Tips&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>Azure Advisor&lt;/strong> to find cost-saving recommendations&lt;/li>
+&lt;li>Implement &lt;strong>Budgets &amp;amp; Alerts&lt;/strong> in Azure Cost Management&lt;/li>
+&lt;li>Use &lt;strong>Reserved Instances&lt;/strong> for long-running workloads&lt;/li>
+&lt;li>Use &lt;strong>Private Endpoints&lt;/strong> and reduce egress traffic costs&lt;/li>
+&lt;li>Regularly review &lt;strong>unused resources&lt;/strong> and shut them down&lt;/li>
+&lt;/ul>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p></description></item></channel></rss>

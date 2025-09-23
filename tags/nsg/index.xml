@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NSG on KasdevTech</title><link>https://kasdevtech.github.io/tags/nsg/</link><description>Recent content in NSG on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/nsg/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>
-&lt;h3 id="azure-application-gateway--backend-health-unknown"&gt;Azure Application Gateway – Backend Health Unknown?&lt;/h3&gt;
-&lt;p&gt;If you’re using Azure Application Gateway and you see:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Backend health: UNKNOWN&lt;/strong&gt;&lt;br&gt;
-&lt;strong&gt;Backend health: UNHEALTHY&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Don’t panic. This is a common issue — and we’ll walk through how to fix it &lt;strong&gt;end-to-end&lt;/strong&gt;, even if you’re new to Azure.&lt;/p&gt;
-&lt;h4 id="what-does-unknown-or-unhealthy-mean"&gt;What Does “Unknown” or “Unhealthy” Mean?&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Unknown&lt;/strong&gt; = App Gateway &lt;strong&gt;can’t reach&lt;/strong&gt; the backend (network issue)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Unhealthy&lt;/strong&gt; = App Gateway &lt;strong&gt;can reach&lt;/strong&gt; the backend, but &lt;strong&gt;probe failed&lt;/strong&gt; (wrong path, port, etc.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="step-by-step-troubleshooting"&gt;Step-by-Step Troubleshooting&lt;/h4&gt;
-&lt;h4 id="step-1-check-backend-pool-ipvm"&gt;Step 1: Check Backend Pool IP/VM&lt;/h4&gt;
-&lt;p&gt;Go to:
-App Gateway → &lt;strong&gt;Backend pools&lt;/strong&gt;
-Confirm:&lt;/p&gt;</description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>
-&lt;h4 id="azure-nsg-vs-asg"&gt;Azure NSG vs ASG&lt;/h4&gt;
-&lt;p&gt;In cloud networking, &lt;strong&gt;firewalls and access control&lt;/strong&gt; are your first line of defense.&lt;br&gt;
-In Azure, the two main tools for this are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Network Security Group (NSG)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Application Security Group (ASG)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let’s explore what they are, how they work, and how to use them together.&lt;/p&gt;
-&lt;h4 id="what-is-a-network-security-group-nsg"&gt;What is a Network Security Group (NSG)?&lt;/h4&gt;
-&lt;p&gt;An &lt;strong&gt;NSG&lt;/strong&gt; acts like a virtual firewall. You can apply it to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Subnets&lt;/li&gt;
-&lt;li&gt;Network interfaces (NICs)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="nsg-rules-look-like"&gt;NSG Rules look like:&lt;/h4&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Priority&lt;/th&gt;
-&lt;th&gt;Direction&lt;/th&gt;
-&lt;th&gt;Source&lt;/th&gt;
-&lt;th&gt;Destination&lt;/th&gt;
-&lt;th&gt;Port&lt;/th&gt;
-&lt;th&gt;Action&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;100&lt;/td&gt;
-&lt;td&gt;Inbound&lt;/td&gt;
-&lt;td&gt;Any&lt;/td&gt;
-&lt;td&gt;10.0.1.4&lt;/td&gt;
-&lt;td&gt;80&lt;/td&gt;
-&lt;td&gt;Allow&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;200&lt;/td&gt;
-&lt;td&gt;Inbound&lt;/td&gt;
-&lt;td&gt;Any&lt;/td&gt;
-&lt;td&gt;Any&lt;/td&gt;
-&lt;td&gt;*&lt;/td&gt;
-&lt;td&gt;Deny&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Azure processes rules &lt;strong&gt;top-down&lt;/strong&gt;, based on &lt;strong&gt;priority&lt;/strong&gt; (lower = higher priority).&lt;/p&gt;</description></item></channel></rss>
+&lt;h3 id="azure-application-gateway--backend-health-unknown">Azure Application Gateway – Backend Health Unknown?&lt;/h3>
+&lt;p>If you’re using Azure Application Gateway and you see:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Backend health: UNKNOWN&lt;/strong>&lt;br>
+&lt;strong>Backend health: UNHEALTHY&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>Don’t panic. This is a common issue — and we’ll walk through how to fix it &lt;strong>end-to-end&lt;/strong>, even if you’re new to Azure.&lt;/p>
+&lt;h4 id="what-does-unknown-or-unhealthy-mean">What Does “Unknown” or “Unhealthy” Mean?&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Unknown&lt;/strong> = App Gateway &lt;strong>can’t reach&lt;/strong> the backend (network issue)&lt;/li>
+&lt;li>&lt;strong>Unhealthy&lt;/strong> = App Gateway &lt;strong>can reach&lt;/strong> the backend, but &lt;strong>probe failed&lt;/strong> (wrong path, port, etc.)&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-troubleshooting">Step-by-Step Troubleshooting&lt;/h4>
+&lt;h4 id="step-1-check-backend-pool-ipvm">Step 1: Check Backend Pool IP/VM&lt;/h4>
+&lt;p>Go to:
+App Gateway → &lt;strong>Backend pools&lt;/strong>
+Confirm:&lt;/p></description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>
+&lt;h4 id="azure-nsg-vs-asg">Azure NSG vs ASG&lt;/h4>
+&lt;p>In cloud networking, &lt;strong>firewalls and access control&lt;/strong> are your first line of defense.&lt;br>
+In Azure, the two main tools for this are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Network Security Group (NSG)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Application Security Group (ASG)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Let’s explore what they are, how they work, and how to use them together.&lt;/p>
+&lt;h4 id="what-is-a-network-security-group-nsg">What is a Network Security Group (NSG)?&lt;/h4>
+&lt;p>An &lt;strong>NSG&lt;/strong> acts like a virtual firewall. You can apply it to:&lt;/p>
+&lt;ul>
+&lt;li>Subnets&lt;/li>
+&lt;li>Network interfaces (NICs)&lt;/li>
+&lt;/ul>
+&lt;h4 id="nsg-rules-look-like">NSG Rules look like:&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Priority&lt;/th>
+&lt;th>Direction&lt;/th>
+&lt;th>Source&lt;/th>
+&lt;th>Destination&lt;/th>
+&lt;th>Port&lt;/th>
+&lt;th>Action&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>100&lt;/td>
+&lt;td>Inbound&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>10.0.1.4&lt;/td>
+&lt;td>80&lt;/td>
+&lt;td>Allow&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>200&lt;/td>
+&lt;td>Inbound&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>*&lt;/td>
+&lt;td>Deny&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Azure processes rules &lt;strong>top-down&lt;/strong>, based on &lt;strong>priority&lt;/strong> (lower = higher priority).&lt;/p></description></item></channel></rss>

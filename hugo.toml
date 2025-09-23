@@ -1,7 +1,7 @@
 baseURL = "https://kasdevtech.github.io/"
 languageCode = "en-us"
 title = "KasdevTech"
-theme = "clarity"
+theme = "Papermode"
 
 enableRobotsTXT = true
 enableInlineShortcodes = true

@@ -1,26 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self-Hosted Agent on KasdevTech</title>
     <link>http://localhost:1313/tags/self-hosted-agent/</link>
     <description>Recent content in Self-Hosted Agent on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/self-hosted-agent/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/self-hosted-agent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix</title>
       <link>http://localhost:1313/devops/pipelinestuck/</link>
       <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/pipelinestuck/</guid>
-      <description>Fix Azure DevOps pipeline hangs at &amp;#39;Initialize job&amp;#39; phase. Complete checklist with real root causes and fixes from production.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;azure-devops-pipeline-stuck-on-initialize-job-step-by-step-fix&#34;&gt;Azure DevOps pipeline stuck on &amp;lsquo;Initialize job&amp;rsquo;? Step-by-step fix&lt;/h4&gt;
+&lt;p&gt;Ever had your Azure DevOps pipeline &lt;strong&gt;hang at the very first step&lt;/strong&gt; – &lt;em&gt;Initialize job&lt;/em&gt; – and not move forward?&lt;/p&gt;
+&lt;p&gt;This issue is frustrating and common — especially with &lt;strong&gt;self-hosted agents&lt;/strong&gt;, permissions misconfiguration, or pipeline resource locks.&lt;/p&gt;
+&lt;p&gt;Let’s break down exactly how to troubleshoot and fix this problem step-by-step.&lt;/p&gt;
+&lt;h4 id=&#34;what-does-initialize-job-actually-mean&#34;&gt;What does &amp;lsquo;Initialize job&amp;rsquo; actually mean?&lt;/h4&gt;
+&lt;p&gt;It’s the &lt;strong&gt;very first phase&lt;/strong&gt; in a pipeline run:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title>
       <link>http://localhost:1313/devops/self-hosted-agents-vmss/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/self-hosted-agents-vmss/</guid>
-      <description>Step-by-step guide to setting up a self-hosted Azure DevOps agent pool using Azure Virtual Machine Scale Sets (VMSS) with scaling, screenshots, and security best practices.</description>
+      <description>
+        
+          
+            &lt;p&gt;Setting up self-hosted agents using &lt;strong&gt;Azure Virtual Machine Scale Sets (VMSS)&lt;/strong&gt; gives you more &lt;strong&gt;control, performance, and scalability&lt;/strong&gt; compared to Microsoft-hosted agents.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;use-cases-for-self-hosted-agents&#34;&gt;Use Cases for Self-Hosted Agents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Large builds requiring more compute&lt;/li&gt;
+&lt;li&gt;Custom toolchains (e.g., Docker, Terraform, Node.js)&lt;/li&gt;
+&lt;li&gt;Controlled access with internal networking&lt;/li&gt;
+&lt;li&gt;Reducing build time and cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure DevOps Organization + Project&lt;/li&gt;
+&lt;li&gt;Azure Subscription&lt;/li&gt;
+&lt;li&gt;Contributor or Owner role on Azure&lt;/li&gt;
+&lt;li&gt;VMSS Contributor role for DevOps managed identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;step-1-create-a-virtual-machine-scale-set-vmss&#34;&gt;Step 1: Create a Virtual Machine Scale Set (VMSS)&lt;/h4&gt;
+&lt;p&gt;You can create this via &lt;strong&gt;Azure CLI&lt;/strong&gt; or &lt;strong&gt;Portal&lt;/strong&gt;. Below are the CLI steps:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

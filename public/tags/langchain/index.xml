@@ -1,26 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LangChain on KasdevTech</title>
     <link>http://localhost:1313/tags/langchain/</link>
     <description>Recent content in LangChain on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/langchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Agents – The Next Evolution of Automation</title>
       <link>http://localhost:1313/ai/ai-agents/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/ai/ai-agents/</guid>
-      <description>AI agents are the future of autonomous work. Learn what they are, how they function, and where businesses are already using them.</description>
+      <description>
+        
+          
+            &lt;p&gt;Automation has always been about &lt;strong&gt;making machines do repetitive work&lt;/strong&gt;. But 2025 marks a shift—machines can now &lt;strong&gt;think, decide, and act independently&lt;/strong&gt;. Enter &lt;strong&gt;AI Agents&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-an-ai-agent&#34;&gt;What is an AI Agent?&lt;/h4&gt;
+&lt;p&gt;An &lt;strong&gt;AI Agent&lt;/strong&gt; is a system that can:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Perceive&lt;/strong&gt; (understand inputs from users, APIs, or environments)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reason&lt;/strong&gt; (decide the next action using AI models)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Act&lt;/strong&gt; (execute a task autonomously—like sending an email, booking a meeting, or writing code)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Unlike traditional bots, agents can use &lt;strong&gt;tools, APIs, and memory&lt;/strong&gt; to complete multi-step tasks.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>RAG (Retrieval-Augmented Generation) </title>
       <link>http://localhost:1313/ai/rag/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/ai/rag/</guid>
-      <description>Understand RAG (Retrieval-Augmented Generation) in simple terms with a real-world implementation using OpenAI and ChromaDB.</description>
+      <description>
+        
+          
+            &lt;p&gt;Generative AI is powerful—but what if your model needs &lt;strong&gt;real-time&lt;/strong&gt;, &lt;strong&gt;domain-specific&lt;/strong&gt;, or &lt;strong&gt;private data&lt;/strong&gt;? That’s where &lt;strong&gt;RAG (Retrieval-Augmented Generation)&lt;/strong&gt; comes in.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-rag&#34;&gt;What is RAG?&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;RAG&lt;/strong&gt; stands for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It&amp;rsquo;s a technique that enhances a language model’s response by &lt;strong&gt;retrieving relevant documents&lt;/strong&gt; from a knowledge base and &lt;strong&gt;injecting them into the prompt&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Think of it as “chat with memory or custom knowledge.”&lt;/p&gt;
+&lt;h4 id=&#34;how-rag-works-simplified&#34;&gt;How RAG Works (Simplified)&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;User asks a question&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;System &lt;strong&gt;retrieves&lt;/strong&gt; relevant context (documents) from a vector database (like ChromaDB or Pinecone)&lt;/li&gt;
+&lt;li&gt;Retrieved context is &lt;strong&gt;combined&lt;/strong&gt; with the user’s question&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;language model&lt;/strong&gt; (like GPT-4o) generates a response using this combined input&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;example-build-a-rag-app-with-fastapi--openai--chromadb&#34;&gt;Example: Build a RAG App with FastAPI + OpenAI + ChromaDB&lt;/h4&gt;
+&lt;p&gt;Let’s walk through an architecture example of a &lt;strong&gt;chatbot that answers questions from your company docs&lt;/strong&gt;.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

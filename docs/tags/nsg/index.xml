@@ -1,1 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>NSG on KasdevTech</title><link>https://kasdevtech.github.io/tags/nsg/</link><description>Recent content in NSG on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/nsg/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>App Gateway backend shows &amp;#39;Unknown&amp;#39; or &amp;#39;Unhealthy&amp;#39;? Follow this detailed troubleshooting guide to fix it.</description></item><item><title>Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'</title><link>https://kasdevtech.github.io/azure/azurevm_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azurevm_issues/</guid><description>Your Azure VM stuck on &amp;#39;Starting&amp;#39; or &amp;#39;Failed&amp;#39;? Learn how to troubleshoot using Boot Diagnostics, Serial Console, and recovery tools.</description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>Understand Network Security Groups (NSG) and Application Security Groups (ASG) in Azure. Learn how they protect your VNets and workloads.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NSG on KasdevTech</title><link>https://kasdevtech.github.io/tags/nsg/</link><description>Recent content in NSG on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/nsg/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>
+&lt;h3 id="azure-application-gateway--backend-health-unknown">Azure Application Gateway – Backend Health Unknown?&lt;/h3>
+&lt;p>If you’re using Azure Application Gateway and you see:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Backend health: UNKNOWN&lt;/strong>&lt;br>
+&lt;strong>Backend health: UNHEALTHY&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>Don’t panic. This is a common issue — and we’ll walk through how to fix it &lt;strong>end-to-end&lt;/strong>, even if you’re new to Azure.&lt;/p>
+&lt;h4 id="what-does-unknown-or-unhealthy-mean">What Does “Unknown” or “Unhealthy” Mean?&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Unknown&lt;/strong> = App Gateway &lt;strong>can’t reach&lt;/strong> the backend (network issue)&lt;/li>
+&lt;li>&lt;strong>Unhealthy&lt;/strong> = App Gateway &lt;strong>can reach&lt;/strong> the backend, but &lt;strong>probe failed&lt;/strong> (wrong path, port, etc.)&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-troubleshooting">Step-by-Step Troubleshooting&lt;/h4>
+&lt;h4 id="step-1-check-backend-pool-ipvm">Step 1: Check Backend Pool IP/VM&lt;/h4>
+&lt;p>Go to:
+App Gateway → &lt;strong>Backend pools&lt;/strong>
+Confirm:&lt;/p></description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>
+&lt;h4 id="azure-nsg-vs-asg">Azure NSG vs ASG&lt;/h4>
+&lt;p>In cloud networking, &lt;strong>firewalls and access control&lt;/strong> are your first line of defense.&lt;br>
+In Azure, the two main tools for this are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Network Security Group (NSG)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Application Security Group (ASG)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Let’s explore what they are, how they work, and how to use them together.&lt;/p>
+&lt;h4 id="what-is-a-network-security-group-nsg">What is a Network Security Group (NSG)?&lt;/h4>
+&lt;p>An &lt;strong>NSG&lt;/strong> acts like a virtual firewall. You can apply it to:&lt;/p>
+&lt;ul>
+&lt;li>Subnets&lt;/li>
+&lt;li>Network interfaces (NICs)&lt;/li>
+&lt;/ul>
+&lt;h4 id="nsg-rules-look-like">NSG Rules look like:&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Priority&lt;/th>
+&lt;th>Direction&lt;/th>
+&lt;th>Source&lt;/th>
+&lt;th>Destination&lt;/th>
+&lt;th>Port&lt;/th>
+&lt;th>Action&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>100&lt;/td>
+&lt;td>Inbound&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>10.0.1.4&lt;/td>
+&lt;td>80&lt;/td>
+&lt;td>Allow&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>200&lt;/td>
+&lt;td>Inbound&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>*&lt;/td>
+&lt;td>Deny&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Azure processes rules &lt;strong>top-down&lt;/strong>, based on &lt;strong>priority&lt;/strong> (lower = higher priority).&lt;/p></description></item></channel></rss>

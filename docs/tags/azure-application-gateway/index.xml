@@ -1,1 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Azure Application Gateway on KasdevTech</title><link>https://kasdevtech.github.io/tags/azure-application-gateway/</link><description>Recent content in Azure Application Gateway on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/azure-application-gateway/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>App Gateway backend shows &amp;#39;Unknown&amp;#39; or &amp;#39;Unhealthy&amp;#39;? Follow this detailed troubleshooting guide to fix it.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure Application Gateway on KasdevTech</title><link>https://kasdevtech.github.io/tags/azure-application-gateway/</link><description>Recent content in Azure Application Gateway on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/azure-application-gateway/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>
+&lt;h3 id="azure-application-gateway--backend-health-unknown">Azure Application Gateway – Backend Health Unknown?&lt;/h3>
+&lt;p>If you’re using Azure Application Gateway and you see:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Backend health: UNKNOWN&lt;/strong>&lt;br>
+&lt;strong>Backend health: UNHEALTHY&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>Don’t panic. This is a common issue — and we’ll walk through how to fix it &lt;strong>end-to-end&lt;/strong>, even if you’re new to Azure.&lt;/p>
+&lt;h4 id="what-does-unknown-or-unhealthy-mean">What Does “Unknown” or “Unhealthy” Mean?&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Unknown&lt;/strong> = App Gateway &lt;strong>can’t reach&lt;/strong> the backend (network issue)&lt;/li>
+&lt;li>&lt;strong>Unhealthy&lt;/strong> = App Gateway &lt;strong>can reach&lt;/strong> the backend, but &lt;strong>probe failed&lt;/strong> (wrong path, port, etc.)&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-troubleshooting">Step-by-Step Troubleshooting&lt;/h4>
+&lt;h4 id="step-1-check-backend-pool-ipvm">Step 1: Check Backend Pool IP/VM&lt;/h4>
+&lt;p>Go to:
+App Gateway → &lt;strong>Backend pools&lt;/strong>
+Confirm:&lt;/p></description></item></channel></rss>

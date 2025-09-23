@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>State on KasdevTech</title>
     <link>http://localhost:1313/tags/state/</link>
     <description>Recent content in State on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/state/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/state/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terraform Import in Azure — Fixing Out-of-Band Changes</title>
       <link>http://localhost:1313/terraform/out-of-band-changes/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/out-of-band-changes/</guid>
-      <description>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&amp;rsquo;s how I used &lt;code&gt;terraform import&lt;/code&gt; to fix drift and sync state.</description>
+      <description>
+        
+          
+            Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&#39;s how I used `terraform import` to fix drift and sync state.
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

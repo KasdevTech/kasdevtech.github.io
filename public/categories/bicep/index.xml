@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bicep on KasdevTech</title>
     <link>http://localhost:1313/categories/bicep/</link>
     <description>Recent content in Bicep on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/bicep/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/bicep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing &#39;az login&#39; Authentication Failures in IaC Pipelines</title>
       <link>http://localhost:1313/devops/authentication-failure/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/authentication-failure/</guid>
-      <description>&lt;p&gt;You added an &lt;code&gt;az login&lt;/code&gt; command to your pipeline… and now the pipeline fails?&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;You added an &lt;code&gt;az login&lt;/code&gt; command to your pipeline… and now the pipeline fails?&lt;/p&gt;
 &lt;p&gt;ERROR: Please run &amp;lsquo;az login&amp;rsquo; to setup account&lt;/p&gt;
 &lt;h4 id=&#34;root-cause&#34;&gt;Root Cause&lt;/h4&gt;
 &lt;p&gt;The Azure CLI needs credentials to authenticate. When run in a pipeline, &lt;code&gt;az login&lt;/code&gt; needs to be done &lt;strong&gt;non-interactively&lt;/strong&gt; using a &lt;strong&gt;service principal&lt;/strong&gt;.&lt;/p&gt;
@@ -39,7 +42,12 @@
       az account show
 This auto-authenticates using the linked service connection.
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
-&lt;p&gt;Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p&gt;</description>
+&lt;p&gt;Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

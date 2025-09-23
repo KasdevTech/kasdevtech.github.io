@@ -1,1 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Best Practices on KasdevTech</title><link>https://kasdevtech.github.io/tags/best-practices/</link><description>Recent content in Best Practices on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/best-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title><link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid><description>Learn how to save costs on Azure networking components and monitor key metrics for VNet health, Firewall, and bandwidth usage.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Best Practices on KasdevTech</title><link>https://kasdevtech.github.io/tags/best-practices/</link><description>Recent content in Best Practices on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/best-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title><link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid><description>
+&lt;h4 id="azure-networking-cost-optimization--monitoring">Azure Networking Cost Optimization &amp;amp; Monitoring&lt;/h4>
+&lt;p>Azure networking is powerful — but can get expensive if you’re not careful.&lt;br>
+This post covers:&lt;/p>
+&lt;ul>
+&lt;li>What costs the most in Azure networking?&lt;/li>
+&lt;li>How to reduce cost without compromising security&lt;/li>
+&lt;li>Tools to monitor and alert for network health&lt;/li>
+&lt;/ul>
+&lt;h4 id="what-costs-the-most">What Costs the Most?&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Resource&lt;/th>
+&lt;th>Cost Impact&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Azure Firewall&lt;/strong>&lt;/td>
+&lt;td>$$$ — Pay per deployment + GB used&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>ExpressRoute&lt;/strong>&lt;/td>
+&lt;td>$$$ — Monthly base + bandwidth&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Data Transfer&lt;/strong>&lt;/td>
+&lt;td>Charges for traffic between regions or zones&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>VPN Gateway&lt;/strong>&lt;/td>
+&lt;td>Based on SKU and time&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Peering&lt;/strong>&lt;/td>
+&lt;td>Inbound = Free, Outbound = $$$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Public IP&lt;/strong>&lt;/td>
+&lt;td>Basic = Free, Standard = Billable&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h4 id="cost-optimization-tips">Cost Optimization Tips&lt;/h4>
+&lt;h4 id="use-nat-gateway-instead-of-load-balancer-snat">Use NAT Gateway Instead of Load Balancer SNAT&lt;/h4>
+&lt;ul>
+&lt;li>Avoid port exhaustion&lt;/li>
+&lt;li>More scalable for outbound traffic&lt;/li>
+&lt;li>Predictable IP and cost&lt;/li>
+&lt;/ul>
+&lt;h4 id="consolidate-firewalls-in-hub">Consolidate Firewalls in Hub&lt;/h4>
+&lt;ul>
+&lt;li>One Azure Firewall in the &lt;strong>Hub VNet&lt;/strong>&lt;/li>
+&lt;li>Route all traffic through it&lt;/li>
+&lt;li>Use UDRs and ASGs to enforce control&lt;/li>
+&lt;/ul>
+&lt;h4 id="avoid-cross-region-traffic">Avoid Cross-Region Traffic&lt;/h4>
+&lt;ul>
+&lt;li>Peering across regions = &lt;strong>paid outbound&lt;/strong>&lt;/li>
+&lt;li>Keep apps and databases in &lt;strong>same region&lt;/strong> when possible&lt;/li>
+&lt;/ul>
+&lt;h4 id="use-azure-cost-management">Use Azure Cost Management&lt;/h4>
+&lt;ul>
+&lt;li>Enable &lt;strong>tags&lt;/strong> on VNet, Firewall, NAT Gateway&lt;/li>
+&lt;li>Group by project/team/app&lt;/li>
+&lt;li>Set up &lt;strong>budgets and alerts&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="monitoring-tools">Monitoring Tools&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Tool&lt;/th>
+&lt;th>Use For&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Network Watcher&lt;/strong>&lt;/td>
+&lt;td>Packet capture, NSG flow logs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Azure Monitor&lt;/strong>&lt;/td>
+&lt;td>Metrics for Firewall, VPN, Gateway&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Log Analytics&lt;/strong>&lt;/td>
+&lt;td>Query NSG and Firewall logs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Connection Monitor&lt;/strong>&lt;/td>
+&lt;td>End-to-end checks (latency, loss)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="monitor-these-metrics">Monitor These Metrics&lt;/h4>
+&lt;ul>
+&lt;li>Firewall throughput&lt;/li>
+&lt;li>NAT Gateway SNAT ports used&lt;/li>
+&lt;li>VPN Tunnel status (S2S, P2S)&lt;/li>
+&lt;li>Inbound/outbound bytes per VNet&lt;/li>
+&lt;li>Number of dropped packets (NSG)&lt;/li>
+&lt;/ul>
+&lt;h4 id="set-alerts-examples">Set Alerts (Examples)&lt;/h4>
+&lt;ul>
+&lt;li>Alert if VPN Gateway is &lt;strong>down&lt;/strong>&lt;/li>
+&lt;li>Alert if Azure Firewall hits &lt;strong>80% throughput&lt;/strong>&lt;/li>
+&lt;li>Alert on &lt;strong>unexpected data transfer spikes&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="final-tip">Final Tip&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>Secure, scalable Azure networking is &lt;strong>possible without breaking the bank&lt;/strong>.&lt;br>
+But it requires:&lt;/p></description></item></channel></rss>

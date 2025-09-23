@@ -1,19 +1,140 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cost on KasdevTech</title>
     <link>http://localhost:1313/tags/cost/</link>
     <description>Recent content in Cost on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title>
       <link>http://localhost:1313/azure/azure-networking-cost-optimization/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/azure-networking-cost-optimization/</guid>
-      <description>Learn how to save costs on Azure networking components and monitor key metrics for VNet health, Firewall, and bandwidth usage.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;azure-networking-cost-optimization--monitoring&#34;&gt;Azure Networking Cost Optimization &amp;amp; Monitoring&lt;/h4&gt;
+&lt;p&gt;Azure networking is powerful — but can get expensive if you’re not careful.&lt;br&gt;
+This post covers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What costs the most in Azure networking?&lt;/li&gt;
+&lt;li&gt;How to reduce cost without compromising security&lt;/li&gt;
+&lt;li&gt;Tools to monitor and alert for network health&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;what-costs-the-most&#34;&gt;What Costs the Most?&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Resource&lt;/th&gt;
+          &lt;th&gt;Cost Impact&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Azure Firewall&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$$$ — Pay per deployment + GB used&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ExpressRoute&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$$$ — Monthly base + bandwidth&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Data Transfer&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Charges for traffic between regions or zones&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;VPN Gateway&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Based on SKU and time&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Peering&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Inbound = Free, Outbound = $$$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Public IP&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Basic = Free, Standard = Billable&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;cost-optimization-tips&#34;&gt;Cost Optimization Tips&lt;/h4&gt;
+&lt;h4 id=&#34;use-nat-gateway-instead-of-load-balancer-snat&#34;&gt;Use NAT Gateway Instead of Load Balancer SNAT&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid port exhaustion&lt;/li&gt;
+&lt;li&gt;More scalable for outbound traffic&lt;/li&gt;
+&lt;li&gt;Predictable IP and cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;consolidate-firewalls-in-hub&#34;&gt;Consolidate Firewalls in Hub&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;One Azure Firewall in the &lt;strong&gt;Hub VNet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Route all traffic through it&lt;/li&gt;
+&lt;li&gt;Use UDRs and ASGs to enforce control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;avoid-cross-region-traffic&#34;&gt;Avoid Cross-Region Traffic&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Peering across regions = &lt;strong&gt;paid outbound&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Keep apps and databases in &lt;strong&gt;same region&lt;/strong&gt; when possible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;use-azure-cost-management&#34;&gt;Use Azure Cost Management&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable &lt;strong&gt;tags&lt;/strong&gt; on VNet, Firewall, NAT Gateway&lt;/li&gt;
+&lt;li&gt;Group by project/team/app&lt;/li&gt;
+&lt;li&gt;Set up &lt;strong&gt;budgets and alerts&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;monitoring-tools&#34;&gt;Monitoring Tools&lt;/h4&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Tool&lt;/th&gt;
+          &lt;th&gt;Use For&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Network Watcher&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Packet capture, NSG flow logs&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Azure Monitor&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Metrics for Firewall, VPN, Gateway&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Log Analytics&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Query NSG and Firewall logs&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Connection Monitor&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;End-to-end checks (latency, loss)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;monitor-these-metrics&#34;&gt;Monitor These Metrics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Firewall throughput&lt;/li&gt;
+&lt;li&gt;NAT Gateway SNAT ports used&lt;/li&gt;
+&lt;li&gt;VPN Tunnel status (S2S, P2S)&lt;/li&gt;
+&lt;li&gt;Inbound/outbound bytes per VNet&lt;/li&gt;
+&lt;li&gt;Number of dropped packets (NSG)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;set-alerts-examples&#34;&gt;Set Alerts (Examples)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Alert if VPN Gateway is &lt;strong&gt;down&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Alert if Azure Firewall hits &lt;strong&gt;80% throughput&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Alert on &lt;strong&gt;unexpected data transfer spikes&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;final-tip&#34;&gt;Final Tip&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Secure, scalable Azure networking is &lt;strong&gt;possible without breaking the bank&lt;/strong&gt;.&lt;br&gt;
+But it requires:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Performance on KasdevTech</title>
     <link>http://localhost:1313/tags/performance/</link>
     <description>Recent content in Performance on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing High CPU and Memory Usage in Azure App Service</title>
       <link>http://localhost:1313/azure/appservice-high-cpu/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/appservice-high-cpu/</guid>
-      <description>A step-by-step guide to troubleshoot and resolve performance issues in Azure App Service caused by high CPU or memory usage.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;fixing-high-cpu-and-memory-usage-in-azure-app-service&#34;&gt;Fixing High CPU and Memory Usage in Azure App Service&lt;/h4&gt;
+&lt;p&gt;Your app is running fine, and then suddenly…  users complain about &lt;strong&gt;slowness&lt;/strong&gt; or the app even &lt;strong&gt;crashes&lt;/strong&gt;.&lt;br&gt;
+When you check the Azure Portal, you see CPU pegged at 90–100% or memory exhausted.&lt;br&gt;
+This is a very &lt;strong&gt;common real-world issue&lt;/strong&gt; in Azure App Service. Let’s walk step by step.&lt;/p&gt;
+&lt;h4 id=&#34;step-1-monitor-metrics&#34;&gt;Step 1: Monitor Metrics&lt;/h4&gt;
+&lt;p&gt;Go to:
+&lt;strong&gt;Azure Portal → App Service → Metrics → CPU Percentage / Memory Working Set&lt;/strong&gt;
+Look for spikes during:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

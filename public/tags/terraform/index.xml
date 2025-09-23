@@ -1,54 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terraform on KasdevTech</title>
     <link>http://localhost:1313/tags/terraform/</link>
     <description>Recent content in Terraform on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terraform Import in Azure — Fixing Out-of-Band Changes</title>
       <link>http://localhost:1313/terraform/out-of-band-changes/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/out-of-band-changes/</guid>
-      <description>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&amp;rsquo;s how I used &lt;code&gt;terraform import&lt;/code&gt; to fix drift and sync state.</description>
+      <description>
+        
+          
+            Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&#39;s how I used `terraform import` to fix drift and sync state.
+          
+          
+        
+      </description>
     </item>
-    <item>
-      <title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title>
-      <link>http://localhost:1313/terraform/terraform-init-fails/</link>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/terraform/terraform-init-fails/</guid>
-      <description>Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&amp;rsquo;s how I fixed it using service principal and storage configuration updates.</description>
-    </item>
+    
     <item>
       <title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title>
       <link>http://localhost:1313/terraform/terraform-role-assigment/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/terraform-role-assigment/</guid>
-      <description>Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here&amp;rsquo;s how I fixed this in a CI/CD pipeline using the right roles and automation.</description>
+      <description>
+        
+          
+            Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here&#39;s how I fixed this in a CI/CD pipeline using the right roles and automation.
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title>
       <link>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/terraform-destroy-fails-in-azure/</guid>
-      <description>Running &lt;code&gt;terraform destroy&lt;/code&gt; in Azure sometimes fails due to implicit resource dependencies. Here&amp;rsquo;s how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</description>
+      <description>
+        
+          
+            Running `terraform destroy` in Azure sometimes fails due to implicit resource dependencies. Here&#39;s how I resolved a common NSG and subnet dependency issue and ensured clean teardown.
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Terraform State Corruption in Azure — Recovered</title>
       <link>http://localhost:1313/terraform/statefile-corrupted/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/statefile-corrupted/</guid>
-      <description>Faced a corrupted Terraform state file in Azure Blob Storage? Here&amp;rsquo;s a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</description>
+      <description>
+        
+          
+            Faced a corrupted Terraform state file in Azure Blob Storage? Here&#39;s a real-world recovery guide to restore infrastructure state safely in 4 simple steps.
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title>
       <link>http://localhost:1313/devops/terraform-withsatelock-failure/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/terraform-withsatelock-failure/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;
 &lt;p&gt;Error: Error acquiring the state lock: state blob is already locked&lt;/p&gt;
 &lt;p&gt;You&amp;rsquo;re facing a &lt;strong&gt;Terraform state lock&lt;/strong&gt; issue — and it can block your pipeline!&lt;/p&gt;
 &lt;h4 id=&#34;what-causes-it&#34;&gt;What Causes It?&lt;/h4&gt;
@@ -59,14 +91,23 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;step-by-step-fix&#34;&gt;Step-by-Step Fix&lt;/h4&gt;
 &lt;h4 id=&#34;manually-unlock-state&#34;&gt;Manually Unlock State&lt;/h4&gt;
-&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;</description>
+&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Getting Started with Terraform on Azure</title>
       <link>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/terraform/getting-started-with-terraform-on-azure/</guid>
-      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p&gt;
 &lt;p&gt;In this post, we will cover:&lt;/p&gt;
 &lt;ul&gt;
@@ -80,7 +121,12 @@ Configure your Azure credentials&lt;br&gt;
 Write &lt;code&gt;main.tf&lt;/code&gt; with Azure provider&lt;br&gt;
 Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and &lt;code&gt;apply&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;</description>
+&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

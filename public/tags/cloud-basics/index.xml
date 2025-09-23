@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Basics on KasdevTech</title>
     <link>http://localhost:1313/tags/cloud-basics/</link>
     <description>Recent content in Cloud Basics on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cloud-basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cloud-basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Azure Virtual Network Basics – Public vs Private Networks</title>
       <link>http://localhost:1313/azure/azure-network-basics/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/azure-network-basics/</guid>
-      <description>Understand the basics of Azure Virtual Networks, what public and private networks mean in the cloud, and how IPs work in Azure.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;azure-virtual-network-basics--public-vs-private&#34;&gt;Azure Virtual Network Basics – Public vs Private&lt;/h4&gt;
+&lt;p&gt;If you&amp;rsquo;re getting started with Azure Networking, the first concept you must master is the &lt;strong&gt;Virtual Network&lt;/strong&gt; (aka VNet). This is the &lt;strong&gt;foundation&lt;/strong&gt; of all networking in Azure.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-a-vnet&#34;&gt;What is a VNet?&lt;/h4&gt;
+&lt;p&gt;A &lt;strong&gt;Virtual Network (VNet)&lt;/strong&gt; in Azure is like your private data center network in the cloud. It allows Azure resources (like VMs, App Services, etc.) to &lt;strong&gt;communicate with each other securely&lt;/strong&gt;.
+Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

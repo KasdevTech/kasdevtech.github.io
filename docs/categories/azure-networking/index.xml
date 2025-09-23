@@ -1,1 +1,286 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Azure Networking on KasdevTech</title><link>https://kasdevtech.github.io/categories/azure-networking/</link><description>Recent content in Azure Networking on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/categories/azure-networking/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>App Gateway backend shows &amp;#39;Unknown&amp;#39; or &amp;#39;Unhealthy&amp;#39;? Follow this detailed troubleshooting guide to fix it.</description></item><item><title>Azure Network Reference Architectures</title><link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid><description>Understand how enterprise-grade networks are designed in Azure using hub-spoke, firewall, VPN/ExpressRoute, private link, and more.</description></item><item><title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title><link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid><description>Learn how to save costs on Azure networking components and monitor key metrics for VNet health, Firewall, and bandwidth usage.</description></item><item><title>Azure Private Endpoint vs Service Endpoint</title><link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid><description>Understand the difference between Azure Private Endpoint and Service Endpoint, when to use each, and how they affect VNet security and traffic routing.</description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>Understand Network Security Groups (NSG) and Application Security Groups (ASG) in Azure. Learn how they protect your VNets and workloads.</description></item><item><title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title><link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid><description>Learn how Azure routes traffic inside virtual networks. Understand UDRs (User Defined Routes), System Routes, and BGP basics.</description></item><item><title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title><link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid><description>Understand how to connect your on-premises to Azure using VPN Gateway or ExpressRoute. Learn the difference between Site-to-Site and Point-to-Site.</description></item><item><title> Azure Virtual Network Basics – Public vs Private Networks</title><link>https://kasdevtech.github.io/azure/azure-network-basics/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid><description>Understand the basics of Azure Virtual Networks, what public and private networks mean in the cloud, and how IPs work in Azure.</description></item><item><title>Azure Hub-Spoke Architecture &amp; VNet Peering</title><link>https://kasdevtech.github.io/azure/hub-spoke/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/hub-spoke/</guid><description>Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure Networking on KasdevTech</title><link>https://kasdevtech.github.io/categories/azure-networking/</link><description>Recent content in Azure Networking on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/categories/azure-networking/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>
+&lt;h3 id="azure-application-gateway--backend-health-unknown">Azure Application Gateway – Backend Health Unknown?&lt;/h3>
+&lt;p>If you’re using Azure Application Gateway and you see:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Backend health: UNKNOWN&lt;/strong>&lt;br>
+&lt;strong>Backend health: UNHEALTHY&lt;/strong>&lt;/p>&lt;/blockquote>
+&lt;p>Don’t panic. This is a common issue — and we’ll walk through how to fix it &lt;strong>end-to-end&lt;/strong>, even if you’re new to Azure.&lt;/p>
+&lt;h4 id="what-does-unknown-or-unhealthy-mean">What Does “Unknown” or “Unhealthy” Mean?&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Unknown&lt;/strong> = App Gateway &lt;strong>can’t reach&lt;/strong> the backend (network issue)&lt;/li>
+&lt;li>&lt;strong>Unhealthy&lt;/strong> = App Gateway &lt;strong>can reach&lt;/strong> the backend, but &lt;strong>probe failed&lt;/strong> (wrong path, port, etc.)&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-troubleshooting">Step-by-Step Troubleshooting&lt;/h4>
+&lt;h4 id="step-1-check-backend-pool-ipvm">Step 1: Check Backend Pool IP/VM&lt;/h4>
+&lt;p>Go to:
+App Gateway → &lt;strong>Backend pools&lt;/strong>
+Confirm:&lt;/p></description></item><item><title>Azure Network Reference Architectures</title><link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid><description>
+&lt;h4 id="azure-network-reference-architectures">Azure Network Reference Architectures&lt;/h4>
+&lt;p>By now, you&amp;rsquo;ve learned about VNets, peering, firewalls, DNS, and more.&lt;br>
+Let’s bring it all together with real Azure networking architectures you can &lt;strong>apply in production&lt;/strong>.&lt;/p>
+&lt;h4 id="design-pattern-1-hub-spoke-with-vpn-gateway">Design Pattern 1: Hub-Spoke with VPN Gateway&lt;/h4>
+&lt;p>Perfect for hybrid connectivity and centralized control.&lt;/p>
+&lt;h4 id="key-features">Key Features:&lt;/h4>
+&lt;ul>
+&lt;li>Central &lt;strong>Hub VNet&lt;/strong> with:
+&lt;ul>
+&lt;li>VPN Gateway&lt;/li>
+&lt;li>Azure Firewall or NVA&lt;/li>
+&lt;li>DDoS Protection&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Multiple &lt;strong>Spoke VNets&lt;/strong> for apps/environments&lt;/li>
+&lt;li>VNet Peering for traffic&lt;/li>
+&lt;/ul>
+&lt;h4 id="diagram">Diagram:&lt;/h4>
+&lt;pre tabindex="0">&lt;code> [On-Premises]
+|
+====== Site-to-Site VPN ======
+|
++------------------+
+| Hub VNet |
+| VPN + Firewall |
++------------------+
+/ | \
+/ | \
+[Spoke A] [Spoke B] [Spoke C]
+&lt;/code>&lt;/pre>&lt;h4 id="design-pattern-2-private-link--nat-gateway">Design Pattern 2: Private Link + NAT Gateway&lt;/h4>
+&lt;p>For &lt;strong>secure outbound&lt;/strong> and &lt;strong>fully private access&lt;/strong> to PaaS.&lt;/p></description></item><item><title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title><link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid><description>
+&lt;h4 id="azure-networking-cost-optimization--monitoring">Azure Networking Cost Optimization &amp;amp; Monitoring&lt;/h4>
+&lt;p>Azure networking is powerful — but can get expensive if you’re not careful.&lt;br>
+This post covers:&lt;/p>
+&lt;ul>
+&lt;li>What costs the most in Azure networking?&lt;/li>
+&lt;li>How to reduce cost without compromising security&lt;/li>
+&lt;li>Tools to monitor and alert for network health&lt;/li>
+&lt;/ul>
+&lt;h4 id="what-costs-the-most">What Costs the Most?&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Resource&lt;/th>
+&lt;th>Cost Impact&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Azure Firewall&lt;/strong>&lt;/td>
+&lt;td>$$$ — Pay per deployment + GB used&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>ExpressRoute&lt;/strong>&lt;/td>
+&lt;td>$$$ — Monthly base + bandwidth&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Data Transfer&lt;/strong>&lt;/td>
+&lt;td>Charges for traffic between regions or zones&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>VPN Gateway&lt;/strong>&lt;/td>
+&lt;td>Based on SKU and time&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Peering&lt;/strong>&lt;/td>
+&lt;td>Inbound = Free, Outbound = $$$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Public IP&lt;/strong>&lt;/td>
+&lt;td>Basic = Free, Standard = Billable&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h4 id="cost-optimization-tips">Cost Optimization Tips&lt;/h4>
+&lt;h4 id="use-nat-gateway-instead-of-load-balancer-snat">Use NAT Gateway Instead of Load Balancer SNAT&lt;/h4>
+&lt;ul>
+&lt;li>Avoid port exhaustion&lt;/li>
+&lt;li>More scalable for outbound traffic&lt;/li>
+&lt;li>Predictable IP and cost&lt;/li>
+&lt;/ul>
+&lt;h4 id="consolidate-firewalls-in-hub">Consolidate Firewalls in Hub&lt;/h4>
+&lt;ul>
+&lt;li>One Azure Firewall in the &lt;strong>Hub VNet&lt;/strong>&lt;/li>
+&lt;li>Route all traffic through it&lt;/li>
+&lt;li>Use UDRs and ASGs to enforce control&lt;/li>
+&lt;/ul>
+&lt;h4 id="avoid-cross-region-traffic">Avoid Cross-Region Traffic&lt;/h4>
+&lt;ul>
+&lt;li>Peering across regions = &lt;strong>paid outbound&lt;/strong>&lt;/li>
+&lt;li>Keep apps and databases in &lt;strong>same region&lt;/strong> when possible&lt;/li>
+&lt;/ul>
+&lt;h4 id="use-azure-cost-management">Use Azure Cost Management&lt;/h4>
+&lt;ul>
+&lt;li>Enable &lt;strong>tags&lt;/strong> on VNet, Firewall, NAT Gateway&lt;/li>
+&lt;li>Group by project/team/app&lt;/li>
+&lt;li>Set up &lt;strong>budgets and alerts&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="monitoring-tools">Monitoring Tools&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Tool&lt;/th>
+&lt;th>Use For&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Network Watcher&lt;/strong>&lt;/td>
+&lt;td>Packet capture, NSG flow logs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Azure Monitor&lt;/strong>&lt;/td>
+&lt;td>Metrics for Firewall, VPN, Gateway&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Log Analytics&lt;/strong>&lt;/td>
+&lt;td>Query NSG and Firewall logs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Connection Monitor&lt;/strong>&lt;/td>
+&lt;td>End-to-end checks (latency, loss)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="monitor-these-metrics">Monitor These Metrics&lt;/h4>
+&lt;ul>
+&lt;li>Firewall throughput&lt;/li>
+&lt;li>NAT Gateway SNAT ports used&lt;/li>
+&lt;li>VPN Tunnel status (S2S, P2S)&lt;/li>
+&lt;li>Inbound/outbound bytes per VNet&lt;/li>
+&lt;li>Number of dropped packets (NSG)&lt;/li>
+&lt;/ul>
+&lt;h4 id="set-alerts-examples">Set Alerts (Examples)&lt;/h4>
+&lt;ul>
+&lt;li>Alert if VPN Gateway is &lt;strong>down&lt;/strong>&lt;/li>
+&lt;li>Alert if Azure Firewall hits &lt;strong>80% throughput&lt;/strong>&lt;/li>
+&lt;li>Alert on &lt;strong>unexpected data transfer spikes&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="final-tip">Final Tip&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>Secure, scalable Azure networking is &lt;strong>possible without breaking the bank&lt;/strong>.&lt;br>
+But it requires:&lt;/p></description></item><item><title>Azure Private Endpoint vs Service Endpoint</title><link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid><description>
+&lt;h4 id="azure-private-endpoint-vs-service-endpoint">Azure Private Endpoint vs Service Endpoint&lt;/h4>
+&lt;p>So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…&lt;/p>
+&lt;p>Should I use a &lt;strong>Service Endpoint&lt;/strong> or a &lt;strong>Private Endpoint&lt;/strong>?&lt;/p>
+&lt;p>These two features are critical for &lt;strong>securing Azure PaaS services&lt;/strong>. But they’re not the same.&lt;br>
+Let’s break them down clearly with real-world context.&lt;/p>
+&lt;h4 id="what-is-a-service-endpoint">What is a Service Endpoint?&lt;/h4>
+&lt;p>Service Endpoints &lt;strong>extend your VNet’s private IP&lt;/strong> to Azure PaaS services.&lt;/p></description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>
+&lt;h4 id="azure-nsg-vs-asg">Azure NSG vs ASG&lt;/h4>
+&lt;p>In cloud networking, &lt;strong>firewalls and access control&lt;/strong> are your first line of defense.&lt;br>
+In Azure, the two main tools for this are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Network Security Group (NSG)&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Application Security Group (ASG)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Let’s explore what they are, how they work, and how to use them together.&lt;/p>
+&lt;h4 id="what-is-a-network-security-group-nsg">What is a Network Security Group (NSG)?&lt;/h4>
+&lt;p>An &lt;strong>NSG&lt;/strong> acts like a virtual firewall. You can apply it to:&lt;/p>
+&lt;ul>
+&lt;li>Subnets&lt;/li>
+&lt;li>Network interfaces (NICs)&lt;/li>
+&lt;/ul>
+&lt;h4 id="nsg-rules-look-like">NSG Rules look like:&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Priority&lt;/th>
+&lt;th>Direction&lt;/th>
+&lt;th>Source&lt;/th>
+&lt;th>Destination&lt;/th>
+&lt;th>Port&lt;/th>
+&lt;th>Action&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>100&lt;/td>
+&lt;td>Inbound&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>10.0.1.4&lt;/td>
+&lt;td>80&lt;/td>
+&lt;td>Allow&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>200&lt;/td>
+&lt;td>Inbound&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>Any&lt;/td>
+&lt;td>*&lt;/td>
+&lt;td>Deny&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Azure processes rules &lt;strong>top-down&lt;/strong>, based on &lt;strong>priority&lt;/strong> (lower = higher priority).&lt;/p></description></item><item><title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title><link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid><description>
+&lt;h4 id="azure-routing---udr-route-tables-and-bgp">Azure Routing – UDR, Route Tables, and BGP&lt;/h4>
+&lt;p>Ever wonder how traffic knows where to go inside your VNet?
+That magic is thanks to &lt;strong>Routing&lt;/strong> – and in Azure, it’s handled by:&lt;/p>
+&lt;ul>
+&lt;li>System Routes&lt;/li>
+&lt;li>User Defined Routes (UDR)&lt;/li>
+&lt;li>Border Gateway Protocol (BGP)&lt;/li>
+&lt;/ul>
+&lt;h4 id="system-routes-default">System Routes (Default)&lt;/h4>
+&lt;p>Azure &lt;strong>automatically adds system routes&lt;/strong> to all subnets.&lt;/p>
+&lt;p>Examples:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Destination&lt;/th>
+&lt;th>Next Hop&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0.0.0.0/0&lt;/td>
+&lt;td>Internet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;!-- raw HTML omitted -->&lt;/td>
+&lt;td>Virtual Network&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>168.63.129.16&lt;/td>
+&lt;td>Virtual Network&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>These work fine in most cases — &lt;strong>until you need customization&lt;/strong>.&lt;/p></description></item><item><title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title><link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid><description>
+&lt;h4 id="azure-vpn-gateway-vs-expressroute--what-should-you-use">Azure VPN Gateway vs ExpressRoute – What Should You Use?&lt;/h4>
+&lt;p>Now that we understand VNets and peering, let’s talk about &lt;strong>how to connect your on-premises network to Azure&lt;/strong>.&lt;/p>
+&lt;p>Two main options:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Azure VPN Gateway&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Azure ExpressRoute&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>And under VPN Gateway, two common scenarios:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Site-to-Site (S2S) VPN&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Point-to-Site (P2S) VPN&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Let’s break them all down simply.&lt;/p>
+&lt;h4 id="what-is-azure-vpn-gateway">What is Azure VPN Gateway?&lt;/h4>
+&lt;p>Azure VPN Gateway is a &lt;strong>managed network gateway&lt;/strong> in Azure. It lets you:&lt;/p></description></item><item><title> Azure Virtual Network Basics – Public vs Private Networks</title><link>https://kasdevtech.github.io/azure/azure-network-basics/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid><description>
+&lt;h4 id="azure-virtual-network-basics--public-vs-private">Azure Virtual Network Basics – Public vs Private&lt;/h4>
+&lt;p>If you&amp;rsquo;re getting started with Azure Networking, the first concept you must master is the &lt;strong>Virtual Network&lt;/strong> (aka VNet). This is the &lt;strong>foundation&lt;/strong> of all networking in Azure.&lt;/p>
+&lt;h4 id="what-is-a-vnet">What is a VNet?&lt;/h4>
+&lt;p>A &lt;strong>Virtual Network (VNet)&lt;/strong> in Azure is like your private data center network in the cloud. It allows Azure resources (like VMs, App Services, etc.) to &lt;strong>communicate with each other securely&lt;/strong>.
+Think of it like a virtual version of a LAN (Local Area Network).&lt;/p></description></item><item><title>Azure Hub-Spoke Architecture &amp; VNet Peering</title><link>https://kasdevtech.github.io/azure/hub-spoke/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/hub-spoke/</guid><description>
+&lt;h4 id="azure-hub-spoke-architecture">Azure Hub-Spoke Architecture&lt;/h4>
+&lt;p>Once you understand VNets and Subnets, the next step is designing how they connect. One of the most &lt;strong>popular architectures&lt;/strong> in Azure is called the &lt;strong>Hub-Spoke Model&lt;/strong>.&lt;/p>
+&lt;h4 id="what-is-the-hub-spoke-model">What is the Hub-Spoke Model?&lt;/h4>
+&lt;p>Think of the &lt;strong>Hub&lt;/strong> as the central point where all shared services live — like a corporate office.&lt;/p>
+&lt;p>Each &lt;strong>Spoke&lt;/strong> is a separate environment — like dev, test, or app workloads.&lt;/p>
+&lt;pre>&lt;code> +-----------------------+
+| Hub VNet |
+| (Firewall, VPN, etc) |
++-----------------------+
+/ | \
+/ | \
++--------+ +--------+ +--------+
+| Spoke1 | | Spoke2 | | Spoke3 |
++--------+ +--------+ +--------+
+&lt;/code>&lt;/pre>
+&lt;h4 id="what-is-vnet-peering">What is VNet Peering?&lt;/h4>
+&lt;p>&lt;strong>VNet Peering&lt;/strong> allows two VNets to communicate &lt;strong>privately&lt;/strong> using Azure backbone (no internet).&lt;/p></description></item></channel></rss>

@@ -1,26 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FastAPI on KasdevTech</title>
     <link>http://localhost:1313/tags/fastapi/</link>
     <description>Recent content in FastAPI on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/fastapi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/fastapi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Build Your Own AI Chatbot</title>
       <link>http://localhost:1313/ai/build-ai-chatbot-2025/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/ai/build-ai-chatbot-2025/</guid>
-      <description>Build a production-ready GenAI chatbot using OpenAI, FastAPI, and React in 2025.</description>
+      <description>
+        
+          
+            &lt;p&gt;Want to build your own AI-powered chatbot for your business or blog? Here&amp;rsquo;s a simplified step-by-step blueprint that works in 2025:&lt;/p&gt;
+&lt;h4 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; FastAPI + OpenAI API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; React + Tailwind CSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory / Search:&lt;/strong&gt; ChromaDB or Pinecone&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hosting:&lt;/strong&gt; Render.com + GitHub Pages (free tier)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;steps-to-build&#34;&gt;Steps to Build&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Get an OpenAI API Key&lt;/strong&gt; from &lt;a href=&#34;https://platform.openai.com&#34;&gt;https://platform.openai.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Setup FastAPI App&lt;/strong&gt; with a &lt;code&gt;/chat&lt;/code&gt; endpoint&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use ChromaDB or Pinecone&lt;/strong&gt; to store and retrieve past questions/answers (for RAG)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create React Chat UI&lt;/strong&gt; with an input box, chat bubbles, and streaming response&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deploy Frontend to GitHub Pages&lt;/strong&gt; and Backend to Render.com (free tier)&lt;/li&gt;
+&lt;/ol&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Building an AI-Powered App Using Azure OpenAI Services</title>
       <link>http://localhost:1313/azure/chatbot-with-react-frontend/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/chatbot-with-react-frontend/</guid>
-      <description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description>
+      <description>
+        
+          
+            &lt;h3 id=&#34;introduction-to-azure-openai&#34;&gt;Introduction to Azure OpenAI&lt;/h3&gt;
+&lt;p&gt;In today’s cloud-native world, many organizations want to add AI features like chatbots, summarization, sentiment analysis, and document Q&amp;amp;A into their apps. &lt;strong&gt;Azure OpenAI Services&lt;/strong&gt; makes this easy by giving secure, enterprise access to powerful models like GPT-4, ChatGPT, and DALL·E via REST APIs — all hosted in Microsoft’s trusted Azure cloud.&lt;/p&gt;
+&lt;h3 id=&#34;benefits&#34;&gt;Benefits:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;No need to host large AI models yourself&lt;/li&gt;
+&lt;li&gt;Microsoft’s enterprise security and compliance&lt;/li&gt;
+&lt;li&gt;Pay as you go&lt;/li&gt;
+&lt;li&gt;Available in various Azure regions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In this post, you’ll learn how to build an &lt;strong&gt;AI-powered chatbot&lt;/strong&gt; using:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

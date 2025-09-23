@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure Application Gateway on KasdevTech</title>
     <link>http://localhost:1313/tags/azure-application-gateway/</link>
     <description>Recent content in Azure Application Gateway on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/azure-application-gateway/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/azure-application-gateway/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Application Gateway – Backend Health Unknown</title>
       <link>http://localhost:1313/azure/appgw_issues/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/appgw_issues/</guid>
-      <description>App Gateway backend shows &amp;#39;Unknown&amp;#39; or &amp;#39;Unhealthy&amp;#39;? Follow this detailed troubleshooting guide to fix it.</description>
+      <description>
+        
+          
+            &lt;h3 id=&#34;azure-application-gateway--backend-health-unknown&#34;&gt;Azure Application Gateway – Backend Health Unknown?&lt;/h3&gt;
+&lt;p&gt;If you’re using Azure Application Gateway and you see:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Backend health: UNKNOWN&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Backend health: UNHEALTHY&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Don’t panic. This is a common issue — and we’ll walk through how to fix it &lt;strong&gt;end-to-end&lt;/strong&gt;, even if you’re new to Azure.&lt;/p&gt;
+&lt;h4 id=&#34;what-does-unknown-or-unhealthy-mean&#34;&gt;What Does “Unknown” or “Unhealthy” Mean?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unknown&lt;/strong&gt; = App Gateway &lt;strong&gt;can’t reach&lt;/strong&gt; the backend (network issue)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unhealthy&lt;/strong&gt; = App Gateway &lt;strong&gt;can reach&lt;/strong&gt; the backend, but &lt;strong&gt;probe failed&lt;/strong&gt; (wrong path, port, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;step-by-step-troubleshooting&#34;&gt;Step-by-Step Troubleshooting&lt;/h4&gt;
+&lt;h4 id=&#34;step-1-check-backend-pool-ipvm&#34;&gt;Step 1: Check Backend Pool IP/VM&lt;/h4&gt;
+&lt;p&gt;Go to:
+App Gateway → &lt;strong&gt;Backend pools&lt;/strong&gt;
+Confirm:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

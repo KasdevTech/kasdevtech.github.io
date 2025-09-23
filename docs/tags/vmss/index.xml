@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>VMSS on KasdevTech</title><link>https://kasdevtech.github.io/tags/vmss/</link><description>Recent content in VMSS on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/vmss/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title><link>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</guid><description>Step-by-step guide to setting up a self-hosted Azure DevOps agent pool using Azure Virtual Machine Scale Sets (VMSS) with scaling, screenshots, and security best practices.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMSS on KasdevTech</title><link>https://kasdevtech.github.io/tags/vmss/</link><description>Recent content in VMSS on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/vmss/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title><link>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</guid><description>
+&lt;p>Setting up self-hosted agents using &lt;strong>Azure Virtual Machine Scale Sets (VMSS)&lt;/strong> gives you more &lt;strong>control, performance, and scalability&lt;/strong> compared to Microsoft-hosted agents.&lt;/p>
+&lt;blockquote>
+&lt;p>This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="use-cases-for-self-hosted-agents">Use Cases for Self-Hosted Agents&lt;/h3>
+&lt;ul>
+&lt;li>Large builds requiring more compute&lt;/li>
+&lt;li>Custom toolchains (e.g., Docker, Terraform, Node.js)&lt;/li>
+&lt;li>Controlled access with internal networking&lt;/li>
+&lt;li>Reducing build time and cost&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="prerequisites">Prerequisites&lt;/h3>
+&lt;ul>
+&lt;li>Azure DevOps Organization + Project&lt;/li>
+&lt;li>Azure Subscription&lt;/li>
+&lt;li>Contributor or Owner role on Azure&lt;/li>
+&lt;li>VMSS Contributor role for DevOps managed identity&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h4 id="step-1-create-a-virtual-machine-scale-set-vmss">Step 1: Create a Virtual Machine Scale Set (VMSS)&lt;/h4>
+&lt;p>You can create this via &lt;strong>Azure CLI&lt;/strong> or &lt;strong>Portal&lt;/strong>. Below are the CLI steps:&lt;/p></description></item></channel></rss>

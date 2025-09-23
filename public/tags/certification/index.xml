@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certification on KasdevTech</title>
+    <link>http://localhost:1313/tags/certification/</link>
+    <description>Recent content in Certification on KasdevTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/certification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator</title>
+      <link>http://localhost:1313/az-104/intro/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/az-104/intro/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;az-104-exam-guide--introduction-to-microsoft-azure-administrator&#34;&gt;AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;AZ-104: Microsoft Azure Administrator&lt;/strong&gt; certification is one of the most popular cloud certifications offered by Microsoft. It validates your skills in managing cloud services like compute, networking, storage, and security in Azure.&lt;/p&gt;
+&lt;p&gt;If you’re looking to grow your career as a &lt;strong&gt;Cloud Administrator, System Administrator, or DevOps Engineer&lt;/strong&gt;, this certification is the perfect step forward.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-the-az-104-exam&#34;&gt;What is the AZ-104 Exam?&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;AZ-104 exam&lt;/strong&gt; tests your ability to manage Azure resources and services in a production environment. It measures your practical knowledge in:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

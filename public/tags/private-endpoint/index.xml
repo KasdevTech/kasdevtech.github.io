@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Private Endpoint on KasdevTech</title>
     <link>http://localhost:1313/tags/private-endpoint/</link>
     <description>Recent content in Private Endpoint on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/private-endpoint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/private-endpoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Private Endpoint vs Service Endpoint</title>
       <link>http://localhost:1313/azure/privateendpoint-serviceendpoint/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/privateendpoint-serviceendpoint/</guid>
-      <description>Understand the difference between Azure Private Endpoint and Service Endpoint, when to use each, and how they affect VNet security and traffic routing.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;azure-private-endpoint-vs-service-endpoint&#34;&gt;Azure Private Endpoint vs Service Endpoint&lt;/h4&gt;
+&lt;p&gt;So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…&lt;/p&gt;
+&lt;p&gt;Should I use a &lt;strong&gt;Service Endpoint&lt;/strong&gt; or a &lt;strong&gt;Private Endpoint&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;These two features are critical for &lt;strong&gt;securing Azure PaaS services&lt;/strong&gt;. But they’re not the same.&lt;br&gt;
+Let’s break them down clearly with real-world context.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-a-service-endpoint&#34;&gt;What is a Service Endpoint?&lt;/h4&gt;
+&lt;p&gt;Service Endpoints &lt;strong&gt;extend your VNet’s private IP&lt;/strong&gt; to Azure PaaS services.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

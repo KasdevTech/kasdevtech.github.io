@@ -1,40 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on KasdevTech</title>
     <link>http://localhost:1313/tags/devops/</link>
     <description>Recent content in Devops on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing High CPU and Memory Usage in Azure App Service</title>
       <link>http://localhost:1313/azure/appservice-high-cpu/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/appservice-high-cpu/</guid>
-      <description>A step-by-step guide to troubleshoot and resolve performance issues in Azure App Service caused by high CPU or memory usage.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;fixing-high-cpu-and-memory-usage-in-azure-app-service&#34;&gt;Fixing High CPU and Memory Usage in Azure App Service&lt;/h4&gt;
+&lt;p&gt;Your app is running fine, and then suddenly…  users complain about &lt;strong&gt;slowness&lt;/strong&gt; or the app even &lt;strong&gt;crashes&lt;/strong&gt;.&lt;br&gt;
+When you check the Azure Portal, you see CPU pegged at 90–100% or memory exhausted.&lt;br&gt;
+This is a very &lt;strong&gt;common real-world issue&lt;/strong&gt; in Azure App Service. Let’s walk step by step.&lt;/p&gt;
+&lt;h4 id=&#34;step-1-monitor-metrics&#34;&gt;Step 1: Monitor Metrics&lt;/h4&gt;
+&lt;p&gt;Go to:
+&lt;strong&gt;Azure Portal → App Service → Metrics → CPU Percentage / Memory Working Set&lt;/strong&gt;
+Look for spikes during:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Troubleshooting Azure App Service Startup Failures</title>
       <link>http://localhost:1313/azure/appservice/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/appservice/</guid>
-      <description>Step-by-step guide to diagnose and fix Azure App Service startup failures, including logs, Kudu console, and common misconfigurations.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;troubleshooting-azure-app-service-startup-failures&#34;&gt;Troubleshooting Azure App Service Startup Failures&lt;/h4&gt;
+&lt;p&gt;One of the most common issues with &lt;strong&gt;Azure App Service&lt;/strong&gt; is when your web app refuses to start after deployment.&lt;/p&gt;
+&lt;p&gt;The symptoms usually look like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The app returns &lt;strong&gt;HTTP 500 – Internal Server Error&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You see &lt;strong&gt;Service Unavailable (503)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The container or code doesn’t start properly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a &lt;strong&gt;real-world headache&lt;/strong&gt; because you deploy with confidence, but the app never comes up.&lt;/p&gt;
+&lt;h4 id=&#34;step-1-check-app-service-logs&#34;&gt;Step 1: Check App Service Logs&lt;/h4&gt;
+&lt;p&gt;Enable &lt;strong&gt;Application Logging&lt;/strong&gt; and &lt;strong&gt;Web Server Logging&lt;/strong&gt;.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
       <link>http://localhost:1313/azure/bicep-getting-started/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/bicep-getting-started/</guid>
-      <description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description>
+      <description>
+        
+          
+            &lt;p&gt;Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p&gt;
+&lt;h3 id=&#34;why-bicep&#34;&gt;Why Bicep?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Native to Azure&lt;/li&gt;
+&lt;li&gt;Simplified syntax&lt;/li&gt;
+&lt;li&gt;No state files (unlike Terraform)&lt;/li&gt;
+&lt;li&gt;Excellent tooling in VS Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;install-bicep-cli&#34;&gt;Install Bicep CLI&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az bicep install
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Verify installation:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az bicep version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;🏗️ Sample Bicep Template:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;resource storageAccount &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  name: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  location: resourceGroup&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt;.location
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  sku: &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    name: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Standard_LRS&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  kind: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;StorageV2&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;📦 Deploy using Azure CLI:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az deployment group create &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  --resource-group kasdevtech-rg &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;  --template-file main.bicep
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h3&gt;
+&lt;p&gt;Use modules to reuse code
+Integrate Bicep in DevOps pipelines
+Combine with Azure Policy for compliance&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Sample Azure DevOps Pipeline for .NET App</title>
       <link>http://localhost:1313/devops/sample-azure-devops-pipeline/</link>
       <pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate>
+      
       <guid>http://localhost:1313/devops/sample-azure-devops-pipeline/</guid>
-      <description>&lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;trigger&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#ae81ff&#34;&gt;main&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -56,20 +136,34 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;inputs&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;PathtoPublish&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;ArtifactName&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;drop&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
       <link>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/azure/how-to-start-cloud-journey-2025/</guid>
-      <description>&lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
+      <description>
+        
+          
+            &lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
 &lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
 &lt;p&gt;But many beginners feel lost:&lt;br&gt;
 👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;
 👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;
 👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;</description>
+&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

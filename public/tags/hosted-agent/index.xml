@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hosted Agent on KasdevTech</title>
     <link>http://localhost:1313/tags/hosted-agent/</link>
     <description>Recent content in Hosted Agent on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hosted-agent/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hosted-agent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures</title>
       <link>http://localhost:1313/devops/pipeline-timeout-issues/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/pipeline-timeout-issues/</guid>
-      <description>&lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
 &lt;h4 id=&#34;error-message&#34;&gt;Error Message&lt;/h4&gt;
 &lt;p&gt;[error]The job was canceled after reaching the timeout limit of 60 minutes.&lt;/p&gt;
 &lt;h4 id=&#34;default-limits&#34;&gt;Default Limits&lt;/h4&gt;
@@ -37,7 +40,12 @@
 &lt;li&gt;Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;use-self-hosted-agent-no-hard-timeout&#34;&gt;Use Self-Hosted Agent (No Hard Timeout)&lt;/h4&gt;
-&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;</description>
+&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

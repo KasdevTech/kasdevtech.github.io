@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>OpenAI on KasdevTech</title><link>https://kasdevtech.github.io/tags/openai/</link><description>Recent content in OpenAI on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/openai/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Agents – The Next Evolution of Automation</title><link>https://kasdevtech.github.io/ai/ai-agents/</link><pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/ai-agents/</guid><description>AI agents are the future of autonomous work. Learn what they are, how they function, and where businesses are already using them.</description></item><item><title>RAG (Retrieval-Augmented Generation)</title><link>https://kasdevtech.github.io/ai/rag/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/rag/</guid><description>Understand RAG (Retrieval-Augmented Generation) in simple terms with a real-world implementation using OpenAI and ChromaDB.</description></item><item><title>How to Build Your Own AI Chatbot</title><link>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</guid><description>Build a production-ready GenAI chatbot using OpenAI, FastAPI, and React in 2025.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenAI on KasdevTech</title><link>https://kasdevtech.github.io/tags/openai/</link><description>Recent content in OpenAI on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/openai/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Agents – The Next Evolution of Automation</title><link>https://kasdevtech.github.io/ai/ai-agents/</link><pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/ai-agents/</guid><description>
+&lt;p>Automation has always been about &lt;strong>making machines do repetitive work&lt;/strong>. But 2025 marks a shift—machines can now &lt;strong>think, decide, and act independently&lt;/strong>. Enter &lt;strong>AI Agents&lt;/strong>.&lt;/p>
+&lt;h4 id="what-is-an-ai-agent">What is an AI Agent?&lt;/h4>
+&lt;p>An &lt;strong>AI Agent&lt;/strong> is a system that can:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Perceive&lt;/strong> (understand inputs from users, APIs, or environments)&lt;/li>
+&lt;li>&lt;strong>Reason&lt;/strong> (decide the next action using AI models)&lt;/li>
+&lt;li>&lt;strong>Act&lt;/strong> (execute a task autonomously—like sending an email, booking a meeting, or writing code)&lt;/li>
+&lt;/ol>
+&lt;p>Unlike traditional bots, agents can use &lt;strong>tools, APIs, and memory&lt;/strong> to complete multi-step tasks.&lt;/p></description></item><item><title>RAG (Retrieval-Augmented Generation)</title><link>https://kasdevtech.github.io/ai/rag/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/rag/</guid><description>
+&lt;p>Generative AI is powerful—but what if your model needs &lt;strong>real-time&lt;/strong>, &lt;strong>domain-specific&lt;/strong>, or &lt;strong>private data&lt;/strong>? That’s where &lt;strong>RAG (Retrieval-Augmented Generation)&lt;/strong> comes in.&lt;/p>
+&lt;h4 id="what-is-rag">What is RAG?&lt;/h4>
+&lt;p>&lt;strong>RAG&lt;/strong> stands for &lt;strong>Retrieval-Augmented Generation&lt;/strong>. It&amp;rsquo;s a technique that enhances a language model’s response by &lt;strong>retrieving relevant documents&lt;/strong> from a knowledge base and &lt;strong>injecting them into the prompt&lt;/strong>.&lt;/p>
+&lt;p>Think of it as “chat with memory or custom knowledge.”&lt;/p>
+&lt;h4 id="how-rag-works-simplified">How RAG Works (Simplified)&lt;/h4>
+&lt;ol>
+&lt;li>&lt;strong>User asks a question&lt;/strong>&lt;/li>
+&lt;li>System &lt;strong>retrieves&lt;/strong> relevant context (documents) from a vector database (like ChromaDB or Pinecone)&lt;/li>
+&lt;li>Retrieved context is &lt;strong>combined&lt;/strong> with the user’s question&lt;/li>
+&lt;li>The &lt;strong>language model&lt;/strong> (like GPT-4o) generates a response using this combined input&lt;/li>
+&lt;/ol>
+&lt;h4 id="example-build-a-rag-app-with-fastapi--openai--chromadb">Example: Build a RAG App with FastAPI + OpenAI + ChromaDB&lt;/h4>
+&lt;p>Let’s walk through an architecture example of a &lt;strong>chatbot that answers questions from your company docs&lt;/strong>.&lt;/p></description></item><item><title>How to Build Your Own AI Chatbot</title><link>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</guid><description>
+&lt;p>Want to build your own AI-powered chatbot for your business or blog? Here&amp;rsquo;s a simplified step-by-step blueprint that works in 2025:&lt;/p>
+&lt;h4 id="tech-stack">Tech Stack&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Backend:&lt;/strong> FastAPI + OpenAI API&lt;/li>
+&lt;li>&lt;strong>Frontend:&lt;/strong> React + Tailwind CSS&lt;/li>
+&lt;li>&lt;strong>Memory / Search:&lt;/strong> ChromaDB or Pinecone&lt;/li>
+&lt;li>&lt;strong>Hosting:&lt;/strong> Render.com + GitHub Pages (free tier)&lt;/li>
+&lt;/ul>
+&lt;h4 id="steps-to-build">Steps to Build&lt;/h4>
+&lt;ol>
+&lt;li>&lt;strong>Get an OpenAI API Key&lt;/strong> from &lt;a href="https://platform.openai.com">https://platform.openai.com&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Setup FastAPI App&lt;/strong> with a &lt;code>/chat&lt;/code> endpoint&lt;/li>
+&lt;li>&lt;strong>Use ChromaDB or Pinecone&lt;/strong> to store and retrieve past questions/answers (for RAG)&lt;/li>
+&lt;li>&lt;strong>Create React Chat UI&lt;/strong> with an input box, chat bubbles, and streaming response&lt;/li>
+&lt;li>&lt;strong>Deploy Frontend to GitHub Pages&lt;/strong> and Backend to Render.com (free tier)&lt;/li>
+&lt;/ol></description></item></channel></rss>

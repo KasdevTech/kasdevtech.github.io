@@ -1,26 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DevOps on KasdevTech</title>
     <link>http://localhost:1313/devops/</link>
     <description>Recent content in DevOps on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure DevOps pipeline stuck on &#39;Initialize job&#39; Step-by-step fix</title>
       <link>http://localhost:1313/devops/pipelinestuck/</link>
       <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/pipelinestuck/</guid>
-      <description>Fix Azure DevOps pipeline hangs at &amp;#39;Initialize job&amp;#39; phase. Complete checklist with real root causes and fixes from production.</description>
+      <description>
+        
+          
+            &lt;h4 id=&#34;azure-devops-pipeline-stuck-on-initialize-job-step-by-step-fix&#34;&gt;Azure DevOps pipeline stuck on &amp;lsquo;Initialize job&amp;rsquo;? Step-by-step fix&lt;/h4&gt;
+&lt;p&gt;Ever had your Azure DevOps pipeline &lt;strong&gt;hang at the very first step&lt;/strong&gt; – &lt;em&gt;Initialize job&lt;/em&gt; – and not move forward?&lt;/p&gt;
+&lt;p&gt;This issue is frustrating and common — especially with &lt;strong&gt;self-hosted agents&lt;/strong&gt;, permissions misconfiguration, or pipeline resource locks.&lt;/p&gt;
+&lt;p&gt;Let’s break down exactly how to troubleshoot and fix this problem step-by-step.&lt;/p&gt;
+&lt;h4 id=&#34;what-does-initialize-job-actually-mean&#34;&gt;What does &amp;lsquo;Initialize job&amp;rsquo; actually mean?&lt;/h4&gt;
+&lt;p&gt;It’s the &lt;strong&gt;very first phase&lt;/strong&gt; in a pipeline run:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Fixing &#39;az login&#39; Authentication Failures in IaC Pipelines</title>
       <link>http://localhost:1313/devops/authentication-failure/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/authentication-failure/</guid>
-      <description>&lt;p&gt;You added an &lt;code&gt;az login&lt;/code&gt; command to your pipeline… and now the pipeline fails?&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;You added an &lt;code&gt;az login&lt;/code&gt; command to your pipeline… and now the pipeline fails?&lt;/p&gt;
 &lt;p&gt;ERROR: Please run &amp;lsquo;az login&amp;rsquo; to setup account&lt;/p&gt;
 &lt;h4 id=&#34;root-cause&#34;&gt;Root Cause&lt;/h4&gt;
 &lt;p&gt;The Azure CLI needs credentials to authenticate. When run in a pipeline, &lt;code&gt;az login&lt;/code&gt; needs to be done &lt;strong&gt;non-interactively&lt;/strong&gt; using a &lt;strong&gt;service principal&lt;/strong&gt;.&lt;/p&gt;
@@ -46,14 +63,23 @@
       az account show
 This auto-authenticates using the linked service connection.
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
-&lt;p&gt;Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p&gt;</description>
+&lt;p&gt;Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title>
       <link>http://localhost:1313/devops/terraform-withsatelock-failure/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/terraform-withsatelock-failure/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;
 &lt;p&gt;Error: Error acquiring the state lock: state blob is already locked&lt;/p&gt;
 &lt;p&gt;You&amp;rsquo;re facing a &lt;strong&gt;Terraform state lock&lt;/strong&gt; issue — and it can block your pipeline!&lt;/p&gt;
 &lt;h4 id=&#34;what-causes-it&#34;&gt;What Causes It?&lt;/h4&gt;
@@ -64,14 +90,23 @@ This auto-authenticates using the linked service connection.
 &lt;/ul&gt;
 &lt;h4 id=&#34;step-by-step-fix&#34;&gt;Step-by-Step Fix&lt;/h4&gt;
 &lt;h4 id=&#34;manually-unlock-state&#34;&gt;Manually Unlock State&lt;/h4&gt;
-&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;</description>
+&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures</title>
       <link>http://localhost:1313/devops/pipeline-timeout-issues/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/pipeline-timeout-issues/</guid>
-      <description>&lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
 &lt;h4 id=&#34;error-message&#34;&gt;Error Message&lt;/h4&gt;
 &lt;p&gt;[error]The job was canceled after reaching the timeout limit of 60 minutes.&lt;/p&gt;
 &lt;h4 id=&#34;default-limits&#34;&gt;Default Limits&lt;/h4&gt;
@@ -95,14 +130,23 @@ This auto-authenticates using the linked service connection.
 &lt;li&gt;Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;use-self-hosted-agent-no-hard-timeout&#34;&gt;Use Self-Hosted Agent (No Hard Timeout)&lt;/h4&gt;
-&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;</description>
+&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Azure Pipeline Not Triggering Automatically on Push – YAML Trigger Issues</title>
       <link>http://localhost:1313/devops/trigger-issues/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/trigger-issues/</guid>
-      <description>&lt;p&gt;Ever pushed code and expected the pipeline to run… but nothing happens?
+      <description>
+        
+          
+            &lt;p&gt;Ever pushed code and expected the pipeline to run… but nothing happens?
 This is one of the most common issues teams face after setting up YAML-based Azure Pipelines.&lt;/p&gt;
 &lt;h4 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h4&gt;
 &lt;ul&gt;
@@ -128,14 +172,23 @@ This is one of the most common issues teams face after setting up YAML-based Azu
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;check-pipeline-settings-in-azure-devops&#34;&gt;Check Pipeline Settings in Azure DevOps&lt;/h4&gt;
 &lt;p&gt;Go to Pipelines → Click your pipeline → Edit
 Click the 3 dots → Triggers
-Ensure CI Trigger is enabled&lt;/p&gt;</description>
+Ensure CI Trigger is enabled&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title>
       <link>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid>
-      <description>&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
 &lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
 &lt;h4 id=&#34;common-causes&#34;&gt;Common Causes&lt;/h4&gt;
 &lt;ul&gt;
@@ -158,14 +211,23 @@ Ensure CI Trigger is enabled&lt;/p&gt;</description>
 &lt;p&gt;Go to Project Settings → Service Connections
 Open your GitHub connection
 Re-authenticate or update the PAT/token
-Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description>
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources</title>
       <link>http://localhost:1313/devops/azuredevops-permission-error/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/azuredevops-permission-error/</guid>
-      <description>&lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;
 &lt;p&gt;Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p&gt;
 &lt;h4 id=&#34;root-cause&#34;&gt;Root Cause&lt;/h4&gt;
 &lt;p&gt;This error usually occurs because the &lt;strong&gt;service principal&lt;/strong&gt; used in your Azure DevOps &lt;strong&gt;service connection&lt;/strong&gt; does not have the required &lt;strong&gt;role-based access control (RBAC)&lt;/strong&gt; permissions on the target resource group or subscription.&lt;/p&gt;
@@ -184,21 +246,60 @@ Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description>
 &lt;li&gt;Assign it to the &lt;strong&gt;service principal&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;review-pipeline-yaml&#34;&gt;Review Pipeline YAML&lt;/h4&gt;
-&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;</description>
+&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title>
       <link>http://localhost:1313/devops/self-hosted-agents-vmss/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/devops/self-hosted-agents-vmss/</guid>
-      <description>Step-by-step guide to setting up a self-hosted Azure DevOps agent pool using Azure Virtual Machine Scale Sets (VMSS) with scaling, screenshots, and security best practices.</description>
+      <description>
+        
+          
+            &lt;p&gt;Setting up self-hosted agents using &lt;strong&gt;Azure Virtual Machine Scale Sets (VMSS)&lt;/strong&gt; gives you more &lt;strong&gt;control, performance, and scalability&lt;/strong&gt; compared to Microsoft-hosted agents.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;use-cases-for-self-hosted-agents&#34;&gt;Use Cases for Self-Hosted Agents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Large builds requiring more compute&lt;/li&gt;
+&lt;li&gt;Custom toolchains (e.g., Docker, Terraform, Node.js)&lt;/li&gt;
+&lt;li&gt;Controlled access with internal networking&lt;/li&gt;
+&lt;li&gt;Reducing build time and cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure DevOps Organization + Project&lt;/li&gt;
+&lt;li&gt;Azure Subscription&lt;/li&gt;
+&lt;li&gt;Contributor or Owner role on Azure&lt;/li&gt;
+&lt;li&gt;VMSS Contributor role for DevOps managed identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;step-1-create-a-virtual-machine-scale-set-vmss&#34;&gt;Step 1: Create a Virtual Machine Scale Set (VMSS)&lt;/h4&gt;
+&lt;p&gt;You can create this via &lt;strong&gt;Azure CLI&lt;/strong&gt; or &lt;strong&gt;Portal&lt;/strong&gt;. Below are the CLI steps:&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>Sample Azure DevOps Pipeline for .NET App</title>
       <link>http://localhost:1313/devops/sample-azure-devops-pipeline/</link>
       <pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate>
+      
       <guid>http://localhost:1313/devops/sample-azure-devops-pipeline/</guid>
-      <description>&lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;trigger&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#ae81ff&#34;&gt;main&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -220,7 +321,12 @@ Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description>
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;inputs&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;PathtoPublish&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;ArtifactName&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;drop&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          
+          
+        
+      </description>
     </item>
+    
   </channel>
 </rss>

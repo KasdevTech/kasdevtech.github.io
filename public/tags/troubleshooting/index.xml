@@ -242,28 +242,6 @@ This means App Gateway couldn’t reach your backend &lt;strong&gt;properly&lt;/
     
     <item>
       <title> AKS Node Disk Pressure </title>
-      <link>http://localhost:1313/az-104/aks-node-disk-pressure/</link>
-      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/az-104/aks-node-disk-pressure/</guid>
-      <description>
-        
-          
-            &lt;h4 id=&#34;what-happened&#34;&gt;What Happened?&lt;/h4&gt;
-&lt;p&gt;Hey folks,&lt;br&gt;
-Let me share a real incident we faced in production on &lt;strong&gt;Azure Kubernetes Service (AKS)&lt;/strong&gt;. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code&gt;DiskPressure&lt;/code&gt; on some nodes.&lt;/p&gt;
-&lt;p&gt;We didn’t make any infra changes recently, so the obvious question was:&lt;br&gt;
-&lt;strong&gt;What’s going on inside the AKS nodes?&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;root-cause-analysis&#34;&gt;Root Cause Analysis&lt;/h4&gt;
-&lt;p&gt;We dug into the node metrics using &lt;strong&gt;Azure Monitor&lt;/strong&gt; and &lt;code&gt;kubectl describe node&lt;/code&gt;. Here’s what we found:&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
-      <title> AKS Node Disk Pressure </title>
       <link>http://localhost:1313/azure/aks-node-disk-pressure/</link>
       <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
       

@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AKS on KasdevTech</title>
     <link>http://localhost:1313/tags/aks/</link>
     <description>Recent content in AKS on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/aks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/aks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> AKS Node Disk Pressure </title>
       <link>http://localhost:1313/azure/aks-node-disk-pressure/</link>
       <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/aks-node-disk-pressure/</guid>
-      <description>
-        
-          
-            &lt;h4 id=&#34;what-happened&#34;&gt;What Happened?&lt;/h4&gt;
-&lt;p&gt;Hey folks,&lt;br&gt;
-Let me share a real incident we faced in production on &lt;strong&gt;Azure Kubernetes Service (AKS)&lt;/strong&gt;. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code&gt;DiskPressure&lt;/code&gt; on some nodes.&lt;/p&gt;
-&lt;p&gt;We didn’t make any infra changes recently, so the obvious question was:&lt;br&gt;
-&lt;strong&gt;What’s going on inside the AKS nodes?&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&#34;root-cause-analysis&#34;&gt;Root Cause Analysis&lt;/h4&gt;
-&lt;p&gt;We dug into the node metrics using &lt;strong&gt;Azure Monitor&lt;/strong&gt; and &lt;code&gt;kubectl describe node&lt;/code&gt;. Here’s what we found:&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>A production issue in Azure AKS where nodes ran into DiskPressure. Here&amp;#39;s how we investigated, fixed, and prevented it in the future.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Azure Pipelines on KasdevTech</title>
     <link>http://localhost:1313/tags/azure-pipelines/</link>
     <description>Recent content in Azure Pipelines on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/azure-pipelines/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/azure-pipelines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources</title>
       <link>http://localhost:1313/devops/azuredevops-permission-error/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/devops/azuredevops-permission-error/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;
+      <description>&lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;
 &lt;p&gt;Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p&gt;
 &lt;h4 id=&#34;root-cause&#34;&gt;Root Cause&lt;/h4&gt;
 &lt;p&gt;This error usually occurs because the &lt;strong&gt;service principal&lt;/strong&gt; used in your Azure DevOps &lt;strong&gt;service connection&lt;/strong&gt; does not have the required &lt;strong&gt;role-based access control (RBAC)&lt;/strong&gt; permissions on the target resource group or subscription.&lt;/p&gt;
@@ -35,12 +32,7 @@
 &lt;li&gt;Assign it to the &lt;strong&gt;service principal&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;review-pipeline-yaml&#34;&gt;Review Pipeline YAML&lt;/h4&gt;
-&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;
-          
-          
-        
-      </description>
+&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

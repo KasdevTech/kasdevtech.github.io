@@ -1,60 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BGP on KasdevTech</title>
     <link>http://localhost:1313/tags/bgp/</link>
     <description>Recent content in BGP on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bgp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bgp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
       <link>http://localhost:1313/azure/azure-routing-simplified/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/azure-routing-simplified/</guid>
-      <description>
-        
-          
-            &lt;h4 id=&#34;azure-routing---udr-route-tables-and-bgp&#34;&gt;Azure Routing  – UDR, Route Tables, and BGP&lt;/h4&gt;
-&lt;p&gt;Ever wonder how traffic knows where to go inside your VNet?
-That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, it’s handled by:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;System Routes&lt;/li&gt;
-&lt;li&gt;User Defined Routes (UDR)&lt;/li&gt;
-&lt;li&gt;Border Gateway Protocol (BGP)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;system-routes-default&#34;&gt;System Routes (Default)&lt;/h4&gt;
-&lt;p&gt;Azure &lt;strong&gt;automatically adds system routes&lt;/strong&gt; to all subnets.&lt;/p&gt;
-&lt;p&gt;Examples:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Destination&lt;/th&gt;
-          &lt;th&gt;Next Hop&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;0.0.0.0/0&lt;/td&gt;
-          &lt;td&gt;Internet&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
-          &lt;td&gt;Virtual Network&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;168.63.129.16&lt;/td&gt;
-          &lt;td&gt;Virtual Network&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;These work fine in most cases — &lt;strong&gt;until you need customization&lt;/strong&gt;.&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>Learn how Azure routes traffic inside virtual networks. Understand UDRs (User Defined Routes), System Routes, and BGP basics.</description>
     </item>
-    
   </channel>
 </rss>

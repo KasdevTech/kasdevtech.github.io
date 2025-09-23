@@ -1,150 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Security on KasdevTech</title>
     <link>http://localhost:1313/tags/security/</link>
     <description>Recent content in Security on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Private Endpoint vs Service Endpoint</title>
       <link>http://localhost:1313/azure/privateendpoint-serviceendpoint/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/privateendpoint-serviceendpoint/</guid>
-      <description>
-        
-          
-            &lt;h4 id=&#34;azure-private-endpoint-vs-service-endpoint&#34;&gt;Azure Private Endpoint vs Service Endpoint&lt;/h4&gt;
-&lt;p&gt;So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…&lt;/p&gt;
-&lt;p&gt;Should I use a &lt;strong&gt;Service Endpoint&lt;/strong&gt; or a &lt;strong&gt;Private Endpoint&lt;/strong&gt;?&lt;/p&gt;
-&lt;p&gt;These two features are critical for &lt;strong&gt;securing Azure PaaS services&lt;/strong&gt;. But they’re not the same.&lt;br&gt;
-Let’s break them down clearly with real-world context.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-a-service-endpoint&#34;&gt;What is a Service Endpoint?&lt;/h4&gt;
-&lt;p&gt;Service Endpoints &lt;strong&gt;extend your VNet’s private IP&lt;/strong&gt; to Azure PaaS services.&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>Understand the difference between Azure Private Endpoint and Service Endpoint, when to use each, and how they affect VNet security and traffic routing.</description>
     </item>
-    
     <item>
       <title> Azure NSG vs ASG – Network Security for VNets </title>
       <link>http://localhost:1313/azure/nsg-asg/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/nsg-asg/</guid>
-      <description>
-        
-          
-            &lt;h4 id=&#34;azure-nsg-vs-asg&#34;&gt;Azure NSG vs ASG&lt;/h4&gt;
-&lt;p&gt;In cloud networking, &lt;strong&gt;firewalls and access control&lt;/strong&gt; are your first line of defense.&lt;br&gt;
-In Azure, the two main tools for this are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Network Security Group (NSG)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Application Security Group (ASG)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let’s explore what they are, how they work, and how to use them together.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-a-network-security-group-nsg&#34;&gt;What is a Network Security Group (NSG)?&lt;/h4&gt;
-&lt;p&gt;An &lt;strong&gt;NSG&lt;/strong&gt; acts like a virtual firewall. You can apply it to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Subnets&lt;/li&gt;
-&lt;li&gt;Network interfaces (NICs)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;nsg-rules-look-like&#34;&gt;NSG Rules look like:&lt;/h4&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Priority&lt;/th&gt;
-          &lt;th&gt;Direction&lt;/th&gt;
-          &lt;th&gt;Source&lt;/th&gt;
-          &lt;th&gt;Destination&lt;/th&gt;
-          &lt;th&gt;Port&lt;/th&gt;
-          &lt;th&gt;Action&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;100&lt;/td&gt;
-          &lt;td&gt;Inbound&lt;/td&gt;
-          &lt;td&gt;Any&lt;/td&gt;
-          &lt;td&gt;10.0.1.4&lt;/td&gt;
-          &lt;td&gt;80&lt;/td&gt;
-          &lt;td&gt;Allow&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;200&lt;/td&gt;
-          &lt;td&gt;Inbound&lt;/td&gt;
-          &lt;td&gt;Any&lt;/td&gt;
-          &lt;td&gt;Any&lt;/td&gt;
-          &lt;td&gt;*&lt;/td&gt;
-          &lt;td&gt;Deny&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Azure processes rules &lt;strong&gt;top-down&lt;/strong&gt;, based on &lt;strong&gt;priority&lt;/strong&gt; (lower = higher priority).&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>Understand Network Security Groups (NSG) and Application Security Groups (ASG) in Azure. Learn how they protect your VNets and workloads.</description>
     </item>
-    
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
       <link>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/how-to-use-azure-private-endpoints/</guid>
-      <description>
-        
-          
-            &lt;h3 id=&#34;what-is-a-private-endpoint&#34;&gt;What is a Private Endpoint?&lt;/h3&gt;
-&lt;p&gt;A &lt;strong&gt;Private Endpoint&lt;/strong&gt; in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.&lt;/p&gt;
-&lt;p&gt;Think of it as a private IP address for an Azure service. This ensures:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;No traffic goes over the internet&lt;/li&gt;
-&lt;li&gt;Improved security (zero public exposure)&lt;/li&gt;
-&lt;li&gt;You can apply &lt;strong&gt;NSG&lt;/strong&gt;, &lt;strong&gt;firewall&lt;/strong&gt;, and &lt;strong&gt;custom routing&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;when-to-use-private-endpoints&#34;&gt;When to Use Private Endpoints?&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Scenario&lt;/th&gt;
-          &lt;th&gt;Private Endpoint Recommended?&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Critical data (PII, financial, healthcare)&lt;/td&gt;
-          &lt;td&gt;Yes&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Internal line-of-business apps&lt;/td&gt;
-          &lt;td&gt;Yes&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Public APIs serving global customers&lt;/td&gt;
-          &lt;td&gt;No — consider public endpoint&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Hybrid network (on-premises + Azure)&lt;/td&gt;
-          &lt;td&gt;Yes&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Regulatory/compliance (GDPR, HIPAA, PCI)&lt;/td&gt;
-          &lt;td&gt;Yes&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Common Use Cases:&lt;/strong&gt;&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description>
     </item>
-    
   </channel>
 </rss>

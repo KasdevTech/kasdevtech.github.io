@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on KasdevTech</title>
     <link>http://localhost:1313/categories/git/</link>
     <description>Recent content in Git on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title>
       <link>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
+      <description>&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
 &lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
 &lt;h4 id=&#34;common-causes&#34;&gt;Common Causes&lt;/h4&gt;
 &lt;ul&gt;
@@ -39,12 +36,7 @@
 &lt;p&gt;Go to Project Settings → Service Connections
 Open your GitHub connection
 Re-authenticate or update the PAT/token
-Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;
-          
-          
-        
-      </description>
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

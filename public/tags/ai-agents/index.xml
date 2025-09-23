@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI Agents on KasdevTech</title>
     <link>http://localhost:1313/tags/ai-agents/</link>
     <description>Recent content in AI Agents on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai-agents/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai-agents/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Agents – The Next Evolution of Automation</title>
       <link>http://localhost:1313/ai/ai-agents/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/ai/ai-agents/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Automation has always been about &lt;strong&gt;making machines do repetitive work&lt;/strong&gt;. But 2025 marks a shift—machines can now &lt;strong&gt;think, decide, and act independently&lt;/strong&gt;. Enter &lt;strong&gt;AI Agents&lt;/strong&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;what-is-an-ai-agent&#34;&gt;What is an AI Agent?&lt;/h4&gt;
-&lt;p&gt;An &lt;strong&gt;AI Agent&lt;/strong&gt; is a system that can:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Perceive&lt;/strong&gt; (understand inputs from users, APIs, or environments)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reason&lt;/strong&gt; (decide the next action using AI models)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Act&lt;/strong&gt; (execute a task autonomously—like sending an email, booking a meeting, or writing code)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Unlike traditional bots, agents can use &lt;strong&gt;tools, APIs, and memory&lt;/strong&gt; to complete multi-step tasks.&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>AI agents are the future of autonomous work. Learn what they are, how they function, and where businesses are already using them.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,39 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>502 Error on KasdevTech</title>
     <link>http://localhost:1313/tags/502-error/</link>
     <description>Recent content in 502 Error on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/502-error/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/502-error/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners</title>
       <link>http://localhost:1313/azure/application-gateway-502-error/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/application-gateway-502-error/</guid>
-      <description>
-        
-          
-            &lt;p&gt;If you’ve seen this before, don’t panic. This guide walks you through:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What a 502 error means in Azure&lt;/li&gt;
-&lt;li&gt;How to identify the root cause&lt;/li&gt;
-&lt;li&gt;How to fix it with simple step-by-step actions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;step-by-step-troubleshooting&#34;&gt;Step-by-Step Troubleshooting&lt;/h4&gt;
-&lt;h4 id=&#34;step-1-reproduce-the-problem&#34;&gt;Step 1: Reproduce the Problem&lt;/h4&gt;
-&lt;p&gt;Go to the App Gateway public IP or custom domain (e.g., &lt;code&gt;https://myappexampleapp.com&lt;/code&gt;)&lt;br&gt;
-Check if the site is returning this:
-502 - Web server received an invalid response while acting as a gateway or proxy server.
-This means App Gateway couldn’t reach your backend &lt;strong&gt;properly&lt;/strong&gt; — not that the app is down.&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>Step-by-step guide to troubleshoot and fix 502 errors on Azure Application Gateway. Easy enough for Beginners, clear enough for production.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pipelines on KasdevTech</title>
     <link>http://localhost:1313/categories/pipelines/</link>
     <description>Recent content in Pipelines on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/pipelines/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/pipelines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures</title>
       <link>http://localhost:1313/devops/pipeline-timeout-issues/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/devops/pipeline-timeout-issues/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
+      <description>&lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
 &lt;h4 id=&#34;error-message&#34;&gt;Error Message&lt;/h4&gt;
 &lt;p&gt;[error]The job was canceled after reaching the timeout limit of 60 minutes.&lt;/p&gt;
 &lt;h4 id=&#34;default-limits&#34;&gt;Default Limits&lt;/h4&gt;
@@ -40,23 +37,14 @@
 &lt;li&gt;Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;use-self-hosted-agent-no-hard-timeout&#34;&gt;Use Self-Hosted Agent (No Hard Timeout)&lt;/h4&gt;
-&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;
-          
-          
-        
-      </description>
+&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Azure Pipeline Not Triggering Automatically on Push – YAML Trigger Issues</title>
       <link>http://localhost:1313/devops/trigger-issues/</link>
       <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/devops/trigger-issues/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Ever pushed code and expected the pipeline to run… but nothing happens?
+      <description>&lt;p&gt;Ever pushed code and expected the pipeline to run… but nothing happens?
 This is one of the most common issues teams face after setting up YAML-based Azure Pipelines.&lt;/p&gt;
 &lt;h4 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h4&gt;
 &lt;ul&gt;
@@ -82,12 +70,7 @@ This is one of the most common issues teams face after setting up YAML-based Azu
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;check-pipeline-settings-in-azure-devops&#34;&gt;Check Pipeline Settings in Azure DevOps&lt;/h4&gt;
 &lt;p&gt;Go to Pipelines → Click your pipeline → Edit
 Click the 3 dots → Triggers
-Ensure CI Trigger is enabled&lt;/p&gt;
-          
-          
-        
-      </description>
+Ensure CI Trigger is enabled&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

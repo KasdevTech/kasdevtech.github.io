@@ -1,40 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PowerShell on KasdevTech</title>
     <link>http://localhost:1313/tags/powershell/</link>
     <description>Recent content in PowerShell on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automate Azure Cleanup — Before It Costs</title>
       <link>http://localhost:1313/azure/azurecleanup/</link>
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://localhost:1313/azure/azurecleanup/</guid>
-      <description>
-        
-          
-            &lt;h3 id=&#34;automate-azure-cleanup--before-it-costs-me&#34;&gt;Automate Azure Cleanup — Before It Costs Me&lt;/h3&gt;
-&lt;p&gt;Most of us don’t realize how fast an Azure bill can grow — until we get that painful monthly invoice.&lt;/p&gt;
-&lt;p&gt;The surprise? It’s rarely because of production workloads.&lt;/p&gt;
-&lt;p&gt;It’s the small, forgotten things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Test VMs that should’ve been deleted&lt;/li&gt;
-&lt;li&gt;Staging App Services left running&lt;/li&gt;
-&lt;li&gt;Orphaned managed disks&lt;/li&gt;
-&lt;li&gt;Zombie NICs that no one even remembers creating&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These idle resources quietly drain money.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;solution-weekly-automated-cleanup&#34;&gt;Solution: Weekly Automated Cleanup&lt;/h3&gt;
-&lt;p&gt;Instead of manually checking everything, I built a simple system that does it all for me — safely and automatically.&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>Learn how to built a weekly automated Azure cleanup flow using PowerShell, Logic Apps, and Teams approvals to avoid surprise cloud bills.</description>
     </item>
-    
   </channel>
 </rss>

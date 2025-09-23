@@ -4,7 +4,7 @@ description: Get started with the AZ-104 certification journey. Learn what the e
 date: 2025-09-23
 author: Kasi Suresh
 tags: [Azure, Certification, AZ-104, Cloud, Administrator]
-type: "Azure"
+type: "az-104"
 ---
 
 # AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator

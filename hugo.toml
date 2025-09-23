@@ -14,7 +14,7 @@ summaryLength = 70
   ShowReadingTime = true
   ShowToc = true
   ShowCodeCopyButtons = true
-  mainSections = ["Azure", "AZ-104", "Terraform", "FinOps", "DevOps", "AI"]
+  mainSections = ["azure", "az-104", "terraform", "finops", "devops", "ai"]
   customCSS = ["css/custom.css"]
 
 [params.homeInfoParams]

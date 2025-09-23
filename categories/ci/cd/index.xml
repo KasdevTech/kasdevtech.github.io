@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CI/CD on KasdevTech</title><link>https://kasdevtech.github.io/categories/ci/cd/</link><description>Recent content in CI/CD on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/categories/ci/cd/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title><link>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid><description>
+&lt;p&gt;Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p&gt;
+&lt;p&gt;Error: The repository ‘&lt;!-- raw HTML omitted --&gt;’ could not be found or no longer exists.&lt;/p&gt;
+&lt;h4 id="common-causes"&gt;Common Causes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Repository renamed or deleted&lt;/li&gt;
+&lt;li&gt;Permissions changed in the project&lt;/li&gt;
+&lt;li&gt;PAT token expired (for GitHub or external repos)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="fixing-the-issue"&gt;Fixing the Issue&lt;/h4&gt;
+&lt;h4 id="azure-repos-git"&gt;Azure Repos Git&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to &lt;code&gt;Repos&lt;/code&gt; in your project&lt;/li&gt;
+&lt;li&gt;Check if the repo still exists and hasn’t been renamed&lt;/li&gt;
+&lt;li&gt;Confirm the branch in your trigger matches the YAML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;trigger&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;branches&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;include&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="github-repositories"&gt;GitHub Repositories&lt;/h4&gt;
+&lt;p&gt;Go to Project Settings → Service Connections
+Open your GitHub connection
+Re-authenticate or update the PAT/token
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p&gt;</description></item><item><title>Fixing 'Permission Denied' Errors While Deploying from Azure Pipelines to Azure Resources</title><link>https://kasdevtech.github.io/devops/azuredevops-permission-error/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-permission-error/</guid><description>
+&lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;
+&lt;p&gt;Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p&gt;
+&lt;h4 id="root-cause"&gt;Root Cause&lt;/h4&gt;
+&lt;p&gt;This error usually occurs because the &lt;strong&gt;service principal&lt;/strong&gt; used in your Azure DevOps &lt;strong&gt;service connection&lt;/strong&gt; does not have the required &lt;strong&gt;role-based access control (RBAC)&lt;/strong&gt; permissions on the target resource group or subscription.&lt;/p&gt;
+&lt;h4 id="step-by-step-fix"&gt;Step-by-Step Fix&lt;/h4&gt;
+&lt;h4 id="verify-the-service-connection-identity"&gt;Verify the Service Connection Identity&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;code&gt;Project Settings&lt;/code&gt; → &lt;code&gt;Service Connections&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Click on your Azure Resource Manager connection&lt;/li&gt;
+&lt;li&gt;Note the &lt;strong&gt;Object ID&lt;/strong&gt; of the service principal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="assign-the-correct-role-in-azure-portal"&gt;Assign the Correct Role in Azure Portal&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Navigate to your &lt;strong&gt;Resource Group&lt;/strong&gt; (or Subscription)&lt;/li&gt;
+&lt;li&gt;Go to &lt;code&gt;Access Control (IAM)&lt;/code&gt; → &lt;code&gt;Add Role Assignment&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Select the role (e.g., &lt;code&gt;Contributor&lt;/code&gt; or &lt;code&gt;Web App Contributor&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Assign it to the &lt;strong&gt;service principal&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="review-pipeline-yaml"&gt;Review Pipeline YAML&lt;/h4&gt;
+&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;</description></item><item><title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title><link>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</guid><description>
+&lt;p&gt;Setting up self-hosted agents using &lt;strong&gt;Azure Virtual Machine Scale Sets (VMSS)&lt;/strong&gt; gives you more &lt;strong&gt;control, performance, and scalability&lt;/strong&gt; compared to Microsoft-hosted agents.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This guide includes detailed setup steps, CLI commands, and screenshots from the Azure Portal.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id="use-cases-for-self-hosted-agents"&gt;Use Cases for Self-Hosted Agents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Large builds requiring more compute&lt;/li&gt;
+&lt;li&gt;Custom toolchains (e.g., Docker, Terraform, Node.js)&lt;/li&gt;
+&lt;li&gt;Controlled access with internal networking&lt;/li&gt;
+&lt;li&gt;Reducing build time and cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="prerequisites"&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure DevOps Organization + Project&lt;/li&gt;
+&lt;li&gt;Azure Subscription&lt;/li&gt;
+&lt;li&gt;Contributor or Owner role on Azure&lt;/li&gt;
+&lt;li&gt;VMSS Contributor role for DevOps managed identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id="step-1-create-a-virtual-machine-scale-set-vmss"&gt;Step 1: Create a Virtual Machine Scale Set (VMSS)&lt;/h4&gt;
+&lt;p&gt;You can create this via &lt;strong&gt;Azure CLI&lt;/strong&gt; or &lt;strong&gt;Portal&lt;/strong&gt;. Below are the CLI steps:&lt;/p&gt;</description></item></channel></rss>

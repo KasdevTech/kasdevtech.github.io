@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Azure on KasdevTech</title><link>https://kasdevtech.github.io/tags/azure/</link><description>Recent content in Azure on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/azure/index.xml" rel="self" type="application/rss+xml"/><item><title>AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator</title><link>https://kasdevtech.github.io/az-104/intro/</link><pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/az-104/intro/</guid><description>
+&lt;h1 id="az-104-exam-guide--introduction-to-microsoft-azure-administrator"&gt;AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;AZ-104: Microsoft Azure Administrator&lt;/strong&gt; certification is one of the most popular cloud certifications offered by Microsoft. It validates your skills in managing cloud services like compute, networking, storage, and security in Azure.&lt;/p&gt;
+&lt;p&gt;If you’re looking to grow your career as a &lt;strong&gt;Cloud Administrator, System Administrator, or DevOps Engineer&lt;/strong&gt;, this certification is the perfect step forward.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="what-is-the-az-104-exam"&gt;What is the AZ-104 Exam?&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;AZ-104 exam&lt;/strong&gt; tests your ability to manage Azure resources and services in a production environment. It measures your practical knowledge in:&lt;/p&gt;</description></item><item><title>Terraform Import in Azure — Fixing Out-of-Band Changes</title><link>https://kasdevtech.github.io/terraform/out-of-band-changes/</link><pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/out-of-band-changes/</guid><description>
+Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here's how I used `terraform import` to fix drift and sync state.</description></item><item><title>Fixing High CPU and Memory Usage in Azure App Service</title><link>https://kasdevtech.github.io/azure/appservice-high-cpu/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appservice-high-cpu/</guid><description>
+&lt;h4 id="fixing-high-cpu-and-memory-usage-in-azure-app-service"&gt;Fixing High CPU and Memory Usage in Azure App Service&lt;/h4&gt;
+&lt;p&gt;Your app is running fine, and then suddenly… users complain about &lt;strong&gt;slowness&lt;/strong&gt; or the app even &lt;strong&gt;crashes&lt;/strong&gt;.&lt;br&gt;
+When you check the Azure Portal, you see CPU pegged at 90–100% or memory exhausted.&lt;br&gt;
+This is a very &lt;strong&gt;common real-world issue&lt;/strong&gt; in Azure App Service. Let’s walk step by step.&lt;/p&gt;
+&lt;h4 id="step-1-monitor-metrics"&gt;Step 1: Monitor Metrics&lt;/h4&gt;
+&lt;p&gt;Go to:
+&lt;strong&gt;Azure Portal → App Service → Metrics → CPU Percentage / Memory Working Set&lt;/strong&gt;
+Look for spikes during:&lt;/p&gt;</description></item><item><title>Troubleshooting Azure App Service Startup Failures</title><link>https://kasdevtech.github.io/azure/appservice/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appservice/</guid><description>
+&lt;h4 id="troubleshooting-azure-app-service-startup-failures"&gt;Troubleshooting Azure App Service Startup Failures&lt;/h4&gt;
+&lt;p&gt;One of the most common issues with &lt;strong&gt;Azure App Service&lt;/strong&gt; is when your web app refuses to start after deployment.&lt;/p&gt;
+&lt;p&gt;The symptoms usually look like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The app returns &lt;strong&gt;HTTP 500 – Internal Server Error&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You see &lt;strong&gt;Service Unavailable (503)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The container or code doesn’t start properly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a &lt;strong&gt;real-world headache&lt;/strong&gt; because you deploy with confidence, but the app never comes up.&lt;/p&gt;
+&lt;h4 id="step-1-check-app-service-logs"&gt;Step 1: Check App Service Logs&lt;/h4&gt;
+&lt;p&gt;Enable &lt;strong&gt;Application Logging&lt;/strong&gt; and &lt;strong&gt;Web Server Logging&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title><link>https://kasdevtech.github.io/terraform/terraform-role-assigment/</link><pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/terraform-role-assigment/</guid><description>
+Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here's how I fixed this in a CI/CD pipeline using the right roles and automation.</description></item><item><title>Automate Azure Cleanup — Before It Costs</title><link>https://kasdevtech.github.io/azure/azurecleanup/</link><pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azurecleanup/</guid><description>
+&lt;h3 id="automate-azure-cleanup--before-it-costs-me"&gt;Automate Azure Cleanup — Before It Costs Me&lt;/h3&gt;
+&lt;p&gt;Most of us don’t realize how fast an Azure bill can grow — until we get that painful monthly invoice.&lt;/p&gt;
+&lt;p&gt;The surprise? It’s rarely because of production workloads.&lt;/p&gt;
+&lt;p&gt;It’s the small, forgotten things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Test VMs that should’ve been deleted&lt;/li&gt;
+&lt;li&gt;Staging App Services left running&lt;/li&gt;
+&lt;li&gt;Orphaned managed disks&lt;/li&gt;
+&lt;li&gt;Zombie NICs that no one even remembers creating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These idle resources quietly drain money.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="solution-weekly-automated-cleanup"&gt;Solution: Weekly Automated Cleanup&lt;/h3&gt;
+&lt;p&gt;Instead of manually checking everything, I built a simple system that does it all for me — safely and automatically.&lt;/p&gt;</description></item><item><title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title><link>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</guid><description>
+Running `terraform destroy` in Azure sometimes fails due to implicit resource dependencies. Here's how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</description></item><item><title>Terraform State Corruption in Azure — Recovered</title><link>https://kasdevtech.github.io/terraform/statefile-corrupted/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/statefile-corrupted/</guid><description>
+Faced a corrupted Terraform state file in Azure Blob Storage? Here's a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</description></item><item><title>Azure Network Reference Architectures</title><link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid><description>
+&lt;h4 id="azure-network-reference-architectures"&gt;Azure Network Reference Architectures&lt;/h4&gt;
+&lt;p&gt;By now, you&amp;rsquo;ve learned about VNets, peering, firewalls, DNS, and more.&lt;br&gt;
+Let’s bring it all together with real Azure networking architectures you can &lt;strong&gt;apply in production&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id="design-pattern-1-hub-spoke-with-vpn-gateway"&gt;Design Pattern 1: Hub-Spoke with VPN Gateway&lt;/h4&gt;
+&lt;p&gt;Perfect for hybrid connectivity and centralized control.&lt;/p&gt;
+&lt;h4 id="key-features"&gt;Key Features:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Central &lt;strong&gt;Hub VNet&lt;/strong&gt; with:
+&lt;ul&gt;
+&lt;li&gt;VPN Gateway&lt;/li&gt;
+&lt;li&gt;Azure Firewall or NVA&lt;/li&gt;
+&lt;li&gt;DDoS Protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Multiple &lt;strong&gt;Spoke VNets&lt;/strong&gt; for apps/environments&lt;/li&gt;
+&lt;li&gt;VNet Peering for traffic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="diagram"&gt;Diagram:&lt;/h4&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; [On-Premises]
+|
+====== Site-to-Site VPN ======
+|
++------------------+
+| Hub VNet |
+| VPN + Firewall |
++------------------+
+/ | \
+/ | \
+[Spoke A] [Spoke B] [Spoke C]
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id="design-pattern-2-private-link--nat-gateway"&gt;Design Pattern 2: Private Link + NAT Gateway&lt;/h4&gt;
+&lt;p&gt;For &lt;strong&gt;secure outbound&lt;/strong&gt; and &lt;strong&gt;fully private access&lt;/strong&gt; to PaaS.&lt;/p&gt;</description></item><item><title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title><link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid><description>
+&lt;h4 id="azure-networking-cost-optimization--monitoring"&gt;Azure Networking Cost Optimization &amp;amp; Monitoring&lt;/h4&gt;
+&lt;p&gt;Azure networking is powerful — but can get expensive if you’re not careful.&lt;br&gt;
+This post covers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What costs the most in Azure networking?&lt;/li&gt;
+&lt;li&gt;How to reduce cost without compromising security&lt;/li&gt;
+&lt;li&gt;Tools to monitor and alert for network health&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="what-costs-the-most"&gt;What Costs the Most?&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Resource&lt;/th&gt;
+&lt;th&gt;Cost Impact&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Azure Firewall&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$$$ — Pay per deployment + GB used&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ExpressRoute&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$$$ — Monthly base + bandwidth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Data Transfer&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Charges for traffic between regions or zones&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;VPN Gateway&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Based on SKU and time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Peering&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Inbound = Free, Outbound = $$$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Public IP&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic = Free, Standard = Billable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id="cost-optimization-tips"&gt;Cost Optimization Tips&lt;/h4&gt;
+&lt;h4 id="use-nat-gateway-instead-of-load-balancer-snat"&gt;Use NAT Gateway Instead of Load Balancer SNAT&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid port exhaustion&lt;/li&gt;
+&lt;li&gt;More scalable for outbound traffic&lt;/li&gt;
+&lt;li&gt;Predictable IP and cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="consolidate-firewalls-in-hub"&gt;Consolidate Firewalls in Hub&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;One Azure Firewall in the &lt;strong&gt;Hub VNet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Route all traffic through it&lt;/li&gt;
+&lt;li&gt;Use UDRs and ASGs to enforce control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="avoid-cross-region-traffic"&gt;Avoid Cross-Region Traffic&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Peering across regions = &lt;strong&gt;paid outbound&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Keep apps and databases in &lt;strong&gt;same region&lt;/strong&gt; when possible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="use-azure-cost-management"&gt;Use Azure Cost Management&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable &lt;strong&gt;tags&lt;/strong&gt; on VNet, Firewall, NAT Gateway&lt;/li&gt;
+&lt;li&gt;Group by project/team/app&lt;/li&gt;
+&lt;li&gt;Set up &lt;strong&gt;budgets and alerts&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="monitoring-tools"&gt;Monitoring Tools&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tool&lt;/th&gt;
+&lt;th&gt;Use For&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Network Watcher&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Packet capture, NSG flow logs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Azure Monitor&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Metrics for Firewall, VPN, Gateway&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Log Analytics&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Query NSG and Firewall logs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Connection Monitor&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;End-to-end checks (latency, loss)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="monitor-these-metrics"&gt;Monitor These Metrics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Firewall throughput&lt;/li&gt;
+&lt;li&gt;NAT Gateway SNAT ports used&lt;/li&gt;
+&lt;li&gt;VPN Tunnel status (S2S, P2S)&lt;/li&gt;
+&lt;li&gt;Inbound/outbound bytes per VNet&lt;/li&gt;
+&lt;li&gt;Number of dropped packets (NSG)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="set-alerts-examples"&gt;Set Alerts (Examples)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Alert if VPN Gateway is &lt;strong&gt;down&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Alert if Azure Firewall hits &lt;strong&gt;80% throughput&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Alert on &lt;strong&gt;unexpected data transfer spikes&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="final-tip"&gt;Final Tip&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Secure, scalable Azure networking is &lt;strong&gt;possible without breaking the bank&lt;/strong&gt;.&lt;br&gt;
+But it requires:&lt;/p&gt;</description></item><item><title>Azure Private Endpoint vs Service Endpoint</title><link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid><description>
+&lt;h4 id="azure-private-endpoint-vs-service-endpoint"&gt;Azure Private Endpoint vs Service Endpoint&lt;/h4&gt;
+&lt;p&gt;So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…&lt;/p&gt;
+&lt;p&gt;Should I use a &lt;strong&gt;Service Endpoint&lt;/strong&gt; or a &lt;strong&gt;Private Endpoint&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;These two features are critical for &lt;strong&gt;securing Azure PaaS services&lt;/strong&gt;. But they’re not the same.&lt;br&gt;
+Let’s break them down clearly with real-world context.&lt;/p&gt;
+&lt;h4 id="what-is-a-service-endpoint"&gt;What is a Service Endpoint?&lt;/h4&gt;
+&lt;p&gt;Service Endpoints &lt;strong&gt;extend your VNet’s private IP&lt;/strong&gt; to Azure PaaS services.&lt;/p&gt;</description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>
+&lt;h4 id="azure-nsg-vs-asg"&gt;Azure NSG vs ASG&lt;/h4&gt;
+&lt;p&gt;In cloud networking, &lt;strong&gt;firewalls and access control&lt;/strong&gt; are your first line of defense.&lt;br&gt;
+In Azure, the two main tools for this are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Network Security Group (NSG)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Application Security Group (ASG)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s explore what they are, how they work, and how to use them together.&lt;/p&gt;
+&lt;h4 id="what-is-a-network-security-group-nsg"&gt;What is a Network Security Group (NSG)?&lt;/h4&gt;
+&lt;p&gt;An &lt;strong&gt;NSG&lt;/strong&gt; acts like a virtual firewall. You can apply it to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Subnets&lt;/li&gt;
+&lt;li&gt;Network interfaces (NICs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="nsg-rules-look-like"&gt;NSG Rules look like:&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Priority&lt;/th&gt;
+&lt;th&gt;Direction&lt;/th&gt;
+&lt;th&gt;Source&lt;/th&gt;
+&lt;th&gt;Destination&lt;/th&gt;
+&lt;th&gt;Port&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;Inbound&lt;/td&gt;
+&lt;td&gt;Any&lt;/td&gt;
+&lt;td&gt;10.0.1.4&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;Allow&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;Inbound&lt;/td&gt;
+&lt;td&gt;Any&lt;/td&gt;
+&lt;td&gt;Any&lt;/td&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;Deny&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Azure processes rules &lt;strong&gt;top-down&lt;/strong&gt;, based on &lt;strong&gt;priority&lt;/strong&gt; (lower = higher priority).&lt;/p&gt;</description></item><item><title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title><link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid><description>
+&lt;h4 id="azure-routing---udr-route-tables-and-bgp"&gt;Azure Routing – UDR, Route Tables, and BGP&lt;/h4&gt;
+&lt;p&gt;Ever wonder how traffic knows where to go inside your VNet?
+That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, it’s handled by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System Routes&lt;/li&gt;
+&lt;li&gt;User Defined Routes (UDR)&lt;/li&gt;
+&lt;li&gt;Border Gateway Protocol (BGP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="system-routes-default"&gt;System Routes (Default)&lt;/h4&gt;
+&lt;p&gt;Azure &lt;strong&gt;automatically adds system routes&lt;/strong&gt; to all subnets.&lt;/p&gt;
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Destination&lt;/th&gt;
+&lt;th&gt;Next Hop&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0.0.0.0/0&lt;/td&gt;
+&lt;td&gt;Internet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;Virtual Network&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;168.63.129.16&lt;/td&gt;
+&lt;td&gt;Virtual Network&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;These work fine in most cases — &lt;strong&gt;until you need customization&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title><link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid><description>
+&lt;h4 id="azure-vpn-gateway-vs-expressroute--what-should-you-use"&gt;Azure VPN Gateway vs ExpressRoute – What Should You Use?&lt;/h4&gt;
+&lt;p&gt;Now that we understand VNets and peering, let’s talk about &lt;strong&gt;how to connect your on-premises network to Azure&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Two main options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Azure VPN Gateway&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Azure ExpressRoute&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And under VPN Gateway, two common scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Site-to-Site (S2S) VPN&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Point-to-Site (P2S) VPN&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s break them all down simply.&lt;/p&gt;
+&lt;h4 id="what-is-azure-vpn-gateway"&gt;What is Azure VPN Gateway?&lt;/h4&gt;
+&lt;p&gt;Azure VPN Gateway is a &lt;strong&gt;managed network gateway&lt;/strong&gt; in Azure. It lets you:&lt;/p&gt;</description></item><item><title> Azure Virtual Network Basics – Public vs Private Networks</title><link>https://kasdevtech.github.io/azure/azure-network-basics/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid><description>
+&lt;h4 id="azure-virtual-network-basics--public-vs-private"&gt;Azure Virtual Network Basics – Public vs Private&lt;/h4&gt;
+&lt;p&gt;If you&amp;rsquo;re getting started with Azure Networking, the first concept you must master is the &lt;strong&gt;Virtual Network&lt;/strong&gt; (aka VNet). This is the &lt;strong&gt;foundation&lt;/strong&gt; of all networking in Azure.&lt;/p&gt;
+&lt;h4 id="what-is-a-vnet"&gt;What is a VNet?&lt;/h4&gt;
+&lt;p&gt;A &lt;strong&gt;Virtual Network (VNet)&lt;/strong&gt; in Azure is like your private data center network in the cloud. It allows Azure resources (like VMs, App Services, etc.) to &lt;strong&gt;communicate with each other securely&lt;/strong&gt;.
+Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;</description></item><item><title>Azure Hub-Spoke Architecture &amp; VNet Peering</title><link>https://kasdevtech.github.io/azure/hub-spoke/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/hub-spoke/</guid><description>
+&lt;h4 id="azure-hub-spoke-architecture"&gt;Azure Hub-Spoke Architecture&lt;/h4&gt;
+&lt;p&gt;Once you understand VNets and Subnets, the next step is designing how they connect. One of the most &lt;strong&gt;popular architectures&lt;/strong&gt; in Azure is called the &lt;strong&gt;Hub-Spoke Model&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id="what-is-the-hub-spoke-model"&gt;What is the Hub-Spoke Model?&lt;/h4&gt;
+&lt;p&gt;Think of the &lt;strong&gt;Hub&lt;/strong&gt; as the central point where all shared services live — like a corporate office.&lt;/p&gt;
+&lt;p&gt;Each &lt;strong&gt;Spoke&lt;/strong&gt; is a separate environment — like dev, test, or app workloads.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; +-----------------------+
+| Hub VNet |
+| (Firewall, VPN, etc) |
++-----------------------+
+/ | \
+/ | \
++--------+ +--------+ +--------+
+| Spoke1 | | Spoke2 | | Spoke3 |
++--------+ +--------+ +--------+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id="what-is-vnet-peering"&gt;What is VNet Peering?&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;VNet Peering&lt;/strong&gt; allows two VNets to communicate &lt;strong&gt;privately&lt;/strong&gt; using Azure backbone (no internet).&lt;/p&gt;</description></item><item><title>Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners</title><link>https://kasdevtech.github.io/azure/application-gateway-502-error/</link><pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/application-gateway-502-error/</guid><description>
+&lt;p&gt;If you’ve seen this before, don’t panic. This guide walks you through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What a 502 error means in Azure&lt;/li&gt;
+&lt;li&gt;How to identify the root cause&lt;/li&gt;
+&lt;li&gt;How to fix it with simple step-by-step actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4 id="step-by-step-troubleshooting"&gt;Step-by-Step Troubleshooting&lt;/h4&gt;
+&lt;h4 id="step-1-reproduce-the-problem"&gt;Step 1: Reproduce the Problem&lt;/h4&gt;
+&lt;p&gt;Go to the App Gateway public IP or custom domain (e.g., &lt;code&gt;https://myappexampleapp.com&lt;/code&gt;)&lt;br&gt;
+Check if the site is returning this:
+502 - Web server received an invalid response while acting as a gateway or proxy server.
+This means App Gateway couldn’t reach your backend &lt;strong&gt;properly&lt;/strong&gt; — not that the app is down.&lt;/p&gt;</description></item><item><title> AKS Node Disk Pressure</title><link>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</guid><description>
+&lt;h4 id="what-happened"&gt;What Happened?&lt;/h4&gt;
+&lt;p&gt;Hey folks,&lt;br&gt;
+Let me share a real incident we faced in production on &lt;strong&gt;Azure Kubernetes Service (AKS)&lt;/strong&gt;. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code&gt;DiskPressure&lt;/code&gt; on some nodes.&lt;/p&gt;
+&lt;p&gt;We didn’t make any infra changes recently, so the obvious question was:&lt;br&gt;
+&lt;strong&gt;What’s going on inside the AKS nodes?&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id="root-cause-analysis"&gt;Root Cause Analysis&lt;/h4&gt;
+&lt;p&gt;We dug into the node metrics using &lt;strong&gt;Azure Monitor&lt;/strong&gt; and &lt;code&gt;kubectl describe node&lt;/code&gt;. Here’s what we found:&lt;/p&gt;</description></item><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevtech.github.io/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid><description>
+&lt;p&gt;Azure Bicep is a domain-specific language (DSL) that simplifies ARM templates. If you&amp;rsquo;re used to Terraform or ARM JSON, Bicep offers a cleaner, more concise syntax — tailor-made for Azure.&lt;/p&gt;
+&lt;h3 id="why-bicep"&gt;Why Bicep?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Native to Azure&lt;/li&gt;
+&lt;li&gt;Simplified syntax&lt;/li&gt;
+&lt;li&gt;No state files (unlike Terraform)&lt;/li&gt;
+&lt;li&gt;Excellent tooling in VS Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="install-bicep-cli"&gt;Install Bicep CLI&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;az bicep install
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Verify installation:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;az bicep version
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;🏗️ Sample Bicep Template:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;-------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;resource storageAccount &lt;span style="color:#e6db74"&gt;&amp;#39;Microsoft.Storage/storageAccounts@2022-09-01&amp;#39;&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; name: &lt;span style="color:#e6db74"&gt;&amp;#39;kasdevstorage${uniqueString(resourceGroup().id)}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; location: resourceGroup&lt;span style="color:#f92672"&gt;()&lt;/span&gt;.location
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; sku: &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; name: &lt;span style="color:#e6db74"&gt;&amp;#39;Standard_LRS&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; kind: &lt;span style="color:#e6db74"&gt;&amp;#39;StorageV2&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;📦 Deploy using Azure CLI:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;--------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;az deployment group create &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;&lt;/span&gt; --resource-group kasdevtech-rg &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ae81ff"&gt;&lt;/span&gt; --template-file main.bicep
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="next-steps"&gt;Next Steps&lt;/h3&gt;
+&lt;p&gt;Use modules to reuse code
+Integrate Bicep in DevOps pipelines
+Combine with Azure Policy for compliance&lt;/p&gt;</description></item><item><title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title><link>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link><pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid><description>
+&lt;p&gt;Prompt engineering isn’t just for AI developers. As Cloud Architects, we deal with large, complex systems, documentation, and decision-making daily. With the rise of AI assistants like GitHub Copilot, Azure Copilot, and ChatGPT, &lt;strong&gt;prompt engineering&lt;/strong&gt; has become a valuable tool in our toolbox.&lt;/p&gt;
+&lt;p&gt;Here are &lt;strong&gt;Prompt Engineering for Cloud Architects: 10 Powerful Tips&lt;/strong&gt; to boost your productivity, decision-making, and solution design as a Cloud Architect.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="1-be-clear-concise-and-contextual"&gt;1. Be Clear, Concise, and Contextual&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Bad Prompt:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Sample Azure DevOps Pipeline for .NET App</title><link>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</link><pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate><guid>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</guid><description>
+&lt;p&gt;Here is a simple YAML pipeline for building a .NET Core app:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;trigger&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#ae81ff"&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;pool&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;vmImage&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;ubuntu-latest&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#f92672"&gt;task&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;UseDotNet@2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;inputs&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;packageType&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;sdk&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;version&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;8.0.x&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#f92672"&gt;script&lt;/span&gt;: |&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; dotnet build
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; dotnet test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;displayName&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;Build and Test&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#f92672"&gt;task&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;PublishBuildArtifacts@1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;inputs&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;PathtoPublish&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;ArtifactName&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;drop&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>
+&lt;h3 id="introduction"&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p&gt;
+&lt;p&gt;In this post, we will cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting up Terraform CLI&lt;/li&gt;
+&lt;li&gt;Writing your first Terraform configuration&lt;/li&gt;
+&lt;li&gt;Deploying resources on Azure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="steps"&gt;Steps&lt;/h3&gt;
+&lt;p&gt;Install Terraform CLI&lt;br&gt;
+Configure your Azure credentials&lt;br&gt;
+Write &lt;code&gt;main.tf&lt;/code&gt; with Azure provider&lt;br&gt;
+Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and &lt;code&gt;apply&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="conclusion"&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p&gt;</description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>
+&lt;p&gt;Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p&gt;
+&lt;p&gt;In this guide, we’ll walk through &lt;strong&gt;how to resize an Azure VM in 2025&lt;/strong&gt; using both the Azure Portal and CLI.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="why-resize-vms"&gt;Why Resize VMs?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Scale Up:&lt;/strong&gt; Handle more traffic or workload&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scale Down:&lt;/strong&gt; Reduce costs for low-traffic periods&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Change Type:&lt;/strong&gt; Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="pre-requisites"&gt;Pre-requisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure Subscription&lt;/li&gt;
+&lt;li&gt;Owner / Contributor permissions on the VM&lt;/li&gt;
+&lt;li&gt;VM must be in a &lt;strong&gt;Stopped (Deallocated)&lt;/strong&gt; state to resize&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="resize-via-azure-portal"&gt;Resize via Azure Portal&lt;/h3&gt;
+&lt;p&gt;1️ Navigate to &lt;strong&gt;Virtual Machines&lt;/strong&gt;&lt;br&gt;
+2️ Select your VM&lt;br&gt;
+3️ Click &lt;strong&gt;Size&lt;/strong&gt; under the &amp;ldquo;Settings&amp;rdquo; section&lt;br&gt;
+4️ Select a new size (you will see estimated cost/month)&lt;br&gt;
+5️ Click &lt;strong&gt;Resize&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>
+&lt;h3 id="welcome-to-kasdevtech--your-cloud-learning-hub"&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;
+&lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;
+&lt;p&gt;But many beginners feel lost:&lt;br&gt;
+👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;
+👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;
+👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;</description></item></channel></rss>

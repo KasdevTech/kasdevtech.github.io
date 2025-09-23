@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI Chatbot on KasdevTech</title><link>https://kasdevtech.github.io/tags/ai-chatbot/</link><description>Recent content in AI Chatbot on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/ai-chatbot/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Build Your Own AI Chatbot</title><link>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</guid><description>
+&lt;p&gt;Want to build your own AI-powered chatbot for your business or blog? Here&amp;rsquo;s a simplified step-by-step blueprint that works in 2025:&lt;/p&gt;
+&lt;h4 id="tech-stack"&gt;Tech Stack&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; FastAPI + OpenAI API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; React + Tailwind CSS&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory / Search:&lt;/strong&gt; ChromaDB or Pinecone&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hosting:&lt;/strong&gt; Render.com + GitHub Pages (free tier)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="steps-to-build"&gt;Steps to Build&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Get an OpenAI API Key&lt;/strong&gt; from &lt;a href="https://platform.openai.com"&gt;https://platform.openai.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Setup FastAPI App&lt;/strong&gt; with a &lt;code&gt;/chat&lt;/code&gt; endpoint&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use ChromaDB or Pinecone&lt;/strong&gt; to store and retrieve past questions/answers (for RAG)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create React Chat UI&lt;/strong&gt; with an input box, chat bubbles, and streaming response&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deploy Frontend to GitHub Pages&lt;/strong&gt; and Backend to Render.com (free tier)&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ChromaDB on KasdevTech</title><link>https://kasdevtech.github.io/tags/chromadb/</link><description>Recent content in ChromaDB on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 21 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/chromadb/index.xml" rel="self" type="application/rss+xml"/><item><title>RAG (Retrieval-Augmented Generation)</title><link>https://kasdevtech.github.io/ai/rag/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/rag/</guid><description>
+&lt;p&gt;Generative AI is powerful—but what if your model needs &lt;strong&gt;real-time&lt;/strong&gt;, &lt;strong&gt;domain-specific&lt;/strong&gt;, or &lt;strong&gt;private data&lt;/strong&gt;? That’s where &lt;strong&gt;RAG (Retrieval-Augmented Generation)&lt;/strong&gt; comes in.&lt;/p&gt;
+&lt;h4 id="what-is-rag"&gt;What is RAG?&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;RAG&lt;/strong&gt; stands for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It&amp;rsquo;s a technique that enhances a language model’s response by &lt;strong&gt;retrieving relevant documents&lt;/strong&gt; from a knowledge base and &lt;strong&gt;injecting them into the prompt&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Think of it as “chat with memory or custom knowledge.”&lt;/p&gt;
+&lt;h4 id="how-rag-works-simplified"&gt;How RAG Works (Simplified)&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;User asks a question&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;System &lt;strong&gt;retrieves&lt;/strong&gt; relevant context (documents) from a vector database (like ChromaDB or Pinecone)&lt;/li&gt;
+&lt;li&gt;Retrieved context is &lt;strong&gt;combined&lt;/strong&gt; with the user’s question&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;language model&lt;/strong&gt; (like GPT-4o) generates a response using this combined input&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="example-build-a-rag-app-with-fastapi--openai--chromadb"&gt;Example: Build a RAG App with FastAPI + OpenAI + ChromaDB&lt;/h4&gt;
+&lt;p&gt;Let’s walk through an architecture example of a &lt;strong&gt;chatbot that answers questions from your company docs&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Networking on KasdevTech</title><link>https://kasdevtech.github.io/tags/networking/</link><description>Recent content in Networking on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/networking/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Network Reference Architectures</title><link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid><description>
+&lt;h4 id="azure-network-reference-architectures"&gt;Azure Network Reference Architectures&lt;/h4&gt;
+&lt;p&gt;By now, you&amp;rsquo;ve learned about VNets, peering, firewalls, DNS, and more.&lt;br&gt;
+Let’s bring it all together with real Azure networking architectures you can &lt;strong&gt;apply in production&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id="design-pattern-1-hub-spoke-with-vpn-gateway"&gt;Design Pattern 1: Hub-Spoke with VPN Gateway&lt;/h4&gt;
+&lt;p&gt;Perfect for hybrid connectivity and centralized control.&lt;/p&gt;
+&lt;h4 id="key-features"&gt;Key Features:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Central &lt;strong&gt;Hub VNet&lt;/strong&gt; with:
+&lt;ul&gt;
+&lt;li&gt;VPN Gateway&lt;/li&gt;
+&lt;li&gt;Azure Firewall or NVA&lt;/li&gt;
+&lt;li&gt;DDoS Protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Multiple &lt;strong&gt;Spoke VNets&lt;/strong&gt; for apps/environments&lt;/li&gt;
+&lt;li&gt;VNet Peering for traffic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="diagram"&gt;Diagram:&lt;/h4&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; [On-Premises]
+|
+====== Site-to-Site VPN ======
+|
++------------------+
+| Hub VNet |
+| VPN + Firewall |
++------------------+
+/ | \
+/ | \
+[Spoke A] [Spoke B] [Spoke C]
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id="design-pattern-2-private-link--nat-gateway"&gt;Design Pattern 2: Private Link + NAT Gateway&lt;/h4&gt;
+&lt;p&gt;For &lt;strong&gt;secure outbound&lt;/strong&gt; and &lt;strong&gt;fully private access&lt;/strong&gt; to PaaS.&lt;/p&gt;</description></item><item><title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title><link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid><description>
+&lt;h4 id="azure-networking-cost-optimization--monitoring"&gt;Azure Networking Cost Optimization &amp;amp; Monitoring&lt;/h4&gt;
+&lt;p&gt;Azure networking is powerful — but can get expensive if you’re not careful.&lt;br&gt;
+This post covers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What costs the most in Azure networking?&lt;/li&gt;
+&lt;li&gt;How to reduce cost without compromising security&lt;/li&gt;
+&lt;li&gt;Tools to monitor and alert for network health&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="what-costs-the-most"&gt;What Costs the Most?&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Resource&lt;/th&gt;
+&lt;th&gt;Cost Impact&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Azure Firewall&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$$$ — Pay per deployment + GB used&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ExpressRoute&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$$$ — Monthly base + bandwidth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Data Transfer&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Charges for traffic between regions or zones&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;VPN Gateway&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Based on SKU and time&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Peering&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Inbound = Free, Outbound = $$$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Public IP&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Basic = Free, Standard = Billable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id="cost-optimization-tips"&gt;Cost Optimization Tips&lt;/h4&gt;
+&lt;h4 id="use-nat-gateway-instead-of-load-balancer-snat"&gt;Use NAT Gateway Instead of Load Balancer SNAT&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid port exhaustion&lt;/li&gt;
+&lt;li&gt;More scalable for outbound traffic&lt;/li&gt;
+&lt;li&gt;Predictable IP and cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="consolidate-firewalls-in-hub"&gt;Consolidate Firewalls in Hub&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;One Azure Firewall in the &lt;strong&gt;Hub VNet&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Route all traffic through it&lt;/li&gt;
+&lt;li&gt;Use UDRs and ASGs to enforce control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="avoid-cross-region-traffic"&gt;Avoid Cross-Region Traffic&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Peering across regions = &lt;strong&gt;paid outbound&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Keep apps and databases in &lt;strong&gt;same region&lt;/strong&gt; when possible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="use-azure-cost-management"&gt;Use Azure Cost Management&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable &lt;strong&gt;tags&lt;/strong&gt; on VNet, Firewall, NAT Gateway&lt;/li&gt;
+&lt;li&gt;Group by project/team/app&lt;/li&gt;
+&lt;li&gt;Set up &lt;strong&gt;budgets and alerts&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="monitoring-tools"&gt;Monitoring Tools&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tool&lt;/th&gt;
+&lt;th&gt;Use For&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Network Watcher&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Packet capture, NSG flow logs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Azure Monitor&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Metrics for Firewall, VPN, Gateway&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Log Analytics&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Query NSG and Firewall logs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Connection Monitor&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;End-to-end checks (latency, loss)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="monitor-these-metrics"&gt;Monitor These Metrics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Firewall throughput&lt;/li&gt;
+&lt;li&gt;NAT Gateway SNAT ports used&lt;/li&gt;
+&lt;li&gt;VPN Tunnel status (S2S, P2S)&lt;/li&gt;
+&lt;li&gt;Inbound/outbound bytes per VNet&lt;/li&gt;
+&lt;li&gt;Number of dropped packets (NSG)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="set-alerts-examples"&gt;Set Alerts (Examples)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Alert if VPN Gateway is &lt;strong&gt;down&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Alert if Azure Firewall hits &lt;strong&gt;80% throughput&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Alert on &lt;strong&gt;unexpected data transfer spikes&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="final-tip"&gt;Final Tip&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Secure, scalable Azure networking is &lt;strong&gt;possible without breaking the bank&lt;/strong&gt;.&lt;br&gt;
+But it requires:&lt;/p&gt;</description></item><item><title>Azure Private Endpoint vs Service Endpoint</title><link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid><description>
+&lt;h4 id="azure-private-endpoint-vs-service-endpoint"&gt;Azure Private Endpoint vs Service Endpoint&lt;/h4&gt;
+&lt;p&gt;So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…&lt;/p&gt;
+&lt;p&gt;Should I use a &lt;strong&gt;Service Endpoint&lt;/strong&gt; or a &lt;strong&gt;Private Endpoint&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;These two features are critical for &lt;strong&gt;securing Azure PaaS services&lt;/strong&gt;. But they’re not the same.&lt;br&gt;
+Let’s break them down clearly with real-world context.&lt;/p&gt;
+&lt;h4 id="what-is-a-service-endpoint"&gt;What is a Service Endpoint?&lt;/h4&gt;
+&lt;p&gt;Service Endpoints &lt;strong&gt;extend your VNet’s private IP&lt;/strong&gt; to Azure PaaS services.&lt;/p&gt;</description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>
+&lt;h4 id="azure-nsg-vs-asg"&gt;Azure NSG vs ASG&lt;/h4&gt;
+&lt;p&gt;In cloud networking, &lt;strong&gt;firewalls and access control&lt;/strong&gt; are your first line of defense.&lt;br&gt;
+In Azure, the two main tools for this are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Network Security Group (NSG)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Application Security Group (ASG)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s explore what they are, how they work, and how to use them together.&lt;/p&gt;
+&lt;h4 id="what-is-a-network-security-group-nsg"&gt;What is a Network Security Group (NSG)?&lt;/h4&gt;
+&lt;p&gt;An &lt;strong&gt;NSG&lt;/strong&gt; acts like a virtual firewall. You can apply it to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Subnets&lt;/li&gt;
+&lt;li&gt;Network interfaces (NICs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="nsg-rules-look-like"&gt;NSG Rules look like:&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Priority&lt;/th&gt;
+&lt;th&gt;Direction&lt;/th&gt;
+&lt;th&gt;Source&lt;/th&gt;
+&lt;th&gt;Destination&lt;/th&gt;
+&lt;th&gt;Port&lt;/th&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;100&lt;/td&gt;
+&lt;td&gt;Inbound&lt;/td&gt;
+&lt;td&gt;Any&lt;/td&gt;
+&lt;td&gt;10.0.1.4&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;Allow&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;200&lt;/td&gt;
+&lt;td&gt;Inbound&lt;/td&gt;
+&lt;td&gt;Any&lt;/td&gt;
+&lt;td&gt;Any&lt;/td&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;Deny&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Azure processes rules &lt;strong&gt;top-down&lt;/strong&gt;, based on &lt;strong&gt;priority&lt;/strong&gt; (lower = higher priority).&lt;/p&gt;</description></item><item><title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title><link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid><description>
+&lt;h4 id="azure-routing---udr-route-tables-and-bgp"&gt;Azure Routing – UDR, Route Tables, and BGP&lt;/h4&gt;
+&lt;p&gt;Ever wonder how traffic knows where to go inside your VNet?
+That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, it’s handled by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;System Routes&lt;/li&gt;
+&lt;li&gt;User Defined Routes (UDR)&lt;/li&gt;
+&lt;li&gt;Border Gateway Protocol (BGP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="system-routes-default"&gt;System Routes (Default)&lt;/h4&gt;
+&lt;p&gt;Azure &lt;strong&gt;automatically adds system routes&lt;/strong&gt; to all subnets.&lt;/p&gt;
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Destination&lt;/th&gt;
+&lt;th&gt;Next Hop&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0.0.0.0/0&lt;/td&gt;
+&lt;td&gt;Internet&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;Virtual Network&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;168.63.129.16&lt;/td&gt;
+&lt;td&gt;Virtual Network&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;These work fine in most cases — &lt;strong&gt;until you need customization&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title><link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid><description>
+&lt;h4 id="azure-vpn-gateway-vs-expressroute--what-should-you-use"&gt;Azure VPN Gateway vs ExpressRoute – What Should You Use?&lt;/h4&gt;
+&lt;p&gt;Now that we understand VNets and peering, let’s talk about &lt;strong&gt;how to connect your on-premises network to Azure&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Two main options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Azure VPN Gateway&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Azure ExpressRoute&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And under VPN Gateway, two common scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Site-to-Site (S2S) VPN&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Point-to-Site (P2S) VPN&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let’s break them all down simply.&lt;/p&gt;
+&lt;h4 id="what-is-azure-vpn-gateway"&gt;What is Azure VPN Gateway?&lt;/h4&gt;
+&lt;p&gt;Azure VPN Gateway is a &lt;strong&gt;managed network gateway&lt;/strong&gt; in Azure. It lets you:&lt;/p&gt;</description></item><item><title> Azure Virtual Network Basics – Public vs Private Networks</title><link>https://kasdevtech.github.io/azure/azure-network-basics/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid><description>
+&lt;h4 id="azure-virtual-network-basics--public-vs-private"&gt;Azure Virtual Network Basics – Public vs Private&lt;/h4&gt;
+&lt;p&gt;If you&amp;rsquo;re getting started with Azure Networking, the first concept you must master is the &lt;strong&gt;Virtual Network&lt;/strong&gt; (aka VNet). This is the &lt;strong&gt;foundation&lt;/strong&gt; of all networking in Azure.&lt;/p&gt;
+&lt;h4 id="what-is-a-vnet"&gt;What is a VNet?&lt;/h4&gt;
+&lt;p&gt;A &lt;strong&gt;Virtual Network (VNet)&lt;/strong&gt; in Azure is like your private data center network in the cloud. It allows Azure resources (like VMs, App Services, etc.) to &lt;strong&gt;communicate with each other securely&lt;/strong&gt;.
+Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;</description></item><item><title>Azure Hub-Spoke Architecture &amp; VNet Peering</title><link>https://kasdevtech.github.io/azure/hub-spoke/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/hub-spoke/</guid><description>
+&lt;h4 id="azure-hub-spoke-architecture"&gt;Azure Hub-Spoke Architecture&lt;/h4&gt;
+&lt;p&gt;Once you understand VNets and Subnets, the next step is designing how they connect. One of the most &lt;strong&gt;popular architectures&lt;/strong&gt; in Azure is called the &lt;strong&gt;Hub-Spoke Model&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id="what-is-the-hub-spoke-model"&gt;What is the Hub-Spoke Model?&lt;/h4&gt;
+&lt;p&gt;Think of the &lt;strong&gt;Hub&lt;/strong&gt; as the central point where all shared services live — like a corporate office.&lt;/p&gt;
+&lt;p&gt;Each &lt;strong&gt;Spoke&lt;/strong&gt; is a separate environment — like dev, test, or app workloads.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; +-----------------------+
+| Hub VNet |
+| (Firewall, VPN, etc) |
++-----------------------+
+/ | \
+/ | \
++--------+ +--------+ +--------+
+| Spoke1 | | Spoke2 | | Spoke3 |
++--------+ +--------+ +--------+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id="what-is-vnet-peering"&gt;What is VNet Peering?&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;VNet Peering&lt;/strong&gt; allows two VNets to communicate &lt;strong&gt;privately&lt;/strong&gt; using Azure backbone (no internet).&lt;/p&gt;</description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>
+&lt;h3 id="what-is-a-private-endpoint"&gt;What is a Private Endpoint?&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;Private Endpoint&lt;/strong&gt; in Azure allows you to connect to Azure services (like Storage, SQL, CosmosDB, etc.) over a private IP inside your Azure Virtual Network (VNet), instead of using the public internet.&lt;/p&gt;
+&lt;p&gt;Think of it as a private IP address for an Azure service. This ensures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No traffic goes over the internet&lt;/li&gt;
+&lt;li&gt;Improved security (zero public exposure)&lt;/li&gt;
+&lt;li&gt;You can apply &lt;strong&gt;NSG&lt;/strong&gt;, &lt;strong&gt;firewall&lt;/strong&gt;, and &lt;strong&gt;custom routing&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="when-to-use-private-endpoints"&gt;When to Use Private Endpoints?&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Scenario&lt;/th&gt;
+&lt;th&gt;Private Endpoint Recommended?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Critical data (PII, financial, healthcare)&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Internal line-of-business apps&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Public APIs serving global customers&lt;/td&gt;
+&lt;td&gt;No — consider public endpoint&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hybrid network (on-premises + Azure)&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Regulatory/compliance (GDPR, HIPAA, PCI)&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Common Use Cases:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

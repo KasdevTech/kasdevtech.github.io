@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hosted Agent on KasdevTech</title><link>https://kasdevtech.github.io/tags/hosted-agent/</link><description>Recent content in Hosted Agent on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/hosted-agent/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures</title><link>https://kasdevtech.github.io/devops/pipeline-timeout-issues/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/pipeline-timeout-issues/</guid><description>
+&lt;p&gt;Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong&gt;default timeout&lt;/strong&gt; on Azure Pipelines.&lt;/p&gt;
+&lt;h4 id="error-message"&gt;Error Message&lt;/h4&gt;
+&lt;p&gt;[error]The job was canceled after reaching the timeout limit of 60 minutes.&lt;/p&gt;
+&lt;h4 id="default-limits"&gt;Default Limits&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft-hosted agents&lt;/strong&gt;: 60 minutes per job (can be increased)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosted agents&lt;/strong&gt;: You control the timeout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="increase-timeout-in-yaml"&gt;Increase Timeout in YAML&lt;/h4&gt;
+&lt;p&gt;Add the &lt;code&gt;timeoutInMinutes&lt;/code&gt; setting to your job:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;jobs&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;- &lt;span style="color:#f92672"&gt;job&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Build&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;timeoutInMinutes&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;120&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;pool&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;vmImage&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#39;ubuntu-latest&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;steps&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;script&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;echo &amp;#34;Building...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="optimize-the-build"&gt;Optimize the Build&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid long dependency installations (e.g., move to cache or Docker layer)&lt;/li&gt;
+&lt;li&gt;Parallelize jobs using strategy and matrix&lt;/li&gt;
+&lt;li&gt;Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="use-self-hosted-agent-no-hard-timeout"&gt;Use Self-Hosted Agent (No Hard Timeout)&lt;/h4&gt;
+&lt;p&gt;Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p&gt;</description></item></channel></rss>

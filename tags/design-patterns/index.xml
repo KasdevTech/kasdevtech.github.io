@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Design Patterns on KasdevTech</title><link>https://kasdevtech.github.io/tags/design-patterns/</link><description>Recent content in Design Patterns on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/design-patterns/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Network Reference Architectures</title><link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid><description>
+&lt;h4 id="azure-network-reference-architectures"&gt;Azure Network Reference Architectures&lt;/h4&gt;
+&lt;p&gt;By now, you&amp;rsquo;ve learned about VNets, peering, firewalls, DNS, and more.&lt;br&gt;
+Let’s bring it all together with real Azure networking architectures you can &lt;strong&gt;apply in production&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id="design-pattern-1-hub-spoke-with-vpn-gateway"&gt;Design Pattern 1: Hub-Spoke with VPN Gateway&lt;/h4&gt;
+&lt;p&gt;Perfect for hybrid connectivity and centralized control.&lt;/p&gt;
+&lt;h4 id="key-features"&gt;Key Features:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Central &lt;strong&gt;Hub VNet&lt;/strong&gt; with:
+&lt;ul&gt;
+&lt;li&gt;VPN Gateway&lt;/li&gt;
+&lt;li&gt;Azure Firewall or NVA&lt;/li&gt;
+&lt;li&gt;DDoS Protection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Multiple &lt;strong&gt;Spoke VNets&lt;/strong&gt; for apps/environments&lt;/li&gt;
+&lt;li&gt;VNet Peering for traffic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="diagram"&gt;Diagram:&lt;/h4&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt; [On-Premises]
+|
+====== Site-to-Site VPN ======
+|
++------------------+
+| Hub VNet |
+| VPN + Firewall |
++------------------+
+/ | \
+/ | \
+[Spoke A] [Spoke B] [Spoke C]
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id="design-pattern-2-private-link--nat-gateway"&gt;Design Pattern 2: Private Link + NAT Gateway&lt;/h4&gt;
+&lt;p&gt;For &lt;strong&gt;secure outbound&lt;/strong&gt; and &lt;strong&gt;fully private access&lt;/strong&gt; to PaaS.&lt;/p&gt;</description></item></channel></rss>

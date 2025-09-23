@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AppService on KasdevTech</title><link>https://kasdevtech.github.io/tags/appservice/</link><description>Recent content in AppService on KasdevTech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/appservice/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixing High CPU and Memory Usage in Azure App Service</title><link>https://kasdevtech.github.io/azure/appservice-high-cpu/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appservice-high-cpu/</guid><description>
+&lt;h4 id="fixing-high-cpu-and-memory-usage-in-azure-app-service"&gt;Fixing High CPU and Memory Usage in Azure App Service&lt;/h4&gt;
+&lt;p&gt;Your app is running fine, and then suddenly… users complain about &lt;strong&gt;slowness&lt;/strong&gt; or the app even &lt;strong&gt;crashes&lt;/strong&gt;.&lt;br&gt;
+When you check the Azure Portal, you see CPU pegged at 90–100% or memory exhausted.&lt;br&gt;
+This is a very &lt;strong&gt;common real-world issue&lt;/strong&gt; in Azure App Service. Let’s walk step by step.&lt;/p&gt;
+&lt;h4 id="step-1-monitor-metrics"&gt;Step 1: Monitor Metrics&lt;/h4&gt;
+&lt;p&gt;Go to:
+&lt;strong&gt;Azure Portal → App Service → Metrics → CPU Percentage / Memory Working Set&lt;/strong&gt;
+Look for spikes during:&lt;/p&gt;</description></item><item><title>Troubleshooting Azure App Service Startup Failures</title><link>https://kasdevtech.github.io/azure/appservice/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appservice/</guid><description>
+&lt;h4 id="troubleshooting-azure-app-service-startup-failures"&gt;Troubleshooting Azure App Service Startup Failures&lt;/h4&gt;
+&lt;p&gt;One of the most common issues with &lt;strong&gt;Azure App Service&lt;/strong&gt; is when your web app refuses to start after deployment.&lt;/p&gt;
+&lt;p&gt;The symptoms usually look like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The app returns &lt;strong&gt;HTTP 500 – Internal Server Error&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You see &lt;strong&gt;Service Unavailable (503)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The container or code doesn’t start properly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a &lt;strong&gt;real-world headache&lt;/strong&gt; because you deploy with confidence, but the app never comes up.&lt;/p&gt;
+&lt;h4 id="step-1-check-app-service-logs"&gt;Step 1: Check App Service Logs&lt;/h4&gt;
+&lt;p&gt;Enable &lt;strong&gt;Application Logging&lt;/strong&gt; and &lt;strong&gt;Web Server Logging&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>

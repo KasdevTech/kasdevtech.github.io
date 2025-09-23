@@ -1,8 +1,4 @@
 ---
-title: "AZ-104 Series"
-description: "All topics for AZ-104 certification."
+title: "AZ-104"
+type: "AZ-104"
 ---
-Welcome to the AZ-104 series! Select a topic below.
-  1. RBAC
-  2. Compute
-  

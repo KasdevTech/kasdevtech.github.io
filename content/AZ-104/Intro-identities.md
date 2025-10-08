@@ -1,5 +1,5 @@
 ---
-title: AZ-104 Day 1 — Introduction and Manage Azure Identities & Governance
+title: AZ-104 — Introduction and Manage Azure Identities & Governance
 description: Begin your AZ-104 journey. Learn the exam structure, skills measured, and dive into Azure Active Directory, RBAC, and governance fundamentals.
 date: 2025-10-08
 author: Kasi Suresh

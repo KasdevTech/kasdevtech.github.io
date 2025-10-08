@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>CI/CD on KasdevTech</title><link>https://kasdevtech.github.io/tags/ci/cd/</link><description>Recent content in CI/CD on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/ci/cd/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title><link>https://kasdevtech.github.io/terraform/terraform-init-fails/</link><pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/terraform-init-fails/</guid><description>Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&amp;rsquo;s how I fixed it using service principal and storage configuration updates.</description></item><item><title>Azure DevOps pipeline stuck on 'Initialize job' Step-by-step fix</title><link>https://kasdevtech.github.io/devops/pipelinestuck/</link><pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/pipelinestuck/</guid><description>Fix Azure DevOps pipeline hangs at &amp;#39;Initialize job&amp;#39; phase. Complete checklist with real root causes and fixes from production.</description></item><item><title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title><link>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</link><pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</guid><description>&lt;p>If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p>
+&lt;p>Error: Error acquiring the state lock: state blob is already locked&lt;/p>
+&lt;p>You&amp;rsquo;re facing a &lt;strong>Terraform state lock&lt;/strong> issue — and it can block your pipeline!&lt;/p>
+&lt;h4 id="what-causes-it">What Causes It?&lt;/h4>
+&lt;ul>
+&lt;li>A previous run crashed or was canceled&lt;/li>
+&lt;li>Two pipelines tried to modify state simultaneously&lt;/li>
+&lt;li>State is locked but not released due to network timeout&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-fix">Step-by-Step Fix&lt;/h4>
+&lt;h4 id="manually-unlock-state">Manually Unlock State&lt;/h4>
+&lt;p>Use this command from your local machine (or DevOps pipeline):&lt;/p></description></item><item><title>Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures</title><link>https://kasdevtech.github.io/devops/pipeline-timeout-issues/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/pipeline-timeout-issues/</guid><description>&lt;p>Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong>default timeout&lt;/strong> on Azure Pipelines.&lt;/p>
+&lt;h4 id="error-message">Error Message&lt;/h4>
+&lt;p>[error]The job was canceled after reaching the timeout limit of 60 minutes.&lt;/p>
+&lt;h4 id="default-limits">Default Limits&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Microsoft-hosted agents&lt;/strong>: 60 minutes per job (can be increased)&lt;/li>
+&lt;li>&lt;strong>Self-hosted agents&lt;/strong>: You control the timeout&lt;/li>
+&lt;/ul>
+&lt;h4 id="increase-timeout-in-yaml">Increase Timeout in YAML&lt;/h4>
+&lt;p>Add the &lt;code>timeoutInMinutes&lt;/code> setting to your job:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">jobs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">job&lt;/span>: &lt;span style="color:#ae81ff">Build&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">timeoutInMinutes&lt;/span>: &lt;span style="color:#ae81ff">120&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">pool&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">vmImage&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;ubuntu-latest&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">steps&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">script&lt;/span>: &lt;span style="color:#ae81ff">echo &amp;#34;Building...&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="optimize-the-build">Optimize the Build&lt;/h4>
+&lt;ul>
+&lt;li>Avoid long dependency installations (e.g., move to cache or Docker layer)&lt;/li>
+&lt;li>Parallelize jobs using strategy and matrix&lt;/li>
+&lt;li>Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li>
+&lt;/ul>
+&lt;h4 id="use-self-hosted-agent-no-hard-timeout">Use Self-Hosted Agent (No Hard Timeout)&lt;/h4>
+&lt;p>Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p></description></item><item><title>Azure Pipeline Not Triggering Automatically on Push – YAML Trigger Issues</title><link>https://kasdevtech.github.io/devops/trigger-issues/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/trigger-issues/</guid><description>&lt;p>Ever pushed code and expected the pipeline to run… but nothing happens?
+This is one of the most common issues teams face after setting up YAML-based Azure Pipelines.&lt;/p>
+&lt;h4 id="symptoms">Symptoms&lt;/h4>
+&lt;ul>
+&lt;li>No pipeline run triggered after pushing code&lt;/li>
+&lt;li>Manual runs work fine&lt;/li>
+&lt;li>Pipeline shows: &lt;code>No CI trigger found for this repo&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h4 id="common-causes">Common Causes&lt;/h4>
+&lt;ol>
+&lt;li>&lt;strong>Missing &lt;code>trigger&lt;/code> block in YAML&lt;/strong>&lt;/li>
+&lt;li>Wrong branch name under &lt;code>trigger&lt;/code>&lt;/li>
+&lt;li>YAML file is in a non-default location or branch&lt;/li>
+&lt;li>Triggers disabled in pipeline UI&lt;/li>
+&lt;li>Repo is disconnected or has permission issues&lt;/li>
+&lt;/ol>
+&lt;h4 id="define-the-trigger-block-properly">Define the Trigger Block Properly&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">include&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">If you&amp;#39;re using develop, adjust accordingly.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="check-pipeline-settings-in-azure-devops">Check Pipeline Settings in Azure DevOps&lt;/h4>
+&lt;p>Go to Pipelines → Click your pipeline → Edit
+Click the 3 dots → Triggers
+Ensure CI Trigger is enabled&lt;/p></description></item></channel></rss>

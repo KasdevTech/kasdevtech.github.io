@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>KasdevTech</title><link>https://kasdevtech.github.io/</link><description>Recent content on KasdevTech</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator</title><link>https://kasdevtech.github.io/az-104/intro/</link><pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/az-104/intro/</guid><description>Get started with the AZ-104 certification journey. Learn what the exam covers, who should take it, study strategies, and tools required to pass confidently.</description></item><item><title>Terraform Import in Azure — Fixing Out-of-Band Changes</title><link>https://kasdevtech.github.io/terraform/out-of-band-changes/</link><pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/out-of-band-changes/</guid><description>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&amp;rsquo;s how I used &lt;code>terraform import&lt;/code> to fix drift and sync state.</description></item><item><title>AI Agents – The Next Evolution of Automation</title><link>https://kasdevtech.github.io/ai/ai-agents/</link><pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/ai-agents/</guid><description>AI agents are the future of autonomous work. Learn what they are, how they function, and where businesses are already using them.</description></item><item><title>Fixing High CPU and Memory Usage in Azure App Service</title><link>https://kasdevtech.github.io/azure/appservice-high-cpu/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appservice-high-cpu/</guid><description>A step-by-step guide to troubleshoot and resolve performance issues in Azure App Service caused by high CPU or memory usage.</description></item><item><title>Troubleshooting Azure App Service Startup Failures</title><link>https://kasdevtech.github.io/azure/appservice/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appservice/</guid><description>Step-by-step guide to diagnose and fix Azure App Service startup failures, including logs, Kudu console, and common misconfigurations.</description></item><item><title>Azure Application Gateway – Backend Health Unknown</title><link>https://kasdevtech.github.io/azure/appgw_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/appgw_issues/</guid><description>App Gateway backend shows &amp;#39;Unknown&amp;#39; or &amp;#39;Unhealthy&amp;#39;? Follow this detailed troubleshooting guide to fix it.</description></item><item><title>Azure VM Boot Issue – VM stuck in 'Starting' or 'Failed'</title><link>https://kasdevtech.github.io/azure/azurevm_issues/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azurevm_issues/</guid><description>Your Azure VM stuck on &amp;#39;Starting&amp;#39; or &amp;#39;Failed&amp;#39;? Learn how to troubleshoot using Boot Diagnostics, Serial Console, and recovery tools.</description></item><item><title>Terraform Init Fails in CI/CD — Fixed Remote Backend &amp; Auth Issues</title><link>https://kasdevtech.github.io/terraform/terraform-init-fails/</link><pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/terraform-init-fails/</guid><description>Terraform init sometimes fails in CI/CD pipelines when authenticating to remote backend. Here&amp;rsquo;s how I fixed it using service principal and storage configuration updates.</description></item><item><title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title><link>https://kasdevtech.github.io/terraform/terraform-role-assigment/</link><pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/terraform-role-assigment/</guid><description>Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here&amp;rsquo;s how I fixed this in a CI/CD pipeline using the right roles and automation.</description></item><item><title>Automate Azure Cleanup — Before It Costs</title><link>https://kasdevtech.github.io/azure/azurecleanup/</link><pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azurecleanup/</guid><description>Learn how to built a weekly automated Azure cleanup flow using PowerShell, Logic Apps, and Teams approvals to avoid surprise cloud bills.</description></item><item><title>RAG (Retrieval-Augmented Generation)</title><link>https://kasdevtech.github.io/ai/rag/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/rag/</guid><description>Understand RAG (Retrieval-Augmented Generation) in simple terms with a real-world implementation using OpenAI and ChromaDB.</description></item><item><title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title><link>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</guid><description>Running &lt;code>terraform destroy&lt;/code> in Azure sometimes fails due to implicit resource dependencies. Here&amp;rsquo;s how I resolved a common NSG and subnet dependency issue and ensured clean teardown.</description></item><item><title>Terraform State Corruption in Azure — Recovered</title><link>https://kasdevtech.github.io/terraform/statefile-corrupted/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/statefile-corrupted/</guid><description>Faced a corrupted Terraform state file in Azure Blob Storage? Here&amp;rsquo;s a real-world recovery guide to restore infrastructure state safely in 4 simple steps.</description></item><item><title>Azure DevOps pipeline stuck on 'Initialize job' Step-by-step fix</title><link>https://kasdevtech.github.io/devops/pipelinestuck/</link><pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/pipelinestuck/</guid><description>Fix Azure DevOps pipeline hangs at &amp;#39;Initialize job&amp;#39; phase. Complete checklist with real root causes and fixes from production.</description></item><item><title>Azure Network Reference Architectures</title><link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid><description>Understand how enterprise-grade networks are designed in Azure using hub-spoke, firewall, VPN/ExpressRoute, private link, and more.</description></item><item><title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title><link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid><description>Learn how to save costs on Azure networking components and monitor key metrics for VNet health, Firewall, and bandwidth usage.</description></item><item><title>How to Build Your Own AI Chatbot</title><link>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</link><pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</guid><description>Build a production-ready GenAI chatbot using OpenAI, FastAPI, and React in 2025.</description></item><item><title>Fixing 'az login' Authentication Failures in IaC Pipelines</title><link>https://kasdevtech.github.io/devops/authentication-failure/</link><pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/authentication-failure/</guid><description>&lt;p>You added an &lt;code>az login&lt;/code> command to your pipeline… and now the pipeline fails?&lt;/p>
+&lt;p>ERROR: Please run &amp;lsquo;az login&amp;rsquo; to setup account&lt;/p>
+&lt;h4 id="root-cause">Root Cause&lt;/h4>
+&lt;p>The Azure CLI needs credentials to authenticate. When run in a pipeline, &lt;code>az login&lt;/code> needs to be done &lt;strong>non-interactively&lt;/strong> using a &lt;strong>service principal&lt;/strong>.&lt;/p>
+&lt;h4 id="solution-use-service-principal-with-secrets">Solution: Use Service Principal with Secrets&lt;/h4>
+&lt;p>Add a login step like this in your YAML:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">script&lt;/span>: |&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> az login --service-principal \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --username $appId \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --password $clientSecret \
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> --tenant $tenantId&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">env&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">appId&lt;/span>: &lt;span style="color:#ae81ff">$(azureAppId)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">clientSecret&lt;/span>: &lt;span style="color:#ae81ff">$(azureClientSecret)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">tenantId&lt;/span>: &lt;span style="color:#ae81ff">$(azureTenantId)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">Then store these as secrets in Pipeline → Library → Secure files or variable groups.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="use-azurecli2-task-instead">Use AzureCLI@2 Task Instead&lt;/h4>
+&lt;pre tabindex="0">&lt;code>- task: AzureCLI@2
+inputs:
+azureSubscription: &amp;#39;MyServiceConnection&amp;#39;
+scriptType: bash
+scriptLocation: inlineScript
+inlineScript: |
+az account show
+This auto-authenticates using the linked service connection.
+&lt;/code>&lt;/pre>&lt;h4 id="conclusion">Conclusion&lt;/h4>
+&lt;p>Use the right login method for your IaC tools. For Terraform or Bicep, the AzureCLI@2 task is the safest, most DevOps-friendly approach.&lt;/p></description></item><item><title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title><link>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</link><pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/terraform-withsatelock-failure/</guid><description>&lt;p>If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p>
+&lt;p>Error: Error acquiring the state lock: state blob is already locked&lt;/p>
+&lt;p>You&amp;rsquo;re facing a &lt;strong>Terraform state lock&lt;/strong> issue — and it can block your pipeline!&lt;/p>
+&lt;h4 id="what-causes-it">What Causes It?&lt;/h4>
+&lt;ul>
+&lt;li>A previous run crashed or was canceled&lt;/li>
+&lt;li>Two pipelines tried to modify state simultaneously&lt;/li>
+&lt;li>State is locked but not released due to network timeout&lt;/li>
+&lt;/ul>
+&lt;h4 id="step-by-step-fix">Step-by-Step Fix&lt;/h4>
+&lt;h4 id="manually-unlock-state">Manually Unlock State&lt;/h4>
+&lt;p>Use this command from your local machine (or DevOps pipeline):&lt;/p></description></item><item><title>Azure DevOps Pipeline Timeout – Fixing Long-Running Build Failures</title><link>https://kasdevtech.github.io/devops/pipeline-timeout-issues/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/pipeline-timeout-issues/</guid><description>&lt;p>Does your build or deployment fail after 60 minutes? You might be hitting a &lt;strong>default timeout&lt;/strong> on Azure Pipelines.&lt;/p>
+&lt;h4 id="error-message">Error Message&lt;/h4>
+&lt;p>[error]The job was canceled after reaching the timeout limit of 60 minutes.&lt;/p>
+&lt;h4 id="default-limits">Default Limits&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Microsoft-hosted agents&lt;/strong>: 60 minutes per job (can be increased)&lt;/li>
+&lt;li>&lt;strong>Self-hosted agents&lt;/strong>: You control the timeout&lt;/li>
+&lt;/ul>
+&lt;h4 id="increase-timeout-in-yaml">Increase Timeout in YAML&lt;/h4>
+&lt;p>Add the &lt;code>timeoutInMinutes&lt;/code> setting to your job:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">jobs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">job&lt;/span>: &lt;span style="color:#ae81ff">Build&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">timeoutInMinutes&lt;/span>: &lt;span style="color:#ae81ff">120&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">pool&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">vmImage&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;ubuntu-latest&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">steps&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">script&lt;/span>: &lt;span style="color:#ae81ff">echo &amp;#34;Building...&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="optimize-the-build">Optimize the Build&lt;/h4>
+&lt;ul>
+&lt;li>Avoid long dependency installations (e.g., move to cache or Docker layer)&lt;/li>
+&lt;li>Parallelize jobs using strategy and matrix&lt;/li>
+&lt;li>Use restoreCache and saveCache for npm, pip, Maven, etc.&lt;/li>
+&lt;/ul>
+&lt;h4 id="use-self-hosted-agent-no-hard-timeout">Use Self-Hosted Agent (No Hard Timeout)&lt;/h4>
+&lt;p>Set up a self-hosted agent in Azure VM or AKS to avoid limits altogether.&lt;/p></description></item><item><title>Azure Pipeline Not Triggering Automatically on Push – YAML Trigger Issues</title><link>https://kasdevtech.github.io/devops/trigger-issues/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/trigger-issues/</guid><description>&lt;p>Ever pushed code and expected the pipeline to run… but nothing happens?
+This is one of the most common issues teams face after setting up YAML-based Azure Pipelines.&lt;/p>
+&lt;h4 id="symptoms">Symptoms&lt;/h4>
+&lt;ul>
+&lt;li>No pipeline run triggered after pushing code&lt;/li>
+&lt;li>Manual runs work fine&lt;/li>
+&lt;li>Pipeline shows: &lt;code>No CI trigger found for this repo&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h4 id="common-causes">Common Causes&lt;/h4>
+&lt;ol>
+&lt;li>&lt;strong>Missing &lt;code>trigger&lt;/code> block in YAML&lt;/strong>&lt;/li>
+&lt;li>Wrong branch name under &lt;code>trigger&lt;/code>&lt;/li>
+&lt;li>YAML file is in a non-default location or branch&lt;/li>
+&lt;li>Triggers disabled in pipeline UI&lt;/li>
+&lt;li>Repo is disconnected or has permission issues&lt;/li>
+&lt;/ol>
+&lt;h4 id="define-the-trigger-block-properly">Define the Trigger Block Properly&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">include&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">If you&amp;#39;re using develop, adjust accordingly.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="check-pipeline-settings-in-azure-devops">Check Pipeline Settings in Azure DevOps&lt;/h4>
+&lt;p>Go to Pipelines → Click your pipeline → Edit
+Click the 3 dots → Triggers
+Ensure CI Trigger is enabled&lt;/p></description></item><item><title>Azure DevOps Git Repos Not Showing in Build Pipeline: Fixing Broken Repo Connections</title><link>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-gitreposnotshowinginbuild-pipeline/</guid><description>&lt;p>Seeing this error when trying to trigger a pipeline from your Azure DevOps repo?&lt;/p>
+&lt;p>Error: The repository ‘&lt;repo-name>’ could not be found or no longer exists.&lt;/p>
+&lt;h4 id="common-causes">Common Causes&lt;/h4>
+&lt;ul>
+&lt;li>Repository renamed or deleted&lt;/li>
+&lt;li>Permissions changed in the project&lt;/li>
+&lt;li>PAT token expired (for GitHub or external repos)&lt;/li>
+&lt;/ul>
+&lt;h4 id="fixing-the-issue">Fixing the Issue&lt;/h4>
+&lt;h4 id="azure-repos-git">Azure Repos Git&lt;/h4>
+&lt;ul>
+&lt;li>Navigate to &lt;code>Repos&lt;/code> in your project&lt;/li>
+&lt;li>Check if the repo still exists and hasn’t been renamed&lt;/li>
+&lt;li>Confirm the branch in your trigger matches the YAML&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">include&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="github-repositories">GitHub Repositories&lt;/h4>
+&lt;p>Go to Project Settings → Service Connections
+Open your GitHub connection
+Re-authenticate or update the PAT/token
+Ensure scopes: repo, workflow, admin:repo_hook&lt;/p></description></item><item><title>Azure Private Endpoint vs Service Endpoint</title><link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid><description>Understand the difference between Azure Private Endpoint and Service Endpoint, when to use each, and how they affect VNet security and traffic routing.</description></item><item><title>Fixing 'Permission Denied' Errors While Deploying from Azure Pipelines to Azure Resources</title><link>https://kasdevtech.github.io/devops/azuredevops-permission-error/</link><pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/azuredevops-permission-error/</guid><description>&lt;p>Deploying resources from Azure Pipelines and running into the dreaded &lt;code>AuthorizationFailed&lt;/code> error? You’re not alone!&lt;/p>
+&lt;p>Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p>
+&lt;h4 id="root-cause">Root Cause&lt;/h4>
+&lt;p>This error usually occurs because the &lt;strong>service principal&lt;/strong> used in your Azure DevOps &lt;strong>service connection&lt;/strong> does not have the required &lt;strong>role-based access control (RBAC)&lt;/strong> permissions on the target resource group or subscription.&lt;/p>
+&lt;h4 id="step-by-step-fix">Step-by-Step Fix&lt;/h4>
+&lt;h4 id="verify-the-service-connection-identity">Verify the Service Connection Identity&lt;/h4>
+&lt;ul>
+&lt;li>Go to &lt;code>Project Settings&lt;/code> → &lt;code>Service Connections&lt;/code>&lt;/li>
+&lt;li>Click on your Azure Resource Manager connection&lt;/li>
+&lt;li>Note the &lt;strong>Object ID&lt;/strong> of the service principal&lt;/li>
+&lt;/ul>
+&lt;h4 id="assign-the-correct-role-in-azure-portal">Assign the Correct Role in Azure Portal&lt;/h4>
+&lt;ul>
+&lt;li>Navigate to your &lt;strong>Resource Group&lt;/strong> (or Subscription)&lt;/li>
+&lt;li>Go to &lt;code>Access Control (IAM)&lt;/code> → &lt;code>Add Role Assignment&lt;/code>&lt;/li>
+&lt;li>Select the role (e.g., &lt;code>Contributor&lt;/code> or &lt;code>Web App Contributor&lt;/code>)&lt;/li>
+&lt;li>Assign it to the &lt;strong>service principal&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h4 id="review-pipeline-yaml">Review Pipeline YAML&lt;/h4>
+&lt;p>Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p></description></item><item><title> Azure NSG vs ASG – Network Security for VNets</title><link>https://kasdevtech.github.io/azure/nsg-asg/</link><pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/nsg-asg/</guid><description>Understand Network Security Groups (NSG) and Application Security Groups (ASG) in Azure. Learn how they protect your VNets and workloads.</description></item><item><title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title><link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid><description>Learn how Azure routes traffic inside virtual networks. Understand UDRs (User Defined Routes), System Routes, and BGP basics.</description></item><item><title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title><link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link><pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid><description>Understand how to connect your on-premises to Azure using VPN Gateway or ExpressRoute. Learn the difference between Site-to-Site and Point-to-Site.</description></item><item><title> Azure Virtual Network Basics – Public vs Private Networks</title><link>https://kasdevtech.github.io/azure/azure-network-basics/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid><description>Understand the basics of Azure Virtual Networks, what public and private networks mean in the cloud, and how IPs work in Azure.</description></item><item><title>Azure Hub-Spoke Architecture &amp; VNet Peering</title><link>https://kasdevtech.github.io/azure/hub-spoke/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/hub-spoke/</guid><description>Understand Hub-Spoke network architecture in Azure, how VNet peering works, and why it matters for enterprise design.</description></item><item><title>Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners</title><link>https://kasdevtech.github.io/azure/application-gateway-502-error/</link><pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/application-gateway-502-error/</guid><description>Step-by-step guide to troubleshoot and fix 502 errors on Azure Application Gateway. Easy enough for Beginners, clear enough for production.</description></item><item><title> AKS Node Disk Pressure</title><link>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</link><pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</guid><description>A production issue in Azure AKS where nodes ran into DiskPressure. Here&amp;#39;s how we investigated, fixed, and prevented it in the future.</description></item><item><title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title><link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid><description>How I automated azure alert remediation using Azure Alerts, Moogsoft, and ServiceNow — before it even reaches L1 support.</description></item><item><title>Getting Started with Azure Bicep for Infrastructure as Code</title><link>https://kasdevtech.github.io/azure/bicep-getting-started/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid><description>Learn how to write and deploy your first Bicep template on Azure, and understand why Bicep is becoming the new standard for IaC in Azure.</description></item><item><title>How to Create a Self-Hosted Azure DevOps Agent using Azure Virtual Machine Scale Sets</title><link>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</link><pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/devops/self-hosted-agents-vmss/</guid><description>Step-by-step guide to setting up a self-hosted Azure DevOps agent pool using Azure Virtual Machine Scale Sets (VMSS) with scaling, screenshots, and security best practices.</description></item><item><title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title><link>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link><pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid><description>Learn how Cloud Architects can use prompt engineering to supercharge solution design, documentation, automation, and cloud-native thinking.</description></item><item><title>Sample Azure DevOps Pipeline for .NET App</title><link>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</link><pubDate>Mon, 23 Jun 2025 11:20:00 +0530</pubDate><guid>https://kasdevtech.github.io/devops/sample-azure-devops-pipeline/</guid><description>&lt;p>Here is a simple YAML pipeline for building a .NET Core app:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">trigger&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">pool&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">vmImage&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;ubuntu-latest&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">steps&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">task&lt;/span>: &lt;span style="color:#ae81ff">UseDotNet@2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">inputs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">packageType&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;sdk&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">version&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;8.0.x&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">script&lt;/span>: |&lt;span style="color:#e6db74">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> dotnet build
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74"> dotnet test&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">displayName&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;Build and Test&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">task&lt;/span>: &lt;span style="color:#ae81ff">PublishBuildArtifacts@1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">inputs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">PathtoPublish&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;$(Build.ArtifactStagingDirectory)&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ArtifactName&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;drop&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Building an AI-Powered App Using Azure OpenAI Services</title><link>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</guid><description>End-to-end guide to building a secure AI-powered chatbot using Azure OpenAI Services with React frontend and FastAPI backend.</description></item><item><title>Getting Started with Terraform on Azure</title><link>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</guid><description>&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision your Azure resources using code.&lt;/p>
+&lt;p>In this post, we will cover:&lt;/p>
+&lt;ul>
+&lt;li>Setting up Terraform CLI&lt;/li>
+&lt;li>Writing your first Terraform configuration&lt;/li>
+&lt;li>Deploying resources on Azure&lt;/li>
+&lt;/ul>
+&lt;h3 id="steps">Steps&lt;/h3>
+&lt;p>Install Terraform CLI&lt;br>
+Configure your Azure credentials&lt;br>
+Write &lt;code>main.tf&lt;/code> with Azure provider&lt;br>
+Run &lt;code>terraform init&lt;/code>, &lt;code>plan&lt;/code>, and &lt;code>apply&lt;/code>&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>Terraform allows you to automate cloud infrastructure — making deployments reproducible, version-controlled, and consistent.&lt;/p></description></item><item><title>How to Resize Azure Virtual Machines</title><link>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</guid><description>&lt;p>Resizing an Azure Virtual Machine (VM) allows you to adjust the size (CPU, Memory, Disk) of the VM as your application needs change — for cost optimization, performance scaling, or seasonal traffic.&lt;/p>
+&lt;p>In this guide, we’ll walk through &lt;strong>how to resize an Azure VM in 2025&lt;/strong> using both the Azure Portal and CLI.&lt;/p>
+&lt;hr>
+&lt;h3 id="why-resize-vms">Why Resize VMs?&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Scale Up:&lt;/strong> Handle more traffic or workload&lt;/li>
+&lt;li>&lt;strong>Scale Down:&lt;/strong> Reduce costs for low-traffic periods&lt;/li>
+&lt;li>&lt;strong>Change Type:&lt;/strong> Move to different series (ex: from DSv2 to B series for dev/test)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="pre-requisites">Pre-requisites&lt;/h3>
+&lt;ul>
+&lt;li>Azure Subscription&lt;/li>
+&lt;li>Owner / Contributor permissions on the VM&lt;/li>
+&lt;li>VM must be in a &lt;strong>Stopped (Deallocated)&lt;/strong> state to resize&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="resize-via-azure-portal">Resize via Azure Portal&lt;/h3>
+&lt;p>1️ Navigate to &lt;strong>Virtual Machines&lt;/strong>&lt;br>
+2️ Select your VM&lt;br>
+3️ Click &lt;strong>Size&lt;/strong> under the &amp;ldquo;Settings&amp;rdquo; section&lt;br>
+4️ Select a new size (you will see estimated cost/month)&lt;br>
+5️ Click &lt;strong>Resize&lt;/strong>&lt;/p></description></item><item><title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title><link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid><description>&lt;h3 id="welcome-to-kasdevtech--your-cloud-learning-hub">Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3>
+&lt;p>In today’s world, &lt;strong>cloud computing&lt;/strong> is no longer optional — it is &lt;strong>essential&lt;/strong> for businesses, developers, and architects.&lt;/p>
+&lt;p>But many beginners feel lost:&lt;br>
+👉 &lt;em>Where do I start?&lt;/em>&lt;br>
+👉 &lt;em>Which services should I learn first?&lt;/em>&lt;br>
+👉 &lt;em>How can I gain practical experience?&lt;/em>&lt;/p>
+&lt;p>In this post, I will share a &lt;strong>step-by-step practical guide&lt;/strong> to help you start your &lt;strong>cloud journey&lt;/strong> in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p></description></item><item><title>How to Use Azure Private Endpoints for Secure Networking</title><link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid><description>Learn how to use Azure Private Endpoints to securely access services like Azure Storage without exposing them to the public internet.</description></item><item><title>Optimizing Azure Costs with FinOps</title><link>https://kasdevtech.github.io/finops/optimizing-azure-costs/</link><pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/finops/optimizing-azure-costs/</guid><description>&lt;h3 id="what-is-finops">What is FinOps?&lt;/h3>
+&lt;p>FinOps (Financial Operations) is a practice of bringing financial accountability to cloud spending — enabling teams to make informed cost decisions.&lt;/p>
+&lt;h3 id="azure-cost-optimization-tips">Azure Cost Optimization Tips&lt;/h3>
+&lt;ul>
+&lt;li>Use &lt;strong>Azure Advisor&lt;/strong> to find cost-saving recommendations&lt;/li>
+&lt;li>Implement &lt;strong>Budgets &amp;amp; Alerts&lt;/strong> in Azure Cost Management&lt;/li>
+&lt;li>Use &lt;strong>Reserved Instances&lt;/strong> for long-running workloads&lt;/li>
+&lt;li>Use &lt;strong>Private Endpoints&lt;/strong> and reduce egress traffic costs&lt;/li>
+&lt;li>Regularly review &lt;strong>unused resources&lt;/strong> and shut them down&lt;/li>
+&lt;/ul>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>FinOps helps balance cloud cost with speed and innovation — making your cloud journey sustainable.&lt;/p></description></item><item><title>About Kasi Suresh</title><link>https://kasdevtech.github.io/about/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://kasdevtech.github.io/about/</guid><description>Learn more about Kasi and the vision behind KasdevTech</description></item></channel></rss>

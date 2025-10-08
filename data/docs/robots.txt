@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kasdevtech.github.io/sitemap.xml

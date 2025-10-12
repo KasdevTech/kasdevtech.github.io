@@ -7,7 +7,7 @@ tags: [Azure, AZ-104, AzureAD, Users, Groups, B2B]
 type: "az-104"
 ---
 
-# AZ-104 Deep Dive — Managing Users, Groups & Guest Access
+# AZ-104 — Managing Users, Groups & Guest Access
 
 This is **Series 1, Part 1.2** of the KasdevTech AZ-104 .  
 We focus on **user and group management**, including guest access and advanced scenarios for enterprise deployments.

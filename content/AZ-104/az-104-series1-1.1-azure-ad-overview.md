@@ -7,7 +7,7 @@ tags: [Azure, AZ-104, AzureAD, Identity, Tenant, Governance]
 type: "az-104"
 ---
 
-# AZ-104 Deep Dive — Azure AD Overview & Tenant Fundamentals
+# AZ-104 — Azure AD Overview & Tenant Fundamentals
 
 Welcome to the **KasdevTech AZ-104 **, where we explore each exam skill in depth with real-world context.  
 This post — **Series 1, Part 1.1** — covers the **foundations of Azure Active Directory (Azure AD)** and the **tenant model**, which is crucial for every Azure Administrator.

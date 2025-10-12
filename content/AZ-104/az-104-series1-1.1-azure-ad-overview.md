@@ -1,15 +1,15 @@
 ---
-title: AZ-104 Deep Dive Series — Azure AD Overview & Tenant Fundamentals
+title: AZ-104 — Azure AD Overview & Tenant Fundamentals
 description: Explore Azure Active Directory, tenants, domains, directory structures, and licensing. Understand how Azure AD forms the backbone of identity and access management in Microsoft Azure.
 date: 2025-10-08
 author: Kasi Suresh
 tags: [Azure, AZ-104, AzureAD, Identity, Tenant, Governance]
-type: "Azure"
+type: "az-104"
 ---
 
 # AZ-104 Deep Dive — Azure AD Overview & Tenant Fundamentals
 
-Welcome to the **KasdevTech AZ-104 Deep Dive Series**, where we explore each exam skill in depth with real-world context.  
+Welcome to the **KasdevTech AZ-104 **, where we explore each exam skill in depth with real-world context.  
 This post — **Series 1, Part 1.1** — covers the **foundations of Azure Active Directory (Azure AD)** and the **tenant model**, which is crucial for every Azure Administrator.
 
 ---
@@ -147,11 +147,11 @@ Get-AzureADTenantDetail
 
 ## Common Exam Tips
 
-✅ **Remember:** A single user can belong to multiple directories, but can only sign in to one at a time.  
-✅ Custom domains require **TXT record verification** before use.  
-✅ Azure AD roles are independent of Azure Resource Manager (RBAC) roles — exam questions often mix these up.  
-✅ Azure AD Free tier does *not* include Conditional Access or PIM.  
-✅ Every subscription trusts only one Azure AD tenant.
+ **Remember:** A single user can belong to multiple directories, but can only sign in to one at a time.  
+Custom domains require **TXT record verification** before use.  
+Azure AD roles are independent of Azure Resource Manager (RBAC) roles — exam questions often mix these up.  
+Azure AD Free tier does *not* include Conditional Access or PIM.  
+Every subscription trusts only one Azure AD tenant.
 
 ---
 

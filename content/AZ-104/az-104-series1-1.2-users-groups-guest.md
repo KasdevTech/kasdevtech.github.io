@@ -1,15 +1,15 @@
 ---
-title: AZ-104 Deep Dive Series — Managing Users, Groups & Guest Access
+title: AZ-104 — Managing Users, Groups & Guest Access
 description: Learn how to efficiently manage users, groups, and guest access in Azure AD. Covers bulk import, B2B collaboration, dynamic groups, and real-world management scenarios.
 date: 2025-10-08
 author: Kasi Suresh
 tags: [Azure, AZ-104, AzureAD, Users, Groups, B2B]
-type: "Azure"
+type: "az-104"
 ---
 
 # AZ-104 Deep Dive — Managing Users, Groups & Guest Access
 
-This is **Series 1, Part 1.2** of the KasdevTech AZ-104 Deep Dive Series.  
+This is **Series 1, Part 1.2** of the KasdevTech AZ-104 .  
 We focus on **user and group management**, including guest access and advanced scenarios for enterprise deployments.
 
 ---
@@ -106,10 +106,10 @@ az ad user invite --user-principal-name partner@external.com --display-name "Par
 
 ## Common Exam Tips
 
-✅ Bulk operations are preferred in real-world enterprise scenarios  
-✅ Dynamic groups simplify ongoing management and reduce errors  
-✅ B2B guest accounts require explicit invitation and can be monitored for security  
-✅ Always assign users to roles and groups following least privilege principles  
+Bulk operations are preferred in real-world enterprise scenarios  
+Dynamic groups simplify ongoing management and reduce errors  
+B2B guest accounts require explicit invitation and can be monitored for security  
+Always assign users to roles and groups following least privilege principles  
 
 ---
 

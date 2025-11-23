@@ -1,11 +1,18 @@
+
 ---
-title: AZ-104 Deep Dive — Azure AD Overview & Tenant Fundamentals
-description: Foundations of Azure Active Directory: tenants, domains, directory roles and licensing.
+title: "AZ-104 Deep Dive — Azure AD Overview & Tenant Fundamentals"
+description: "Foundations of Azure Active Directory: tenants, domains, directory roles and licensing."
 date: 2025-11-23
-author: Kasi Suresh
-tags: [Azure, AZ-104, AzureAD, Identity]
-type: "az-104"
+author: "Kasi Suresh"
+tags:
+  - Azure
+  - "AZ-104"
+  - AzureAD
+  - Identity
+type: "Azure"
 ---
+
+
 
 # Azure AD Overview & Tenant Fundamentals
 

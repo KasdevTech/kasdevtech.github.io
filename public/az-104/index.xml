@@ -1,19 +1,165 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AZ-104 Series on KasdevTech</title>
+    <title>KasdevTech</title>
     <link>http://localhost:1313/az-104/</link>
-    <description>Recent content in AZ-104 Series on KasdevTech</description>
+    <description>Recent content on KasdevTech</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/az-104/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator</title>
-      <link>http://localhost:1313/az-104/intro/</link>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/az-104/intro/</guid>
-      <description>Get started with the AZ-104 certification journey. Learn what the exam covers, who should take it, study strategies, and tools required to pass confidently.</description>
+      <title>Az 104 Series1 1.1 Azure Ad Overview</title>
+      <link>http://localhost:1313/az-104/series1-identity/az-104-series1-1.1-azure-ad-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series1-identity/az-104-series1-1.1-azure-ad-overview/</guid>
+      <description>Deep dive content for Az 104 Series1 1.1 Azure Ad Overview</description>
+    </item>
+    <item>
+      <title>Az 104 Series1 1.2 Users Groups Guest</title>
+      <link>http://localhost:1313/az-104/series1-identity/az-104-series1-1.2-users-groups-guest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series1-identity/az-104-series1-1.2-users-groups-guest/</guid>
+      <description>Deep dive content for Az 104 Series1 1.2 Users Groups Guest</description>
+    </item>
+    <item>
+      <title>Az 104 Series1 1.3 Authentication Mfa Conditional</title>
+      <link>http://localhost:1313/az-104/series1-identity/az-104-series1-1.3-authentication-mfa-conditional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series1-identity/az-104-series1-1.3-authentication-mfa-conditional/</guid>
+      <description>Deep dive content for Az 104 Series1 1.3 Authentication Mfa Conditional</description>
+    </item>
+    <item>
+      <title>Az 104 Series1 1.4 Managed Identities</title>
+      <link>http://localhost:1313/az-104/series1-identity/az-104-series1-1.4-managed-identities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series1-identity/az-104-series1-1.4-managed-identities/</guid>
+      <description>Deep dive content for Az 104 Series1 1.4 Managed Identities</description>
+    </item>
+    <item>
+      <title>Az 104 Series2 2.1 Rbac Overview</title>
+      <link>http://localhost:1313/az-104/series2-rbac/az-104-series2-2.1-rbac-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series2-rbac/az-104-series2-2.1-rbac-overview/</guid>
+      <description>Deep dive content for Az 104 Series2 2.1 Rbac Overview</description>
+    </item>
+    <item>
+      <title>Az 104 Series2 2.2 Role Assignments Automation</title>
+      <link>http://localhost:1313/az-104/series2-rbac/az-104-series2-2.2-role-assignments-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series2-rbac/az-104-series2-2.2-role-assignments-automation/</guid>
+      <description>Deep dive content for Az 104 Series2 2.2 Role Assignments Automation</description>
+    </item>
+    <item>
+      <title>Az 104 Series2 2.3 Troubleshooting Access</title>
+      <link>http://localhost:1313/az-104/series2-rbac/az-104-series2-2.3-troubleshooting-access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series2-rbac/az-104-series2-2.3-troubleshooting-access/</guid>
+      <description>Deep dive content for Az 104 Series2 2.3 Troubleshooting Access</description>
+    </item>
+    <item>
+      <title>Az 104 Series3 3.1 Management Groups Policy</title>
+      <link>http://localhost:1313/az-104/series3-governance/az-104-series3-3.1-management-groups-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series3-governance/az-104-series3-3.1-management-groups-policy/</guid>
+      <description>Deep dive content for Az 104 Series3 3.1 Management Groups Policy</description>
+    </item>
+    <item>
+      <title>Az 104 Series3 3.2 Policy Compliance Realworld</title>
+      <link>http://localhost:1313/az-104/series3-governance/az-104-series3-3.2-policy-compliance-realworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series3-governance/az-104-series3-3.2-policy-compliance-realworld/</guid>
+      <description>Deep dive content for Az 104 Series3 3.2 Policy Compliance Realworld</description>
+    </item>
+    <item>
+      <title>Az 104 Series3 3.3 Blueprints Locks</title>
+      <link>http://localhost:1313/az-104/series3-governance/az-104-series3-3.3-blueprints-locks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series3-governance/az-104-series3-3.3-blueprints-locks/</guid>
+      <description>Deep dive content for Az 104 Series3 3.3 Blueprints Locks</description>
+    </item>
+    <item>
+      <title>Az 104 Series4 4.1 Storage Accounts Basics</title>
+      <link>http://localhost:1313/az-104/series4-storage/az-104-series4-4.1-storage-accounts-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series4-storage/az-104-series4-4.1-storage-accounts-basics/</guid>
+      <description>Deep dive content for Az 104 Series4 4.1 Storage Accounts Basics</description>
+    </item>
+    <item>
+      <title>Az 104 Series4 4.2 Blobs Files Secure Access</title>
+      <link>http://localhost:1313/az-104/series4-storage/az-104-series4-4.2-blobs-files-secure-access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series4-storage/az-104-series4-4.2-blobs-files-secure-access/</guid>
+      <description>Deep dive content for Az 104 Series4 4.2 Blobs Files Secure Access</description>
+    </item>
+    <item>
+      <title>Az 104 Series4 4.3 Lifecycle Replication</title>
+      <link>http://localhost:1313/az-104/series4-storage/az-104-series4-4.3-lifecycle-replication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series4-storage/az-104-series4-4.3-lifecycle-replication/</guid>
+      <description>Deep dive content for Az 104 Series4 4.3 Lifecycle Replication</description>
+    </item>
+    <item>
+      <title>Az 104 Series4 4.4 Backup Recovery Scenarios</title>
+      <link>http://localhost:1313/az-104/series4-storage/az-104-series4-4.4-backup-recovery-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series4-storage/az-104-series4-4.4-backup-recovery-scenarios/</guid>
+      <description>Deep dive content for Az 104 Series4 4.4 Backup Recovery Scenarios</description>
+    </item>
+    <item>
+      <title>Az 104 Series5 5.1 Vm Deployment</title>
+      <link>http://localhost:1313/az-104/series5-compute/az-104-series5-5.1-vm-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series5-compute/az-104-series5-5.1-vm-deployment/</guid>
+      <description>Deep dive content for Az 104 Series5 5.1 Vm Deployment</description>
+    </item>
+    <item>
+      <title>Az 104 Series5 5.2 Scale Sets Availability</title>
+      <link>http://localhost:1313/az-104/series5-compute/az-104-series5-5.2-scale-sets-availability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series5-compute/az-104-series5-5.2-scale-sets-availability/</guid>
+      <description>Deep dive content for Az 104 Series5 5.2 Scale Sets Availability</description>
+    </item>
+    <item>
+      <title>Az 104 Series5 5.3 Managed Identity Vmsextensions</title>
+      <link>http://localhost:1313/az-104/series5-compute/az-104-series5-5.3-managed-identity-vmsextensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series5-compute/az-104-series5-5.3-managed-identity-vmsextensions/</guid>
+      <description>Deep dive content for Az 104 Series5 5.3 Managed Identity Vmsextensions</description>
+    </item>
+    <item>
+      <title>Az 104 Series5 5.4 Automation And Cost Optimization</title>
+      <link>http://localhost:1313/az-104/series5-compute/az-104-series5-5.4-automation-and-cost-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series5-compute/az-104-series5-5.4-automation-and-cost-optimization/</guid>
+      <description>Deep dive content for Az 104 Series5 5.4 Automation And Cost Optimization</description>
+    </item>
+    <item>
+      <title>Az 104 Series6 6.1 Vnet Basics</title>
+      <link>http://localhost:1313/az-104/series6-networking/az-104-series6-6.1-vnet-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series6-networking/az-104-series6-6.1-vnet-basics/</guid>
+      <description>Deep dive content for Az 104 Series6 6.1 Vnet Basics</description>
+    </item>
+    <item>
+      <title>Az 104 Series6 6.2 Nsg Routing</title>
+      <link>http://localhost:1313/az-104/series6-networking/az-104-series6-6.2-nsg-routing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series6-networking/az-104-series6-6.2-nsg-routing/</guid>
+      <description>Deep dive content for Az 104 Series6 6.2 Nsg Routing</description>
+    </item>
+    <item>
+      <title>Az 104 Series6 6.3 Loadbalancers Appgw</title>
+      <link>http://localhost:1313/az-104/series6-networking/az-104-series6-6.3-loadbalancers-appgw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series6-networking/az-104-series6-6.3-loadbalancers-appgw/</guid>
+      <description>Deep dive content for Az 104 Series6 6.3 Loadbalancers Appgw</description>
+    </item>
+    <item>
+      <title>Az 104 Series6 6.4 Dns Peering Troubleshooting</title>
+      <link>http://localhost:1313/az-104/series6-networking/az-104-series6-6.4-dns-peering-troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/az-104/series6-networking/az-104-series6-6.4-dns-peering-troubleshooting/</guid>
+      <description>Deep dive content for Az 104 Series6 6.4 Dns Peering Troubleshooting</description>
     </item>
   </channel>
 </rss>

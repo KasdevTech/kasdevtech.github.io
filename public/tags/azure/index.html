@@ -161,21 +161,6 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator The AZ-104: Microsoft Azure Administrator certification is one of the most popular cloud certifications offered by Microsoft. It validates your skills in managing cloud services like compute, networking, storage, and security in Azure.
-If you’re looking to grow your career as a Cloud Administrator, System Administrator, or DevOps Engineer, this certification is the perfect step forward.
-What is the AZ-104 Exam? The AZ-104 exam tests your ability to manage Azure resources and services in a production environment. It measures your practical knowledge in:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-23 00:00:00 +0000 UTC'>September 23, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
-  <a class="entry-link" aria-label="post link to AZ-104 Exam Guide — Introduction to Microsoft Azure Administrator" href="http://localhost:1313/az-104/intro/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">Terraform Import in Azure — Fixing Out-of-Band Changes
     </h2>
   </header>
@@ -297,6 +282,22 @@ Key Features: Central Hub VNet with: VPN Gateway Azure Firewall or NVA DDoS Prot
   </div>
   <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
   <a class="entry-link" aria-label="post link to Azure Network Reference Architectures" href="http://localhost:1313/azure/azure-network-reference-architectures/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Azure Networking Cost Optimization &amp; Monitoring Best Practices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Azure Networking Cost Optimization &amp; Monitoring Azure networking is powerful — but can get expensive if you’re not careful.
+This post covers:
+What costs the most in Azure networking? How to reduce cost without compromising security Tools to monitor and alert for network health What Costs the Most? Resource Cost Impact Azure Firewall $$$ — Pay per deployment &#43; GB used ExpressRoute $$$ — Monthly base &#43; bandwidth Data Transfer Charges for traffic between regions or zones VPN Gateway Based on SKU and time Peering Inbound = Free, Outbound = $$$ Public IP Basic = Free, Standard = Billable Cost Optimization Tips Use NAT Gateway Instead of Load Balancer SNAT Avoid port exhaustion More scalable for outbound traffic Predictable IP and cost Consolidate Firewalls in Hub One Azure Firewall in the Hub VNet Route all traffic through it Use UDRs and ASGs to enforce control Avoid Cross-Region Traffic Peering across regions = paid outbound Keep apps and databases in same region when possible Use Azure Cost Management Enable tags on VNet, Firewall, NAT Gateway Group by project/team/app Set up budgets and alerts Monitoring Tools Tool Use For Network Watcher Packet capture, NSG flow logs Azure Monitor Metrics for Firewall, VPN, Gateway Log Analytics Query NSG and Firewall logs Connection Monitor End-to-end checks (latency, loss) Monitor These Metrics Firewall throughput NAT Gateway SNAT ports used VPN Tunnel status (S2S, P2S) Inbound/outbound bytes per VNet Number of dropped packets (NSG) Set Alerts (Examples) Alert if VPN Gateway is down Alert if Azure Firewall hits 80% throughput Alert on unexpected data transfer spikes Final Tip Secure, scalable Azure networking is possible without breaking the bank.
+But it requires:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-08 00:00:00 +0000 UTC'>July 8, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Kasi Suresh</footer>
+  <a class="entry-link" aria-label="post link to Azure Networking Cost Optimization & Monitoring Best Practices" href="http://localhost:1313/azure/azure-networking-cost-optimization/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

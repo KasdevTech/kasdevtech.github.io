@@ -1,5 +1,5 @@
 ---
-title: AZ-104 Deep Dive — RBAC Overview & Role Fundamentals
+title: AZ-104 — RBAC Overview & Role Fundamentals
 description: Complete breakdown of Azure Role-Based Access Control (RBAC), role types, scopes, inheritance, evaluation logic, and real-world design patterns.
 author: Kasi Suresh
 tags: [Azure, AZ-104, RBAC, IAM]

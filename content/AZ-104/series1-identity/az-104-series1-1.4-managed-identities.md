@@ -1,5 +1,5 @@
 ---
-title: AZ-104 Deep Dive — Managed Identities for Azure Resources
+title: AZ-104 — Managed Identities for Azure Resources
 description: Use system-assigned and user-assigned managed identities to secure resource access without credentials.
 date: 2025-11-23
 author: Kasi Suresh

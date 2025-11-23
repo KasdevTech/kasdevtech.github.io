@@ -1,5 +1,5 @@
 ---
-title: AZ-104 Deep Dive — Managing Users, Groups & Guest Access
+title: AZ-104 — Managing Users, Groups & Guest Access
 description: Users, groups, dynamic membership and B2B guest collaboration in Azure AD for AZ-104.
 date: 2025-11-23
 author: Kasi Suresh

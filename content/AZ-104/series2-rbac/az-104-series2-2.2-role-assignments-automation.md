@@ -1,5 +1,5 @@
 ---
-title: AZ-104 Deep Dive — Role Assignments & Automation
+title: AZ-104 — Role Assignments & Automation
 description: Creating, assigning, removing, auditing and automating RBAC with CLI, PowerShell, ARM, Bicep and real-world enterprise workflows.
 author: Kasi Suresh
 tags: [Azure, AZ-104, RBAC, Automation]

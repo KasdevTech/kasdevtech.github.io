@@ -1,10 +1,10 @@
 ---
-title: AZ-104 Deep Dive — Authentication, MFA & Conditional Access
+title: AZ-104 — Authentication, MFA & Conditional Access
 description: Implementing authentication methods, MFA, Conditional Access and Identity Protection for AZ-104.
 date: 2025-11-23
 author: Kasi Suresh
 tags: [Azure, AZ-104, MFA, ConditionalAccess]
-type: "Azure"
+type: "az-104"
 ---
 
 # Authentication, MFA & Conditional Access

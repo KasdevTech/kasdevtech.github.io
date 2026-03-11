@@ -1,47 +1,44 @@
 baseURL = "https://kasdevtech.github.io/"
 languageCode = "en-us"
 title = "KasdevTech"
-theme = "PaperMod"
+theme = "clarity"
 
 enableRobotsTXT = true
-enableInlineShortcodes = true
-summaryLength = 70
+summaryLength = 90
 
-ignoreLogs = ['warning-goldmark-raw-html']
+[pagination]
+  pagerSize = 10
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = false
+    style = "github"
 
 [params]
-  env = "production"
-  author = "Kasi Suresh"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowToc = true
-  ShowCodeCopyButtons = true
-  mainSections = ["azure", "az-104", "terraform", "finops", "devops", "ai"]
+  introDescription = "Enterprise-grade cloud and AI engineering blogs on Azure, DevOps, FinOps, Terraform, and modern AI platforms."
+  description = "KasdevTech publishes practical enterprise cloud and AI articles with real implementation guidance."
+  keywords = ["Azure", "AI", "LangChain", "MCP", "DevOps", "FinOps", "Terraform", "Cloud"]
+
+  mainSections = ["AI", "Azure", "Devops", "Finops", "Terraform", "AZ-104"]
+  blogDir = "AI"
+
+  logo = "images/kasdev.png"
+  centerLogo = false
+  mobileNavigation = "left"
+  enforceLightMode = true
+
+  codeMaxLines = 12
+  codeLineNumbers = false
+  numberOfTagsShown = 18
+
   customCSS = ["css/custom.css"]
 
-[params.homeInfoParams]
-  Title = "Welcome to KasdevTech ☁️ "
-  Content = "Cloud-native blogs on Azure, DevOps, FinOps & more."
-
-[params.assets]
-  logo = "/images/kasdev.png"
-  
-
-[params.label]
-  icon = "/images/kasdev.png"
-  text = "KasdevTech"
-
-[params.profileMode]
-  enabled = false
-  title = "KasdevTech"
-  subtitle = "Enterprise-grade cloud content and tools for Azure, DevOps, FinOps, and AI"
-  imageUrl = "/images/kasdev.png"
-  imageTitle = "KasdevTech Logo"
+[params.author]
+  name = "Kasi Suresh"
 
 [menu]
   [[menu.main]]
@@ -74,12 +71,12 @@ ignoreLogs = ['warning-goldmark-raw-html']
   url = "/ai/"
   weight = 6
 
- [[menu.main]]
+  [[menu.main]]
   name = "Finsight"
   url = "/finsight/"
   weight = 7
 
- [[menu.main]]
+  [[menu.main]]
   name = "About"
   url = "/about/"
   weight = 8

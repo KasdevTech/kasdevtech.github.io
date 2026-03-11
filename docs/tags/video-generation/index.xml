@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video-Generation on KasdevTech</title>
     <link>https://kasdevtech.github.io/tags/video-generation/</link>
     <description>Recent content in Video-Generation on KasdevTech</description>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Nov 2025 12:00:00 +0530</lastBuildDate>
-    <atom:link href="https://kasdevtech.github.io/tags/video-generation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>OpenAI’s Sora Video Generator to Integrate with ChatGPT</title>
-      <link>https://kasdevtech.github.io/ai/openai-sora-video-generator-integration-chatgpt/</link>
-      <pubDate>Sun, 23 Nov 2025 12:00:00 +0530</pubDate>
-      <guid>https://kasdevtech.github.io/ai/openai-sora-video-generator-integration-chatgpt/</guid>
-      <description>OpenAI Sora integration into ChatGPT and practical enterprise implications.</description>
-    </item>
+    <lastBuildDate>Sun, 23 Nov 2025 12:00:00 +0530</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/video-generation/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

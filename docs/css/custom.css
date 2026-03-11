@@ -182,19 +182,32 @@ code.noClass {
 }
 
 @media (max-width: 769px) {
+  .nav_header {
+    padding: 0.35rem 0.55rem 0.2rem !important;
+  }
+
+  .nav {
+    flex-direction: column !important;
+    align-items: stretch;
+    gap: 0.2rem;
+  }
+
+  .nav_brand {
+    align-self: flex-start;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
   .nav_brand .logo {
-    height: 42px;
-    max-width: 140px;
+    height: 34px;
+    max-width: 122px;
   }
 
-  .nav,
   .nav_body {
+    display: flex !important;
     flex-direction: row !important;
-  }
-
-  .nav_body {
     position: static !important;
-    width: auto !important;
+    width: 100% !important;
     max-width: none !important;
     transform: none !important;
     left: auto !important;
@@ -202,7 +215,20 @@ code.noClass {
     bottom: auto !important;
     top: auto !important;
     background: transparent !important;
-    padding: 0 !important;
+    padding: 0.12rem 0 0.2rem !important;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 0.08rem;
+  }
+
+  .nav_parent {
+    margin: 0;
+  }
+
+  .nav_item {
+    font-size: 0.92rem;
+    padding: 0.34rem 0.56rem;
   }
 
   .nav_close {
@@ -214,6 +240,6 @@ code.noClass {
   }
 
   .follow {
-    margin-left: auto;
+    display: none !important;
   }
 }

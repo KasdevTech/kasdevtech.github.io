@@ -8,5 +8,43 @@
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
     <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/conditionalaccess/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AZ-104 — Authentication, MFA &amp; Conditional Access</title>
+      <link>https://kasdevtech.com/az-104/series1-identity/az-104-series1-1.3-authentication-mfa-conditional/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/az-104/series1-identity/az-104-series1-1.3-authentication-mfa-conditional/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;authentication-mfa--conditional-access&#34;&gt;Authentication, MFA &amp;amp; Conditional Access&lt;/h1&gt;
+&lt;p&gt;This post covers authentication protocols, password protection, MFA implementation, Conditional Access policies, Identity Protection and exam-ready examples.&lt;/p&gt;
+&lt;h2 id=&#34;authentication-protocols&#34;&gt;Authentication protocols&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OAuth 2.0&lt;/strong&gt;: authorization framework for token issuance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenID Connect&lt;/strong&gt;: identity layer on top of OAuth2 for SSO.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SAML 2.0&lt;/strong&gt;: legacy enterprise SSO.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kerberos/NTLM&lt;/strong&gt;: on-prem AD DS scenarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;password-policies--sspr&#34;&gt;Password policies &amp;amp; SSPR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable Self-Service Password Reset (SSPR) to reduce helpdesk load.&lt;/li&gt;
+&lt;li&gt;Combine with MFA for secure recovery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PowerShell (MSOnline / AzureAD):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Example: enable SSPR settings (via Graph / portal is common)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Use portal: Azure AD -&amp;gt; Password reset -&amp;gt; Properties -&amp;gt; Selected/All users&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;multi-factor-authentication-mfa&#34;&gt;Multi-Factor Authentication (MFA)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Enforce MFA for high-privilege users (admins).&lt;/li&gt;
+&lt;li&gt;Use Conditional Access to apply MFA only when needed (less friction).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;CLI: enable per-user MFA (example)&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

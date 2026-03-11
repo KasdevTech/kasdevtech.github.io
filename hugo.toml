@@ -24,7 +24,7 @@ summaryLength = 90
   description = "KasdevTech publishes practical enterprise cloud and AI articles with real implementation guidance."
   keywords = ["Azure", "AI", "LangChain", "MCP", "DevOps", "FinOps", "Terraform", "Cloud"]
 
-  mainSections = ["AI", "Azure", "Devops", "Finops", "Terraform", "AZ-104"]
+  mainSections = ["ai", "azure", "devops", "finops", "terraform", "az-104"]
   blogDir = "AI"
   mobileNavigation = "left"
   enforceLightMode = false

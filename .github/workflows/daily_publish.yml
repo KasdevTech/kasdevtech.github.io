@@ -1,0 +1,75 @@
+name: Daily AI Blog Publish
+
+env:
+  KASDEVTECH_REPO_TOKEN: ${{ secrets.KASDEVTECH_REPO_TOKEN }}
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 19:00 IST = 13:30 UTC
+    - cron: '30 13 * * *'
+
+jobs:
+  publish:
+    runs-on: [self-hosted, ollama]
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout GitHub Pages repo
+        uses: actions/checkout@v4
+        with:
+          repository: KasdevTech/kasdevtech.github.io
+          path: site_repo
+          token: ${{ env.KASDEVTECH_REPO_TOKEN }}
+
+      - name: Verify Ollama
+        run: |
+          ollama --version
+          ollama list
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r requirements.txt
+
+      - name: Configure Git Identity (site repo)
+        run: |
+          git -C site_repo config user.name "github-actions[bot]"
+          git -C site_repo config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run publisher
+        env:
+          OPENAI_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen2.5-coder:3b' }}
+          OPENAI_BASE_URL: http://127.0.0.1:11434/v1
+
+          PUBLISH_WORDPRESS: "false"
+          LINKEDIN_ENABLED: "false"
+
+          TIMEZONE: Asia/Kolkata
+          RUN_HOUR_24: 19
+          RUN_MINUTE: 0
+          POSTS_PER_RUN: 2
+          LOOKBACK_HOURS: 36
+          TOPICS: AI,MCP,Model Context Protocol,LangChain,LangGraph,LlamaIndex,OpenAI,Anthropic,Gemini,Vertex AI,Azure AI,Azure OpenAI,Azure Databricks,Microsoft Fabric,AWS AI,Amazon Bedrock,SageMaker,Google Cloud AI,Google Cloud,Cloudflare AI,Kubernetes,Docker,Terraform,DevSecOps,Observability,Datadog,Prometheus
+          EXTRA_RSS_FEEDS: ${{ secrets.EXTRA_RSS_FEEDS }}
+          GITHUB_PAGES_REPO_PATH: ${{ github.workspace }}/site_repo
+          GITHUB_PAGES_POSTS_DIR: content/AI
+          GITHUB_PAGES_AUTO_COMMIT: "true"
+          GITHUB_PAGES_AUTO_PUSH: "true"
+          PUBLISHED_STATE_FILE: ${{ github.workspace }}/site_repo/.agent_state/published_sources.txt
+        run: python3 -m aiblog_agent.main run-once
+
+      - name: Regenerate Hugo docs and push (for branch-based Pages)
+        run: |
+          cd site_repo
+          hugo -d docs
+          if ! git diff --quiet -- docs; then
+            git add docs
+            git commit -m "Regenerate Hugo docs from AI publish run"
+            git push
+          else
+            echo "No docs changes to commit"
+          fi

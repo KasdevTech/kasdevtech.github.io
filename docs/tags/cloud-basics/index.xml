@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Basics on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/cloud-basics/</link>
+    <link>https://kasdevtech.com/tags/cloud-basics/</link>
     <description>Recent content in Cloud Basics on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/cloud-basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/cloud-basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Azure Virtual Network Basics – Public vs Private Networks</title>
-      <link>https://kasdevtech.github.io/azure/azure-network-basics/</link>
+      <link>https://kasdevtech.com/azure/azure-network-basics/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid>
+      <guid>https://kasdevtech.com/azure/azure-network-basics/</guid>
       <description>
         
           

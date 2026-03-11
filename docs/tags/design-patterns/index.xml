@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design Patterns on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/design-patterns/</link>
+    <link>https://kasdevtech.com/tags/design-patterns/</link>
     <description>Recent content in Design Patterns on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/design-patterns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Network Reference Architectures</title>
-      <link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link>
+      <link>https://kasdevtech.com/azure/azure-network-reference-architectures/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid>
+      <guid>https://kasdevtech.com/azure/azure-network-reference-architectures/</guid>
       <description>
         
           

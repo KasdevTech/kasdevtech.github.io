@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/security/</link>
+    <link>https://kasdevtech.com/tags/security/</link>
     <description>Recent content in Security on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Private Endpoint vs Service Endpoint</title>
-      <link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link>
+      <link>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid>
+      <guid>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</guid>
       <description>
         
           
@@ -42,10 +42,10 @@ If Service Endpoint is enabled for &amp;#34;Microsoft.Storage&amp;#34;, your sub
     
     <item>
       <title> Azure NSG vs ASG – Network Security for VNets </title>
-      <link>https://kasdevtech.github.io/azure/nsg-asg/</link>
+      <link>https://kasdevtech.com/azure/nsg-asg/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/nsg-asg/</guid>
+      <guid>https://kasdevtech.com/azure/nsg-asg/</guid>
       <description>
         
           
@@ -103,10 +103,10 @@ In Azure, the two main tools for this are:&lt;/p&gt;
     
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
-      <link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link>
+      <link>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid>
+      <guid>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</guid>
       <description>
         
           

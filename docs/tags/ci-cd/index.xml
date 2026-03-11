@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ci-Cd on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/ci-cd/</link>
+    <link>https://kasdevtech.com/tags/ci-cd/</link>
     <description>Recent content in Ci-Cd on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 11:20:00 +0530</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/ci-cd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jun 2025 11:20:00 +0530</lastBuildDate><atom:link href="https://kasdevtech.com/tags/ci-cd/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

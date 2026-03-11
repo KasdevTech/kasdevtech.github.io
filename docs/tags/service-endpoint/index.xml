@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Service Endpoint on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/service-endpoint/</link>
+    <link>https://kasdevtech.com/tags/service-endpoint/</link>
     <description>Recent content in Service Endpoint on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/service-endpoint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/service-endpoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Private Endpoint vs Service Endpoint</title>
-      <link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link>
+      <link>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid>
+      <guid>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</guid>
       <description>
         
           

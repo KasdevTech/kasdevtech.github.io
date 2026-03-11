@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure on KasdevTech</title>
-    <link>https://kasdevtech.github.io/categories/azure/</link>
+    <link>https://kasdevtech.com/categories/azure/</link>
     <description>Recent content in Azure on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners</title>
-      <link>https://kasdevtech.github.io/azure/application-gateway-502-error/</link>
+      <link>https://kasdevtech.com/azure/application-gateway-502-error/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/application-gateway-502-error/</guid>
+      <guid>https://kasdevtech.com/azure/application-gateway-502-error/</guid>
       <description>
         
           
@@ -37,10 +37,10 @@ This means App Gateway couldn’t reach your backend &lt;strong&gt;properly&lt;/
     
     <item>
       <title> AKS Node Disk Pressure </title>
-      <link>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</link>
+      <link>https://kasdevtech.com/azure/aks-node-disk-pressure/</link>
       <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</guid>
+      <guid>https://kasdevtech.com/azure/aks-node-disk-pressure/</guid>
       <description>
         
           
@@ -68,10 +68,10 @@ Here’s how we fixed it step-by-step:&lt;/p&gt;
     
     <item>
       <title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title>
-      <link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>
+      <link>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid>
+      <guid>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid>
       <description>
         
           
@@ -96,10 +96,10 @@ But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p&
     
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
-      <link>https://kasdevtech.github.io/azure/bicep-getting-started/</link>
+      <link>https://kasdevtech.com/azure/bicep-getting-started/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid>
+      <guid>https://kasdevtech.com/azure/bicep-getting-started/</guid>
       <description>
         
           
@@ -145,10 +145,10 @@ Combine with Azure Policy for compliance&lt;/p&gt;
     
     <item>
       <title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title>
-      <link>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link>
+      <link>https://kasdevtech.com/ai/10-prompt-engineering-tips-cloud-architects/</link>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid>
+      <guid>https://kasdevtech.com/ai/10-prompt-engineering-tips-cloud-architects/</guid>
       <description>
         
           
@@ -170,10 +170,10 @@ Combine with Azure Policy for compliance&lt;/p&gt;
     
     <item>
       <title>Building an AI-Powered App Using Azure OpenAI Services</title>
-      <link>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</link>
+      <link>https://kasdevtech.com/azure/chatbot-with-react-frontend/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/chatbot-with-react-frontend/</guid>
+      <guid>https://kasdevtech.com/azure/chatbot-with-react-frontend/</guid>
       <description>
         
           
@@ -195,10 +195,10 @@ Combine with Azure Policy for compliance&lt;/p&gt;
     
     <item>
       <title>How to Resize Azure Virtual Machines</title>
-      <link>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</link>
+      <link>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</guid>
+      <guid>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</guid>
       <description>
         
           
@@ -233,10 +233,10 @@ Combine with Azure Policy for compliance&lt;/p&gt;
     
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
-      <link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link>
+      <link>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid>
+      <guid>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</guid>
       <description>
         
           

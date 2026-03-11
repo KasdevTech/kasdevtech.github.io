@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/networking/</link>
+    <link>https://kasdevtech.com/tags/networking/</link>
     <description>Recent content in Networking on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Network Reference Architectures</title>
-      <link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link>
+      <link>https://kasdevtech.com/azure/azure-network-reference-architectures/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid>
+      <guid>https://kasdevtech.com/azure/azure-network-reference-architectures/</guid>
       <description>
         
           
@@ -55,10 +55,10 @@ Let’s bring it all together with real Azure networking architectures you can &
     
     <item>
       <title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title>
-      <link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link>
+      <link>https://kasdevtech.com/azure/azure-networking-cost-optimization/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid>
+      <guid>https://kasdevtech.com/azure/azure-networking-cost-optimization/</guid>
       <description>
         
           
@@ -184,10 +184,10 @@ But it requires:&lt;/p&gt;
     
     <item>
       <title>Azure Private Endpoint vs Service Endpoint</title>
-      <link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link>
+      <link>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid>
+      <guid>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</guid>
       <description>
         
           
@@ -217,10 +217,10 @@ If Service Endpoint is enabled for &amp;#34;Microsoft.Storage&amp;#34;, your sub
     
     <item>
       <title> Azure NSG vs ASG – Network Security for VNets </title>
-      <link>https://kasdevtech.github.io/azure/nsg-asg/</link>
+      <link>https://kasdevtech.com/azure/nsg-asg/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/nsg-asg/</guid>
+      <guid>https://kasdevtech.com/azure/nsg-asg/</guid>
       <description>
         
           
@@ -278,10 +278,10 @@ In Azure, the two main tools for this are:&lt;/p&gt;
     
     <item>
       <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
-      <link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link>
+      <link>https://kasdevtech.com/azure/azure-routing-simplified/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid>
+      <guid>https://kasdevtech.com/azure/azure-routing-simplified/</guid>
       <description>
         
           
@@ -329,10 +329,10 @@ That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, i
     
     <item>
       <title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title>
-      <link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link>
+      <link>https://kasdevtech.com/azure/azure-vpn-gateway-vs-expressroute/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid>
+      <guid>https://kasdevtech.com/azure/azure-vpn-gateway-vs-expressroute/</guid>
       <description>
         
           
@@ -364,10 +364,10 @@ That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, i
     
     <item>
       <title> Azure Virtual Network Basics – Public vs Private Networks</title>
-      <link>https://kasdevtech.github.io/azure/azure-network-basics/</link>
+      <link>https://kasdevtech.com/azure/azure-network-basics/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid>
+      <guid>https://kasdevtech.com/azure/azure-network-basics/</guid>
       <description>
         
           
@@ -399,10 +399,10 @@ Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;
     
     <item>
       <title>Azure Hub-Spoke Architecture &amp; VNet Peering</title>
-      <link>https://kasdevtech.github.io/azure/hub-spoke/</link>
+      <link>https://kasdevtech.com/azure/hub-spoke/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/hub-spoke/</guid>
+      <guid>https://kasdevtech.com/azure/hub-spoke/</guid>
       <description>
         
           
@@ -431,10 +431,10 @@ Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;
     
     <item>
       <title>How to Use Azure Private Endpoints for Secure Networking</title>
-      <link>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</link>
+      <link>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/how-to-use-azure-private-endpoints/</guid>
+      <guid>https://kasdevtech.com/azure/how-to-use-azure-private-endpoints/</guid>
       <description>
         
           

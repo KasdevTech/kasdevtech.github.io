@@ -1,4 +1,4 @@
-baseURL = "https://kasdevtech.github.io/"
+baseURL = "https://kasdevtech.com/"
 languageCode = "en-us"
 title = "KasdevTech"
 theme = "clarity"
@@ -25,9 +25,6 @@ summaryLength = 90
 
   mainSections = ["AI", "Azure", "Devops", "Finops", "Terraform", "AZ-104"]
   blogDir = "AI"
-
-  logo = "images/kasdev.png"
-  centerLogo = false
   mobileNavigation = "left"
   enforceLightMode = false
 

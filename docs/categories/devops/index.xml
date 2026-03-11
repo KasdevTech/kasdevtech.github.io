@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DevOps on KasdevTech</title>
-    <link>https://kasdevtech.github.io/categories/devops/</link>
+    <link>https://kasdevtech.com/categories/devops/</link>
     <description>Recent content in DevOps on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title>
-      <link>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>
+      <link>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid>
+      <guid>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid>
       <description>
         
           

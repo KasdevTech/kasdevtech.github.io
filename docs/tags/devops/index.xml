@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/devops/</link>
+    <link>https://kasdevtech.com/tags/devops/</link>
     <description>Recent content in Devops on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing High CPU and Memory Usage in Azure App Service</title>
-      <link>https://kasdevtech.github.io/azure/appservice-high-cpu/</link>
+      <link>https://kasdevtech.com/azure/appservice-high-cpu/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/appservice-high-cpu/</guid>
+      <guid>https://kasdevtech.com/azure/appservice-high-cpu/</guid>
       <description>
         
           
@@ -38,10 +38,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Troubleshooting Azure App Service Startup Failures</title>
-      <link>https://kasdevtech.github.io/azure/appservice/</link>
+      <link>https://kasdevtech.com/azure/appservice/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/appservice/</guid>
+      <guid>https://kasdevtech.com/azure/appservice/</guid>
       <description>
         
           
@@ -65,10 +65,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
-      <link>https://kasdevtech.github.io/azure/bicep-getting-started/</link>
+      <link>https://kasdevtech.com/azure/bicep-getting-started/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid>
+      <guid>https://kasdevtech.com/azure/bicep-getting-started/</guid>
       <description>
         
           
@@ -114,10 +114,10 @@ Combine with Azure Policy for compliance&lt;/p&gt;
     
     <item>
       <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
-      <link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link>
+      <link>https://kasdevtech.com/azure/how-to-start-cloud-journey-2025/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid>
+      <guid>https://kasdevtech.com/azure/how-to-start-cloud-journey-2025/</guid>
       <description>
         
           

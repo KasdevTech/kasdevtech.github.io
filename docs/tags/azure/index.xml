@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Azure on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/azure/</link>
+    <link>https://kasdevtech.com/tags/azure/</link>
     <description>Recent content in Azure on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AZ-104 — Azure AD Overview &amp; Tenant Fundamentals</title>
-      <link>https://kasdevtech.github.io/az-104/series1-identity/az-104-series1-1.1-azure-ad-overview/</link>
+      <link>https://kasdevtech.com/az-104/series1-identity/az-104-series1-1.1-azure-ad-overview/</link>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/az-104/series1-identity/az-104-series1-1.1-azure-ad-overview/</guid>
+      <guid>https://kasdevtech.com/az-104/series1-identity/az-104-series1-1.1-azure-ad-overview/</guid>
       <description>
         
           
@@ -68,10 +68,10 @@
     
     <item>
       <title>Terraform Import in Azure — Fixing Out-of-Band Changes</title>
-      <link>https://kasdevtech.github.io/terraform/out-of-band-changes/</link>
+      <link>https://kasdevtech.com/terraform/out-of-band-changes/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/out-of-band-changes/</guid>
+      <guid>https://kasdevtech.com/terraform/out-of-band-changes/</guid>
       <description>
         
           
@@ -84,10 +84,10 @@
     
     <item>
       <title>Fixing High CPU and Memory Usage in Azure App Service</title>
-      <link>https://kasdevtech.github.io/azure/appservice-high-cpu/</link>
+      <link>https://kasdevtech.com/azure/appservice-high-cpu/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/appservice-high-cpu/</guid>
+      <guid>https://kasdevtech.com/azure/appservice-high-cpu/</guid>
       <description>
         
           
@@ -113,10 +113,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Troubleshooting Azure App Service Startup Failures</title>
-      <link>https://kasdevtech.github.io/azure/appservice/</link>
+      <link>https://kasdevtech.com/azure/appservice/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/appservice/</guid>
+      <guid>https://kasdevtech.com/azure/appservice/</guid>
       <description>
         
           
@@ -140,10 +140,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title>
-      <link>https://kasdevtech.github.io/terraform/terraform-role-assigment/</link>
+      <link>https://kasdevtech.com/terraform/terraform-role-assigment/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/terraform-role-assigment/</guid>
+      <guid>https://kasdevtech.com/terraform/terraform-role-assigment/</guid>
       <description>
         
           
@@ -156,10 +156,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Automate Azure Cleanup — Before It Costs</title>
-      <link>https://kasdevtech.github.io/azure/azurecleanup/</link>
+      <link>https://kasdevtech.com/azure/azurecleanup/</link>
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azurecleanup/</guid>
+      <guid>https://kasdevtech.com/azure/azurecleanup/</guid>
       <description>
         
           
@@ -185,10 +185,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title>
-      <link>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</link>
+      <link>https://kasdevtech.com/terraform/terraform-destroy-fails-in-azure/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</guid>
+      <guid>https://kasdevtech.com/terraform/terraform-destroy-fails-in-azure/</guid>
       <description>
         
           
@@ -201,10 +201,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Terraform State Corruption in Azure — Recovered</title>
-      <link>https://kasdevtech.github.io/terraform/statefile-corrupted/</link>
+      <link>https://kasdevtech.com/terraform/statefile-corrupted/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/statefile-corrupted/</guid>
+      <guid>https://kasdevtech.com/terraform/statefile-corrupted/</guid>
       <description>
         
           
@@ -217,10 +217,10 @@ Look for spikes during:&lt;/p&gt;
     
     <item>
       <title>Azure Network Reference Architectures</title>
-      <link>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</link>
+      <link>https://kasdevtech.com/azure/azure-network-reference-architectures/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-network-reference-architectures/</guid>
+      <guid>https://kasdevtech.com/azure/azure-network-reference-architectures/</guid>
       <description>
         
           
@@ -263,10 +263,10 @@ Let’s bring it all together with real Azure networking architectures you can &
     
     <item>
       <title>Azure Networking Cost Optimization &amp; Monitoring Best Practices</title>
-      <link>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</link>
+      <link>https://kasdevtech.com/azure/azure-networking-cost-optimization/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-networking-cost-optimization/</guid>
+      <guid>https://kasdevtech.com/azure/azure-networking-cost-optimization/</guid>
       <description>
         
           
@@ -392,10 +392,10 @@ But it requires:&lt;/p&gt;
     
     <item>
       <title>Azure Private Endpoint vs Service Endpoint</title>
-      <link>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</link>
+      <link>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/privateendpoint-serviceendpoint/</guid>
+      <guid>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</guid>
       <description>
         
           
@@ -425,10 +425,10 @@ If Service Endpoint is enabled for &amp;#34;Microsoft.Storage&amp;#34;, your sub
     
     <item>
       <title> Azure NSG vs ASG – Network Security for VNets </title>
-      <link>https://kasdevtech.github.io/azure/nsg-asg/</link>
+      <link>https://kasdevtech.com/azure/nsg-asg/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/nsg-asg/</guid>
+      <guid>https://kasdevtech.com/azure/nsg-asg/</guid>
       <description>
         
           
@@ -486,10 +486,10 @@ In Azure, the two main tools for this are:&lt;/p&gt;
     
     <item>
       <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
-      <link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link>
+      <link>https://kasdevtech.com/azure/azure-routing-simplified/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid>
+      <guid>https://kasdevtech.com/azure/azure-routing-simplified/</guid>
       <description>
         
           
@@ -537,10 +537,10 @@ That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, i
     
     <item>
       <title>Azure VPN Gateway vs ExpressRoute – S2S vs P2S</title>
-      <link>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</link>
+      <link>https://kasdevtech.com/azure/azure-vpn-gateway-vs-expressroute/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-vpn-gateway-vs-expressroute/</guid>
+      <guid>https://kasdevtech.com/azure/azure-vpn-gateway-vs-expressroute/</guid>
       <description>
         
           
@@ -572,10 +572,10 @@ That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, i
     
     <item>
       <title> Azure Virtual Network Basics – Public vs Private Networks</title>
-      <link>https://kasdevtech.github.io/azure/azure-network-basics/</link>
+      <link>https://kasdevtech.com/azure/azure-network-basics/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-network-basics/</guid>
+      <guid>https://kasdevtech.com/azure/azure-network-basics/</guid>
       <description>
         
           
@@ -607,10 +607,10 @@ Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;
     
     <item>
       <title>Azure Hub-Spoke Architecture &amp; VNet Peering</title>
-      <link>https://kasdevtech.github.io/azure/hub-spoke/</link>
+      <link>https://kasdevtech.com/azure/hub-spoke/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/hub-spoke/</guid>
+      <guid>https://kasdevtech.com/azure/hub-spoke/</guid>
       <description>
         
           
@@ -639,10 +639,10 @@ Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;
     
     <item>
       <title>Azure Application Gateway 502 Error – Full Troubleshooting Guide for Beginners</title>
-      <link>https://kasdevtech.github.io/azure/application-gateway-502-error/</link>
+      <link>https://kasdevtech.com/azure/application-gateway-502-error/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/application-gateway-502-error/</guid>
+      <guid>https://kasdevtech.com/azure/application-gateway-502-error/</guid>
       <description>
         
           
@@ -667,10 +667,10 @@ This means App Gateway couldn’t reach your backend &lt;strong&gt;properly&lt;/
     
     <item>
       <title> AKS Node Disk Pressure </title>
-      <link>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</link>
+      <link>https://kasdevtech.com/azure/aks-node-disk-pressure/</link>
       <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/aks-node-disk-pressure/</guid>
+      <guid>https://kasdevtech.com/azure/aks-node-disk-pressure/</guid>
       <description>
         
           
@@ -698,10 +698,10 @@ Here’s how we fixed it step-by-step:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Azure Bicep for Infrastructure as Code</title>
-      <link>https://kasdevtech.github.io/azure/bicep-getting-started/</link>
+      <link>https://kasdevtech.com/azure/bicep-getting-started/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/bicep-getting-started/</guid>
+      <guid>https://kasdevtech.com/azure/bicep-getting-started/</guid>
       <description>
         
           
@@ -747,10 +747,10 @@ Combine with Azure Policy for compliance&lt;/p&gt;
     
     <item>
       <title>Prompt Engineering for Cloud Architects: 10 Powerful Tips</title>
-      <link>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</link>
+      <link>https://kasdevtech.com/ai/10-prompt-engineering-tips-cloud-architects/</link>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/ai/10-prompt-engineering-tips-cloud-architects/</guid>
+      <guid>https://kasdevtech.com/ai/10-prompt-engineering-tips-cloud-architects/</guid>
       <description>
         
           
@@ -772,10 +772,10 @@ Combine with Azure Policy for compliance&lt;/p&gt;
     
     <item>
       <title>Getting Started with Terraform on Azure</title>
-      <link>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</link>
+      <link>https://kasdevtech.com/terraform/getting-started-with-terraform-on-azure/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</guid>
+      <guid>https://kasdevtech.com/terraform/getting-started-with-terraform-on-azure/</guid>
       <description>
         
           
@@ -802,10 +802,10 @@ Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and 
     
     <item>
       <title>How to Resize Azure Virtual Machines</title>
-      <link>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</link>
+      <link>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/how-to-resize-azure-virtual-machines/</guid>
+      <guid>https://kasdevtech.com/azure/how-to-resize-azure-virtual-machines/</guid>
       <description>
         
           
@@ -840,10 +840,10 @@ Run &lt;code&gt;terraform init&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, and 
     
     <item>
       <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
-      <link>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</link>
+      <link>https://kasdevtech.com/azure/how-to-start-cloud-journey-2025/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/how-to-start-cloud-journey-2025/</guid>
+      <guid>https://kasdevtech.com/azure/how-to-start-cloud-journey-2025/</guid>
       <description>
         
           

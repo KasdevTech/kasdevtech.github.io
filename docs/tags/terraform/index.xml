@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terraform on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/terraform/</link>
+    <link>https://kasdevtech.com/tags/terraform/</link>
     <description>Recent content in Terraform on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/terraform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terraform Import in Azure — Fixing Out-of-Band Changes</title>
-      <link>https://kasdevtech.github.io/terraform/out-of-band-changes/</link>
+      <link>https://kasdevtech.com/terraform/out-of-band-changes/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/out-of-band-changes/</guid>
+      <guid>https://kasdevtech.com/terraform/out-of-band-changes/</guid>
       <description>
         
           
@@ -25,10 +25,10 @@
     
     <item>
       <title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title>
-      <link>https://kasdevtech.github.io/terraform/terraform-role-assigment/</link>
+      <link>https://kasdevtech.com/terraform/terraform-role-assigment/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/terraform-role-assigment/</guid>
+      <guid>https://kasdevtech.com/terraform/terraform-role-assigment/</guid>
       <description>
         
           
@@ -41,10 +41,10 @@
     
     <item>
       <title>Terraform Destroy Fails in Azure Due to Resource Dependencies</title>
-      <link>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</link>
+      <link>https://kasdevtech.com/terraform/terraform-destroy-fails-in-azure/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/terraform-destroy-fails-in-azure/</guid>
+      <guid>https://kasdevtech.com/terraform/terraform-destroy-fails-in-azure/</guid>
       <description>
         
           
@@ -57,10 +57,10 @@
     
     <item>
       <title>Terraform State Corruption in Azure — Recovered</title>
-      <link>https://kasdevtech.github.io/terraform/statefile-corrupted/</link>
+      <link>https://kasdevtech.com/terraform/statefile-corrupted/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/statefile-corrupted/</guid>
+      <guid>https://kasdevtech.com/terraform/statefile-corrupted/</guid>
       <description>
         
           
@@ -73,10 +73,10 @@
     
     <item>
       <title>Getting Started with Terraform on Azure</title>
-      <link>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</link>
+      <link>https://kasdevtech.com/terraform/getting-started-with-terraform-on-azure/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/terraform/getting-started-with-terraform-on-azure/</guid>
+      <guid>https://kasdevtech.com/terraform/getting-started-with-terraform-on-azure/</guid>
       <description>
         
           

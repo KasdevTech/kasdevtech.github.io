@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BGP on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/bgp/</link>
+    <link>https://kasdevtech.com/tags/bgp/</link>
     <description>Recent content in BGP on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/bgp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/bgp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
-      <link>https://kasdevtech.github.io/azure/azure-routing-simplified/</link>
+      <link>https://kasdevtech.com/azure/azure-routing-simplified/</link>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/azure/azure-routing-simplified/</guid>
+      <guid>https://kasdevtech.com/azure/azure-routing-simplified/</guid>
       <description>
         
           

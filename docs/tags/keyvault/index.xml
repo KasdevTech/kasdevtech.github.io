@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KeyVault on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/keyvault/</link>
+    <link>https://kasdevtech.com/tags/keyvault/</link>
     <description>Recent content in KeyVault on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/keyvault/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/keyvault/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RAG on KasdevTech</title>
-    <link>https://kasdevtech.github.io/tags/rag/</link>
+    <link>https://kasdevtech.com/tags/rag/</link>
     <description>Recent content in RAG on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.github.io/tags/rag/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/rag/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RAG (Retrieval-Augmented Generation) </title>
-      <link>https://kasdevtech.github.io/ai/rag/</link>
+      <link>https://kasdevtech.com/ai/rag/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/ai/rag/</guid>
+      <guid>https://kasdevtech.com/ai/rag/</guid>
       <description>
         
           
@@ -37,10 +37,10 @@
     
     <item>
       <title>How to Build Your Own AI Chatbot</title>
-      <link>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</link>
+      <link>https://kasdevtech.com/ai/build-ai-chatbot-2025/</link>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://kasdevtech.github.io/ai/build-ai-chatbot-2025/</guid>
+      <guid>https://kasdevtech.com/ai/build-ai-chatbot-2025/</guid>
       <description>
         
           

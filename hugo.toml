@@ -20,7 +20,7 @@ summaryLength = 90
     style = "github"
 
 [params]
-  logo = "images/kasdev-3d.png"
+  logo = "images/kasdev-square-3d.png"
   introDescription = "Enterprise-grade cloud and AI engineering blogs on Azure, DevOps, FinOps, Terraform, and modern AI platforms."
   description = "KasdevTech publishes practical enterprise cloud and AI articles with real implementation guidance."
   keywords = ["Azure", "AI", "LangChain", "MCP", "DevOps", "FinOps", "Terraform", "Cloud"]

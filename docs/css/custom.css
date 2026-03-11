@@ -82,8 +82,8 @@ body {
 .nav_brand .logo {
   display: block !important;
   width: auto;
-  height: 46px;
-  max-width: min(42vw, 250px);
+  height: 54px;
+  max-width: min(36vw, 200px);
   margin: 0 !important;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.45));
   transform: translateY(1px);
@@ -183,8 +183,8 @@ code.noClass {
 
 @media (max-width: 769px) {
   .nav_brand .logo {
-    height: 36px;
-    max-width: 172px;
+    height: 42px;
+    max-width: 140px;
   }
 
   .nav,

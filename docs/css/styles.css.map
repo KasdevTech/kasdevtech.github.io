@@ -1,18 +1,18 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/tmp/kdtheme",
+	"sourceRoot": "/tmp/kdcheck",
 	"sources": [
 		"themes/clarity/assets/sass/main.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_variables.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_override.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_fonts.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_base.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_components.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_utils.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_mobile.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_syntax.sass",
-		"../../../tmp/kdtheme/themes/clarity/assets/sass/_custom.sass"
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_variables.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_override.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_fonts.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_base.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_components.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_utils.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_mobile.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_syntax.sass",
+		"../../../tmp/kdcheck/themes/clarity/assets/sass/_custom.sass"
 	],
 	"sourcesContent": [
 		"$baseURL: 'https://kasdevtech.github.io/';\n$fontsPath: '../fonts/';\n$imagesPath: '../images/';\n$iconsPath: '../icons/';\n@import 'variables';\n@import 'override';\n@import 'fonts';\n@import 'base';\n@import 'components';\n@import 'utils';\n@import 'mobile';\n@import 'syntax';\n@import 'custom';\n",

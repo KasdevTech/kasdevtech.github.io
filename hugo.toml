@@ -29,7 +29,7 @@ summaryLength = 90
   logo = "images/kasdev.png"
   centerLogo = false
   mobileNavigation = "left"
-  enforceLightMode = true
+  enforceLightMode = false
 
   codeMaxLines = 12
   codeLineNumbers = false

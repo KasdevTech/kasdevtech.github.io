@@ -1,0 +1,29 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+  <div class="hero-kicker">Cloud Engineering Journal</div>
+  <header class="entry-header">
+    <h1>{{ .Title | markdownify }}</h1>
+  </header>
+  <div class="entry-content">
+    {{ .Content | markdownify }}
+  </div>
+
+  <div class="hero-actions">
+    <a class="hero-btn" href="/ai/">Explore AI</a>
+    <a class="hero-btn hero-btn-outline" href="/azure/">Read Azure</a>
+  </div>
+
+  <div class="topic-grid" aria-label="Topic quick links">
+    <a class="topic-chip" href="/ai/">AI</a>
+    <a class="topic-chip" href="/azure/">Azure</a>
+    <a class="topic-chip" href="/devops/">DevOps</a>
+    <a class="topic-chip" href="/finops/">FinOps</a>
+    <a class="topic-chip" href="/terraform/">Terraform</a>
+    <a class="topic-chip" href="/az-104/">AZ-104</a>
+  </div>
+
+  <footer class="entry-footer">
+    {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+  </footer>
+</article>
+{{- end -}}

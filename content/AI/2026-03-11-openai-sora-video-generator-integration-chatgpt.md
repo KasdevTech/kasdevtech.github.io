@@ -1,7 +1,7 @@
 ---
 title: "OpenAI’s Sora Video Generator to Integrate with ChatGPT"
-date: 2025-11-23T12:00:00+05:30
-lastmod: 2025-11-23T12:00:00+05:30
+date: 2026-03-11T19:00:00+05:30
+lastmod: 2026-03-11T19:00:00+05:30
 draft: false
 slug: "openai-sora-video-generator-integration-chatgpt"
 url: "/ai/openai-sora-video-generator-integration-chatgpt/"

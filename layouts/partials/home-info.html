@@ -1,13 +1,21 @@
-<section class="home-info" style="padding-top: 1rem; text-align: center;">
-  <h1>Welcome to KasdevTech 🚀</h1>
-  <p>Cloud-native blogs on Azure, DevOps, FinOps & AI</p>
+{{- with .Site.Params.homeInfoParams }}
+<article class="home-info">
+  <div class="hero-kicker">Cloud Engineering Journal</div>
+  <h1>{{ .Title | markdownify }}</h1>
+  <p>{{ .Content | markdownify }}</p>
 
-  <div style="margin-top: 1rem; font-size: 1.8rem;">
-    <a href="https://github.com/KasdevTech" target="_blank" style="margin: 0 10px;" title="GitHub">
-      <img src="/images/github.svg" alt="GitHub" style="height: 24px;">
-    </a>
-    <a href="https://linkedin.com/in/kasisureshdevarajugattu" target="_blank" style="margin: 0 10px;" title="LinkedIn">
-      <img src="/images/linkedin.svg" alt="LinkedIn" style="height: 24px;">
-    </a>
+  <div class="hero-actions">
+    <a class="hero-btn" href="/ai/">Explore AI</a>
+    <a class="hero-btn hero-btn-outline" href="/azure/">Read Azure</a>
   </div>
-</section>
+
+  <div class="topic-grid" aria-label="Topic quick links">
+    <a class="topic-chip" href="/ai/">AI</a>
+    <a class="topic-chip" href="/azure/">Azure</a>
+    <a class="topic-chip" href="/devops/">DevOps</a>
+    <a class="topic-chip" href="/finops/">FinOps</a>
+    <a class="topic-chip" href="/terraform/">Terraform</a>
+    <a class="topic-chip" href="/az-104/">AZ-104</a>
+  </div>
+</article>
+{{- end -}}

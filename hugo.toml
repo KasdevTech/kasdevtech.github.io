@@ -1,6 +1,7 @@
 baseURL = "https://kasdevtech.com/"
 languageCode = "en-us"
 title = "KasdevTech"
+copyright = "KASDEVTECH. All Rights Reserved"
 theme = "clarity"
 
 enableRobotsTXT = true

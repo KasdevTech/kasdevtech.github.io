@@ -67,13 +67,12 @@ body {
 .nav_brand {
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(14, 165, 233, 0.09);
-  padding: 0.35rem 0.6rem;
+  border: 0;
+  background: transparent;
+  padding: 0.1rem 0.15rem 0.1rem 0;
   margin-right: 0.4rem;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.96rem;
   letter-spacing: 0.01em;
   color: #f2f8ff;
   white-space: nowrap;
@@ -81,7 +80,13 @@ body {
 
 .nav_brand img,
 .nav_brand .logo {
-  display: none !important;
+  display: block !important;
+  width: auto;
+  height: 46px;
+  max-width: min(42vw, 250px);
+  margin: 0 !important;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.45));
+  transform: translateY(1px);
 }
 
 .nav_parent {
@@ -177,6 +182,11 @@ code.noClass {
 }
 
 @media (max-width: 769px) {
+  .nav_brand .logo {
+    height: 36px;
+    max-width: 172px;
+  }
+
   .nav,
   .nav_body {
     flex-direction: row !important;

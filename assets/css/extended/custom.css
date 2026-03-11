@@ -1,12 +1,23 @@
 :root {
   --brand-ink: #0f1a2e;
+  --brand-ink-soft: #273f59;
   --brand-accent: #0ea5e9;
   --brand-accent-2: #14b8a6;
+  --paper-bg: #f5f8fc;
+  --paper-card: #ffffff;
+  --paper-line: #dbe6f2;
   --card-border: rgba(13, 40, 78, 0.12);
 }
 
 .main {
   max-width: 980px;
+}
+
+.main,
+.list,
+.single,
+body {
+  background: var(--paper-bg);
 }
 
 .home-info {
@@ -140,6 +151,33 @@
   margin-inline: auto;
 }
 
+.post-single {
+  background: var(--paper-card);
+  border: 1px solid var(--paper-line);
+  border-radius: 18px;
+  box-shadow: 0 14px 42px rgba(15, 26, 46, 0.08);
+  padding: clamp(1rem, 2vw, 1.6rem);
+}
+
+.post-header {
+  border-bottom: 1px solid var(--paper-line);
+  margin-bottom: 1rem;
+  padding-bottom: 0.85rem;
+}
+
+.post-title {
+  color: var(--brand-ink);
+  font-size: clamp(1.7rem, 3.5vw, 2.35rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.post-description,
+.post-meta,
+.breadcrumbs {
+  color: #4b647e;
+}
+
 .post-content h1,
 .post-content h2,
 .post-content h3 {
@@ -157,20 +195,76 @@
 
 .post-content p,
 .post-content li {
-  color: #293f5a;
+  color: var(--brand-ink-soft);
   font-size: 1.03rem;
-  line-height: 1.75;
+  line-height: 1.8;
+}
+
+.post-content a {
+  color: #0b6ea8;
+  text-decoration: underline;
+  text-decoration-thickness: 1.4px;
+  text-underline-offset: 2px;
+}
+
+.post-content a:hover {
+  color: #084e7a;
 }
 
 .post-content blockquote {
   margin: 1.2rem 0;
   border-left: 4px solid #14b8a6;
-  background: #f5fcfb;
+  background: #eef9f7;
   color: #1f4151;
+  border-radius: 0 10px 10px 0;
 }
 
 .post-content pre {
   border-radius: 14px;
+  border: 1px solid #203247;
+}
+
+.post-content :not(pre) > code {
+  background: #eaf1fb;
+  color: #0f365d;
+  border: 1px solid #d4e2f1;
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+}
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.1rem 0;
+  font-size: 0.96rem;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid #d6e3f0;
+  padding: 0.6rem 0.65rem;
+  text-align: left;
+}
+
+.post-content th {
+  background: #eef4fb;
+  color: #183a5a;
+}
+
+.post-content tr:nth-child(even) td {
+  background: #fbfdff;
+}
+
+.toc {
+  border: 1px solid var(--paper-line);
+  border-radius: 12px;
+  background: #f8fbff;
+  padding: 0.75rem 0.8rem;
+}
+
+.toc details summary {
+  color: #103d63;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -195,5 +289,10 @@
   .post-entry {
     border-radius: 14px;
     padding: 1rem;
+  }
+
+  .post-single {
+    border-radius: 14px;
+    padding: 0.9rem;
   }
 }

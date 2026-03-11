@@ -1,8 +1,13 @@
 ---
 title: "OpenAI’s Sora Video Generator to Integrate with ChatGPT"
-date: 2026-03-11 23:29:08 
-categories: [ai, cloud]
-excerpt: "As of 2026-03-11, it's reported that OpenAI's Sora video generator is reportedly coming to ChatGPT. This integration will enable users to generate videos directly from ChatGPT prompts, offering a new dimension to AI-powered content creation."
+date: 2025-11-23T12:00:00+05:30
+lastmod: 2025-11-23T12:00:00+05:30
+draft: false
+slug: "openai-sora-video-generator-integration-chatgpt"
+url: "/ai/openai-sora-video-generator-integration-chatgpt/"
+summary: "OpenAI Sora integration into ChatGPT and practical enterprise implications."
+tags: ["ai", "openai", "chatgpt", "video-generation"]
+categories: ["ai", "cloud"]
 canonical_url: ""
 ---
 

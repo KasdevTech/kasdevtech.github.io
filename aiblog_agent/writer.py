@@ -87,16 +87,19 @@ Constraints:
 - Mention date context as "As of {today_iso}" near the intro.
 """.strip()
 
-        raw = self._chat(system, user)
-        data = _extract_json(raw)
-
-        return GeneratedPost(
-            title=data["title"].strip(),
-            slug=_slugify(data["slug"] or data["title"]),
-            html_content=data["html_content"].strip(),
-            excerpt=data["excerpt"].strip(),
-            linkedin_text=data["linkedin_text"].strip(),
-        )
+        try:
+            raw = self._chat(system, user)
+            data = _extract_json(raw)
+            return GeneratedPost(
+                title=data["title"].strip(),
+                slug=_slugify(data["slug"] or data["title"]),
+                html_content=data["html_content"].strip(),
+                excerpt=data["excerpt"].strip(),
+                linkedin_text=data["linkedin_text"].strip(),
+            )
+        except Exception as exc:
+            print(f"LLM output parsing failed; using fallback template. Error: {exc}")
+            return _fallback_generate(primary, rel, topic_hint)
 
 
 def _slugify(text: str) -> str:

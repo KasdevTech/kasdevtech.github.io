@@ -1,8 +1,5 @@
 name: Daily AI Blog Publish
 
-env:
-  KASDEVTECH_REPO_TOKEN: ${{ secrets.KASDEVTECH_REPO_TOKEN }}
-
 on:
   workflow_dispatch:
   schedule:
@@ -14,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
-      contents: read
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,7 +21,7 @@ jobs:
         with:
           repository: KasdevTech/kasdevtech.github.io
           path: site_repo
-          token: ${{ env.KASDEVTECH_REPO_TOKEN }}
+          token: ${{ github.token }}
 
       - name: Verify Ollama
         run: |

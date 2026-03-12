@@ -1,3 +1,4 @@
+https://aws.amazon.com/blogs/machine-learning/multimodal-embeddings-at-scale-ai-data-lake-for-media-and-entertainment-workloads/
 https://github.blog/changelog/2026-03-12-rest-api-version-2026-03-10-is-now-available
 https://news.google.com/rss/articles/CBMiX0FVX3lxTE1haGsyS0p2aEpqMVFzM3lkRkIycFp5RW11QkVndm5pRzZxVU5QU2JwVExzSFJhUFJCbFNoeHlxYlNBbERCN2ZCdnl4bFVJeGJKLVFJaXdjQVI2c0hqWjZz?oc=5
 https://news.google.com/rss/articles/CBMilAFBVV95cUxQcFo1OWgxNEs3V3VEOE12cS1Kc0l2OS1zRWcxZ2RmYkdCRUV2OVdqeVJvZE42aWpZc0JJUi1ONzl0cEI1a3VwNkdMbWx1LS10Tm9IQUhhY3hhWHFSYXZCRkFnV3B1eHhVNW5UVVdERGJTQWk4ZjJZVjJYX0lrbXNxOTR2c00wV0NRX0tIdnp2bElZWWNt?oc=5

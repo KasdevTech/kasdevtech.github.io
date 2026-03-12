@@ -4,61 +4,16 @@
     <title>IAM on KasdevTech</title>
     <link>https://kasdevtech.com/tags/iam/</link>
     <description>Recent content in IAM on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>KASDEVTECH</copyright><atom:link href="https://kasdevtech.com/tags/iam/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>KASDEVTECH</copyright>
+    <atom:link href="https://kasdevtech.com/tags/iam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AZ-104 — RBAC Overview &amp; Role Fundamentals</title>
       <link>https://kasdevtech.com/az-104/series2-rbac/az-104-series2-2.1-rbac-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://kasdevtech.com/az-104/series2-rbac/az-104-series2-2.1-rbac-overview/</guid>
-      <description>
-        
-          
-            &lt;h1 id=&#34;rbac-deep-dive--overview--role-fundamentals&#34;&gt;RBAC Deep Dive — Overview &amp;amp; Role Fundamentals&lt;/h1&gt;
-&lt;p&gt;Azure Role-Based Access Control (RBAC) allows fine‑grained access management for Azure resources.&lt;br&gt;
-In AZ‑104, RBAC is one of the most heavily tested areas.&lt;/p&gt;
-&lt;p&gt;This post provides highly detailed, exam‑level and real‑world knowledge.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;1-rbac-architecture&#34;&gt;1. RBAC Architecture&lt;/h1&gt;
-&lt;p&gt;RBAC uses &lt;strong&gt;role assignments&lt;/strong&gt; to control who can access what resource.&lt;/p&gt;
-&lt;p&gt;A role assignment = &lt;strong&gt;Principal + Role + Scope&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Where:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Component&lt;/th&gt;
-          &lt;th&gt;Meaning&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Principal&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;User, Group, Service Principal, Managed Identity&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;Set of permissions (JSON definition)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Scope&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;Management Group → Subscription → Resource Group → Resource&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;scope-hierarchy-very-important-for-exam&#34;&gt;Scope Hierarchy (Very Important for Exam)&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Management Group
-   └── Subscription
-         └── Resource Group
-               └── Resource
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Permissions inherit downward&lt;/strong&gt;, never upward.&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>&lt;h1 id=&#34;rbac-deep-dive--overview--role-fundamentals&#34;&gt;RBAC Deep Dive — Overview &amp;amp; Role Fundamentals&lt;/h1&gt;&#xA;&lt;p&gt;Azure Role-Based Access Control (RBAC) allows fine‑grained access management for Azure resources.&lt;br&gt;&#xA;In AZ‑104, RBAC is one of the most heavily tested areas.&lt;/p&gt;&#xA;&lt;p&gt;This post provides highly detailed, exam‑level and real‑world knowledge.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;1-rbac-architecture&#34;&gt;1. RBAC Architecture&lt;/h1&gt;&#xA;&lt;p&gt;RBAC uses &lt;strong&gt;role assignments&lt;/strong&gt; to control who can access what resource.&lt;/p&gt;&#xA;&lt;p&gt;A role assignment = &lt;strong&gt;Principal + Role + Scope&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Where:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Component&lt;/th&gt;&#xA;          &lt;th&gt;Meaning&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Principal&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;User, Group, Service Principal, Managed Identity&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Set of permissions (JSON definition)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Scope&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Management Group → Subscription → Resource Group → Resource&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;scope-hierarchy-very-important-for-exam&#34;&gt;Scope Hierarchy (Very Important for Exam)&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Management Group&#xA;   └── Subscription&#xA;         └── Resource Group&#xA;               └── Resource&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Permissions inherit downward&lt;/strong&gt;, never upward.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

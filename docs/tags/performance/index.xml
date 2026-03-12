@@ -4,9 +4,17 @@
     <title>Performance on KasdevTech</title>
     <link>https://kasdevtech.com/tags/performance/</link>
     <description>Recent content in Performance on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kasdevtech.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing High CPU and Memory Usage in Azure App Service</title>
+      <link>https://kasdevtech.com/azure/appservice-high-cpu/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://kasdevtech.com/azure/appservice-high-cpu/</guid>
+      <description>&lt;h4 id=&#34;fixing-high-cpu-and-memory-usage-in-azure-app-service&#34;&gt;Fixing High CPU and Memory Usage in Azure App Service&lt;/h4&gt;&#xA;&lt;p&gt;Your app is running fine, and then suddenly…  users complain about &lt;strong&gt;slowness&lt;/strong&gt; or the app even &lt;strong&gt;crashes&lt;/strong&gt;.&lt;br&gt;&#xA;When you check the Azure Portal, you see CPU pegged at 90–100% or memory exhausted.&lt;br&gt;&#xA;This is a very &lt;strong&gt;common real-world issue&lt;/strong&gt; in Azure App Service. Let’s walk step by step.&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-1-monitor-metrics&#34;&gt;Step 1: Monitor Metrics&lt;/h4&gt;&#xA;&lt;p&gt;Go to:&#xA;&lt;strong&gt;Azure Portal → App Service → Metrics → CPU Percentage / Memory Working Set&lt;/strong&gt;&#xA;Look for spikes during:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;High user traffic&lt;/li&gt;&#xA;&lt;li&gt;Background jobs&lt;/li&gt;&#xA;&lt;li&gt;Large API calls&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can also run via CLI:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

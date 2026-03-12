@@ -4,47 +4,17 @@
     <title>ManagedIdentity on KasdevTech</title>
     <link>https://kasdevtech.com/tags/managedidentity/</link>
     <description>Recent content in ManagedIdentity on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/managedidentity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kasdevtech.com/tags/managedidentity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AZ-104 — Managed Identities for Azure Resources</title>
       <link>https://kasdevtech.com/az-104/series1-identity/az-104-series1-1.4-managed-identities/</link>
       <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://kasdevtech.com/az-104/series1-identity/az-104-series1-1.4-managed-identities/</guid>
-      <description>
-        
-          
-            &lt;h1 id=&#34;managed-identities-for-azure-resources&#34;&gt;Managed Identities for Azure Resources&lt;/h1&gt;
-&lt;p&gt;This post describes managed identities (system-assigned and user-assigned), how to create them, use them with Key Vault, and best practices.&lt;/p&gt;
-&lt;h2 id=&#34;types-of-managed-identities&#34;&gt;Types of managed identities&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;System-assigned&lt;/strong&gt;: lifecycle tied to the resource (deleted with resource).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;User-assigned&lt;/strong&gt;: independent resource; can be attached to multiple resources.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;create--assign-identities-cli&#34;&gt;Create &amp;amp; assign identities (CLI)&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Create user-assigned identity&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az identity create --name kasdev-identity --resource-group demo-rg --location eastus
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Assign system-assigned identity to a VM&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az vm identity assign --resource-group demo-rg --name kasvm01
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Assign user-assigned identity to VM&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az vm identity assign --resource-group demo-rg --name kasvm01 --identities /subscriptions/&amp;lt;sub&amp;gt;/resourceGroups/demo-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/kasdev-identity
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;use-case-key-vault-access&#34;&gt;Use case: Key Vault access&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Create Key Vault or use existing.&lt;/li&gt;
-&lt;li&gt;Grant the managed identity &lt;code&gt;get&lt;/code&gt; and &lt;code&gt;list&lt;/code&gt; permissions on secrets.&lt;/li&gt;
-&lt;li&gt;From the resource, request token from IMDS and use to call Key Vault.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;CLI: grant access&lt;/p&gt;
-          
-          
-        
-      </description>
+      <description>&lt;h1 id=&#34;managed-identities-for-azure-resources&#34;&gt;Managed Identities for Azure Resources&lt;/h1&gt;&#xA;&lt;p&gt;This post describes managed identities (system-assigned and user-assigned), how to create them, use them with Key Vault, and best practices.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types-of-managed-identities&#34;&gt;Types of managed identities&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;System-assigned&lt;/strong&gt;: lifecycle tied to the resource (deleted with resource).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;User-assigned&lt;/strong&gt;: independent resource; can be attached to multiple resources.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;create--assign-identities-cli&#34;&gt;Create &amp;amp; assign identities (CLI)&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Create user-assigned identity&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az identity create --name kasdev-identity --resource-group demo-rg --location eastus&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Assign system-assigned identity to a VM&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az vm identity assign --resource-group demo-rg --name kasvm01&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#57606a&#34;&gt;# Assign user-assigned identity to VM&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;az vm identity assign --resource-group demo-rg --name kasvm01 --identities /subscriptions/&amp;lt;sub&amp;gt;/resourceGroups/demo-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/kasdev-identity&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;use-case-key-vault-access&#34;&gt;Use case: Key Vault access&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create Key Vault or use existing.&lt;/li&gt;&#xA;&lt;li&gt;Grant the managed identity &lt;code&gt;get&lt;/code&gt; and &lt;code&gt;list&lt;/code&gt; permissions on secrets.&lt;/li&gt;&#xA;&lt;li&gt;From the resource, request token from IMDS and use to call Key Vault.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;CLI: grant access&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

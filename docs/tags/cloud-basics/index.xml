@@ -4,9 +4,17 @@
     <title>Cloud Basics on KasdevTech</title>
     <link>https://kasdevtech.com/tags/cloud-basics/</link>
     <description>Recent content in Cloud Basics on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/cloud-basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kasdevtech.com/tags/cloud-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Azure Virtual Network Basics – Public vs Private Networks</title>
+      <link>https://kasdevtech.com/azure/azure-network-basics/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://kasdevtech.com/azure/azure-network-basics/</guid>
+      <description>&lt;h4 id=&#34;azure-virtual-network-basics--public-vs-private&#34;&gt;Azure Virtual Network Basics – Public vs Private&lt;/h4&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re getting started with Azure Networking, the first concept you must master is the &lt;strong&gt;Virtual Network&lt;/strong&gt; (aka VNet). This is the &lt;strong&gt;foundation&lt;/strong&gt; of all networking in Azure.&lt;/p&gt;&#xA;&lt;h4 id=&#34;what-is-a-vnet&#34;&gt;What is a VNet?&lt;/h4&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Virtual Network (VNet)&lt;/strong&gt; in Azure is like your private data center network in the cloud. It allows Azure resources (like VMs, App Services, etc.) to &lt;strong&gt;communicate with each other securely&lt;/strong&gt;.&#xA;Think of it like a virtual version of a LAN (Local Area Network).&lt;/p&gt;&#xA;&lt;h4 id=&#34;public-vs-private-networking&#34;&gt;Public vs Private Networking&lt;/h4&gt;&#xA;&lt;h4 id=&#34;private-network&#34;&gt;Private Network&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Resources inside a VNet &lt;strong&gt;don’t have internet access by default&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Private IPs like &lt;code&gt;10.x.x.x&lt;/code&gt;, &lt;code&gt;172.16.x.x&lt;/code&gt;, or &lt;code&gt;192.168.x.x&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Used for internal apps, databases, backend services&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;public-network&#34;&gt;Public Network&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;When you assign a &lt;strong&gt;Public IP&lt;/strong&gt; to a VM or Load Balancer&lt;/li&gt;&#xA;&lt;li&gt;Accessible from the internet&lt;/li&gt;&#xA;&lt;li&gt;Needs &lt;strong&gt;NSGs&lt;/strong&gt; and firewalls for protection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;ip-addressing-in-azure&#34;&gt;IP Addressing in Azure&lt;/h4&gt;&#xA;&lt;p&gt;When you create a VNet, you define an IP &lt;strong&gt;address space&lt;/strong&gt; (CIDR block):&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

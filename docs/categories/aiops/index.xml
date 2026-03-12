@@ -4,9 +4,17 @@
     <title>AIOps on KasdevTech</title>
     <link>https://kasdevtech.com/categories/aiops/</link>
     <description>Recent content in AIOps on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/aiops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kasdevtech.com/categories/aiops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>End-to-End Incident Automation: Azure Alert to Self-Healing via Moogsoft &amp; ServiceNow</title>
+      <link>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://kasdevtech.com/azure/azure-alert-to-self-healing-via-moogsoft-servicenow/</guid>
+      <description>&lt;p&gt;In one of my recent automation projects, I came across a real-time scenario:&lt;br&gt;&#xA;An Azure Alert once condition met (example:VM&amp;rsquo;s &lt;strong&gt;C:\ drive crosses 80% usage&lt;/strong&gt;), and boom — the alert triggers, gets routed to &lt;strong&gt;Moogsoft&lt;/strong&gt;, and creates an incident in &lt;strong&gt;ServiceNow&lt;/strong&gt;.&lt;br&gt;&#xA;But before it even hits the L1 queue, I wanted to give automation a shot.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-assign-alertincident-disk-cleanup-to-an-engineer-when-a-bot-can-do-it-better--and-faster&#34;&gt;Why assign alert/incident (disk cleanup) to an engineer when a bot can do it better — and faster?&lt;/h2&gt;&#xA;&lt;h4 id=&#34;real-scenario&#34;&gt;Real Scenario&lt;/h4&gt;&#xA;&lt;p&gt;Here’s what happens traditionally:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Azure Monitor Alert when conditon met: (C:\ &amp;gt; 80%)&lt;/li&gt;&#xA;&lt;li&gt;Moogsoft/or anyother tool receives the alert throgh webhook&lt;/li&gt;&#xA;&lt;li&gt;Moogsoft/or anyother tool creates an incident in ServiceNow&lt;/li&gt;&#xA;&lt;li&gt;L1 team gets it assigned (and starts with “clearing temp files”)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Let’s not wait till that point.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -4,9 +4,17 @@
     <title>State on KasdevTech</title>
     <link>https://kasdevtech.com/tags/state/</link>
     <description>Recent content in State on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/state/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kasdevtech.com/tags/state/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Import in Azure — Fixing Out-of-Band Changes</title>
+      <link>https://kasdevtech.com/terraform/out-of-band-changes/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://kasdevtech.com/terraform/out-of-band-changes/</guid>
+      <description>Sometimes resources created manually in the Azure Portal need to be managed by Terraform. Here&amp;rsquo;s how I used &lt;code&gt;terraform import&lt;/code&gt; to fix drift and sync state.</description>
+    </item>
   </channel>
 </rss>

@@ -4,9 +4,17 @@
     <title>ARM Permissions on KasdevTech</title>
     <link>https://kasdevtech.com/tags/arm-permissions/</link>
     <description>Recent content in ARM Permissions on KasdevTech</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/arm-permissions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kasdevtech.com/tags/arm-permissions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing &#39;Permission Denied&#39; Errors While Deploying from Azure Pipelines to Azure Resources</title>
+      <link>https://kasdevtech.com/devops/azuredevops-permission-error/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://kasdevtech.com/devops/azuredevops-permission-error/</guid>
+      <description>&lt;p&gt;Deploying resources from Azure Pipelines and running into the dreaded &lt;code&gt;AuthorizationFailed&lt;/code&gt; error? You’re not alone!&lt;/p&gt;&#xA;&lt;p&gt;Error: AuthorizationFailed: The client does not have authorization to perform action &amp;lsquo;Microsoft.Web/sites/write&amp;rsquo;&amp;hellip;&lt;/p&gt;&#xA;&lt;h4 id=&#34;root-cause&#34;&gt;Root Cause&lt;/h4&gt;&#xA;&lt;p&gt;This error usually occurs because the &lt;strong&gt;service principal&lt;/strong&gt; used in your Azure DevOps &lt;strong&gt;service connection&lt;/strong&gt; does not have the required &lt;strong&gt;role-based access control (RBAC)&lt;/strong&gt; permissions on the target resource group or subscription.&lt;/p&gt;&#xA;&lt;h4 id=&#34;step-by-step-fix&#34;&gt;Step-by-Step Fix&lt;/h4&gt;&#xA;&lt;h4 id=&#34;verify-the-service-connection-identity&#34;&gt;Verify the Service Connection Identity&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go to &lt;code&gt;Project Settings&lt;/code&gt; → &lt;code&gt;Service Connections&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Click on your Azure Resource Manager connection&lt;/li&gt;&#xA;&lt;li&gt;Note the &lt;strong&gt;Object ID&lt;/strong&gt; of the service principal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;assign-the-correct-role-in-azure-portal&#34;&gt;Assign the Correct Role in Azure Portal&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Navigate to your &lt;strong&gt;Resource Group&lt;/strong&gt; (or Subscription)&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;code&gt;Access Control (IAM)&lt;/code&gt; → &lt;code&gt;Add Role Assignment&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Select the role (e.g., &lt;code&gt;Contributor&lt;/code&gt; or &lt;code&gt;Web App Contributor&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Assign it to the &lt;strong&gt;service principal&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;review-pipeline-yaml&#34;&gt;Review Pipeline YAML&lt;/h4&gt;&#xA;&lt;p&gt;Make sure you&amp;rsquo;re referencing the correct service connection:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

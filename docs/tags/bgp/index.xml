@@ -4,17 +4,9 @@
     <title>BGP on KasdevTech</title>
     <link>https://kasdevtech.com/tags/bgp/</link>
     <description>Recent content in BGP on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kasdevtech.com/tags/bgp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azure Routing Simplified – UDR, Route Tables &amp; BGP</title>
-      <link>https://kasdevtech.com/azure/azure-routing-simplified/</link>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/azure/azure-routing-simplified/</guid>
-      <description>&lt;h4 id=&#34;azure-routing---udr-route-tables-and-bgp&#34;&gt;Azure Routing  – UDR, Route Tables, and BGP&lt;/h4&gt;&#xA;&lt;p&gt;Ever wonder how traffic knows where to go inside your VNet?&#xA;That magic is thanks to &lt;strong&gt;Routing&lt;/strong&gt; – and in Azure, it’s handled by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;System Routes&lt;/li&gt;&#xA;&lt;li&gt;User Defined Routes (UDR)&lt;/li&gt;&#xA;&lt;li&gt;Border Gateway Protocol (BGP)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;system-routes-default&#34;&gt;System Routes (Default)&lt;/h4&gt;&#xA;&lt;p&gt;Azure &lt;strong&gt;automatically adds system routes&lt;/strong&gt; to all subnets.&lt;/p&gt;&#xA;&lt;p&gt;Examples:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Destination&lt;/th&gt;&#xA;          &lt;th&gt;Next Hop&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0.0.0.0/0&lt;/td&gt;&#xA;          &lt;td&gt;Internet&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;VNet CIDR&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Virtual Network&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;168.63.129.16&lt;/td&gt;&#xA;          &lt;td&gt;Virtual Network&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;These work fine in most cases — &lt;strong&gt;until you need customization&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;user-defined-routes-udr&#34;&gt;User Defined Routes (UDR)&lt;/h4&gt;&#xA;&lt;p&gt;UDRs are custom routes &lt;strong&gt;you create&lt;/strong&gt; and assign to subnets via &lt;strong&gt;Route Tables&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/bgp/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

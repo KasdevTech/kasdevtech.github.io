@@ -4,24 +4,9 @@
     <title>Kubernetes on KasdevTech</title>
     <link>https://kasdevtech.com/tags/kubernetes/</link>
     <description>Recent content in Kubernetes on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kasdevtech.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title> AKS Node Disk Pressure </title>
-      <link>https://kasdevtech.com/azure/aks-node-disk-pressure/</link>
-      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/azure/aks-node-disk-pressure/</guid>
-      <description>&lt;h4 id=&#34;what-happened&#34;&gt;What Happened?&lt;/h4&gt;&#xA;&lt;p&gt;Hey folks,&lt;br&gt;&#xA;Let me share a real incident we faced in production on &lt;strong&gt;Azure Kubernetes Service (AKS)&lt;/strong&gt;. Our workloads were behaving oddly — pods getting evicted, app downtime alerts, and our monitoring tools screaming &lt;code&gt;DiskPressure&lt;/code&gt; on some nodes.&lt;/p&gt;&#xA;&lt;p&gt;We didn’t make any infra changes recently, so the obvious question was:&lt;br&gt;&#xA;&lt;strong&gt;What’s going on inside the AKS nodes?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;root-cause-analysis&#34;&gt;Root Cause Analysis&lt;/h4&gt;&#xA;&lt;p&gt;We dug into the node metrics using &lt;strong&gt;Azure Monitor&lt;/strong&gt; and &lt;code&gt;kubectl describe node&lt;/code&gt;. Here’s what we found:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- **DiskPressure Condition = True**&#xA;- Evicted pods had logs like:&#xA;The node was low on resource: ephemeral-storage.&#xA;Turns out, ephemeral storage on the nodes was filling up rapidly — mostly from:&#xA;Container logs&#xA;Image cache&#xA;Tmp files inside /var/lib/docker&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Solution Applied&#xA;Here’s how we fixed it step-by-step:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to Start Your Cloud Journey in 2025 — A Practical Guide</title>
-      <link>https://kasdevtech.com/azure/how-to-start-cloud-journey-2025/</link>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/azure/how-to-start-cloud-journey-2025/</guid>
-      <description>&lt;h3 id=&#34;welcome-to-kasdevtech--your-cloud-learning-hub&#34;&gt;Welcome to kasdevTech — Your Cloud Learning Hub&lt;/h3&gt;&#xA;&lt;p&gt;In today’s world, &lt;strong&gt;cloud computing&lt;/strong&gt; is no longer optional — it is &lt;strong&gt;essential&lt;/strong&gt; for businesses, developers, and architects.&lt;/p&gt;&#xA;&lt;p&gt;But many beginners feel lost:&lt;br&gt;&#xA;👉 &lt;em&gt;Where do I start?&lt;/em&gt;&lt;br&gt;&#xA;👉 &lt;em&gt;Which services should I learn first?&lt;/em&gt;&lt;br&gt;&#xA;👉 &lt;em&gt;How can I gain practical experience?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this post, I will share a &lt;strong&gt;step-by-step practical guide&lt;/strong&gt; to help you start your &lt;strong&gt;cloud journey&lt;/strong&gt; in 2025 — based on my own experience as a cloud engineer working on Microsoft Azure, Kubernetes, and cloud-native technologies.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;understand-cloud-basics&#34;&gt;Understand Cloud Basics&lt;/h3&gt;&#xA;&lt;p&gt;Before diving into Azure or AWS, understand what Cloud Computing is:&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,17 +4,9 @@
     <title>Permissions on KasdevTech</title>
     <link>https://kasdevtech.com/tags/permissions/</link>
     <description>Recent content in Permissions on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kasdevtech.com/tags/permissions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Terraform Role Assignment Fails on Azure — Fixed with Correct RBAC &amp; Automation</title>
-      <link>https://kasdevtech.com/terraform/terraform-role-assigment/</link>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/terraform/terraform-role-assigment/</guid>
-      <description>Terraform often fails when assigning roles in Azure due to RBAC permission issues. Here&amp;rsquo;s how I fixed this in a CI/CD pipeline using the right roles and automation.</description>
-    </item>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/permissions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,24 +4,9 @@
     <title>Hub-Spoke on KasdevTech</title>
     <link>https://kasdevtech.com/tags/hub-spoke/</link>
     <description>Recent content in Hub-Spoke on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kasdevtech.com/tags/hub-spoke/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azure Network Reference Architectures</title>
-      <link>https://kasdevtech.com/azure/azure-network-reference-architectures/</link>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/azure/azure-network-reference-architectures/</guid>
-      <description>&lt;h4 id=&#34;azure-network-reference-architectures&#34;&gt;Azure Network Reference Architectures&lt;/h4&gt;&#xA;&lt;p&gt;By now, you&amp;rsquo;ve learned about VNets, peering, firewalls, DNS, and more.&lt;br&gt;&#xA;Let’s bring it all together with real Azure networking architectures you can &lt;strong&gt;apply in production&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;design-pattern-1-hub-spoke-with-vpn-gateway&#34;&gt;Design Pattern 1: Hub-Spoke with VPN Gateway&lt;/h4&gt;&#xA;&lt;p&gt;Perfect for hybrid connectivity and centralized control.&lt;/p&gt;&#xA;&lt;h4 id=&#34;key-features&#34;&gt;Key Features:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Central &lt;strong&gt;Hub VNet&lt;/strong&gt; with:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;VPN Gateway&lt;/li&gt;&#xA;&lt;li&gt;Azure Firewall or NVA&lt;/li&gt;&#xA;&lt;li&gt;DDoS Protection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Multiple &lt;strong&gt;Spoke VNets&lt;/strong&gt; for apps/environments&lt;/li&gt;&#xA;&lt;li&gt;VNet Peering for traffic&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;diagram&#34;&gt;Diagram:&lt;/h4&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;             [On-Premises]&#xA;                  |&#xA;        ====== Site-to-Site VPN ======&#xA;                  |&#xA;          +------------------+&#xA;          |    Hub VNet      |&#xA;          |  VPN + Firewall  |&#xA;          +------------------+&#xA;            /      |       \&#xA;           /       |        \&#xA;     [Spoke A] [Spoke B] [Spoke C]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;design-pattern-2-private-link--nat-gateway&#34;&gt;Design Pattern 2: Private Link + NAT Gateway&lt;/h4&gt;&#xA;&lt;p&gt;For &lt;strong&gt;secure outbound&lt;/strong&gt; and &lt;strong&gt;fully private access&lt;/strong&gt; to PaaS.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Azure Hub-Spoke Architecture &amp; VNet Peering</title>
-      <link>https://kasdevtech.com/azure/hub-spoke/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/azure/hub-spoke/</guid>
-      <description>&lt;h4 id=&#34;azure-hub-spoke-architecture&#34;&gt;Azure Hub-Spoke Architecture&lt;/h4&gt;&#xA;&lt;p&gt;Once you understand VNets and Subnets, the next step is designing how they connect. One of the most &lt;strong&gt;popular architectures&lt;/strong&gt; in Azure is called the &lt;strong&gt;Hub-Spoke Model&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;what-is-the-hub-spoke-model&#34;&gt;What is the Hub-Spoke Model?&lt;/h4&gt;&#xA;&lt;p&gt;Think of the &lt;strong&gt;Hub&lt;/strong&gt; as the central point where all shared services live — like a corporate office.&lt;/p&gt;&#xA;&lt;p&gt;Each &lt;strong&gt;Spoke&lt;/strong&gt; is a separate environment — like dev, test, or app workloads.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;     +-----------------------+&#xA;     |      Hub VNet         |&#xA;     |  (Firewall, VPN, etc) |&#xA;     +-----------------------+&#xA;         /     |     \&#xA;        /      |      \&#xA; +--------+ +--------+ +--------+&#xA; | Spoke1 | | Spoke2 | | Spoke3 |&#xA; +--------+ +--------+ +--------+&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;what-is-vnet-peering&#34;&gt;What is VNet Peering?&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;VNet Peering&lt;/strong&gt; allows two VNets to communicate &lt;strong&gt;privately&lt;/strong&gt; using Azure backbone (no internet).&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Tue, 08 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/hub-spoke/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,9 +4,8 @@
     <title>KasdevTech</title>
     <link>https://kasdevtech.com/finsight/</link>
     <description>Recent content on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>KASDEVTECH</copyright>
-    <atom:link href="https://kasdevtech.com/finsight/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>KASDEVTECH</copyright><atom:link href="https://kasdevtech.com/finsight/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

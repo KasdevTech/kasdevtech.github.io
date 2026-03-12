@@ -4,17 +4,9 @@
     <title>Private Endpoint on KasdevTech</title>
     <link>https://kasdevtech.com/tags/private-endpoint/</link>
     <description>Recent content in Private Endpoint on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kasdevtech.com/tags/private-endpoint/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azure Private Endpoint vs Service Endpoint</title>
-      <link>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/azure/privateendpoint-serviceendpoint/</guid>
-      <description>&lt;h4 id=&#34;azure-private-endpoint-vs-service-endpoint&#34;&gt;Azure Private Endpoint vs Service Endpoint&lt;/h4&gt;&#xA;&lt;p&gt;So you created a Storage Account, SQL Database, or Key Vault — and now you’re wondering…&lt;/p&gt;&#xA;&lt;p&gt;Should I use a &lt;strong&gt;Service Endpoint&lt;/strong&gt; or a &lt;strong&gt;Private Endpoint&lt;/strong&gt;?&lt;/p&gt;&#xA;&lt;p&gt;These two features are critical for &lt;strong&gt;securing Azure PaaS services&lt;/strong&gt;. But they’re not the same.&lt;br&gt;&#xA;Let’s break them down clearly with real-world context.&lt;/p&gt;&#xA;&lt;h4 id=&#34;what-is-a-service-endpoint&#34;&gt;What is a Service Endpoint?&lt;/h4&gt;&#xA;&lt;p&gt;Service Endpoints &lt;strong&gt;extend your VNet’s private IP&lt;/strong&gt; to Azure PaaS services.&lt;/p&gt;&#xA;&lt;h4 id=&#34;what-it-does&#34;&gt;What it does:&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allows you to &lt;strong&gt;access Azure services over Azure backbone&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Still uses the public IP&lt;/strong&gt; of the service&lt;/li&gt;&#xA;&lt;li&gt;Improves security by &lt;strong&gt;restricting access to your VNet only&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;example-use-case&#34;&gt;Example Use Case:&lt;/h4&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;10.0.1.4 (VM in subnet) --&amp;gt; Storage Account&#xA;If Service Endpoint is enabled for &amp;#34;Microsoft.Storage&amp;#34;, your subnet can talk to it — even though the storage has a public IP.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;what-is-a-private-endpoint&#34;&gt;What is a Private Endpoint?&lt;/h4&gt;&#xA;&lt;p&gt;A Private Endpoint creates a private IP in your VNet that maps to an Azure resource.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/private-endpoint/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

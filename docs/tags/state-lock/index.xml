@@ -4,17 +4,9 @@
     <title>State Lock on KasdevTech</title>
     <link>https://kasdevtech.com/tags/state-lock/</link>
     <description>Recent content in State Lock on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kasdevtech.com/tags/state-lock/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Terraform Fails with State Lock Error in Azure DevOps Pipeline</title>
-      <link>https://kasdevtech.com/devops/terraform-withsatelock-failure/</link>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/devops/terraform-withsatelock-failure/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re running Terraform in Azure DevOps and see this:&lt;/p&gt;&#xA;&lt;p&gt;Error: Error acquiring the state lock: state blob is already locked&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;re facing a &lt;strong&gt;Terraform state lock&lt;/strong&gt; issue — and it can block your pipeline!&lt;/p&gt;&#xA;&lt;h4 id=&#34;what-causes-it&#34;&gt;What Causes It?&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A previous run crashed or was canceled&lt;/li&gt;&#xA;&lt;li&gt;Two pipelines tried to modify state simultaneously&lt;/li&gt;&#xA;&lt;li&gt;State is locked but not released due to network timeout&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;step-by-step-fix&#34;&gt;Step-by-Step Fix&lt;/h4&gt;&#xA;&lt;h4 id=&#34;manually-unlock-state&#34;&gt;Manually Unlock State&lt;/h4&gt;&#xA;&lt;p&gt;Use this command from your local machine (or DevOps pipeline):&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;terraform force-unlock &amp;lt;LOCK_ID&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;To get the lock ID, run:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;terraform show -no-color&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;use-lock-and-retry-settings&#34;&gt;Use lock and retry Settings&lt;/h4&gt;&#xA;&lt;p&gt;Set retry logic in your pipeline:&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/state-lock/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

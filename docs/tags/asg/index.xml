@@ -4,17 +4,9 @@
     <title>ASG on KasdevTech</title>
     <link>https://kasdevtech.com/tags/asg/</link>
     <description>Recent content in ASG on KasdevTech</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kasdevtech.com/tags/asg/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title> Azure NSG vs ASG – Network Security for VNets </title>
-      <link>https://kasdevtech.com/azure/nsg-asg/</link>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://kasdevtech.com/azure/nsg-asg/</guid>
-      <description>&lt;h4 id=&#34;azure-nsg-vs-asg&#34;&gt;Azure NSG vs ASG&lt;/h4&gt;&#xA;&lt;p&gt;In cloud networking, &lt;strong&gt;firewalls and access control&lt;/strong&gt; are your first line of defense.&lt;br&gt;&#xA;In Azure, the two main tools for this are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Network Security Group (NSG)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Application Security Group (ASG)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Let’s explore what they are, how they work, and how to use them together.&lt;/p&gt;&#xA;&lt;h4 id=&#34;what-is-a-network-security-group-nsg&#34;&gt;What is a Network Security Group (NSG)?&lt;/h4&gt;&#xA;&lt;p&gt;An &lt;strong&gt;NSG&lt;/strong&gt; acts like a virtual firewall. You can apply it to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Subnets&lt;/li&gt;&#xA;&lt;li&gt;Network interfaces (NICs)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;nsg-rules-look-like&#34;&gt;NSG Rules look like:&lt;/h4&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Priority&lt;/th&gt;&#xA;          &lt;th&gt;Direction&lt;/th&gt;&#xA;          &lt;th&gt;Source&lt;/th&gt;&#xA;          &lt;th&gt;Destination&lt;/th&gt;&#xA;          &lt;th&gt;Port&lt;/th&gt;&#xA;          &lt;th&gt;Action&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;100&lt;/td&gt;&#xA;          &lt;td&gt;Inbound&lt;/td&gt;&#xA;          &lt;td&gt;Any&lt;/td&gt;&#xA;          &lt;td&gt;10.0.1.4&lt;/td&gt;&#xA;          &lt;td&gt;80&lt;/td&gt;&#xA;          &lt;td&gt;Allow&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;200&lt;/td&gt;&#xA;          &lt;td&gt;Inbound&lt;/td&gt;&#xA;          &lt;td&gt;Any&lt;/td&gt;&#xA;          &lt;td&gt;Any&lt;/td&gt;&#xA;          &lt;td&gt;*&lt;/td&gt;&#xA;          &lt;td&gt;Deny&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Azure processes rules &lt;strong&gt;top-down&lt;/strong&gt;, based on &lt;strong&gt;priority&lt;/strong&gt; (lower = higher priority).&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/tags/asg/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

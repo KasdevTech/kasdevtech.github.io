@@ -37,7 +37,36 @@ jobs:
         run: |
           ollama serve > /tmp/ollama.log 2>&1 &
           sleep 6
-          ollama pull "$OPENAI_MODEL"
+          pull_with_retry () {
+            local model="$1"
+            for attempt in 1 2 3; do
+              if ollama pull "$model"; then
+                return 0
+              fi
+              echo "Pull failed for $model (attempt $attempt/3). Retrying..."
+              sleep $((attempt * 10))
+            done
+            return 1
+          }
+
+          selected_model=""
+          for candidate in "$OPENAI_MODEL" "qwen2.5:1.5b" "llama3.2:3b"; do
+            if [ -z "$candidate" ]; then
+              continue
+            fi
+            if pull_with_retry "$candidate"; then
+              selected_model="$candidate"
+              break
+            fi
+          done
+
+          if [ -z "$selected_model" ]; then
+            echo "Failed to pull any fallback model."
+            exit 1
+          fi
+
+          echo "OPENAI_MODEL=$selected_model" >> "$GITHUB_ENV"
+          echo "Using model: $selected_model"
           ollama list
 
       - name: Install Hugo
@@ -58,7 +87,7 @@ jobs:
 
       - name: Run publisher
         env:
-          OPENAI_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen2.5:1.5b' }}
+          OPENAI_MODEL: ${{ env.OPENAI_MODEL }}
           OPENAI_BASE_URL: http://127.0.0.1:11434/v1
 
           PUBLISH_WORDPRESS: "false"

@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 12 Mar 2026 16:56:11 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Mar 2026 14:18:57 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improve operational visibility for inference workloads on Amazon Bedrock with new CloudWatch metrics for TTFT and Estimated Quota Consumption: Key Updates for Builders</title>
+      <link>https://kasdevtech.com/ai/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics/</link>
+      <pubDate>Fri, 13 Mar 2026 14:18:57 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Improve operational visibility for inference workloads on Amazon Bedrock with new CloudWatch metrics for TTFT and Estimated Quota Consumption, with implications for engineer
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>NanoClaw and Docker partner to make sandboxes the safest way for enterprises to deploy AI agents - Venturebeat: Key Updates for Builders</title>
+      <link>https://kasdevtech.com/ai/nanoclaw-and-docker-partner-to-make-sandboxes-the-safest-way-for-enterprises-to-deploy-ai-agents-ven/</link>
+      <pubDate>Fri, 13 Mar 2026 14:14:23 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/nanoclaw-and-docker-partner-to-make-sandboxes-the-safest-way-for-enterprises-to-deploy-ai-agents-ven/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around NanoClaw and Docker partner to make sandboxes the safest way for enterprises to deploy AI agents - Venturebeat, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Multimodal Embeddings at Scale: Building a Scalable Video Search System for Media and Entertainment</title>
       <link>https://kasdevtech.com/ai/multimodal-embeddings-scale/</link>

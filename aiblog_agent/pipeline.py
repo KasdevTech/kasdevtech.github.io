@@ -32,6 +32,77 @@ def _pick_related(all_items: List[SourceItem], primary: SourceItem, limit: int =
     return out
 
 
+def _scenario_score(item: SourceItem) -> int:
+    text = f"{item.title}\n{item.summary}\n{item.source}".lower()
+
+    azure_terms = {
+        "outage",
+        "incident",
+        "issue",
+        "issues",
+        "troubleshooting",
+        "troubleshoot",
+        "degradation",
+        "latency",
+        "downtime",
+        "migration",
+        "security",
+        "cost",
+        "network",
+        "monitor",
+        "monitoring",
+        "app service",
+        "aks",
+        "application gateway",
+        "private endpoint",
+        "virtual network",
+        "entra",
+        "performance",
+        "operations",
+        "production",
+        "failure",
+        "reliability",
+    }
+    ai_terms = {
+        "implementation",
+        "deploy",
+        "deployment",
+        "production",
+        "workflow",
+        "architecture",
+        "build",
+        "evaluation",
+        "guardrail",
+        "rag",
+        "agent",
+        "orchestration",
+        "inference",
+        "latency",
+        "cost",
+        "benchmark",
+        "enterprise",
+        "integration",
+    }
+
+    score = 0
+    if item.section == "azure":
+        score += sum(1 for term in azure_terms if term in text)
+    elif item.section == "ai":
+        score += sum(1 for term in ai_terms if term in text)
+    else:
+        score += sum(1 for term in {"security", "automation", "migration", "performance", "operations"} if term in text)
+    return score
+
+
+def _sorted_section_items(all_items: List[SourceItem], section: str) -> List[SourceItem]:
+    section_items = [item for item in all_items if item.section == section]
+    return sorted(
+        section_items,
+        key=lambda item: (_scenario_score(item), item.published_at),
+        reverse=True,
+    )
+
+
 def _pick_publish_candidates(all_items: List[SourceItem], limit: int) -> List[SourceItem]:
     """Pick newest items while favoring Azure first, AI second, then other cloud sections."""
     selected: List[SourceItem] = []
@@ -50,8 +121,8 @@ def _pick_publish_candidates(all_items: List[SourceItem], limit: int) -> List[So
     for section in section_order:
         if len(selected) >= limit:
             break
-        for item in all_items:
-            if item.section != section or item.link in used_links:
+        for item in _sorted_section_items(all_items, section):
+            if item.link in used_links:
                 continue
             host = (urlparse(item.link).netloc or "").lower()
             if host and host in used_hosts:

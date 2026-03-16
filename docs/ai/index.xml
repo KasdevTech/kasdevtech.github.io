@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 15 Mar 2026 14:09:27 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Mar 2026 14:49:09 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/build-an-offline-feature-store-using-amazon-sagemaker-unified-studio-and-sagemaker-catalog-ai-implem/</link>
+      <pubDate>Mon, 16 Mar 2026 14:49:09 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/build-an-offline-feature-store-using-amazon-sagemaker-unified-studio-and-sagemaker-catalog-ai-implem/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>A practical guide to the 6 categories of AI cloud infrastructure in 2026 - The New Stack: Key Updates for Builders</title>
       <link>https://kasdevtech.com/ai/a-practical-guide-to-the-6-categories-of-ai-cloud-infrastructure-in-2026-the-new-stack-key-updates-f/</link>

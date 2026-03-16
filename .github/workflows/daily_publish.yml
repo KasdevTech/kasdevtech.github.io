@@ -1,4 +1,4 @@
-name: Daily AI Blog Publish
+name: Daily Cloud and AI Blog Publish
 
 on:
   workflow_dispatch:
@@ -96,10 +96,10 @@ jobs:
           RUN_MINUTE: 0
           POSTS_PER_RUN: 2
           LOOKBACK_HOURS: 36
-          TOPICS: AI,MCP,Model Context Protocol,LangChain,LangGraph,LlamaIndex,OpenAI,Anthropic,Gemini,Vertex AI,Azure AI,Azure OpenAI,Azure Databricks,Microsoft Fabric,AWS AI,Amazon Bedrock,SageMaker,Google Cloud AI,Google Cloud,Cloudflare AI,Kubernetes,Docker,Terraform,DevSecOps,Observability,Datadog,Prometheus
+          TOPICS: AI,Azure,Azure DevOps,AKS,Microsoft Entra,MCP,Model Context Protocol,LangChain,LangGraph,LlamaIndex,OpenAI,Anthropic,Gemini,Vertex AI,Azure AI,Azure OpenAI,Azure Databricks,Microsoft Fabric,AWS,AWS AI,Amazon Bedrock,SageMaker,Google Cloud AI,Google Cloud,Cloudflare AI,Kubernetes,Docker,Terraform,FinOps,DevOps,Cloud Security,Platform Engineering,DevSecOps,Observability,Datadog,Prometheus
           EXTRA_RSS_FEEDS: ${{ secrets.EXTRA_RSS_FEEDS }}
           GITHUB_PAGES_REPO_PATH: ${{ github.workspace }}/site_repo
-          GITHUB_PAGES_POSTS_DIR: content/AI
+          GITHUB_PAGES_POSTS_DIR: content
           GITHUB_PAGES_AUTO_COMMIT: "true"
           GITHUB_PAGES_AUTO_PUSH: "true"
           PUBLISHED_STATE_FILE: ${{ github.workspace }}/site_repo/.agent_state/published_sources.txt

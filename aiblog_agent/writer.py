@@ -21,6 +21,8 @@ class GeneratedPost:
     html_content: str
     excerpt: str
     linkedin_text: str
+    section: str
+    categories: List[str]
 
 
 class BlogWriter:
@@ -83,6 +85,7 @@ Constraints:
 - 1000 to 1600 words.
 - Tone: practical, clear, not hype.
 - Include one section specifically for enterprise impact.
+- Keep the article aligned to this primary section: {primary.section}.
 - Avoid Azure-only bias unless the source itself is Azure-specific; cover multi-cloud implications where relevant.
 - Mention date context as "As of {today_iso}" near the intro.
 """.strip()
@@ -96,6 +99,8 @@ Constraints:
                 html_content=data["html_content"].strip(),
                 excerpt=data["excerpt"].strip(),
                 linkedin_text=data["linkedin_text"].strip(),
+                section=primary.section,
+                categories=_categories_for_section(primary.section),
             )
         except Exception as exc:
             print(f"LLM output parsing failed; using fallback template. Error: {exc}")
@@ -178,7 +183,20 @@ def _fallback_generate(primary: SourceItem, related: List[SourceItem], topic_hin
         html_content=html_content,
         excerpt=excerpt,
         linkedin_text=linkedin_text,
+        section=primary.section,
+        categories=_categories_for_section(primary.section),
     )
+
+
+def _categories_for_section(section: str) -> List[str]:
+    mapping = {
+        "ai": ["ai", "cloud"],
+        "azure": ["azure", "cloud"],
+        "devops": ["devops", "cloud"],
+        "terraform": ["terraform", "cloud"],
+        "cloud": ["cloud"],
+    }
+    return mapping.get(section, ["cloud"])
 
 
 def _is_local_ollama_url(base_url: str) -> bool:

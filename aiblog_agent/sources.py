@@ -18,6 +18,7 @@ class SourceItem:
     link: str
     summary: str
     published_at: dt.datetime
+    section: str
 
 
 def _parse_feed_timestamp(entry: dict) -> dt.datetime | None:
@@ -108,6 +109,85 @@ def _is_trusted_news_domain(link: str) -> bool:
     return any(host.endswith(d) for d in trusted)
 
 
+def classify_section(title: str, summary: str, link: str, source: str) -> str:
+    text = f"{title}\n{summary}\n{source}".lower()
+    host = urlparse(link).netloc.lower()
+
+    terraform_terms = {
+        "terraform",
+        "tfstate",
+        "hashicorp",
+        "iac",
+        "infrastructure as code",
+    }
+    devops_terms = {
+        "devops",
+        "github actions",
+        "github",
+        "ci/cd",
+        "pipeline",
+        "pipelines",
+        "docker",
+        "kubernetes",
+        "aks",
+        "helm",
+        "container",
+        "observability",
+        "datadog",
+        "prometheus",
+        "grafana",
+        "sre",
+        "platform engineering",
+    }
+    azure_terms = {
+        "azure",
+        "entra",
+        "microsoft fabric",
+        "azure databricks",
+        "azure openai",
+        "app service",
+        "application gateway",
+        "virtual network",
+        "vnet",
+        "private endpoint",
+        "azure sql",
+        "azure storage",
+        "azure kubernetes",
+        "azure devops",
+    }
+    ai_terms = {
+        "ai",
+        "llm",
+        "agent",
+        "agents",
+        "mcp",
+        "model context protocol",
+        "langchain",
+        "langgraph",
+        "llamaindex",
+        "openai",
+        "anthropic",
+        "gemini",
+        "bedrock",
+        "vertex ai",
+        "copilot",
+        "rag",
+        "prompt",
+    }
+
+    if any(term in text for term in terraform_terms) or "hashicorp" in host:
+        return "terraform"
+    if any(term in text for term in devops_terms) or host.endswith(("kubernetes.io", "github.blog", "docker.com")):
+        return "devops"
+    if any(term in text for term in azure_terms) or host.endswith(("microsoft.com", "azure.microsoft.com")):
+        return "azure"
+    if any(term in text for term in ai_terms):
+        return "ai"
+    if host.endswith(("aws.amazon.com", "cloud.google.com", "databricks.com", "cloudflare.com")):
+        return "cloud"
+    return "cloud"
+
+
 def collect_source_items(settings: Settings) -> List[SourceItem]:
     now = dt.datetime.now(dt.timezone.utc)
     threshold = now - dt.timedelta(hours=settings.lookback_hours)
@@ -145,6 +225,7 @@ def collect_source_items(settings: Settings) -> List[SourceItem]:
                     link=link,
                     summary=summary,
                     published_at=published_at,
+                    section=classify_section(title=title, summary=summary, link=link, source=source_title),
                 )
             )
 

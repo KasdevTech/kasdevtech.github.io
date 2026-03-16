@@ -15,8 +15,16 @@ from .writer import BlogWriter
 
 def _pick_related(all_items: List[SourceItem], primary: SourceItem, limit: int = 3) -> List[SourceItem]:
     out: List[SourceItem] = []
+
     for item in all_items:
-        if item.link == primary.link:
+        if item.link == primary.link or item.section != primary.section:
+            continue
+        if len(out) >= limit:
+            break
+        out.append(item)
+
+    for item in all_items:
+        if item.link == primary.link or item in out:
             continue
         if len(out) >= limit:
             break
@@ -25,29 +33,52 @@ def _pick_related(all_items: List[SourceItem], primary: SourceItem, limit: int =
 
 
 def _pick_publish_candidates(all_items: List[SourceItem], limit: int) -> List[SourceItem]:
-    """Pick newest items while preferring domain diversity across a run."""
+    """Pick newest items while preferring section and domain diversity across a run."""
     selected: List[SourceItem] = []
     used_hosts: set[str] = set()
+    used_links: set[str] = set()
+
+    section_order: List[str] = []
+    for item in all_items:
+        if item.section not in section_order:
+            section_order.append(item.section)
+
+    for section in section_order:
+        if len(selected) >= limit:
+            break
+        for item in all_items:
+            if item.section != section or item.link in used_links:
+                continue
+            host = (urlparse(item.link).netloc or "").lower()
+            if host and host in used_hosts:
+                continue
+            selected.append(item)
+            used_links.add(item.link)
+            if host:
+                used_hosts.add(host)
+            break
 
     for item in all_items:
         if len(selected) >= limit:
             break
+        if item.link in used_links:
+            continue
         host = (urlparse(item.link).netloc or "").lower()
         if host and host in used_hosts:
             continue
         selected.append(item)
+        used_links.add(item.link)
         if host:
             used_hosts.add(host)
 
     if len(selected) < limit:
-        seen_links = {i.link for i in selected}
         for item in all_items:
             if len(selected) >= limit:
                 break
-            if item.link in seen_links:
+            if item.link in used_links:
                 continue
             selected.append(item)
-            seen_links.add(item.link)
+            used_links.add(item.link)
 
     return selected
 

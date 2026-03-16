@@ -25,7 +25,9 @@ class GitHubPagesPublisher:
             return None
 
         root = Path(repo_path).expanduser().resolve()
-        posts_dir = root / self.settings.github_pages_posts_dir.strip().strip("/")
+        content_root = root / self.settings.github_pages_posts_dir.strip().strip("/")
+        section_dir = _section_directory(post.section)
+        posts_dir = content_root / section_dir
         posts_dir.mkdir(parents=True, exist_ok=True)
 
         today = dt.date.today()
@@ -42,8 +44,8 @@ class GitHubPagesPublisher:
             f"lastmod: {published_at}\n"
             "draft: false\n"
             f"slug: \"{post.slug}\"\n"
-            f"url: \"/ai/{post.slug}/\"\n"
-            "categories: [ai, cloud]\n"
+            f"url: \"/{post.section}/{post.slug}/\"\n"
+            f"categories: [{', '.join(post.categories)}]\n"
             f"summary: \"{safe_excerpt}\"\n"
             f"excerpt: \"{safe_excerpt}\"\n"
             f"canonical_url: \"{wordpress_url}\"\n"
@@ -85,3 +87,14 @@ class GitHubPagesPublisher:
 
 def _yaml_escape(text: str) -> str:
     return text.replace("\\", "\\\\").replace('"', '\\"')
+
+
+def _section_directory(section: str) -> str:
+    mapping = {
+        "ai": "AI",
+        "azure": "Azure",
+        "devops": "Devops",
+        "terraform": "Terraform",
+        "cloud": "AI",
+    }
+    return mapping.get(section, "AI")

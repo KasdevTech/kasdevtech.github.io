@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DevOps on KasdevTech</title>
+    <title>Devops on KasdevTech</title>
     <link>https://kasdevtech.com/categories/devops/</link>
-    <description>Recent content in DevOps on KasdevTech</description>
+    <description>Recent content in Devops on KasdevTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 25 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Mar 2026 04:10:35 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Launches Managed Openclaw on Lightsail Amid Critical Security Vulnerabilities - infoq.com: Key Updates for Builders</title>
+      <link>https://kasdevtech.com/devops/aws-launches-managed-openclaw-on-lightsail-amid-critical-security-vulnerabilities-infoqcom-key-updat/</link>
+      <pubDate>Mon, 16 Mar 2026 04:10:35 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/aws-launches-managed-openclaw-on-lightsail-amid-critical-security-vulnerabilities-infoqcom-key-updat/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around AWS Launches Managed Openclaw on Lightsail Amid Critical Security Vulnerabilities - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

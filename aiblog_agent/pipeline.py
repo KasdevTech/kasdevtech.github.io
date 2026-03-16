@@ -33,12 +33,16 @@ def _pick_related(all_items: List[SourceItem], primary: SourceItem, limit: int =
 
 
 def _pick_publish_candidates(all_items: List[SourceItem], limit: int) -> List[SourceItem]:
-    """Pick newest items while preferring section and domain diversity across a run."""
+    """Pick newest items while favoring Azure first, AI second, then other cloud sections."""
     selected: List[SourceItem] = []
     used_hosts: set[str] = set()
     used_links: set[str] = set()
 
+    preferred_sections = ["azure", "ai", "devops", "terraform", "cloud"]
     section_order: List[str] = []
+    for section in preferred_sections:
+        if any(item.section == section for item in all_items):
+            section_order.append(section)
     for item in all_items:
         if item.section not in section_order:
             section_order.append(item.section)

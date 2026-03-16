@@ -68,6 +68,7 @@ class BlogWriter:
             "for a developer audience. Do not invent facts. Use only provided sources."
         )
         today_iso = date.today().isoformat()
+        section_guidance = _section_guidance(primary.section)
         user = f"""
 Generate one technical blog post about: {topic_hint}
 
@@ -86,6 +87,7 @@ Constraints:
 - Tone: practical, clear, not hype.
 - Include one section specifically for enterprise impact.
 - Keep the article aligned to this primary section: {primary.section}.
+- Follow this section guidance: {section_guidance}
 - Avoid Azure-only bias unless the source itself is Azure-specific; cover multi-cloud implications where relevant.
 - Mention date context as "As of {today_iso}" near the intro.
 """.strip()
@@ -138,7 +140,7 @@ def _extract_json(raw: str) -> dict:
 
 
 def _fallback_generate(primary: SourceItem, related: List[SourceItem], topic_hint: str) -> GeneratedPost:
-    title = f"{topic_hint}: Key Updates for Builders"
+    title = f"{topic_hint}: {_section_headline_suffix(primary.section)}"
     slug = _slugify(title)
     excerpt = (
         f"Practical summary of the latest updates around {topic_hint}, with implications for engineering teams."
@@ -158,7 +160,8 @@ def _fallback_generate(primary: SourceItem, related: List[SourceItem], topic_hin
         "<ul>"
         + "".join(bullets)
         + "</ul>"
-        "<h2>Why It Matters for Enterprise Teams</h2>"
+        + _section_implementation_block(primary.section)
+        + "<h2>Why It Matters for Enterprise Teams</h2>"
         "<p>These announcements indicate faster adoption of AI agents, stronger ecosystem integration, "
         "and increasing need for governance, observability, and evaluation workflows in production.</p>"
         "<h2>Implementation Notes</h2>"
@@ -197,6 +200,57 @@ def _categories_for_section(section: str) -> List[str]:
         "cloud": ["cloud"],
     }
     return mapping.get(section, ["cloud"])
+
+
+def _section_guidance(section: str) -> str:
+    if section == "azure":
+        return (
+            "Write it as a real-world Azure cloud scenario with troubleshooting steps, architecture decisions, "
+            "operations impact, and implementation guidance. Prefer Azure examples over AWS when both appear."
+        )
+    if section == "ai":
+        return (
+            "Write it as a hands-on AI implementation article with architecture, tools, delivery steps, "
+            "production tradeoffs, and enterprise rollout guidance."
+        )
+    if section == "devops":
+        return (
+            "Write it as a platform engineering or DevOps implementation article with pipelines, automation, "
+            "security, and operations detail."
+        )
+    if section == "terraform":
+        return "Write it as an infrastructure-as-code implementation article with change control and remediation detail."
+    return "Write it as a practical cloud implementation article."
+
+
+def _section_headline_suffix(section: str) -> str:
+    mapping = {
+        "azure": "Azure Real-World Scenario Guide",
+        "ai": "AI Implementation Guide",
+        "devops": "Platform Engineering Guide",
+        "terraform": "Terraform Implementation Guide",
+        "cloud": "Cloud Implementation Guide",
+    }
+    return mapping.get(section, "Implementation Guide")
+
+
+def _section_implementation_block(section: str) -> str:
+    if section == "azure":
+        return (
+            "<h2>Azure Scenario Walkthrough</h2>"
+            "<p>Map the issue to the impacted Azure services, validate dependencies, confirm platform health, "
+            "and document the exact remediation path before broad rollout.</p>"
+        )
+    if section == "ai":
+        return (
+            "<h2>Implementation Blueprint</h2>"
+            "<p>Define the model workflow, retrieval pattern, guardrails, evaluation loop, and production "
+            "observability before scaling the use case.</p>"
+        )
+    return (
+        "<h2>Implementation Blueprint</h2>"
+        "<p>Turn the update into a concrete rollout plan with architecture decisions, automation, and validation checkpoints.</p>"
+    )
 
 
 def _is_local_ollama_url(base_url: str) -> bool:

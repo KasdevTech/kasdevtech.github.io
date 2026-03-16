@@ -60,6 +60,9 @@ class Settings:
 DEFAULT_TOPICS = [
     "AI",
     "Azure",
+    "Azure Monitor",
+    "Azure Networking",
+    "App Service",
     "Azure DevOps",
     "AKS",
     "Microsoft Entra",
@@ -79,7 +82,6 @@ DEFAULT_TOPICS = [
     "Vertex AI",
     "Google Cloud AI",
     "Google Cloud",
-    "AWS",
     "AWS AI",
     "Amazon Bedrock",
     "SageMaker",
@@ -101,6 +103,7 @@ DEFAULT_TOPICS = [
 DEFAULT_RSS_FEEDS = [
     "https://azure.microsoft.com/en-us/blog/feed/",
     "https://devblogs.microsoft.com/feed/",
+    "https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=Azure",
     "https://blog.langchain.dev/rss/",
     "https://openai.com/news/rss.xml",
     "https://www.anthropic.com/news/rss.xml",

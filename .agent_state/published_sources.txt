@@ -3,6 +3,7 @@ https://aws.amazon.com/blogs/machine-learning/improve-operational-visibility-for
 https://aws.amazon.com/blogs/machine-learning/multimodal-embeddings-at-scale-ai-data-lake-for-media-and-entertainment-workloads/
 https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-parallel-speculative-decoding-in-vllm/
 https://github.blog/changelog/2026-03-12-rest-api-version-2026-03-10-is-now-available
+https://news.google.com/rss/articles/CBMi6gFBVV95cUxONXdWbUgxNWN6N3ZxMk80RWx6UUx4bmwzME9paTkwdWN2UEg2elRlTXpZLWxPeVU3TE1FWmx4Wl91ZzNZQjlyNGxIZXVYUmhEOE0tWEh2R01jSExjcW9qSnlPWGZlMTJLUGVsdVh6RW5sR0xfWGJWXzQ1dkpmUjhJaFpxSzEydktCQUwwakJZcUt0NUpJM1BCVGs2OHNMUVR4ZVZ4NVdTeE94STk5cFJTZjFSLVlxVnNEVE93RldYUkRKMlI4QjZER2g1ZmZmT2dnTWVIa3FIeVlOeEdYUGF0am0wM3JfV01RTnc?oc=5
 https://news.google.com/rss/articles/CBMiWkFVX3lxTE9obVk1WFRMb0c0UkJ5akVLZ1pqNkNybEdBSWxUdi1SaHRQRHdjaVA4TVpCTy1wN2c2VmRZRjhLUDZnTDNyZUZPY3FSY1pLZlJVN010SXdtRHdHdw?oc=5
 https://news.google.com/rss/articles/CBMiX0FVX3lxTE1haGsyS0p2aEpqMVFzM3lkRkIycFp5RW11QkVndm5pRzZxVU5QU2JwVExzSFJhUFJCbFNoeHlxYlNBbERCN2ZCdnl4bFVJeGJKLVFJaXdjQVI2c0hqWjZz?oc=5
 https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BbFNWM0lOWHRSMENLMWlJSlNwWThBMTlmSEVIcHhpSk1sdDhBdHdMNm1uTFZYWENWYTlIY0lqV2FCT3IzNXhqM1BEOXFNa2FYSENtYzJpSDdLajRtNWxyTG1pd0JnMzNQ?oc=5

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 17 Mar 2026 14:42:51 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Mar 2026 14:53:02 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open SWE: An Open-Source Framework for Internal Coding Agents</title>
+      <link>https://kasdevtech.com/ai/open-swe-framework/</link>
+      <pubDate>Wed, 18 Mar 2026 14:53:02 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/open-swe-framework/</guid>
+      <description>
+        
+          
+            Built on Deep Agents and LangGraph, Open SWE provides core architectural components for internal coding agents.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA</title>
       <link>https://kasdevtech.com/ai/langchain-enterprise-agentic-platform-nvidia/</link>

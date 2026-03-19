@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 14:53:02 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2026 14:34:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evaluating AI Agents for Production: A Practical Guide to Strands Evals</title>
+      <link>https://kasdevtech.com/ai/evaluating-ai-agents-production-practical-guide-strands-evals/</link>
+      <pubDate>Thu, 19 Mar 2026 14:34:03 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/evaluating-ai-agents-production-practical-guide-strands-evals/</guid>
+      <description>
+        
+          
+            Learn how to evaluate AI agents systematically using Strands Evals, a practical guide that covers core concepts, built-in evaluators, multi-turn simulation capabilities, and integration approaches.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Open SWE: An Open-Source Framework for Internal Coding Agents</title>
       <link>https://kasdevtech.com/ai/open-swe-framework/</link>

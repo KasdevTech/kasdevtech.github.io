@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 18 Mar 2026 14:50:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2026 14:33:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy Production Generative AI at the Edge Using Amazon EKS Hybrid Nodes with NVIDIA DGX</title>
+      <link>https://kasdevtech.com/azure/deploy-production-generative-ai-edge-amazon-eks-hybrid-nvidia-dgx/</link>
+      <pubDate>Thu, 19 Mar 2026 14:33:24 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/deploy-production-generative-ai-edge-amazon-eks-hybrid-nvidia-dgx/</guid>
+      <description>
+        
+          
+            Learn how to deploy production generative AI models at the edge using AWS, specifically leveraging Amazon Elastic Kubernetes Service (Amazon EKS) hybrid nodes and NVIDIA&#39;s DGX system. This post covers the process of setting up a robust infrastructure for edge computing.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Nvidia&#39;s agentic AI stack is the first major platform to ship with security at launch, but governance gaps remain - VentureBeat: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/nvidias-agentic-ai-stack-is-the-first-major-platform-to-ship-with-security-at-launch-but-governance/</link>

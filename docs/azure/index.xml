@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 19 Mar 2026 14:33:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Mar 2026 14:15:29 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A rogue AI led to a serious security incident at Meta - The Verge: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/a-rogue-ai-led-to-a-serious-security-incident-at-meta-the-verge-azure-real-world-scenario-guide/</link>
+      <pubDate>Fri, 20 Mar 2026 14:15:29 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/a-rogue-ai-led-to-a-serious-security-incident-at-meta-the-verge-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around A rogue AI led to a serious security incident at Meta - The Verge, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Deploy Production Generative AI at the Edge Using Amazon EKS Hybrid Nodes with NVIDIA DGX</title>
       <link>https://kasdevtech.com/azure/deploy-production-generative-ai-edge-amazon-eks-hybrid-nvidia-dgx/</link>

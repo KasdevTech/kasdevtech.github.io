@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 19 Mar 2026 14:34:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Mar 2026 14:16:17 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we monitor internal coding agents for misalignment: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-we-monitor-internal-coding-agents-for-misalignment-ai-implementation-guide/</link>
+      <pubDate>Fri, 20 Mar 2026 14:16:17 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-we-monitor-internal-coding-agents-for-misalignment-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How we monitor internal coding agents for misalignment, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>A rogue AI led to a serious security incident at Meta - The Verge: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/a-rogue-ai-led-to-a-serious-security-incident-at-meta-the-verge-azure-real-world-scenario-guide/</link>
+      <pubDate>Fri, 20 Mar 2026 14:15:29 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/a-rogue-ai-led-to-a-serious-security-incident-at-meta-the-verge-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around A rogue AI led to a serious security incident at Meta - The Verge, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Evaluating AI Agents for Production: A Practical Guide to Strands Evals</title>
       <link>https://kasdevtech.com/ai/evaluating-ai-agents-production-practical-guide-strands-evals/</link>

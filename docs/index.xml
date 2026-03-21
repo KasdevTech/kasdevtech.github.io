@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 20 Mar 2026 14:16:17 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Mar 2026 14:06:04 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Agents on Kubernetes with Agent Sandbox: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/running-agents-on-kubernetes-with-agent-sandbox-platform-engineering-guide/</link>
+      <pubDate>Sat, 21 Mar 2026 14:06:04 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/running-agents-on-kubernetes-with-agent-sandbox-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Running Agents on Kubernetes with Agent Sandbox, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>coSTAR: How We Ship AI Agents at Databricks Fast, Without Breaking Things - Databricks: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/costar-how-we-ship-ai-agents-at-databricks-fast-without-breaking-things-databricks-azure-real-world/</link>
+      <pubDate>Sat, 21 Mar 2026 14:03:05 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/costar-how-we-ship-ai-agents-at-databricks-fast-without-breaking-things-databricks-azure-real-world/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around coSTAR: How We Ship AI Agents at Databricks Fast, Without Breaking Things - Databricks, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How we monitor internal coding agents for misalignment: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-we-monitor-internal-coding-agents-for-misalignment-ai-implementation-guide/</link>

@@ -2,11 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-03-22T14:09:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-03-22T14:09:03+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-03-21T14:06:04+00:00</lastmod>
+    <lastmod>2026-03-22T14:09:03+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-03-21T14:06:04+00:00</lastmod>
+    <lastmod>2026-03-22T14:09:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-03-22T14:09:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/will-ai-force-code-to-evolve-or-make-it-extinct-the-new-stack-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-03-22T14:09:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/ai-tokens-new-signing-bonus/</loc>
+    <lastmod>2026-03-22T14:04:38+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/devops/</loc>
     <lastmod>2026-03-21T14:06:04+00:00</lastmod>
@@ -14,17 +29,8 @@
     <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-03-21T14:06:04+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-03-21T14:06:04+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/devops/running-agents-on-kubernetes-with-agent-sandbox-platform-engineering-guide/</loc>
     <lastmod>2026-03-21T14:06:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-03-21T14:03:05+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-03-21T14:03:05+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/costar-how-we-ship-ai-agents-at-databricks-fast-without-breaking-things-databricks-azure-real-world/</loc>
     <lastmod>2026-03-21T14:03:05+00:00</lastmod>

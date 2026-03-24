@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 20 Mar 2026 14:16:17 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Mar 2026 14:45:54 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating Amazon Bedrock AgentCore with Slack: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/integrating-amazon-bedrock-agentcore-with-slack-ai-implementation-guide/</link>
+      <pubDate>Tue, 24 Mar 2026 14:45:54 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/integrating-amazon-bedrock-agentcore-with-slack-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Integrating Amazon Bedrock AgentCore with Slack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How we monitor internal coding agents for misalignment: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-we-monitor-internal-coding-agents-for-misalignment-ai-implementation-guide/</link>

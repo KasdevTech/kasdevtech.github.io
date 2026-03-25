@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 24 Mar 2026 14:45:54 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Mar 2026 14:45:13 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy SageMaker AI inference endpoints with set GPU capacity using training plans: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/deploy-sagemaker-ai-inference-endpoints-with-set-gpu-capacity-using-training-plans-ai-implementation/</link>
+      <pubDate>Wed, 25 Mar 2026 14:45:13 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/deploy-sagemaker-ai-inference-endpoints-with-set-gpu-capacity-using-training-plans-ai-implementation/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Deploy SageMaker AI inference endpoints with set GPU capacity using training plans, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Integrating Amazon Bedrock AgentCore with Slack: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/integrating-amazon-bedrock-agentcore-with-slack-ai-implementation-guide/</link>

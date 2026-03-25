@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 24 Mar 2026 14:45:54 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Mar 2026 14:45:13 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploy SageMaker AI inference endpoints with set GPU capacity using training plans: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/deploy-sagemaker-ai-inference-endpoints-with-set-gpu-capacity-using-training-plans-ai-implementation/</link>
+      <pubDate>Wed, 25 Mar 2026 14:45:13 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/deploy-sagemaker-ai-inference-endpoints-with-set-gpu-capacity-using-training-plans-ai-implementation/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Deploy SageMaker AI inference endpoints with set GPU capacity using training plans, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>HPE’s AI agents cut root cause analysis time in half - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/hpes-ai-agents-cut-root-cause-analysis-time-in-half-the-new-stack-azure-real-world-scenario-guide/</link>
+      <pubDate>Wed, 25 Mar 2026 14:44:38 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/hpes-ai-agents-cut-root-cause-analysis-time-in-half-the-new-stack-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around HPE’s AI agents cut root cause analysis time in half - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Integrating Amazon Bedrock AgentCore with Slack: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/integrating-amazon-bedrock-agentcore-with-slack-ai-implementation-guide/</link>

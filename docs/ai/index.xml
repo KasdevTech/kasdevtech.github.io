@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 26 Mar 2026 14:50:52 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2026 14:39:20 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building age-responsive, context-aware AI with Amazon Bedrock Guardrails: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/building-age-responsive-context-aware-ai-with-amazon-bedrock-guardrails-ai-implementation-guide/</link>
+      <pubDate>Fri, 27 Mar 2026 14:39:20 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/building-age-responsive-context-aware-ai-with-amazon-bedrock-guardrails-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Building age-responsive, context-aware AI with Amazon Bedrock Guardrails, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Deploy Voice Agents with Pipecat and Amazon Bedrock AgentCore Runtime – Part 1</title>
       <link>https://kasdevtech.com/ai/deploy-voice-agents-pipecat-agentcore-runtime-part-1/</link>

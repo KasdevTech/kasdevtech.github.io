@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 30 Mar 2026 14:52:55 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2026 14:51:55 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure multi-warehouse Amazon Redshift access behind a Network Load Balancer using Microsoft Entra ID - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/secure-multi-warehouse-amazon-redshift-access-behind-a-network-load-balancer-using-microsoft-entra-i/</link>
+      <pubDate>Tue, 31 Mar 2026 14:51:55 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/secure-multi-warehouse-amazon-redshift-access-behind-a-network-load-balancer-using-microsoft-entra-i/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Secure multi-warehouse Amazon Redshift access behind a Network Load Balancer using Microsoft Entra ID - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Copilot Cowork: Now available in Frontier - Microsoft: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/copilot-cowork-now-available-in-frontier-microsoft-azure-real-world-scenario-guide/</link>

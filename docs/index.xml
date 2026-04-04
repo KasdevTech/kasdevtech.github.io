@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 03 Apr 2026 14:16:02 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 14:10:21 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Organization Firewall Settings for Copilot Cloud Agent</title>
+      <link>https://kasdevtech.com/devops/organization-firewall-settings-for-copilot-cloud-agent/</link>
+      <pubDate>Sat, 04 Apr 2026 14:10:21 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/organization-firewall-settings-for-copilot-cloud-agent/</guid>
+      <description>
+        
+          
+            Copilot cloud agent includes a built-in agent firewall to control Copilot&#39;s internet access and help protect against prompt injection and data exfiltration. The post discusses how to configure this feature at the organization level.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Amazon Bedrock Guardrails supports cross-account safeguards with centralized control and management - Amazon Web Services: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/amazon-bedrock-guardrails-supports-cross-account-safeguards-with-centralized-control-and-management/</link>
+      <pubDate>Sat, 04 Apr 2026 14:08:53 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/amazon-bedrock-guardrails-supports-cross-account-safeguards-with-centralized-control-and-management/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Amazon Bedrock Guardrails supports cross-account safeguards with centralized control and management - Amazon Web Services, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Control which domains your AI agents can access: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/control-which-domains-your-ai-agents-can-access-ai-implementation-guide/</link>

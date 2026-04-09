@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 08 Apr 2026 14:56:29 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 15:12:19 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing stateful MCP client capabilities on Amazon Bedrock AgentCore Runtime: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/introducing-stateful-mcp-client-capabilities-on-amazon-bedrock-agentcore-runtime-ai-implementation-g/</link>
+      <pubDate>Thu, 09 Apr 2026 15:12:19 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/introducing-stateful-mcp-client-capabilities-on-amazon-bedrock-agentcore-runtime-ai-implementation-g/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Introducing stateful MCP client capabilities on Amazon Bedrock AgentCore Runtime, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Arcade.dev tools now in LangSmith Fleet: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/arcadedev-tools-now-in-langsmith-fleet-ai-implementation-guide/</link>

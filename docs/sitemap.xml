@@ -3,30 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-04-08T14:56:29+00:00</lastmod>
+    <lastmod>2026-04-09T15:12:19+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-04-08T14:56:29+00:00</lastmod>
+    <lastmod>2026-04-09T15:12:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-04-09T15:12:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-04-09T15:12:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/introducing-stateful-mcp-client-capabilities-on-amazon-bedrock-agentcore-runtime-ai-implementation-g/</loc>
+    <lastmod>2026-04-09T15:12:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-04-09T15:12:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-04-09T15:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-04-09T15:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/cloud-cost-optimization-how-to-maximize-roi-from-ai-manage-costs-and-unlock-real-business-value-micr/</loc>
+    <lastmod>2026-04-09T15:10:16+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/arcadedev-tools-now-in-langsmith-fleet-ai-implementation-guide/</loc>
     <lastmod>2026-04-08T14:56:29+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-04-08T14:56:29+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-04-08T14:56:29+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-04-08T14:56:29+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/anthropic-is-launching-a-new-ai-model-for-cybersecurity-the-verge-azure-real-world-scenario-guide/</loc>
-    <lastmod>2026-04-08T14:55:44+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-04-08T14:55:44+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
     <lastmod>2026-04-08T14:55:44+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/accelerate-agentic-tool-calling-with-serverless-model-customization-in-amazon-sagemaker-ai-ai-implem/</loc>

@@ -2,29 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/devops/actions-workflows-are-limited-to-50-reruns-platform-engineering-guide/</loc>
+    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-04-11T14:08:52+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-04-11T14:08:52+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/project-glasswing-securing-critical-software-for-the-ai-era-anthropic-azure-real-world-scenario-guid/</loc>
+    <lastmod>2026-04-11T14:08:52+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-04-10T14:38:01+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-04-10T14:38:01+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-04-10T14:38:01+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-04-10T14:38:01+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/deep-agents-deploy-an-open-alternative-to-claude-managed-agents-ai-implementation-guide/</loc>
     <lastmod>2026-04-10T14:38:01+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-04-10T14:38:01+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-04-10T14:36:50+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-04-10T14:36:50+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/heineken-achieves-zero-downtime-with-azure-api-management-microsoft-azure-real-world-scenario-guide/</loc>
     <lastmod>2026-04-10T14:36:50+00:00</lastmod>
@@ -58,12 +70,6 @@
   </url><url>
     <loc>https://kasdevtech.com/azure/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-usage-techcrunch-azure-re/</loc>
     <lastmod>2026-04-05T14:09:06+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-04-04T14:10:21+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-04-04T14:10:21+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/organization-firewall-settings-for-copilot-cloud-agent/</loc>
     <lastmod>2026-04-04T14:10:21+00:00</lastmod>

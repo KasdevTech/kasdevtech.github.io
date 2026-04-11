@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 10 Apr 2026 14:36:50 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Apr 2026 14:08:52 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Glasswing: Securing critical software for the AI era - Anthropic: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/project-glasswing-securing-critical-software-for-the-ai-era-anthropic-azure-real-world-scenario-guid/</link>
+      <pubDate>Sat, 11 Apr 2026 14:08:52 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/project-glasswing-securing-critical-software-for-the-ai-era-anthropic-azure-real-world-scenario-guid/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Project Glasswing: Securing critical software for the AI era - Anthropic, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>HEINEKEN achieves zero downtime with Azure API Management - Microsoft: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/heineken-achieves-zero-downtime-with-azure-api-management-microsoft-azure-real-world-scenario-guide/</link>

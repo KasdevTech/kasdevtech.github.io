@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 14:10:21 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Apr 2026 14:10:16 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actions workflows are limited to 50 reruns: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/actions-workflows-are-limited-to-50-reruns-platform-engineering-guide/</link>
+      <pubDate>Sat, 11 Apr 2026 14:10:16 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/actions-workflows-are-limited-to-50-reruns-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Actions workflows are limited to 50 reruns, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Organization Firewall Settings for Copilot Cloud Agent</title>
       <link>https://kasdevtech.com/devops/organization-firewall-settings-for-copilot-cloud-agent/</link>

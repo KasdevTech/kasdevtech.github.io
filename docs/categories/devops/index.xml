@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 11 Apr 2026 14:10:16 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2026 15:06:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copilot data residency in US &#43; EU and FedRAMP compliance now available: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available-platform-engineering-guide/</link>
+      <pubDate>Tue, 14 Apr 2026 15:06:45 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Copilot data residency in US + EU and FedRAMP compliance now available, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Actions workflows are limited to 50 reruns: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/actions-workflows-are-limited-to-50-reruns-platform-engineering-guide/</link>

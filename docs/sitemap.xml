@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-04-13T15:07:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-04-13T15:07:04+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-04-13T15:07:04+00:00</lastmod>
+    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-04-13T15:07:04+00:00</lastmod>
+    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/ai/enterprises-power-agentic-workflows-in-cloudflare-agent-cloud-with-openai-ai-implementation-guide/</loc>
-    <lastmod>2026-04-13T15:07:04+00:00</lastmod>
+    <loc>https://kasdevtech.com/devops/copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available-platform-engineering-guide/</loc>
+    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-04-14T15:05:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-04-14T15:05:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization-ai-imple/</loc>
+    <lastmod>2026-04-14T15:05:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/enterprises-power-agentic-workflows-in-cloudflare-agent-cloud-with-openai-ai-implementation-guide/</loc>
     <lastmod>2026-04-13T15:07:04+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/ai-in-healthcare-and-wellbeing/</loc>
@@ -36,12 +48,6 @@
     <lastmod>2026-04-12T14:11:43+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/actions-workflows-are-limited-to-50-reruns-platform-engineering-guide/</loc>
-    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-04-11T14:10:16+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-04-11T14:10:16+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/project-glasswing-securing-critical-software-for-the-ai-era-anthropic-azure-real-world-scenario-guid/</loc>

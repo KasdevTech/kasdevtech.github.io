@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 14 Apr 2026 15:05:25 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 14:58:59 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best practices to run inference on Amazon SageMaker HyperPod: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod-ai-implementation-guide/</link>
+      <pubDate>Wed, 15 Apr 2026 14:58:59 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Best practices to run inference on Amazon SageMaker HyperPod, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to build effective reward functions with AWS Lambda for Amazon Nova model customization: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization-ai-imple/</link>

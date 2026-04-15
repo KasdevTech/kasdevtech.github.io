@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 14 Apr 2026 15:06:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 14:58:59 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best practices to run inference on Amazon SageMaker HyperPod: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod-ai-implementation-guide/</link>
+      <pubDate>Wed, 15 Apr 2026 14:58:59 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Best practices to run inference on Amazon SageMaker HyperPod, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Capsule Security Exits Stealth With $7M to Stop AI Agents From Going Rogue at Runtime - VentureBeat: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/capsule-security-exits-stealth-with-7m-to-stop-ai-agents-from-going-rogue-at-runtime-venturebeat-azu/</link>
+      <pubDate>Wed, 15 Apr 2026 14:56:45 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/capsule-security-exits-stealth-with-7m-to-stop-ai-agents-from-going-rogue-at-runtime-venturebeat-azu/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Capsule Security Exits Stealth With $7M to Stop AI Agents From Going Rogue at Runtime - VentureBeat, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Copilot data residency in US &#43; EU and FedRAMP compliance now available: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available-platform-engineering-guide/</link>

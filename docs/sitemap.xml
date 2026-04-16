@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/ai/accelerating-decode-heavy-llm-inference-with-speculative-decoding-on-aws-trainium-and-vllm-ai-implem/</loc>
+    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-04-15T14:58:59+00:00</lastmod>
+    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-04-15T14:58:59+00:00</lastmod>
+    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-04-16T15:15:41+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-04-16T15:15:41+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/rakuten-fixes-issues-twice-as-fast-with-codex-openai-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-04-16T15:15:41+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod-ai-implementation-guide/</loc>
     <lastmod>2026-04-15T14:58:59+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-04-15T14:58:59+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-04-15T14:58:59+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-04-15T14:58:59+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-04-15T14:56:45+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-04-15T14:56:45+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/capsule-security-exits-stealth-with-7m-to-stop-ai-agents-from-going-rogue-at-runtime-venturebeat-azu/</loc>
     <lastmod>2026-04-15T14:56:45+00:00</lastmod>

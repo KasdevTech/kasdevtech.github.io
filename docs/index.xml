@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 15 Apr 2026 14:58:59 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2026 15:17:06 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating decode-heavy LLM inference with speculative decoding on AWS Trainium and vLLM: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/accelerating-decode-heavy-llm-inference-with-speculative-decoding-on-aws-trainium-and-vllm-ai-implem/</link>
+      <pubDate>Thu, 16 Apr 2026 15:17:06 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/accelerating-decode-heavy-llm-inference-with-speculative-decoding-on-aws-trainium-and-vllm-ai-implem/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Accelerating decode-heavy LLM inference with speculative decoding on AWS Trainium and vLLM, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Rakuten fixes issues twice as fast with Codex - OpenAI: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/rakuten-fixes-issues-twice-as-fast-with-codex-openai-azure-real-world-scenario-guide/</link>
+      <pubDate>Thu, 16 Apr 2026 15:15:41 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/rakuten-fixes-issues-twice-as-fast-with-codex-openai-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Rakuten fixes issues twice as fast with Codex - OpenAI, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Best practices to run inference on Amazon SageMaker HyperPod: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod-ai-implementation-guide/</link>

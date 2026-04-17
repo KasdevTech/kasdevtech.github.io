@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kasdevtech.com/ai/accelerating-decode-heavy-llm-inference-with-speculative-decoding-on-aws-trainium-and-vllm-ai-implem/</loc>
-    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
+    <lastmod>2026-04-17T14:46:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/claude-opus-47-is-generally-available-platform-engineering-guide/</loc>
+    <lastmod>2026-04-17T14:46:16+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-04-16T15:17:06+00:00</lastmod>
+    <lastmod>2026-04-17T14:46:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-04-17T14:46:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-04-17T14:46:16+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-04-17T14:46:16+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-04-17T14:43:33+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-04-17T14:43:33+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference-ai/</loc>
+    <lastmod>2026-04-17T14:43:33+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/accelerating-decode-heavy-llm-inference-with-speculative-decoding-on-aws-trainium-and-vllm-ai-implem/</loc>
     <lastmod>2026-04-16T15:17:06+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/</loc>
@@ -36,12 +48,6 @@
     <lastmod>2026-04-15T14:56:45+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available-platform-engineering-guide/</loc>
-    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-04-14T15:06:45+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-04-14T15:06:45+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization-ai-imple/</loc>

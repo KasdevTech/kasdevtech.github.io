@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 14 Apr 2026 15:06:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Apr 2026 14:46:16 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Opus 4.7 is generally available: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/claude-opus-47-is-generally-available-platform-engineering-guide/</link>
+      <pubDate>Fri, 17 Apr 2026 14:46:16 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/claude-opus-47-is-generally-available-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Claude Opus 4.7 is generally available, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Copilot data residency in US &#43; EU and FedRAMP compliance now available: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available-platform-engineering-guide/</link>

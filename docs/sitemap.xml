@@ -2,31 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-04-19T14:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-04-19T14:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-04-19T14:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-04-19T14:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-04-19T14:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/too-good-to-go-optimizes-partner-retention-with-mistral-ai-in-amazon-bedrock-amazon-web-services-azu/</loc>
+    <lastmod>2026-04-19T14:14:38+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/smartbears-swagger-update-targets-the-api-drift-problem-ai-coding-tools-created-the-new-stack-azure/</loc>
+    <lastmod>2026-04-19T14:11:51+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-04-18T14:14:17+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-04-18T14:14:17+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-04-18T14:14:17+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-04-18T14:14:17+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-04-18T14:14:17+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock-ai-imple/</loc>
     <lastmod>2026-04-18T14:14:17+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/anthropics-new-cybersecurity-model-could-get-it-back-in-the-governments-good-graces-the-verge-azure/</loc>
-    <lastmod>2026-04-18T14:13:27+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-04-18T14:13:27+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
     <lastmod>2026-04-18T14:13:27+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/claude-opus-47-is-generally-available-platform-engineering-guide/</loc>

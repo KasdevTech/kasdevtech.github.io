@@ -80,4 +80,5 @@ https://news.google.com/rss/articles/CBMizgFBVV95cUxQLUtXdWpvSG5LWEtfak53elZwMW9
 https://openai.com/index/cloudflare-openai-agent-cloud
 https://openai.com/index/helping-disaster-response-teams-asia
 https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
+https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
 https://openai.com/index/industrial-policy-for-the-intelligence-age

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 21 Apr 2026 15:03:53 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2026 15:00:07 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SANS Leadership Summit AI Agents Webinar | Security Insider - Microsoft: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/sans-leadership-summit-ai-agents-webinar-security-insider-microsoft-azure-real-world-scenario-guide/</link>
+      <pubDate>Wed, 22 Apr 2026 15:00:07 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/sans-leadership-summit-ai-agents-webinar-security-insider-microsoft-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around SANS Leadership Summit AI Agents Webinar | Security Insider - Microsoft, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Three AI coding agents leaked secrets through a single prompt injection. One vendor&#39;s system card predicted it - Venturebeat: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/three-ai-coding-agents-leaked-secrets-through-a-single-prompt-injection-one-vendors-system-card-pred/</link>

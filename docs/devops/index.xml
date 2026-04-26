@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 17 Apr 2026 14:46:16 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Apr 2026 14:20:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jaeger adopts OpenTelemetry at its core to solve the AI agent observability gap - The New Stack: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/jaeger-adopts-opentelemetry-at-its-core-to-solve-the-ai-agent-observability-gap-the-new-stack-platfo/</link>
+      <pubDate>Sun, 26 Apr 2026 14:20:22 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/jaeger-adopts-opentelemetry-at-its-core-to-solve-the-ai-agent-observability-gap-the-new-stack-platfo/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Jaeger adopts OpenTelemetry at its core to solve the AI agent observability gap - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Anthropic created a test marketplace for agent-on-agent commerce - TechCrunch: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce-techcrunch-platform-engineering-gui/</link>
+      <pubDate>Sun, 26 Apr 2026 14:15:50 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce-techcrunch-platform-engineering-gui/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Anthropic created a test marketplace for agent-on-agent commerce - TechCrunch, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Claude Opus 4.7 is generally available: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/claude-opus-47-is-generally-available-platform-engineering-guide/</link>

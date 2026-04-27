@@ -95,3 +95,4 @@ https://openai.com/index/helping-disaster-response-teams-asia
 https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
 https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
 https://openai.com/index/industrial-policy-for-the-intelligence-age
+https://openai.com/index/next-phase-of-microsoft-partnership

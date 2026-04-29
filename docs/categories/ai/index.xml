@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 15:50:26 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2026 15:37:28 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA Nemotron 3 Nano Omni model now available on Amazon SageMaker JumpStart: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/nvidia-nemotron-3-nano-omni-model-now-available-on-amazon-sagemaker-jumpstart-ai-implementation-guid/</link>
+      <pubDate>Wed, 29 Apr 2026 15:37:28 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/nvidia-nemotron-3-nano-omni-model-now-available-on-amazon-sagemaker-jumpstart-ai-implementation-guid/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around NVIDIA Nemotron 3 Nano Omni model now available on Amazon SageMaker JumpStart, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Automate repetitive tasks with Amazon Quick Flows: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/automate-repetitive-tasks-with-amazon-quick-flows-ai-implementation-guide/</link>

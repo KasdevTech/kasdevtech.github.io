@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 15:49:38 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2026 15:36:18 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cybersecurity in the Intelligence Age - OpenAI: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/cybersecurity-in-the-intelligence-age-openai-azure-real-world-scenario-guide/</link>
+      <pubDate>Wed, 29 Apr 2026 15:36:18 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/cybersecurity-in-the-intelligence-age-openai-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Cybersecurity in the Intelligence Age - OpenAI, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>CodeGuardian: A Model Context Protocol Server for AI-Assisted Code Quality Analysis and Security Scanning - infoq.com: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/codeguardian-a-model-context-protocol-server-for-ai-assisted-code-quality-analysis-and-security-scan/</link>

@@ -24,6 +24,7 @@ https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-nano-omni-model-
 https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/
 https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-parallel-speculative-decoding-in-vllm/
 https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/
+https://aws.amazon.com/blogs/machine-learning/unleashing-agentic-ai-analytics-on-amazon-sagemaker-with-amazon-athena-and-amazon-quick/
 https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/
 https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/
 https://blog.langchain.com/march-2026-langchain-newsletter/

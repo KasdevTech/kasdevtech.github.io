@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 07 May 2026 15:48:50 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2026 15:12:31 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise Live Migrations is now in public preview: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/enterprise-live-migrations-is-now-in-public-preview-platform-engineering-guide/</link>
+      <pubDate>Fri, 08 May 2026 15:12:31 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/enterprise-live-migrations-is-now-in-public-preview-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Enterprise Live Migrations is now in public preview, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How KNTU Saved Its Data During War With Microsoft Azure - Microsoft Source: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/how-kntu-saved-its-data-during-war-with-microsoft-azure-microsoft-source-azure-real-world-scenario-g/</link>
+      <pubDate>Fri, 08 May 2026 15:10:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/how-kntu-saved-its-data-during-war-with-microsoft-azure-microsoft-source-azure-real-world-scenario-g/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How KNTU Saved Its Data During War With Microsoft Azure - Microsoft Source, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Parloa builds service agents customers want to talk to: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/parloa-builds-service-agents-customers-want-to-talk-to-ai-implementation-guide/</link>

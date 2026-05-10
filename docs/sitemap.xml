@@ -2,38 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-05-10T14:43:05+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-05-10T14:43:05+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-05-10T14:43:05+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-05-10T14:43:05+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-05-10T14:43:05+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/why-prometheus-couldnt-see-cilium-metrics-at-2-am-the-new-stack-platform-engineering-guide/</loc>
+    <lastmod>2026-05-10T14:43:05+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-05-10T14:40:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-05-10T14:40:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/supercomputer-networking-to-accelerate-large-scale-ai-training-openai-azure-real-world-scenario-guid/</loc>
+    <lastmod>2026-05-10T14:40:32+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-05-09T14:39:21+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-05-09T14:39:21+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-05-09T14:39:21+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-05-09T14:39:21+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai-ai-implementati/</loc>
     <lastmod>2026-05-09T14:39:21+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-05-09T14:39:21+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-05-09T14:36:38+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-05-09T14:36:38+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/azure-reduces-virtual-desktop-costs-microsoft-entr-suite/</loc>
     <lastmod>2026-05-09T14:36:38+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-05-08T15:12:31+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-05-08T15:12:31+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/enterprise-live-migrations-is-now-in-public-preview-platform-engineering-guide/</loc>
     <lastmod>2026-05-08T15:12:31+00:00</lastmod>

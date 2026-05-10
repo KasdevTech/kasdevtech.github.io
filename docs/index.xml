@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 09 May 2026 14:39:21 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2026 14:43:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Prometheus couldn’t see Cilium metrics at 2 a.m. - The New Stack: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/why-prometheus-couldnt-see-cilium-metrics-at-2-am-the-new-stack-platform-engineering-guide/</link>
+      <pubDate>Sun, 10 May 2026 14:43:05 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/why-prometheus-couldnt-see-cilium-metrics-at-2-am-the-new-stack-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Why Prometheus couldn’t see Cilium metrics at 2 a.m. - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Supercomputer networking to accelerate large scale AI training - OpenAI: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/supercomputer-networking-to-accelerate-large-scale-ai-training-openai-azure-real-world-scenario-guid/</link>
+      <pubDate>Sun, 10 May 2026 14:40:32 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/supercomputer-networking-to-accelerate-large-scale-ai-training-openai-azure-real-world-scenario-guid/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Supercomputer networking to accelerate large scale AI training - OpenAI, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Halliburton enhances seismic workflow creation with Amazon Bedrock and Generative AI: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai-ai-implementati/</link>

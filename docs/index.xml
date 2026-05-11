@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 10 May 2026 14:43:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 May 2026 16:19:39 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI launches DeployCo to help businesses build around intelligence: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/openai-launches-deployco-to-help-businesses-build-around-intelligence-ai-implementation-guide/</link>
+      <pubDate>Mon, 11 May 2026 16:19:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/openai-launches-deployco-to-help-businesses-build-around-intelligence-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OpenAI launches DeployCo to help businesses build around intelligence, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Local-First AI Inference: A Cloud Architecture Pattern for Cost-Effective Document Processing - infoq.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/local-first-ai-inference-a-cloud-architecture-pattern-for-cost-effective-document-processing-infoqco/</link>
+      <pubDate>Mon, 11 May 2026 16:18:36 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/local-first-ai-inference-a-cloud-architecture-pattern-for-cost-effective-document-processing-infoqco/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Local-First AI Inference: A Cloud Architecture Pattern for Cost-Effective Document Processing - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Why Prometheus couldn’t see Cilium metrics at 2 a.m. - The New Stack: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/why-prometheus-couldnt-see-cilium-metrics-at-2-am-the-new-stack-platform-engineering-guide/</link>

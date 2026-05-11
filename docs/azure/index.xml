@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 10 May 2026 14:40:32 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 May 2026 16:18:36 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Local-First AI Inference: A Cloud Architecture Pattern for Cost-Effective Document Processing - infoq.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/local-first-ai-inference-a-cloud-architecture-pattern-for-cost-effective-document-processing-infoqco/</link>
+      <pubDate>Mon, 11 May 2026 16:18:36 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/local-first-ai-inference-a-cloud-architecture-pattern-for-cost-effective-document-processing-infoqco/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Local-First AI Inference: A Cloud Architecture Pattern for Cost-Effective Document Processing - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Supercomputer networking to accelerate large scale AI training - OpenAI: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/supercomputer-networking-to-accelerate-large-scale-ai-training-openai-azure-real-world-scenario-guid/</link>

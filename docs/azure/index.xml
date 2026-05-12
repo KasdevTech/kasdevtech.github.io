@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 11 May 2026 16:18:36 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 May 2026 16:03:35 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Red Hat is betting on AgentOps to close the gap between AI experiments and production - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/red-hat-is-betting-on-agentops-to-close-the-gap-between-ai-experiments-and-production-the-new-stack/</link>
+      <pubDate>Tue, 12 May 2026 16:03:35 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/red-hat-is-betting-on-agentops-to-close-the-gap-between-ai-experiments-and-production-the-new-stack/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Red Hat is betting on AgentOps to close the gap between AI experiments and production - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Local-First AI Inference: A Cloud Architecture Pattern for Cost-Effective Document Processing - infoq.com: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/local-first-ai-inference-a-cloud-architecture-pattern-for-cost-effective-document-processing-infoqco/</link>

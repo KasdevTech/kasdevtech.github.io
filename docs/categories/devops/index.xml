@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 10 May 2026 14:43:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 May 2026 16:05:56 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manufacturing intelligence with Amazon Nova Multimodal Embeddings: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings-platform-engineering-guide/</link>
+      <pubDate>Tue, 12 May 2026 16:05:56 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Manufacturing intelligence with Amazon Nova Multimodal Embeddings, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Why Prometheus couldn’t see Cilium metrics at 2 a.m. - The New Stack: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/why-prometheus-couldnt-see-cilium-metrics-at-2-am-the-new-stack-platform-engineering-guide/</link>

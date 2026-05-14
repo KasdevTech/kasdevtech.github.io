@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 13 May 2026 16:05:12 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 May 2026 15:44:23 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fine-tune LLM with Databricks Unity Catalog and Amazon SageMaker AI: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai-azure-real-world-scenario-guide/</link>
+      <pubDate>Thu, 14 May 2026 15:44:23 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Fine-tune LLM with Databricks Unity Catalog and Amazon SageMaker AI, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Accelerating detection engineering using AI-assisted synthetic attack logs generation - Microsoft: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation-microsoft-azur/</link>

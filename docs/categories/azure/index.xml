@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 14 May 2026 15:44:23 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 15:41:31 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The hidden cost of build vs. buy for agentic AI in regulated industries - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/the-hidden-cost-of-build-vs-buy-for-agentic-ai-in-regulated-industries-the-new-stack-azure-real-worl/</link>
+      <pubDate>Fri, 15 May 2026 15:41:31 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/the-hidden-cost-of-build-vs-buy-for-agentic-ai-in-regulated-industries-the-new-stack-azure-real-worl/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around The hidden cost of build vs. buy for agentic AI in regulated industries - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Fine-tune LLM with Databricks Unity Catalog and Amazon SageMaker AI: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai-azure-real-world-scenario-guide/</link>

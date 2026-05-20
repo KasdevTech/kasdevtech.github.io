@@ -31,6 +31,7 @@ https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-
 https://aws.amazon.com/blogs/machine-learning/real-time-voice-agents-with-stream-vision-agents-and-amazon-nova-2-sonic/
 https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/
 https://aws.amazon.com/blogs/machine-learning/unleashing-agentic-ai-analytics-on-amazon-sagemaker-with-amazon-athena-and-amazon-quick/
+https://azure.microsoft.com/en-us/blog/azure-files-entra-only-identities-advancing-cloud-native-identity-and-security/
 https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/
 https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/
 https://blog.langchain.com/march-2026-langchain-newsletter/

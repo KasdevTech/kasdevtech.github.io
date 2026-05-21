@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 20 May 2026 16:37:53 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 May 2026 16:28:26 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure IaaS: Deploy high-performance workloads with a system-level approach: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/azure-iaas-deploy-high-performance-workloads-with-a-system-level-approach-azure-real-world-scenario/</link>
+      <pubDate>Thu, 21 May 2026 16:28:26 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/azure-iaas-deploy-high-performance-workloads-with-a-system-level-approach-azure-real-world-scenario/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Azure IaaS: Deploy high-performance workloads with a system-level approach, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure Files Entra-Only identities: Advancing cloud-native identity and security: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/azure-files-entra-only-identities-advancing-cloud-native-identity-and-security-azure-real-world-scen/</link>

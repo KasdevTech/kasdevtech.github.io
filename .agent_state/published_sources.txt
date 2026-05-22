@@ -47,6 +47,7 @@ https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fed
 https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available
 https://github.blog/changelog/2026-04-30-github-copilot-in-visual-studio-april-update
 https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-public-preview
+https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZVJzRm9ncXVhY001TU1GcDlheEE0cGtyTFNBTlFWVHEwdk5Ycmk2cTFOU19lclRDM2lTM0ltejdyUlBBNUROOHBaMjJsaDlZVk9wVWg4ZlZqTk40ZnpzUXFGLVY0cXZPVmJpQ0MwQmRXU0RGb2ZQOGViN25iWUpQVlVTYnREUnVFenJqcWRWWmZueEdnc05TWGxGZElnV0VyNjlnZlJCU1RtN283V1BodFNjUUk2NENKNlpGRUU1OXpqOWZlQzlaZTMxdjhkQ0U1?oc=5

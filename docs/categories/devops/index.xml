@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 12 May 2026 16:05:56 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 May 2026 16:07:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot for Eclipse is open source: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/github-copilot-for-eclipse-is-open-source-platform-engineering-guide/</link>
+      <pubDate>Fri, 22 May 2026 16:07:03 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/github-copilot-for-eclipse-is-open-source-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around GitHub Copilot for Eclipse is open source, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Manufacturing intelligence with Amazon Nova Multimodal Embeddings: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings-platform-engineering-guide/</link>

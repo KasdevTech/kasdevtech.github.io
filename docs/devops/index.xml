@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 22 May 2026 16:07:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 May 2026 14:53:13 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Staged publishing and new install-time controls for npm: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/staged-publishing-and-new-install-time-controls-for-npm-platform-engineering-guide/</link>
+      <pubDate>Sat, 23 May 2026 14:53:13 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/staged-publishing-and-new-install-time-controls-for-npm-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Staged publishing and new install-time controls for npm, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>GitHub Copilot for Eclipse is open source: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/github-copilot-for-eclipse-is-open-source-platform-engineering-guide/</link>

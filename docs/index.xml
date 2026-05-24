@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 23 May 2026 14:53:13 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 May 2026 14:52:04 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS MCP Server Reaches GA with Full API Coverage and IAM-Based Governance - infoq.com</title>
+      <link>https://kasdevtech.com/azure/aws-mcp-server-reaches-ga-with-full-api-coverage-and-iam-based-governance/</link>
+      <pubDate>Sun, 24 May 2026 14:52:04 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/aws-mcp-server-reaches-ga-with-full-api-coverage-and-iam-based-governance/</guid>
+      <description>
+        
+          
+            AWS Machine Learning (ML) Compute (MCP) server is now generally available, offering full API coverage and an IAM-based governance model. This change enhances security and performance.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What ClickHouse learned from a year of coding with AI agents - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/what-clickhouse-learned-from-a-year-of-coding-with-ai-agents-the-new-stack-azure-real-world-scenario/</link>
+      <pubDate>Sun, 24 May 2026 14:50:54 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/what-clickhouse-learned-from-a-year-of-coding-with-ai-agents-the-new-stack-azure-real-world-scenario/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around What ClickHouse learned from a year of coding with AI agents - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Staged publishing and new install-time controls for npm: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/staged-publishing-and-new-install-time-controls-for-npm-platform-engineering-guide/</link>

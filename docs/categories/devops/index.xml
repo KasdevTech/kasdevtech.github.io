@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 23 May 2026 14:53:13 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2026 16:12:43 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What ClickUp’s mass layoff tells us about the future of work - TechCrunch: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/what-clickups-mass-layoff-tells-us-about-the-future-of-work-techcrunch-platform-engineering-guide/</link>
+      <pubDate>Mon, 25 May 2026 16:12:43 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/what-clickups-mass-layoff-tells-us-about-the-future-of-work-techcrunch-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around What ClickUp’s mass layoff tells us about the future of work - TechCrunch, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Staged publishing and new install-time controls for npm: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/staged-publishing-and-new-install-time-controls-for-npm-platform-engineering-guide/</link>

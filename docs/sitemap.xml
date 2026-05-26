@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-05-26T17:02:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-05-26T17:02:36+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-05-25T16:12:43+00:00</lastmod>
+    <lastmod>2026-05-26T17:02:36+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-05-25T16:12:43+00:00</lastmod>
+    <lastmod>2026-05-26T17:02:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands-ai-implementation-guide/</loc>
+    <lastmod>2026-05-26T17:02:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-05-26T17:02:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-05-26T16:59:50+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-05-26T16:59:50+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/google-expands-synthid-adoption-for-ai-watermarking-previews-content-detection-api-infoqcom-azure-re/</loc>
+    <lastmod>2026-05-26T16:59:50+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/devops/</loc>
     <lastmod>2026-05-25T16:12:43+00:00</lastmod>
@@ -14,17 +35,8 @@
     <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-05-25T16:12:43+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-05-25T16:12:43+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/devops/what-clickups-mass-layoff-tells-us-about-the-future-of-work-techcrunch-platform-engineering-guide/</loc>
     <lastmod>2026-05-25T16:12:43+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-05-25T16:10:11+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-05-25T16:10:11+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/everyone-is-navigating-ai-security-in-real-time-even-google-techcrunch-azure-real-world-scenario-gui/</loc>
     <lastmod>2026-05-25T16:10:11+00:00</lastmod>
@@ -46,12 +58,6 @@
   </url><url>
     <loc>https://kasdevtech.com/azure/we-tried-googles-ai-glasses-and-theyre-almost-there-techcrunch-azure-real-world-scenario-guide/</loc>
     <lastmod>2026-05-22T16:06:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-05-21T16:29:26+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-05-21T16:29:26+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/build-an-ai-powered-recruitment-assistant-using-amazon-bedrock-ai-implementation-guide/</loc>
     <lastmod>2026-05-21T16:29:26+00:00</lastmod>

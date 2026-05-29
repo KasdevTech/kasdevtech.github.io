@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 28 May 2026 17:11:44 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 May 2026 17:02:50 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a custom portal with embedded Amazon SageMaker AI MLflow Apps: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/build-a-custom-portal-with-embedded-amazon-sagemaker-ai-mlflow-apps-ai-implementation-guide/</link>
+      <pubDate>Fri, 29 May 2026 17:02:50 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/build-a-custom-portal-with-embedded-amazon-sagemaker-ai-mlflow-apps-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Build a custom portal with embedded Amazon SageMaker AI MLflow Apps, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How AWS SMGS uses an AI-powered conversational assistant to transform business management with Amazon Bedrock AgentCore: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-aws-smgs-uses-an-ai-powered-conversational-assistant-to-transform-business-management-with-amazo/</link>

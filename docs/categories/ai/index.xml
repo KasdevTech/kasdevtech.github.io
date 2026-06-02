@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 01 Jun 2026 19:11:28 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jun 2026 17:57:11 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI frontier models and Codex are now available on AWS: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/openai-frontier-models-and-codex-are-now-available-on-aws-ai-implementation-guide/</link>
+      <pubDate>Tue, 02 Jun 2026 17:57:11 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/openai-frontier-models-and-codex-are-now-available-on-aws-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OpenAI frontier models and Codex are now available on AWS, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments-ai-imp/</link>

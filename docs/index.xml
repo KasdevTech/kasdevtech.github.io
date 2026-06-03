@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 17:57:11 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jun 2026 18:15:07 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore-ai-implementation/</link>
+      <pubDate>Wed, 03 Jun 2026 18:15:07 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore-ai-implementation/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign - Microsoft: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/preinstall-to-persistence-inside-the-red-hat-npm-miasma-credential-stealing-campaign-microsoft-azure/</link>
+      <pubDate>Wed, 03 Jun 2026 18:13:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/preinstall-to-persistence-inside-the-red-hat-npm-miasma-credential-stealing-campaign-microsoft-azure/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign - Microsoft, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>OpenAI frontier models and Codex are now available on AWS: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/openai-frontier-models-and-codex-are-now-available-on-aws-ai-implementation-guide/</link>

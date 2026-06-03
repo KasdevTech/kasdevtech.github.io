@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 17:56:01 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jun 2026 18:13:39 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign - Microsoft: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/preinstall-to-persistence-inside-the-red-hat-npm-miasma-credential-stealing-campaign-microsoft-azure/</link>
+      <pubDate>Wed, 03 Jun 2026 18:13:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/preinstall-to-persistence-inside-the-red-hat-npm-miasma-credential-stealing-campaign-microsoft-azure/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign - Microsoft, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI agents keep giving confident wrong answers. The context layer is enterprise AI&#39;s next production problem. - Venturebeat: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/ai-agents-keep-giving-confident-wrong-answers-the-context-layer-is-enterprise-ais-next-production-pr/</link>

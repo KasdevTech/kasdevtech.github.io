@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-06-06T15:02:42+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-06-06T15:02:42+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-06-06T15:02:42+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-06-06T15:02:42+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-06-06T15:02:42+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/meta-made-its-own-ai-generated-clickbait-news-feed-the-verge-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-06-06T15:02:42+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/from-jupyter-notebook-to-production-how-to-ship-ai-systems-that-actually-work-the-new-stack-azure-re/</loc>
+    <lastmod>2026-06-06T15:01:20+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-06-05T16:17:34+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-06-05T16:17:34+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-06-05T16:17:34+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-06-05T16:17:34+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-06-05T16:17:34+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart-ai-implementation-guide/</loc>
     <lastmod>2026-06-05T16:17:34+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-06-05T16:15:32+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-06-05T16:15:32+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs-techcrunch-azure-r/</loc>
     <lastmod>2026-06-05T16:15:32+00:00</lastmod>

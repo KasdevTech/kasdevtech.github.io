@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 09 Jun 2026 16:25:31 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jun 2026 17:10:20 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI to acquire Ona: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/openai-to-acquire-ona-ai-implementation-guide/</link>
+      <pubDate>Thu, 11 Jun 2026 17:10:20 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/openai-to-acquire-ona-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OpenAI to acquire Ona, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build an agentic incident triage assistant with Amazon Quick and New Relic: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/build-an-agentic-incident-triage-assistant-with-amazon-quick-and-new-relic-ai-implementation-guide/</link>

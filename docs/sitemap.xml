@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-06-16T18:21:46+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-06-16T18:21:46+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-06-16T18:21:46+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-06-16T18:21:46+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/github-code-quality-generally-available-july-20-2026-platform-engineering-guide/</loc>
+    <lastmod>2026-06-16T18:21:46+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-06-16T18:21:46+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features-techcrunch-azure-r/</loc>
+    <lastmod>2026-06-16T18:20:51+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-06-16T18:20:51+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-06-16T18:20:51+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-06-15T18:11:10+00:00</lastmod>
   </url><url>
@@ -10,21 +37,6 @@
   </url><url>
     <loc>https://kasdevtech.com/ai/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore-ai-implementation-guide/</loc>
     <lastmod>2026-06-15T18:11:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-06-15T18:11:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-06-15T18:11:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-06-15T18:11:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-06-15T18:09:52+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-06-15T18:09:52+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data-microsoft-azure-re/</loc>
     <lastmod>2026-06-15T18:09:52+00:00</lastmod>
@@ -54,12 +66,6 @@
     <lastmod>2026-06-11T17:09:24+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/dedicated-security-review-command-now-available-in-copilot-cli-platform-engineering-guide/</loc>
-    <lastmod>2026-06-10T16:53:43+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-06-10T16:53:43+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-06-10T16:53:43+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable-techcrunch-azure-real/</loc>

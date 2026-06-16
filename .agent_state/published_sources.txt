@@ -60,6 +60,7 @@ https://github.blog/changelog/2026-05-07-enterprise-live-migrations-is-now-in-pu
 https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source
 https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm
 https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli
+https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZVJzRm9ncXVhY001TU1GcDlheEE0cGtyTFNBTlFWVHEwdk5Ycmk2cTFOU19lclRDM2lTM0ltejdyUlBBNUROOHBaMjJsaDlZVk9wVWg4ZlZqTk40ZnpzUXFGLVY0cXZPVmJpQ0MwQmRXU0RGb2ZQOGViN25iWUpQVlVTYnREUnVFenJqcWRWWmZueEdnc05TWGxGZElnV0VyNjlnZlJCU1RtN283V1BodFNjUUk2NENKNlpGRUU1OXpqOWZlQzlaZTMxdjhkQ0U1?oc=5

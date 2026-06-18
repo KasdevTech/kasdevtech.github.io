@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 17 Jun 2026 16:50:01 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jun 2026 16:49:17 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auto mode in Copilot Chat available for all users: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/auto-mode-in-copilot-chat-available-for-all-users-platform-engineering-guide/</link>
+      <pubDate>Thu, 18 Jun 2026 16:49:17 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/auto-mode-in-copilot-chat-available-for-all-users-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Auto mode in Copilot Chat available for all users, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>From package to postinstall payload: Inside the Mastra npm supply chain compromise - Microsoft: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/from-package-to-postinstall-payload-inside-the-mastra-npm-supply-chain-compromise-microsoft-azure-re/</link>
+      <pubDate>Thu, 18 Jun 2026 16:47:58 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/from-package-to-postinstall-payload-inside-the-mastra-npm-supply-chain-compromise-microsoft-azure-re/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around From package to postinstall payload: Inside the Mastra npm supply chain compromise - Microsoft, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>New in Amazon Bedrock AgentCore: Build agents with broader knowledge and continuous learning: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning-ai-imple/</link>

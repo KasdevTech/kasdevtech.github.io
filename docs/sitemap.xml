@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides-platform-engineering-guide/</loc>
+    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/automating-it-support-with-ai-how-nexthink-uses-opensearch-service-to-power-self-service-issue-resol/</loc>
+    <lastmod>2026-06-23T16:11:49+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-06-23T16:11:49+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-06-23T16:11:49+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-06-22T18:09:10+00:00</lastmod>
   </url><url>
@@ -10,21 +37,6 @@
   </url><url>
     <loc>https://kasdevtech.com/ai/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments-ai/</loc>
     <lastmod>2026-06-22T18:09:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-06-22T18:09:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-06-22T18:09:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-06-22T18:09:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-06-22T18:08:39+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-06-22T18:08:39+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/researchers-introduce-self-harness-a-framework-that-lets-ai-agents-rewrite-their-own-rules-boosting/</loc>
     <lastmod>2026-06-22T18:08:39+00:00</lastmod>
@@ -36,12 +48,6 @@
     <lastmod>2026-06-21T15:25:56+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api-platform-engineering-guide/</loc>
-    <lastmod>2026-06-20T15:25:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-06-20T15:25:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-06-20T15:25:25+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/apple-launches-core-ai-for-apple-silicon-optimized-on-device-generative-ai-infoqcom-azure-real-world/</loc>

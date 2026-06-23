@@ -66,6 +66,7 @@ https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-a
 https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026
 https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users
 https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api
+https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZVJzRm9ncXVhY001TU1GcDlheEE0cGtyTFNBTlFWVHEwdk5Ycmk2cTFOU19lclRDM2lTM0ltejdyUlBBNUROOHBaMjJsaDlZVk9wVWg4ZlZqTk40ZnpzUXFGLVY0cXZPVmJpQ0MwQmRXU0RGb2ZQOGViN25iWUpQVlVTYnREUnVFenJqcWRWWmZueEdnc05TWGxGZElnV0VyNjlnZlJCU1RtN283V1BodFNjUUk2NENKNlpGRUU1OXpqOWZlQzlaZTMxdjhkQ0U1?oc=5

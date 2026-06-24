@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 22 Jun 2026 18:09:10 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2026 15:45:29 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a protein research copilot with Amazon Bedrock AgentCore: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/build-a-protein-research-copilot-with-amazon-bedrock-agentcore-ai-implementation-guide/</link>
+      <pubDate>Wed, 24 Jun 2026 15:45:29 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/build-a-protein-research-copilot-with-amazon-bedrock-agentcore-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Build a protein research copilot with Amazon Bedrock AgentCore, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments-ai/</link>

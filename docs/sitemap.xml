@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-06-24T15:45:29+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-06-24T15:45:29+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/build-a-protein-research-copilot-with-amazon-bedrock-agentcore-ai-implementation-guide/</loc>
+    <lastmod>2026-06-24T15:45:29+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+    <lastmod>2026-06-24T15:45:29+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
+    <lastmod>2026-06-24T15:45:29+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-06-24T15:45:29+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-06-24T15:44:54+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-06-24T15:44:54+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/from-insight-to-action-the-next-phase-of-agentic-cloud-operations-microsoft-azure-azure-real-world-s/</loc>
+    <lastmod>2026-06-24T15:44:54+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/devops/</loc>
     <lastmod>2026-06-23T16:14:17+00:00</lastmod>
@@ -14,26 +35,11 @@
     <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-06-23T16:14:17+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-06-23T16:14:17+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/devops/new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides-platform-engineering-guide/</loc>
     <lastmod>2026-06-23T16:14:17+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/automating-it-support-with-ai-how-nexthink-uses-opensearch-service-to-power-self-service-issue-resol/</loc>
     <lastmod>2026-06-23T16:11:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-06-23T16:11:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-06-23T16:11:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-06-22T18:09:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-06-22T18:09:10+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments-ai/</loc>
     <lastmod>2026-06-22T18:09:10+00:00</lastmod>

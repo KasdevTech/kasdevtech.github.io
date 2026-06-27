@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 26 Jun 2026 15:39:36 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jun 2026 15:02:31 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Performance Dividend: Optimizing PostgreSQL on Azure Directly in Visual Studio Code</title>
+      <link>https://kasdevtech.com/azure/optimizing-postgresql-on-azure-directly-in-vscode/</link>
+      <pubDate>Sat, 27 Jun 2026 15:02:31 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/optimizing-postgresql-on-azure-directly-in-vscode/</guid>
+      <description>
+        
+          
+            Poor database performance is never just a database problem. In enterprise teams, it shows up as missed SLAs, delayed releases, frustrated development teams, and rising operational risk.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI Data Security in the Workplace: Best Practices for Employees - Microsoft: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/ai-data-security-in-the-workplace-best-practices-for-employees-microsoft-azure-real-world-scenario-g/</link>

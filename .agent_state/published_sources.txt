@@ -50,6 +50,7 @@ https://aws.amazon.com/blogs/machine-learning/unleashing-agentic-ai-analytics-on
 https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe-a-guide-to-cross-region-inference-for-eu-data-processing-and-model-access/
 https://azure.microsoft.com/en-us/blog/azure-files-entra-only-identities-advancing-cloud-native-identity-and-security/
 https://azure.microsoft.com/en-us/blog/azure-iaas-deploy-high-performance-workloads-with-a-system-level-approach/
+https://azure.microsoft.com/en-us/blog/the-performance-dividend-optimizing-postgresql-on-azure-directly-in-visual-studio-code/
 https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/
 https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/
 https://blog.langchain.com/march-2026-langchain-newsletter/

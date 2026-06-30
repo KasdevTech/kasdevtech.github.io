@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 29 Jun 2026 16:47:52 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 16:06:31 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws-ai-implementat/</link>
+      <pubDate>Tue, 30 Jun 2026 16:06:31 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws-ai-implementat/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Multi-tenant LLM analytics with row-level security: How we built a secure agent on AWS, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>HP Inc. launches Frontier strategic partnership with OpenAI: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/hp-inc-launches-frontier-strategic-partnership-with-openai-ai-implementation-guide/</link>

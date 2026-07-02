@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 01 Jul 2026 16:11:37 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jul 2026 15:44:51 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pageran/</link>
+      <pubDate>Thu, 02 Jul 2026 15:44:51 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pageran/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Building bilingual NER for cargo logistics with Amazon Bedrock: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/building-bilingual-ner-for-cargo-logistics-with-amazon-bedrock-ai-implementation-guide/</link>

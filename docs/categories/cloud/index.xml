@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 10 Jul 2026 15:58:57 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2026 14:37:56 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KTern.AI&#39;s Journey: Building Agentic AI for SAP on Amazon Bedrock AgentCore</title>
+      <link>https://kasdevtech.com/ai/ktern-ai-sap-bedrock-agentcore/</link>
+      <pubDate>Sat, 11 Jul 2026 14:37:56 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/ktern-ai-sap-bedrock-agentcore/</guid>
+      <description>
+        
+          
+            In this article, we explore how KTern.AI transformed a traditional software-as-a-service (SaaS) platform into an agentic AI solution using Amazon Bedrock AgentCore. The process involved orchestrating multiple specialized agents with persistent context and secure tool access, ensuring production-grade reliability.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI bets on families as ChatGPT goes deeper into households - TechCrunch: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/openai-bets-on-families-as-chatgpt-goes-deeper-into-households-techcrunch-azure-real-world-scenario/</link>
+      <pubDate>Sat, 11 Jul 2026 14:37:11 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/openai-bets-on-families-as-chatgpt-goes-deeper-into-households-techcrunch-azure-real-world-scenario/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OpenAI bets on families as ChatGPT goes deeper into households - TechCrunch, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture, Hugging Face, NVMe, and Route 53 integration: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/enhancing-enterprise-inference-on-amazon-sagemaker-hyperpod-with-data-capture-hugging-face-nvme-and/</link>

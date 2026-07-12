@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/the-impressive-ai-demo-is-dead-heres-what-actually-reaches-production-the-new-stack-platform-enginee/</loc>
+    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/85-say-code-review-is-the-new-bottleneck-heres-what-the-ai-coding-narrative-leaves-out-the-new-stack/</loc>
+    <lastmod>2026-07-12T14:42:25+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-07-11T14:37:56+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-07-11T14:37:56+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-07-11T14:37:56+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-07-11T14:37:56+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
     <lastmod>2026-07-11T14:37:56+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/ktern-ai-sap-bedrock-agentcore/</loc>
@@ -100,12 +112,6 @@
   </url><url>
     <loc>https://kasdevtech.com/azure/okta-is-the-first-to-bring-ai-agent-governance-inside-fedramp-boundaries-the-new-stack-azure-real-wo/</loc>
     <lastmod>2026-06-28T15:04:23+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-06-27T15:03:51+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-06-27T15:03:51+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports-platform-engineering-gui/</loc>
     <lastmod>2026-06-27T15:03:51+00:00</lastmod>

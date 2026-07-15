@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 14 Jul 2026 15:12:23 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jul 2026 15:14:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ScienceSoft’s HIPAA-compliant AI voice scheduler built on AWS: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/sciencesofts-hipaa-compliant-ai-voice-scheduler-built-on-aws-ai-implementation-guide/</link>
+      <pubDate>Wed, 15 Jul 2026 15:14:24 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/sciencesofts-hipaa-compliant-ai-voice-scheduler-built-on-aws-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around ScienceSoft’s HIPAA-compliant AI voice scheduler built on AWS, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Security Hub adds AI workload protection and multicloud support for Microsoft Azure - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure-amazon-web-servi/</link>
+      <pubDate>Wed, 15 Jul 2026 15:12:58 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure-amazon-web-servi/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Security Hub adds AI workload protection and multicloud support for Microsoft Azure - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Launching UI for generative AI inference recommendations in Amazon SageMaker AI: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai-ai-implementation-gu/</link>

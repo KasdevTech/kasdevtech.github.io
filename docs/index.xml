@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 17 Jul 2026 15:00:46 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jul 2026 14:44:32 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Smartsheet built a remote MCP server on AWS: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-smartsheet-built-a-remote-mcp-server-on-aws-ai-implementation-guide/</link>
+      <pubDate>Sat, 18 Jul 2026 14:44:32 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-smartsheet-built-a-remote-mcp-server-on-aws-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How Smartsheet built a remote MCP server on AWS, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks - Microsoft: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks-microsoft/</link>
+      <pubDate>Sat, 18 Jul 2026 14:39:57 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks-microsoft/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks - Microsoft, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base-ai-implementation-guid/</link>

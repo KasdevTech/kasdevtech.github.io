@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 18 Jul 2026 14:44:32 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jul 2026 14:43:36 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-healing GPU nodes in Kubernetes: What we learned building the EKS node monitoring agent - The New Stack: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/self-healing-gpu-nodes-in-kubernetes-what-we-learned-building-the-eks-node-monitoring-agent-the-new/</link>
+      <pubDate>Sun, 19 Jul 2026 14:43:36 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/self-healing-gpu-nodes-in-kubernetes-what-we-learned-building-the-eks-node-monitoring-agent-the-new/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Self-healing GPU nodes in Kubernetes: What we learned building the EKS node monitoring agent - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Nonprofit Current AI is racing to build the World Wide Web of AI, free for all - TechCrunch: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all-techcrunch-azure-real/</link>
+      <pubDate>Sun, 19 Jul 2026 14:41:23 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all-techcrunch-azure-real/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Nonprofit Current AI is racing to build the World Wide Web of AI, free for all - TechCrunch, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Smartsheet built a remote MCP server on AWS: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-smartsheet-built-a-remote-mcp-server-on-aws-ai-implementation-guide/</link>

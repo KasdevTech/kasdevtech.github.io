@@ -2,29 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-07-19T14:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-07-19T14:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-07-19T14:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-07-19T14:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-07-19T14:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/self-healing-gpu-nodes-in-kubernetes-what-we-learned-building-the-eks-node-monitoring-agent-the-new/</loc>
+    <lastmod>2026-07-19T14:43:36+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-07-19T14:41:23+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-07-19T14:41:23+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all-techcrunch-azure-real/</loc>
+    <lastmod>2026-07-19T14:41:23+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-07-18T14:44:32+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-07-18T14:44:32+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-07-18T14:44:32+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-07-18T14:44:32+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/how-smartsheet-built-a-remote-mcp-server-on-aws-ai-implementation-guide/</loc>
     <lastmod>2026-07-18T14:44:32+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-07-18T14:44:32+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-07-18T14:39:57+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-07-18T14:39:57+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks-microsoft/</loc>
     <lastmod>2026-07-18T14:39:57+00:00</lastmod>
@@ -58,12 +70,6 @@
   </url><url>
     <loc>https://kasdevtech.com/azure/how-cgi-federal-and-aws-delivered-50-performance-gains-and-6-month-ato-for-gsas-financial-management/</loc>
     <lastmod>2026-07-13T16:08:42+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-07-12T14:43:13+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/the-impressive-ai-demo-is-dead-heres-what-actually-reaches-production-the-new-stack-platform-enginee/</loc>
     <lastmod>2026-07-12T14:43:13+00:00</lastmod>

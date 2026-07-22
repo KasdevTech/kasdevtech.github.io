@@ -73,6 +73,7 @@ https://blog.langchain.com/march-2026-langchain-newsletter/
 https://blog.langchain.com/nvidia-enterprise/
 https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/
 https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production
+https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/
 https://github.blog/changelog/2026-03-12-rest-api-version-2026-03-10-is-now-available
 https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent
 https://github.blog/changelog/2026-04-10-actions-workflows-are-limited-to-50-reruns

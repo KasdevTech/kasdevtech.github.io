@@ -255,6 +255,7 @@ https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
 https://openai.com/index/industrial-policy-for-the-intelligence-age
 https://openai.com/index/introducing-b2b-signals
 https://openai.com/index/introducing-openai-for-singapore
+https://openai.com/index/introducing-openai-presence
 https://openai.com/index/malta-chatgpt-plus-partnership
 https://openai.com/index/next-phase-of-microsoft-partnership
 https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws

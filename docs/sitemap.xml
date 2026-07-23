@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/google-closes-in-on-another-billion-user-product-with-gemini-techcrunch-azure-real-world-scenario-gu/</loc>
+    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/multi-agent-ai-for-production-security-operations-an-a2a-and-mcp-architecture-in-a-5g-core-infoqcom/</loc>
+    <lastmod>2026-07-23T15:33:25+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-07-22T15:26:29+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-07-22T15:26:29+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-07-22T15:26:29+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-07-22T15:26:29+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/openai-presence-enterprise-ai-agent-platform/</loc>
     <lastmod>2026-07-22T15:26:29+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-07-22T15:26:29+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-07-22T15:25:35+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-07-22T15:25:35+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/how-to-test-agent-experience-changes-without-shipping-them-azure-real-world-scenario-guide/</loc>
     <lastmod>2026-07-22T15:25:35+00:00</lastmod>

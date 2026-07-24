@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-07-24T15:17:12+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-07-24T15:17:12+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows-ai-implementation/</loc>
+    <lastmod>2026-07-24T15:17:12+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+    <lastmod>2026-07-24T15:17:12+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
+    <lastmod>2026-07-24T15:17:12+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-07-24T15:17:12+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/automating-multi-cloud-cost-management-at-scale-a2as-finops-platform-powered-by-aws-amazon-web-servi/</loc>
+    <lastmod>2026-07-24T15:16:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-07-24T15:16:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-07-24T15:16:32+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/google-closes-in-on-another-billion-user-product-with-gemini-techcrunch-azure-real-world-scenario-gu/</loc>
     <lastmod>2026-07-23T15:37:27+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-07-23T15:37:27+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/multi-agent-ai-for-production-security-operations-an-a2a-and-mcp-architecture-in-a-5g-core-infoqcom/</loc>
     <lastmod>2026-07-23T15:33:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-07-22T15:26:29+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-07-22T15:26:29+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/openai-presence-enterprise-ai-agent-platform/</loc>
     <lastmod>2026-07-22T15:26:29+00:00</lastmod>

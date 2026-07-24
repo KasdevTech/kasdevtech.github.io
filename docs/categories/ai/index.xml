@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 22 Jul 2026 15:26:29 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jul 2026 15:17:12 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best practices for applying Amazon Bedrock Guardrails to code generation workflows: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows-ai-implementation/</link>
+      <pubDate>Fri, 24 Jul 2026 15:17:12 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows-ai-implementation/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Best practices for applying Amazon Bedrock Guardrails to code generation workflows, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Introducing OpenAI Presence: Empowering Enterprises with AI Agents</title>
       <link>https://kasdevtech.com/ai/openai-presence-enterprise-ai-agent-platform/</link>

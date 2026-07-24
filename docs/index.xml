@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 23 Jul 2026 15:37:27 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jul 2026 15:17:12 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best practices for applying Amazon Bedrock Guardrails to code generation workflows: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows-ai-implementation/</link>
+      <pubDate>Fri, 24 Jul 2026 15:17:12 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows-ai-implementation/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Best practices for applying Amazon Bedrock Guardrails to code generation workflows, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Automating Multi-Cloud Cost Management at Scale: A2A’s FinOps Platform Powered by AWS - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/automating-multi-cloud-cost-management-at-scale-a2as-finops-platform-powered-by-aws-amazon-web-servi/</link>
+      <pubDate>Fri, 24 Jul 2026 15:16:32 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/automating-multi-cloud-cost-management-at-scale-a2as-finops-platform-powered-by-aws-amazon-web-servi/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Automating Multi-Cloud Cost Management at Scale: A2A’s FinOps Platform Powered by AWS - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Google closes in on another billion user product with Gemini - TechCrunch: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/google-closes-in-on-another-billion-user-product-with-gemini-techcrunch-azure-real-world-scenario-gu/</link>

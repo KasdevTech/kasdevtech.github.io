@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 24 Jul 2026 15:17:12 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2026 14:50:58 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model-ai-implementation-guide/</link>
+      <pubDate>Sat, 25 Jul 2026 14:50:58 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Best practices for applying Amazon Bedrock Guardrails to code generation workflows: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows-ai-implementation/</link>

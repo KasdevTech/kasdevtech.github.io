@@ -258,6 +258,7 @@ https://news.google.com/rss/articles/CBMizgFBVV95cUxQLUtXdWpvSG5LWEtfak53elZwMW9
 https://news.google.com/rss/articles/CBMizwFBVV95cUxPU0FvRTJoTHQwSUx4U0RKVGRfQUN2S01NdlFuZmJHb2xkY0I0aEttN1UxQ2ZCbHFsSGQwY1lRLS01eUQzS1AxWmp5R3hHQU1qVU90TTBEMWRYR09vQkZsVVM3QlhWdVp4MWEtaTdTczRuajdVR3dKbVllYlIxODBSdDF3Z2t1c1ROQzdzSHJqZWVmX1dOY3BZUEpmV2w2c0N6UVJiU3ltQ00xdENqakgxOTFlaTF0amZwMkJ1SThlTE1aMjdzMWxnWmhqQXJZMmc?oc=5
 https://openai.com/academy/codex-settings
 https://openai.com/index/academy-courses-applying-ai-at-work
+https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
 https://openai.com/index/boston-childrens-hospital
 https://openai.com/index/building-codex-windows-sandbox
 https://openai.com/index/building-self-improving-tax-agents-with-codex

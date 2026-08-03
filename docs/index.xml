@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 02 Aug 2026 14:51:53 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2026 16:05:25 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare Workers and Containers now support inbound TCP connections and gRPC - The Cloudflare Blog: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/cloudflare-workers-and-containers-now-support-inbound-tcp-connections-and-grpc-the-cloudflare-blog-p/</link>
+      <pubDate>Mon, 03 Aug 2026 16:05:25 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/cloudflare-workers-and-containers-now-support-inbound-tcp-connections-and-grpc-the-cloudflare-blog-p/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Cloudflare Workers and Containers now support inbound TCP connections and gRPC - The Cloudflare Blog, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>The New Monday Morning Report: How Generative AI can deliver the insights your executives need. - Databricks: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/the-new-monday-morning-report-how-generative-ai-can-deliver-the-insights-your-executives-need-databr/</link>
+      <pubDate>Mon, 03 Aug 2026 16:02:45 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/the-new-monday-morning-report-how-generative-ai-can-deliver-the-insights-your-executives-need-databr/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around The New Monday Morning Report: How Generative AI can deliver the insights your executives need. - Databricks, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI Enables Global Online Trading: Dupoin Builds a Stable and Reliable Trading Experience on AWS - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/ai-enables-global-online-trading-dupoin-builds-a-stable-and-reliable-trading-experience-on-aws-amazo/</link>

@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 03 Aug 2026 16:05:25 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Aug 2026 15:57:56 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we built a realtime system for responsive voice AI in six months: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months-ai-implementation-guide/</link>
+      <pubDate>Tue, 04 Aug 2026 15:57:56 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How we built a realtime system for responsive voice AI in six months, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI agents can create database sprawl issues. YugabyteDB’s solution is more agents! - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/ai-agents-can-create-database-sprawl-issues-yugabytedbs-solution-is-more-agents-the-new-stack-azure/</link>
+      <pubDate>Tue, 04 Aug 2026 15:57:03 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/ai-agents-can-create-database-sprawl-issues-yugabytedbs-solution-is-more-agents-the-new-stack-azure/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around AI agents can create database sprawl issues. YugabyteDB’s solution is more agents! - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Cloudflare Workers and Containers now support inbound TCP connections and gRPC - The Cloudflare Blog: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/cloudflare-workers-and-containers-now-support-inbound-tcp-connections-and-grpc-the-cloudflare-blog-p/</link>

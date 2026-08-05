@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 04 Aug 2026 15:57:56 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Aug 2026 15:47:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Third-party cyber evaluations involving OpenAI models: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/third-party-cyber-evaluations-involving-openai-models-ai-implementation-guide/</link>
+      <pubDate>Wed, 05 Aug 2026 15:47:05 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/third-party-cyber-evaluations-involving-openai-models-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Third-party cyber evaluations involving OpenAI models, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Hyundai AutoEver: Building a multi-tenant generative AI sandbox and production AIOps on Amazon Bedrock - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/hyundai-autoever-building-a-multi-tenant-generative-ai-sandbox-and-production-aiops-on-amazon-bedroc/</link>
+      <pubDate>Wed, 05 Aug 2026 15:42:30 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/hyundai-autoever-building-a-multi-tenant-generative-ai-sandbox-and-production-aiops-on-amazon-bedroc/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Hyundai AutoEver: Building a multi-tenant generative AI sandbox and production AIOps on Amazon Bedrock - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How we built a realtime system for responsive voice AI in six months: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months-ai-implementation-guide/</link>

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 04 Aug 2026 15:57:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Aug 2026 15:42:30 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyundai AutoEver: Building a multi-tenant generative AI sandbox and production AIOps on Amazon Bedrock - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/hyundai-autoever-building-a-multi-tenant-generative-ai-sandbox-and-production-aiops-on-amazon-bedroc/</link>
+      <pubDate>Wed, 05 Aug 2026 15:42:30 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/hyundai-autoever-building-a-multi-tenant-generative-ai-sandbox-and-production-aiops-on-amazon-bedroc/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Hyundai AutoEver: Building a multi-tenant generative AI sandbox and production AIOps on Amazon Bedrock - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI agents can create database sprawl issues. YugabyteDB’s solution is more agents! - The New Stack: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/ai-agents-can-create-database-sprawl-issues-yugabytedbs-solution-is-more-agents-the-new-stack-azure/</link>

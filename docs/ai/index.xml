@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 07 Aug 2026 14:34:40 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Aug 2026 14:09:43 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore-ai-implementation-guide/</link>
+      <pubDate>Sat, 08 Aug 2026 14:09:43 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>LLM optimization integration for Amazon SageMaker Python SDK: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/llm-optimization-integration-for-amazon-sagemaker-python-sdk-ai-implementation-guide/</link>

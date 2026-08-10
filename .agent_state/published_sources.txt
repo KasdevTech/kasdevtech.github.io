@@ -298,4 +298,5 @@ https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-a
 https://openai.com/index/openai-launches-the-deployment-company
 https://openai.com/index/openai-to-acquire-ona
 https://openai.com/index/parloa
+https://openai.com/index/responsible-ai-infrastructure-texas
 https://openai.com/index/third-party-cyber-evaluations-involving-openai-models

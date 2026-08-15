@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/grok-46-is-now-available-in-github-copilot-platform-engineering-guide/</loc>
+    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-08-15T13:56:30+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-08-15T13:56:30+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria-techcrunch-azure-real-world-scenar/</loc>
+    <lastmod>2026-08-15T13:56:30+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore-ai-implementation-guide/</loc>
     <lastmod>2026-08-14T14:33:04+00:00</lastmod>
   </url><url>
@@ -10,21 +37,6 @@
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-08-14T14:33:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-08-14T14:33:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-08-14T14:33:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-08-14T14:33:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-08-14T14:32:37+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-08-14T14:32:37+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/kbank-and-central-pattana-unveil-human-ai-strategies-to-drive-organizations-toward-frontier-firms-mi/</loc>
     <lastmod>2026-08-14T14:32:37+00:00</lastmod>
@@ -84,12 +96,6 @@
     <lastmod>2026-08-04T15:57:03+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/cloudflare-workers-and-containers-now-support-inbound-tcp-connections-and-grpc-the-cloudflare-blog-p/</loc>
-    <lastmod>2026-08-03T16:05:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-08-03T16:05:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-08-03T16:05:25+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/the-new-monday-morning-report-how-generative-ai-can-deliver-the-insights-your-executives-need-databr/</loc>

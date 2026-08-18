@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 17 Aug 2026 14:06:58 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Aug 2026 14:07:09 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snowflake Adds AI Model Routing to Cut Costs</title>
+      <link>https://kasdevtech.com/azure/snowflake-ai-model-routing/</link>
+      <pubDate>Tue, 18 Aug 2026 14:07:09 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/snowflake-ai-model-routing/</guid>
+      <description>
+        
+          
+            Snowflake, a cloud-based data warehousing service, has introduced AI model routing, which aims to reduce costs by optimizing the deployment and utilization of AI models.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>High-stakes network decisions, made in minutes: How EDOTCO Group is transforming network planning with AI - Microsoft Source: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/high-stakes-network-decisions-made-in-minutes-how-edotco-group-is-transforming-network-planning-with/</link>

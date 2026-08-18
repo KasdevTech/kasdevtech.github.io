@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 17 Aug 2026 14:08:02 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Aug 2026 14:07:44 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build OpenClaw Agents That Transact with Amazon Bedrock AgentCore Payments</title>
+      <link>https://kasdevtech.com/ai/build-openclaw-agents-bedrock-agentcore-payments/</link>
+      <pubDate>Tue, 18 Aug 2026 14:07:44 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/build-openclaw-agents-bedrock-agentcore-payments/</guid>
+      <description>
+        
+          
+            Learn how to integrate OpenClaw agents with Amazon Bedrock AgentCore payments and the x402 protocol using the aws-agents-pay plugin. This guide provides a wallet for autonomous agents and spending guardrails, enabling them to pay for APIs, MCP servers, and web content. The process involves connecting OpenClaw to Amazon Bedrock AgentCore payments and the x402 protocol, utilizing the aws-agents-pay plugin to make bounded, human-approved testnet payments.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Defender’s Window: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/the-defenders-window-ai-implementation-guide/</link>

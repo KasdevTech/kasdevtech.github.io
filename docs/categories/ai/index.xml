@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 18 Aug 2026 14:07:44 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Aug 2026 14:08:15 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implement vector-prompt document classification using Amazon Bedrock: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/implement-vector-prompt-document-classification-using-amazon-bedrock-ai-implementation-guide/</link>
+      <pubDate>Wed, 19 Aug 2026 14:08:15 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/implement-vector-prompt-document-classification-using-amazon-bedrock-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Implement vector-prompt document classification using Amazon Bedrock, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build OpenClaw Agents That Transact with Amazon Bedrock AgentCore Payments</title>
       <link>https://kasdevtech.com/ai/build-openclaw-agents-bedrock-agentcore-payments/</link>

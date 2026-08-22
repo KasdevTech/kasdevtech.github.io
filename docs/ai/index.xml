@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 14:11:44 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Aug 2026 13:56:13 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reduce RAG costs on Amazon Bedrock with query-aware compression: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression-ai-implementation-guide/</link>
+      <pubDate>Sat, 22 Aug 2026 13:56:13 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Reduce RAG costs on Amazon Bedrock with query-aware compression, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AWS vector solutions: Build agentic AI where your data lives: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/aws-vector-solutions-build-agentic-ai-where-your-data-lives-ai-implementation-guide/</link>

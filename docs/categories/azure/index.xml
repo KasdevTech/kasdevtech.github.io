@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 21 Aug 2026 14:10:46 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Aug 2026 13:53:38 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reduce RAG costs on Amazon Bedrock with query-aware compression - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression-amazon-web-services-aws-azure-real-w/</link>
+      <pubDate>Sat, 22 Aug 2026 13:53:38 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression-amazon-web-services-aws-azure-real-w/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Reduce RAG costs on Amazon Bedrock with query-aware compression - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Track SageMaker Unified Studio project costs with custom tags and AWS CUR - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/track-sagemaker-unified-studio-project-costs-with-custom-tags-and-aws-cur-amazon-web-services-aws-az/</link>

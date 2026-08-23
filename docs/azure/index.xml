@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 22 Aug 2026 13:53:38 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Aug 2026 13:58:19 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inherent AI Outperforms Anthropic and OpenAI in Research Replication</title>
+      <link>https://kasdevtech.com/azure/inherent-alumni-replicates-research/</link>
+      <pubDate>Sun, 23 Aug 2026 13:58:19 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/inherent-alumni-replicates-research/</guid>
+      <description>
+        
+          
+            Inherent, founded by DeepMind alumni, claims its AI &#39;teammate&#39; outperformed Anthropic and OpenAI in replicating research.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OVHcloud Raises Prices as AI Memory Demand Reprices Non-AI Infrastructure - infoq.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/ovhcloud-raises-prices-as-ai-memory-demand-reprices-non-ai-infrastructure-infoqcom-azure-real-world/</link>
+      <pubDate>Sun, 23 Aug 2026 13:55:58 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/ovhcloud-raises-prices-as-ai-memory-demand-reprices-non-ai-infrastructure-infoqcom-azure-real-world/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OVHcloud Raises Prices as AI Memory Demand Reprices Non-AI Infrastructure - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Reduce RAG costs on Amazon Bedrock with query-aware compression - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression-amazon-web-services-aws-azure-real-w/</link>

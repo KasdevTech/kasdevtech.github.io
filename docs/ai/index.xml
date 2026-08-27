@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 26 Aug 2026 14:16:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Aug 2026 23:05:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect Amazon Bedrock AgentCore to cross-account knowledge bases: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases-ai-implementation-guide/</link>
+      <pubDate>Thu, 27 Aug 2026 23:05:45 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Connect Amazon Bedrock AgentCore to cross-account knowledge bases, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Jalapeño’s first results show industry-leading speed and efficiency in AI inference: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/jalapeos-first-results-show-industry-leading-speed-and-efficiency-in-ai-inference-ai-implementation/</link>

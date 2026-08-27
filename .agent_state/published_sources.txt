@@ -83,6 +83,7 @@ https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe
 https://azure.microsoft.com/en-us/blog/accelerate-modern-linux-workloads-with-azure-files/
 https://azure.microsoft.com/en-us/blog/azure-files-entra-only-identities-advancing-cloud-native-identity-and-security/
 https://azure.microsoft.com/en-us/blog/azure-iaas-deploy-high-performance-workloads-with-a-system-level-approach/
+https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/
 https://azure.microsoft.com/en-us/blog/the-performance-dividend-optimizing-postgresql-on-azure-directly-in-visual-studio-code/
 https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/
 https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/

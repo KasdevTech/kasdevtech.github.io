@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 27 Aug 2026 23:05:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Aug 2026 23:11:14 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Decathlon runs demand forecasting at scale with Chronos-2: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2-ai-implementation-guide/</link>
+      <pubDate>Fri, 28 Aug 2026 23:11:14 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How Decathlon runs demand forecasting at scale with Chronos-2, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Managed PostgreSQL vs. Self-Hosted PostgreSQL: Key Benefits and Trade-offs</title>
+      <link>https://kasdevtech.com/azure/managed-postgresql-vs-self-hosted-postgresql/</link>
+      <pubDate>Fri, 28 Aug 2026 23:10:49 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/managed-postgresql-vs-self-hosted-postgresql/</guid>
+      <description>
+        
+          
+            Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Connect Amazon Bedrock AgentCore to cross-account knowledge bases: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases-ai-implementation-guide/</link>

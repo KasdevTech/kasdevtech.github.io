@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 27 Aug 2026 23:05:19 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Aug 2026 23:10:49 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managed PostgreSQL vs. Self-Hosted PostgreSQL: Key Benefits and Trade-offs</title>
+      <link>https://kasdevtech.com/azure/managed-postgresql-vs-self-hosted-postgresql/</link>
+      <pubDate>Fri, 28 Aug 2026 23:10:49 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/managed-postgresql-vs-self-hosted-postgresql/</guid>
+      <description>
+        
+          
+            Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Economics of Agent Optimization: Four ways to lower the cost</title>
       <link>https://kasdevtech.com/azure/agent-optimization-cost/</link>

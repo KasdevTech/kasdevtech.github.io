@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 28 Aug 2026 23:10:49 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Aug 2026 17:23:08 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TerminalFix campaign deploys a reverse tunnel through multistage intrusion - Microsoft: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/terminalfix-campaign-deploys-a-reverse-tunnel-through-multistage-intrusion-microsoft-azure-real-worl/</link>
+      <pubDate>Sat, 29 Aug 2026 17:23:08 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/terminalfix-campaign-deploys-a-reverse-tunnel-through-multistage-intrusion-microsoft-azure-real-worl/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around TerminalFix campaign deploys a reverse tunnel through multistage intrusion - Microsoft, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Managed PostgreSQL vs. Self-Hosted PostgreSQL: Key Benefits and Trade-offs</title>
       <link>https://kasdevtech.com/azure/managed-postgresql-vs-self-hosted-postgresql/</link>

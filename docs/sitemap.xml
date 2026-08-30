@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-08-30T17:47:55+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-08-30T17:47:55+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-08-30T17:47:55+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-08-30T17:47:55+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-08-30T17:47:55+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/your-ai-agent-is-only-as-good-as-the-harness-around-it-the-new-stack-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-08-30T17:47:55+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/ai-agents-are-making-retrieval-engineering-a-core-engineering-discipline-the-new-stack-azure-real-wo/</loc>
+    <lastmod>2026-08-30T17:45:09+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-08-29T17:23:58+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-08-29T17:23:58+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-08-29T17:23:58+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-08-29T17:23:58+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-08-29T17:23:58+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/our-decision-on-cursor-following-its-acquisition-by-spacex-ai-implementation-guide/</loc>
     <lastmod>2026-08-29T17:23:58+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-08-29T17:23:08+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-08-29T17:23:08+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/terminalfix-campaign-deploys-a-reverse-tunnel-through-multistage-intrusion-microsoft-azure-real-worl/</loc>
     <lastmod>2026-08-29T17:23:08+00:00</lastmod>

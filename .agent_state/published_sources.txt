@@ -316,6 +316,7 @@ https://news.google.com/rss/articles/CBMizwFBVV95cUxPU0FvRTJoTHQwSUx4U0RKVGRfQUN
 https://openai.com/academy/codex-settings
 https://openai.com/index/academy-courses-applying-ai-at-work
 https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
+https://openai.com/index/ai-native-company-workflows
 https://openai.com/index/boston-childrens-hospital
 https://openai.com/index/building-codex-windows-sandbox
 https://openai.com/index/building-self-improving-tax-agents-with-codex

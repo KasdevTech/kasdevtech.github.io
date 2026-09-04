@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 03 Sep 2026 17:14:42 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Sep 2026 17:02:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run agent-driven Amazon SageMaker HyperPod operations with InstantStart: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart-ai-implementation-guide/</link>
+      <pubDate>Fri, 04 Sep 2026 17:02:00 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Run agent-driven Amazon SageMaker HyperPod operations with InstantStart, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI-driven development lifecycle using Amazon Bedrock AgentCore: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore-ai-implementation-guide/</link>

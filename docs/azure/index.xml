@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 03 Sep 2026 17:11:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Sep 2026 17:01:25 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run agent-driven Amazon SageMaker HyperPod operations with InstantStart - aws.amazon.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart-awsamazoncom-azure-real-worl/</link>
+      <pubDate>Fri, 04 Sep 2026 17:01:25 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart-awsamazoncom-azure-real-worl/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Run agent-driven Amazon SageMaker HyperPod operations with InstantStart - aws.amazon.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Economics of Agent Optimization: Context engineering for enterprise AI agents: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents-azure-real-world-sc/</link>

@@ -2,29 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/kubernetes-v1-37-rootless-mode-beta/</loc>
+    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-09-05T16:13:53+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-09-05T16:13:53+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/openai-admits-to-german-wiki-incident-the-verge-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-09-05T16:13:53+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-09-04T17:02:00+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-09-04T17:02:00+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-09-04T17:02:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-09-04T17:02:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-09-04T17:02:00+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart-ai-implementation-guide/</loc>
     <lastmod>2026-09-04T17:02:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-09-04T17:01:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-09-04T17:01:25+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart-awsamazoncom-azure-real-worl/</loc>
     <lastmod>2026-09-04T17:01:25+00:00</lastmod>
@@ -142,12 +154,6 @@
   </url><url>
     <loc>https://kasdevtech.com/azure/rogue-ai-arent-science-fiction-anymore-the-verge-azure-real-world-scenario-guide/</loc>
     <lastmod>2026-08-16T13:53:51+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-08-15T13:57:47+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/grok-46-is-now-available-in-github-copilot-platform-engineering-guide/</loc>
     <lastmod>2026-08-15T13:57:47+00:00</lastmod>

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 15 Aug 2026 13:57:47 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Sep 2026 16:14:58 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta</title>
+      <link>https://kasdevtech.com/devops/kubernetes-v1-37-rootless-mode-beta/</link>
+      <pubDate>Sat, 05 Sep 2026 16:14:58 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/kubernetes-v1-37-rootless-mode-beta/</guid>
+      <description>
+        
+          
+            Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta. This feature, known as rootless mode, allows all node components to run as a non-root user on the host, using a Linux user namespace. The work started as an experiment in 2018 and was merged into Kubernetes v1.22 in 2021 as an alpha feature.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Grok 4.6 is now available in GitHub Copilot: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/grok-46-is-now-available-in-github-copilot-platform-engineering-guide/</link>

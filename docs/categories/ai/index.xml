@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 04 Sep 2026 17:02:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Sep 2026 16:29:49 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Acceleration: Inside OpenAI</title>
+      <link>https://kasdevtech.com/ai/research-acceleration-inside-openai/</link>
+      <pubDate>Sun, 06 Sep 2026 16:29:49 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/research-acceleration-inside-openai/</guid>
+      <description>
+        
+          
+            Explore how coding agents are reshaping AI research at OpenAI, focusing on early data on agent usage, experiment velocity, task complexity, and research acceleration.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Run agent-driven Amazon SageMaker HyperPod operations with InstantStart: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart-ai-implementation-guide/</link>

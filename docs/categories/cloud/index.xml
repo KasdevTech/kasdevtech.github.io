@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 05 Sep 2026 16:14:58 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Sep 2026 16:29:49 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Acceleration: Inside OpenAI</title>
+      <link>https://kasdevtech.com/ai/research-acceleration-inside-openai/</link>
+      <pubDate>Sun, 06 Sep 2026 16:29:49 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/research-acceleration-inside-openai/</guid>
+      <description>
+        
+          
+            Explore how coding agents are reshaping AI research at OpenAI, focusing on early data on agent usage, experiment velocity, task complexity, and research acceleration.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta</title>
       <link>https://kasdevtech.com/devops/kubernetes-v1-37-rootless-mode-beta/</link>

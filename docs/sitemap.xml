@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-09-07T18:26:49+00:00</lastmod>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-09-08T17:26:47+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-09-07T18:26:49+00:00</lastmod>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-09-08T17:26:47+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-09-07T18:26:49+00:00</lastmod>
+    <lastmod>2026-09-08T17:26:47+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-09-07T18:26:49+00:00</lastmod>
+    <lastmod>2026-09-08T17:26:47+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-09-07T18:26:49+00:00</lastmod>
+    <lastmod>2026-09-08T17:26:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/the-work-now-within-reach-ai-implementation-guide/</loc>
+    <lastmod>2026-09-08T17:26:47+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-09-08T17:25:37+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-09-08T17:25:37+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2-azure-real-world-scenar/</loc>
+    <lastmod>2026-09-08T17:25:37+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/mcps-new-spec-turns-a-planted-prompt-into-a-stolen-credential-venturebeat-azure-real-world-scenario/</loc>
     <lastmod>2026-09-07T18:26:49+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/gpt-6-astra-a-new-generation-of-intelligence-openai-azure-real-world-scenario-guide/</loc>
     <lastmod>2026-09-07T18:23:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-09-06T16:29:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-09-06T16:29:49+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/research-acceleration-inside-openai/</loc>
     <lastmod>2026-09-06T16:29:49+00:00</lastmod>

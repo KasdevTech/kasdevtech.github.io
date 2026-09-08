@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 07 Sep 2026 18:26:49 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2026 17:26:47 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Work Now Within Reach: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/the-work-now-within-reach-ai-implementation-guide/</link>
+      <pubDate>Tue, 08 Sep 2026 17:26:47 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/the-work-now-within-reach-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around The Work Now Within Reach, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2-azure-real-world-scenar/</link>
+      <pubDate>Tue, 08 Sep 2026 17:25:37 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2-azure-real-world-scenar/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>MCP&#39;s new spec turns a planted prompt into a stolen credential - VentureBeat: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/mcps-new-spec-turns-a-planted-prompt-into-a-stolen-credential-venturebeat-azure-real-world-scenario/</link>

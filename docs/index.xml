@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 17:26:47 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2026 17:17:33 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pathway’s Brain-Inspired Architecture Development on Amazon SageMaker HyperPod</title>
+      <link>https://kasdevtech.com/ai/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/</link>
+      <pubDate>Wed, 09 Sep 2026 17:17:33 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/</guid>
+      <description>
+        
+          
+            Pathway&#39;s Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. This article explores how Pathway develops and scales BDH on Amazon SageMaker HyperPod, setting a new cost-efficiency mark on the ARC-AGI-1 benchmark.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond - blog.google: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond-bloggo/</link>
+      <pubDate>Wed, 09 Sep 2026 17:16:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond-bloggo/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond - blog.google, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>The Work Now Within Reach: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/the-work-now-within-reach-ai-implementation-guide/</link>

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 08 Sep 2026 17:25:37 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2026 17:16:39 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond - blog.google: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond-bloggo/</link>
+      <pubDate>Wed, 09 Sep 2026 17:16:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond-bloggo/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond - blog.google, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2-azure-real-world-scenar/</link>

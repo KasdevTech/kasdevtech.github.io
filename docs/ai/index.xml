@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 11 Sep 2026 17:09:14 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Sep 2026 16:30:49 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload-ai-im/</link>
+      <pubDate>Sat, 12 Sep 2026 16:30:49 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload-ai-im/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference-ai-implementation-guide/</link>

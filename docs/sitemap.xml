@@ -3,28 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-09-11T17:09:14+00:00</lastmod>
+    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-09-11T17:09:14+00:00</lastmod>
+    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload-ai-im/</loc>
+    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-09-11T17:09:14+00:00</lastmod>
+    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-09-11T17:09:14+00:00</lastmod>
+    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-09-11T17:09:14+00:00</lastmod>
+    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/anthropic-ceo-says-its-time-to-pump-the-brakes-on-ai-the-verge-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-09-12T16:29:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-09-12T16:29:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-09-12T16:29:32+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference-ai-implementation-guide/</loc>
     <lastmod>2026-09-11T17:09:14+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-09-11T17:08:14+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-09-11T17:08:14+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/session-traces-and-cost-controls-help-diagnose-ai-agent-failures-infoqcom-azure-real-world-scenario/</loc>
     <lastmod>2026-09-11T17:08:14+00:00</lastmod>

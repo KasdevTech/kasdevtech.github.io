@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-09-13T17:05:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-09-13T17:05:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-09-13T17:05:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-09-13T17:05:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-09-13T17:05:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/openais-rogue-ai-tried-to-hack-another-company-in-may-the-verge-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-09-13T17:05:27+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/gpt-6-astra-the-next-generation-in-intelligence-for-work-openai-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-09-13T17:04:15+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-09-12T16:30:49+00:00</lastmod>
   </url><url>
@@ -11,22 +32,7 @@
     <loc>https://kasdevtech.com/ai/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload-ai-im/</loc>
     <lastmod>2026-09-12T16:30:49+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-09-12T16:30:49+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/anthropic-ceo-says-its-time-to-pump-the-brakes-on-ai-the-verge-azure-real-world-scenario-guide/</loc>
-    <lastmod>2026-09-12T16:29:32+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-09-12T16:29:32+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
     <lastmod>2026-09-12T16:29:32+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference-ai-implementation-guide/</loc>

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 05 Sep 2026 16:14:58 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 17:48:18 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code scanning AI Scan no longer requires CodeQL default setup: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/code-scanning-ai-scan-no-longer-requires-codeql-default-setup-platform-engineering-guide/</link>
+      <pubDate>Wed, 16 Sep 2026 17:48:18 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/code-scanning-ai-scan-no-longer-requires-codeql-default-setup-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Code scanning AI Scan no longer requires CodeQL default setup, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta</title>
       <link>https://kasdevtech.com/devops/kubernetes-v1-37-rootless-mode-beta/</link>

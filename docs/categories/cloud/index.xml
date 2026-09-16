@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 15 Sep 2026 17:46:30 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 17:48:18 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code scanning AI Scan no longer requires CodeQL default setup: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/code-scanning-ai-scan-no-longer-requires-codeql-default-setup-platform-engineering-guide/</link>
+      <pubDate>Wed, 16 Sep 2026 17:48:18 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/code-scanning-ai-scan-no-longer-requires-codeql-default-setup-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Code scanning AI Scan no longer requires CodeQL default setup, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Four security AI bets and how to judge them - VentureBeat: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/four-security-ai-bets-and-how-to-judge-them-venturebeat-azure-real-world-scenario-guide/</link>
+      <pubDate>Wed, 16 Sep 2026 17:44:26 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/four-security-ai-bets-and-how-to-judge-them-venturebeat-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Four security AI bets and how to judge them - VentureBeat, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build an AI-powered product tagging system with Amazon SageMaker serverless model customization: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization-ai-i/</link>

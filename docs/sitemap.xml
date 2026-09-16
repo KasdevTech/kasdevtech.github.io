@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-09-16T17:48:18+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-09-16T17:48:18+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/code-scanning-ai-scan-no-longer-requires-codeql-default-setup-platform-engineering-guide/</loc>
+    <lastmod>2026-09-16T17:48:18+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-09-16T17:48:18+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-09-16T17:48:18+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-09-16T17:48:18+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-09-16T17:44:26+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-09-16T17:44:26+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/four-security-ai-bets-and-how-to-judge-them-venturebeat-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-09-16T17:44:26+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-09-15T17:46:30+00:00</lastmod>
   </url><url>
@@ -11,22 +38,7 @@
     <loc>https://kasdevtech.com/ai/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization-ai-i/</loc>
     <lastmod>2026-09-15T17:46:30+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-09-15T17:46:30+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-09-15T17:46:30+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-09-15T17:46:30+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale-amazon-web-services-aws-azu/</loc>
-    <lastmod>2026-09-15T17:45:27+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-09-15T17:45:27+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
     <lastmod>2026-09-15T17:45:27+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/how-fyxer-built-an-ai-executive-assistant-people-trust-ai-implementation-guide/</loc>
@@ -79,12 +91,6 @@
   </url><url>
     <loc>https://kasdevtech.com/ai/research-acceleration-inside-openai/</loc>
     <lastmod>2026-09-06T16:29:49+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-09-05T16:14:58+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/kubernetes-v1-37-rootless-mode-beta/</loc>
     <lastmod>2026-09-05T16:14:58+00:00</lastmod>

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 17 Sep 2026 17:43:50 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Sep 2026 17:13:23 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security researchers used Claude to help them hack into OpenAI - The Verge: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/security-researchers-used-claude-to-help-them-hack-into-openai-the-verge-azure-real-world-scenario-g/</link>
+      <pubDate>Fri, 18 Sep 2026 17:13:23 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/security-researchers-used-claude-to-help-them-hack-into-openai-the-verge-azure-real-world-scenario-g/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Security researchers used Claude to help them hack into OpenAI - The Verge, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Covert uploads and megalomania: OpenAI details new &#34;misaligned&#34; agent incidents - Ars Technica: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents-ars-technica-azure-real/</link>

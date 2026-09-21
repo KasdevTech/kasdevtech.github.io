@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 19 Sep 2026 16:44:37 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2026 18:57:48 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>xAI’s Grok 4.6 Now Available in Amazon Bedrock</title>
+      <link>https://kasdevtech.com/ai/xais-grok-4-6-amazon-bedrock/</link>
+      <pubDate>Mon, 21 Sep 2026 18:57:48 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/xais-grok-4-6-amazon-bedrock/</guid>
+      <description>
+        
+          
+            xAI&#39;s Grok 4.6 is now available in Amazon Bedrock, a model designed for long-running agents, coding, and knowledge work. It supports a 500K token context window and four reasoning levels, running on bedrock-mantle and bedrock-runtime endpoints, along with the Converse API and cross-Region inference capabilities.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Amazon SageMaker Inference: 2026 year-to-date launches in review: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/amazon-sagemaker-inference-2026-year-to-date-launches-in-review-ai-implementation-guide/</link>

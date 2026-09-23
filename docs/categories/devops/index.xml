@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 16 Sep 2026 17:48:18 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Sep 2026 17:57:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenTelemetry in the GitHub Copilot app: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/opentelemetry-in-the-github-copilot-app-platform-engineering-guide/</link>
+      <pubDate>Wed, 23 Sep 2026 17:57:22 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/opentelemetry-in-the-github-copilot-app-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OpenTelemetry in the GitHub Copilot app, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Code scanning AI Scan no longer requires CodeQL default setup: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/code-scanning-ai-scan-no-longer-requires-codeql-default-setup-platform-engineering-guide/</link>

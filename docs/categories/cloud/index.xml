@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 23 Sep 2026 17:57:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Sep 2026 18:01:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic Conversational Video Intelligence Built on AWS</title>
+      <link>https://kasdevtech.com/ai/agentic-video-intelligence-aws/</link>
+      <pubDate>Thu, 24 Sep 2026 18:01:24 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/agentic-video-intelligence-aws/</guid>
+      <description>
+        
+          
+            Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orchestrates Amazon Bedrock, Amazon Rekognition, and Amazon Transcribe at runtime, deciding which service to call so you can ask natural language questions about your videos and get answers in seconds.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>ZS strengthens AI-powered security operations with Microsoft Security Copilot. - Microsoft: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/zs-strengthens-ai-powered-security-operations-with-microsoft-security-copilot-microsoft-azure-real-w/</link>
+      <pubDate>Thu, 24 Sep 2026 18:00:50 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/zs-strengthens-ai-powered-security-operations-with-microsoft-security-copilot-microsoft-azure-real-w/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around ZS strengthens AI-powered security operations with Microsoft Security Copilot. - Microsoft, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>OpenTelemetry in the GitHub Copilot app: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/opentelemetry-in-the-github-copilot-app-platform-engineering-guide/</link>

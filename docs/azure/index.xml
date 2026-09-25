@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 18:00:50 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Sep 2026 18:05:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NarrateAI: production-ready LLM quality assurance on Amazon Bedrock - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock-amazon-web-services-aws-azure-rea/</link>
+      <pubDate>Fri, 25 Sep 2026 18:05:05 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock-amazon-web-services-aws-azure-rea/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around NarrateAI: production-ready LLM quality assurance on Amazon Bedrock - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>ZS strengthens AI-powered security operations with Microsoft Security Copilot. - Microsoft: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/zs-strengthens-ai-powered-security-operations-with-microsoft-security-copilot-microsoft-azure-real-w/</link>

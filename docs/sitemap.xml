@@ -2,29 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-09-26T17:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-09-26T17:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-09-26T17:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-09-26T17:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-09-26T17:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/private-saved-views-for-repository-issues-and-relates-to-issue-relationship-is-generally-available-p/</loc>
+    <lastmod>2026-09-26T17:24:25+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/ai-best-practices-for-aws-network-operations-with-ai-agents-and-mcp-amazon-web-services-aws-azure-re/</loc>
+    <lastmod>2026-09-26T17:23:29+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-09-26T17:23:29+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-09-26T17:23:29+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-09-25T18:05:30+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-09-25T18:05:30+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-09-25T18:05:30+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-09-25T18:05:30+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-09-25T18:05:30+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput-ai-impl/</loc>
     <lastmod>2026-09-25T18:05:30+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-09-25T18:05:05+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-09-25T18:05:05+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock-amazon-web-services-aws-azure-rea/</loc>
     <lastmod>2026-09-25T18:05:05+00:00</lastmod>
@@ -34,12 +46,6 @@
   </url><url>
     <loc>https://kasdevtech.com/azure/zs-strengthens-ai-powered-security-operations-with-microsoft-security-copilot-microsoft-azure-real-w/</loc>
     <lastmod>2026-09-24T18:00:50+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-09-23T17:57:22+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-09-23T17:57:22+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/opentelemetry-in-the-github-copilot-app-platform-engineering-guide/</loc>
     <lastmod>2026-09-23T17:57:22+00:00</lastmod>

@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 18:05:30 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2026 17:24:25 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Private saved views for repository issues and “Relates to” issue relationship is generally available: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/private-saved-views-for-repository-issues-and-relates-to-issue-relationship-is-generally-available-p/</link>
+      <pubDate>Sat, 26 Sep 2026 17:24:25 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/private-saved-views-for-repository-issues-and-relates-to-issue-relationship-is-generally-available-p/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Private saved views for repository issues and “Relates to” issue relationship is generally available, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI best practices for AWS network operations with AI agents and MCP - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/ai-best-practices-for-aws-network-operations-with-ai-agents-and-mcp-amazon-web-services-aws-azure-re/</link>
+      <pubDate>Sat, 26 Sep 2026 17:23:29 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/ai-best-practices-for-aws-network-operations-with-ai-agents-and-mcp-amazon-web-services-aws-azure-re/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around AI best practices for AWS network operations with AI agents and MCP - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput-ai-impl/</link>

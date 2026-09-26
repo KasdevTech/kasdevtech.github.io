@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 18:05:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2026 17:23:29 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI best practices for AWS network operations with AI agents and MCP - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/ai-best-practices-for-aws-network-operations-with-ai-agents-and-mcp-amazon-web-services-aws-azure-re/</link>
+      <pubDate>Sat, 26 Sep 2026 17:23:29 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/ai-best-practices-for-aws-network-operations-with-ai-agents-and-mcp-amazon-web-services-aws-azure-re/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around AI best practices for AWS network operations with AI agents and MCP - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>NarrateAI: production-ready LLM quality assurance on Amazon Bedrock - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock-amazon-web-services-aws-azure-rea/</link>

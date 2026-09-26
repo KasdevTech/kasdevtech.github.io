@@ -135,6 +135,7 @@ https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mc
 https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot
 https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup
 https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app
+https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/

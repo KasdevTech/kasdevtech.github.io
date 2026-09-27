@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 17:23:29 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Sep 2026 18:00:51 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI agents tried to ‘bruteforce’ a UN website - The Verge: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/openai-agents-tried-to-bruteforce-a-un-website-the-verge-azure-real-world-scenario-guide/</link>
+      <pubDate>Sun, 27 Sep 2026 18:00:51 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/openai-agents-tried-to-bruteforce-a-un-website-the-verge-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OpenAI agents tried to ‘bruteforce’ a UN website - The Verge, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Performance engineering from kernel analysis to AI: Adrian Cockcroft’s take - thenewstack.io: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/performance-engineering-from-kernel-analysis-to-ai-adrian-cockcrofts-take-thenewstackio-azure-real-w/</link>
+      <pubDate>Sun, 27 Sep 2026 17:56:16 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/performance-engineering-from-kernel-analysis-to-ai-adrian-cockcrofts-take-thenewstackio-azure-real-w/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Performance engineering from kernel analysis to AI: Adrian Cockcroft’s take - thenewstack.io, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI best practices for AWS network operations with AI agents and MCP - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/ai-best-practices-for-aws-network-operations-with-ai-agents-and-mcp-amazon-web-services-aws-azure-re/</link>

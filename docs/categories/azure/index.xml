@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 18:00:51 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Sep 2026 20:14:52 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic launches Claude Sonnet 5.5 with 30% cost reduction per-task due to faster speeds and fewer tool calls - VentureBeat: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/anthropic-launches-claude-sonnet-55-with-30-cost-reduction-per-task-due-to-faster-speeds-and-fewer-t/</link>
+      <pubDate>Mon, 28 Sep 2026 20:14:52 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/anthropic-launches-claude-sonnet-55-with-30-cost-reduction-per-task-due-to-faster-speeds-and-fewer-t/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Anthropic launches Claude Sonnet 5.5 with 30% cost reduction per-task due to faster speeds and fewer tool calls - VentureBeat, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>OpenAI agents tried to ‘bruteforce’ a UN website - The Verge: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/openai-agents-tried-to-bruteforce-a-un-website-the-verge-azure-real-world-scenario-guide/</link>

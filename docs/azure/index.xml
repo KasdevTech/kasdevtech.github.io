@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 20:14:52 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Sep 2026 18:50:43 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using AI to chart a course for our post-quantum migration - Cloudflare Blog: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/using-ai-to-chart-a-course-for-our-post-quantum-migration-cloudflare-blog-azure-real-world-scenario/</link>
+      <pubDate>Tue, 29 Sep 2026 18:50:43 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/using-ai-to-chart-a-course-for-our-post-quantum-migration-cloudflare-blog-azure-real-world-scenario/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Using AI to chart a course for our post-quantum migration - Cloudflare Blog, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Anthropic launches Claude Sonnet 5.5 with 30% cost reduction per-task due to faster speeds and fewer tool calls - VentureBeat: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/anthropic-launches-claude-sonnet-55-with-30-cost-reduction-per-task-due-to-faster-speeds-and-fewer-t/</link>

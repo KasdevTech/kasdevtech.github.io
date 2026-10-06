@@ -143,6 +143,7 @@ https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-require
 https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app
 https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more
 https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api
+https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/

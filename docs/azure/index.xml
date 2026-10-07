@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 19:02:27 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2026 19:29:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Survey Finds AI-Generated Code Increases Debugging and Failure Rates and Creates a Comprehension Gap - infoq.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/survey-finds-ai-generated-code-increases-debugging-and-failure-rates-and-creates-a-comprehension-gap/</link>
+      <pubDate>Wed, 07 Oct 2026 19:29:24 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/survey-finds-ai-generated-code-increases-debugging-and-failure-rates-and-creates-a-comprehension-gap/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Survey Finds AI-Generated Code Increases Debugging and Failure Rates and Creates a Comprehension Gap - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI agents can’t fix infrastructure failures they can’t diagnose - VentureBeat: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/ai-agents-cant-fix-infrastructure-failures-they-cant-diagnose-venturebeat-azure-real-world-scenario/</link>

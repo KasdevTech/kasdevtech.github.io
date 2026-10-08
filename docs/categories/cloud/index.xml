@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 19:30:38 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2026 19:27:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Draft pull requests count toward pull request limits: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/draft-pull-requests-count-toward-pull-request-limits-platform-engineering-guide/</link>
+      <pubDate>Thu, 08 Oct 2026 19:27:45 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/draft-pull-requests-count-toward-pull-request-limits-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Draft pull requests count toward pull request limits, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost - TechCrunch: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost-techcrunch/</link>
+      <pubDate>Thu, 08 Oct 2026 19:26:36 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost-techcrunch/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost - TechCrunch, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Qlik Built Grounded, Enterprise-Scale AI with Amazon Bedrock</title>
       <link>https://kasdevtech.com/ai/qlik-bedrock-ai/</link>

@@ -2,38 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-10-10T17:59:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-10-10T17:59:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-10-10T17:59:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-10-10T17:59:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/github-copilot-weekly-releases-october-5-platform-engineering-guide/</loc>
+    <lastmod>2026-10-10T17:59:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-10-10T17:59:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-10-10T17:58:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-10-10T17:58:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/how-to-turn-ai-production-feedback-into-better-agents-the-new-stack-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-10-10T17:58:03+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-10-09T18:57:11+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-10-09T18:57:11+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-10-09T18:57:11+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-10-09T18:57:11+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/icymi-what-landed-for-ai-builders-in-september-2026-ai-implementation-guide/</loc>
-    <lastmod>2026-10-09T18:57:11+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
     <lastmod>2026-10-09T18:57:11+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/anthropic-launches-free-ai-security-scans-for-open-source-projects-the-verge-azure-real-world-scenar/</loc>
     <lastmod>2026-10-09T18:56:37+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-10-09T18:56:37+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-10-09T18:56:37+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-10-08T19:27:45+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-10-08T19:27:45+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/draft-pull-requests-count-toward-pull-request-limits-platform-engineering-guide/</loc>
     <lastmod>2026-10-08T19:27:45+00:00</lastmod>

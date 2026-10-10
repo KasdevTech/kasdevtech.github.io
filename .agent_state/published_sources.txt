@@ -147,6 +147,7 @@ https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-iss
 https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api
 https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview
 https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits
+https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5
 https://kubernetes.io/blog/2026/03/20/running-agents-on-kubernetes-with-agent-sandbox/
 https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/
 https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/

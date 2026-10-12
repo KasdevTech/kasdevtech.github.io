@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 11 Oct 2026 18:21:16 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2026 21:59:26 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysi/</link>
+      <pubDate>Mon, 12 Oct 2026 21:59:26 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysi/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan, with implications for engineering t
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Your AI agents can execute every tool call correctly and still break every enterprise rule - VentureBeat: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/your-ai-agents-can-execute-every-tool-call-correctly-and-still-break-every-enterprise-rule-venturebe/</link>
+      <pubDate>Mon, 12 Oct 2026 21:54:50 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/your-ai-agents-can-execute-every-tool-call-correctly-and-still-break-every-enterprise-rule-venturebe/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Your AI agents can execute every tool call correctly and still break every enterprise rule - VentureBeat, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>New Controls and Chat Improvements in Copilot for JetBrains: Enhancing Productivity and Collaboration</title>
       <link>https://kasdevtech.com/devops/copilot-improvements-jetbrains/</link>

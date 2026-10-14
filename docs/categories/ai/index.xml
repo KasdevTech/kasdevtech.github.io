@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 19:59:49 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Oct 2026 18:09:40 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generate presentations with Amazon Bedrock AgentCore: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/generate-presentations-with-amazon-bedrock-agentcore-ai-implementation-guide/</link>
+      <pubDate>Wed, 14 Oct 2026 18:09:40 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/generate-presentations-with-amazon-bedrock-agentcore-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Generate presentations with Amazon Bedrock AgentCore, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Natural language security queries at Orca Security using Amazon Bedrock: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/natural-language-security-queries-at-orca-security-using-amazon-bedrock-ai-implementation-guide/</link>

@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 16:44:02 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2026 19:32:25 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Deepgram optimized voice AI at scale with AWS Trainium: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium-ai-implementation-guide/</link>
+      <pubDate>Mon, 19 Oct 2026 19:32:25 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How Deepgram optimized voice AI at scale with AWS Trainium, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Tolan Secures $30M for Its AI Companion to Assist in Life’s Navigation</title>
+      <link>https://kasdevtech.com/azure/tolan-ai-companion/</link>
+      <pubDate>Mon, 19 Oct 2026 19:29:41 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/tolan-ai-companion/</guid>
+      <description>
+        
+          
+            Tolan, a company focused on developing AI companions, has secured $30 million in funding. The venture aims to help users navigate their lives more effectively with the help of an AI companion.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Scale isn’t one number: three ways a Kubernetes control plane runs out of room - The New Stack: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/scale-isnt-one-number-three-ways-a-kubernetes-control-plane-runs-out-of-room-the-new-stack-platform/</link>

@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 18:10:29 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Oct 2026 18:14:14 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-14-platform-engineering-guide/</link>
+      <pubDate>Wed, 21 Oct 2026 18:14:14 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-14-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>OpenAI says an AI agent lied about disabling its safety monitoring system - The Verge: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/openai-says-an-ai-agent-lied-about-disabling-its-safety-monitoring-system-the-verge-azure-real-world/</link>
+      <pubDate>Wed, 21 Oct 2026 18:12:12 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/openai-says-an-ai-agent-lied-about-disabling-its-safety-monitoring-system-the-verge-azure-real-world/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around OpenAI says an AI agent lied about disabling its safety monitoring system - The Verge, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock/</link>

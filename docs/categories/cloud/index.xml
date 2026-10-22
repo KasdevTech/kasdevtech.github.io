@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 21 Oct 2026 18:14:14 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2026 18:08:08 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 Production Challenges in Multi-Agent Systems and How Deep Insight Solved Them</title>
+      <link>https://kasdevtech.com/ai/deep-insight-solves-production-challenges/</link>
+      <pubDate>Thu, 22 Oct 2026 18:08:08 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/deep-insight-solves-production-challenges/</guid>
+      <description>
+        
+          
+            This post discusses five common challenges faced by teams building multi-agent AI systems and how Deep Insight, an open-source multi-agent system on AWS, addresses each challenge.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AI agent security is a lifecycle — not a gatekeeper - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/ai-agent-security-is-a-lifecycle-not-a-gatekeeper-the-new-stack-azure-real-world-scenario-guide/</link>
+      <pubDate>Thu, 22 Oct 2026 18:07:45 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/ai-agent-security-is-a-lifecycle-not-a-gatekeeper-the-new-stack-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around AI agent security is a lifecycle — not a gatekeeper - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-14-platform-engineering-guide/</link>

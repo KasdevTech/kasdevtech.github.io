@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 22 Oct 2026 18:07:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Oct 2026 17:57:28 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects - infoq.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/anthropic-adds-opt-in-security-scanning-for-critical-open-source-projects-infoqcom-azure-real-world/</link>
+      <pubDate>Fri, 23 Oct 2026 17:57:28 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/anthropic-adds-opt-in-security-scanning-for-critical-open-source-projects-infoqcom-azure-real-world/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>AI agent security is a lifecycle — not a gatekeeper - The New Stack: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/ai-agent-security-is-a-lifecycle-not-a-gatekeeper-the-new-stack-azure-real-world-scenario-guide/</link>

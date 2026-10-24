@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 23 Oct 2026 17:58:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2026 16:51:41 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise installations for GitHub Apps generally available: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/enterprise-installations-for-github-apps-generally-available-platform-engineering-guide/</link>
+      <pubDate>Sat, 24 Oct 2026 16:51:41 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/enterprise-installations-for-github-apps-generally-available-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Enterprise installations for GitHub Apps generally available, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>AWS says its AI security agent fixes 89% of bugs — but there’s a catch - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/aws-says-its-ai-security-agent-fixes-89-of-bugs-but-theres-a-catch-the-new-stack-azure-real-world-sc/</link>
+      <pubDate>Sat, 24 Oct 2026 16:50:25 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/aws-says-its-ai-security-agent-fixes-89-of-bugs-but-theres-a-catch-the-new-stack-azure-real-world-sc/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around AWS says its AI security agent fixes 89% of bugs — but there’s a catch - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Bayer Crop Science&#39;s Agentic Decision Engine: A Case Study in Amazon Bedrock AgentCore and AWS Unified Operations</title>
       <link>https://kasdevtech.com/ai/bayer-crop-science-agentengine-bedrock-agentcore/</link>

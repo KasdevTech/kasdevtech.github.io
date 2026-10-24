@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 21 Oct 2026 18:14:14 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2026 16:51:41 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise installations for GitHub Apps generally available: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/enterprise-installations-for-github-apps-generally-available-platform-engineering-guide/</link>
+      <pubDate>Sat, 24 Oct 2026 16:51:41 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/enterprise-installations-for-github-apps-generally-available-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Enterprise installations for GitHub Apps generally available, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Dependabot now supports npm 12, pnpm 11 and 12, and Bun 1.4: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/dependabot-now-supports-npm-12-pnpm-11-and-12-and-bun-14-platform-engineering-guide/</link>

@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-10-26T19:34:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-10-26T19:34:59+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-10-24T16:51:41+00:00</lastmod>
+    <lastmod>2026-10-26T19:34:59+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-10-24T16:51:41+00:00</lastmod>
+    <lastmod>2026-10-26T19:34:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock-ai-imp/</loc>
+    <lastmod>2026-10-26T19:34:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-10-26T19:34:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-10-26T19:34:02+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-10-26T19:34:02+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/introducing-gpt-61-terra-openai-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-10-26T19:34:02+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/devops/</loc>
     <lastmod>2026-10-24T16:51:41+00:00</lastmod>
@@ -17,23 +38,8 @@
     <loc>https://kasdevtech.com/devops/enterprise-installations-for-github-apps-generally-available-platform-engineering-guide/</loc>
     <lastmod>2026-10-24T16:51:41+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-10-24T16:51:41+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/aws-says-its-ai-security-agent-fixes-89-of-bugs-but-theres-a-catch-the-new-stack-azure-real-world-sc/</loc>
     <lastmod>2026-10-24T16:50:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-10-24T16:50:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-10-24T16:50:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-10-23T17:58:03+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-10-23T17:58:03+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/bayer-crop-science-agentengine-bedrock-agentcore/</loc>
     <lastmod>2026-10-23T17:58:03+00:00</lastmod>

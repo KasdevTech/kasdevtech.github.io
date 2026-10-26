@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 23 Oct 2026 17:58:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Oct 2026 19:34:59 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock-ai-imp/</link>
+      <pubDate>Mon, 26 Oct 2026 19:34:59 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock-ai-imp/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Bayer Crop Science&#39;s Agentic Decision Engine: A Case Study in Amazon Bedrock AgentCore and AWS Unified Operations</title>
       <link>https://kasdevtech.com/ai/bayer-crop-science-agentengine-bedrock-agentcore/</link>

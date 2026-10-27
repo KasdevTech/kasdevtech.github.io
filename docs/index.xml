@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 19:34:59 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Oct 2026 18:54:00 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes Workload Conformance Working Group Announced</title>
+      <link>https://kasdevtech.com/devops/kubernetes-workload-conformance-working-group/</link>
+      <pubDate>Tue, 27 Oct 2026 18:54:00 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/kubernetes-workload-conformance-working-group/</guid>
+      <description>
+        
+          
+            The Kubernetes community has established a new working group dedicated to creating a shared standard for workload behavior on Kubernetes.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases - OpenAI: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/gpt-61-sol-helps-coderabbit-strengthen-security-across-complex-codebases-openai-azure-real-world-sce/</link>
+      <pubDate>Tue, 27 Oct 2026 18:53:30 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/gpt-61-sol-helps-coderabbit-strengthen-security-across-complex-codebases-openai-azure-real-world-sce/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases - OpenAI, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock-ai-imp/</link>

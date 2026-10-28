@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 18:53:30 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2026 19:00:31 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Agentic AI Platform on Amazon Bedrock AgentCore - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore-amazon-web-services-aws-azure-real-world/</link>
+      <pubDate>Wed, 28 Oct 2026 19:00:31 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore-amazon-web-services-aws-azure-real-world/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Building an Agentic AI Platform on Amazon Bedrock AgentCore - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases - OpenAI: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/gpt-61-sol-helps-coderabbit-strengthen-security-across-complex-codebases-openai-azure-real-world-sce/</link>

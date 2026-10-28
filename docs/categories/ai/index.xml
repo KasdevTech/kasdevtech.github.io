@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 19:34:59 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Oct 2026 19:01:31 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Legora is building the agentic operating system for legal work: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/legora-is-building-the-agentic-operating-system-for-legal-work-ai-implementation-guide/</link>
+      <pubDate>Wed, 28 Oct 2026 19:01:31 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/legora-is-building-the-agentic-operating-system-for-legal-work-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Legora is building the agentic operating system for legal work, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock-ai-imp/</link>

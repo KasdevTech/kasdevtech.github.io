@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 19:09:47 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2026 18:45:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure the ChatGPT Desktop App with Amazon Bedrock in AWS GovCloud (US)</title>
+      <link>https://kasdevtech.com/ai/configure-chatgpt-desktop-app-amazon-bedrock-govcloud-us/</link>
+      <pubDate>Fri, 30 Oct 2026 18:45:03 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/configure-chatgpt-desktop-app-amazon-bedrock-govcloud-us/</guid>
+      <description>
+        
+          
+            This post guides you through setting up a controlled local deployment of the ChatGPT desktop app using Amazon Bedrock in AWS GovCloud (US). It includes steps for API-mode sign-in, managed device policy, named AWS profile, and network restrictions to ensure a security team can validate the app before broader use.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks-ai-implem/</link>

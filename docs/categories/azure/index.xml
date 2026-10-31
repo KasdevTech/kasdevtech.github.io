@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 18:44:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2026 17:52:53 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced - infoq.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/localstack-for-azure-enters-public-preview-with-security-settings-stored-but-not-enforced-infoqcom-a/</link>
+      <pubDate>Sat, 31 Oct 2026 17:52:53 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/localstack-for-azure-enters-public-preview-with-security-settings-stored-but-not-enforced-infoqcom-a/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Azure Cloud HSM Hardware Audit Logging: Verifiable audit trails for security and compliance: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/azure-cloud-hsm-hardware-audit-logging-verifiable-audit-trails-for-security-and-compliance-azure-rea/</link>

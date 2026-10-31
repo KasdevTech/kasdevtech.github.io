@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 18:45:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2026 17:53:56 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime-ai-impl/</link>
+      <pubDate>Sat, 31 Oct 2026 17:53:56 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime-ai-impl/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced - infoq.com: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/localstack-for-azure-enters-public-preview-with-security-settings-stored-but-not-enforced-infoqcom-a/</link>
+      <pubDate>Sat, 31 Oct 2026 17:52:53 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/localstack-for-azure-enters-public-preview-with-security-settings-stored-but-not-enforced-infoqcom-a/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced - infoq.com, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Configure the ChatGPT Desktop App with Amazon Bedrock in AWS GovCloud (US)</title>
       <link>https://kasdevtech.com/ai/configure-chatgpt-desktop-app-amazon-bedrock-govcloud-us/</link>

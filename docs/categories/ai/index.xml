@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 18:45:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2026 17:53:56 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime-ai-impl/</link>
+      <pubDate>Sat, 31 Oct 2026 17:53:56 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime-ai-impl/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Configure the ChatGPT Desktop App with Amazon Bedrock in AWS GovCloud (US)</title>
       <link>https://kasdevtech.com/ai/configure-chatgpt-desktop-app-amazon-bedrock-govcloud-us/</link>

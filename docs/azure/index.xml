@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 17:52:53 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2026 18:36:15 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The future of the firm - OpenAI: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/the-future-of-the-firm-openai-azure-real-world-scenario-guide/</link>
+      <pubDate>Sun, 01 Nov 2026 18:36:15 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/the-future-of-the-firm-openai-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around The future of the firm - OpenAI, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Open-source security in the AI exploit era: Patch without changing a thing - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/open-source-security-in-the-ai-exploit-era-patch-without-changing-a-thing-the-new-stack-azure-real-w/</link>
+      <pubDate>Sun, 01 Nov 2026 18:31:40 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/open-source-security-in-the-ai-exploit-era-patch-without-changing-a-thing-the-new-stack-azure-real-w/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Open-source security in the AI exploit era: Patch without changing a thing - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced - infoq.com: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/localstack-for-azure-enters-public-preview-with-security-settings-stored-but-not-enforced-infoqcom-a/</link>

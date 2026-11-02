@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-11-01T18:36:15+00:00</lastmod>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-11-01T18:36:15+00:00</lastmod>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai-ai-implementation-guide/</loc>
+    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-11-01T18:36:15+00:00</lastmod>
+    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-11-01T18:36:15+00:00</lastmod>
+    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-11-01T18:36:15+00:00</lastmod>
+    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-11-02T22:26:52+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-11-02T22:26:52+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/what-exploited-vulnerabilities-have-in-common-a-data-driven-analysis-of-real-world-attacks-microsoft/</loc>
+    <lastmod>2026-11-02T22:26:52+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/the-future-of-the-firm-openai-azure-real-world-scenario-guide/</loc>
     <lastmod>2026-11-01T18:36:15+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/open-source-security-in-the-ai-exploit-era-patch-without-changing-a-thing-the-new-stack-azure-real-w/</loc>
     <lastmod>2026-11-01T18:31:40+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-10-31T17:53:56+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-10-31T17:53:56+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime-ai-impl/</loc>
     <lastmod>2026-10-31T17:53:56+00:00</lastmod>

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 22:27:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2026 20:32:08 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Four layers of context engineering for production AI agents: How Deep Insight applies them in working code: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working/</link>
+      <pubDate>Wed, 04 Nov 2026 20:32:08 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Four layers of context engineering for production AI agents: How Deep Insight applies them in working code, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Build efficient agents with knowledge distillation on Amazon SageMaker AI: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai-ai-implementation-guide/</link>

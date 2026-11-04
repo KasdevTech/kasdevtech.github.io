@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-11-04T20:32:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-11-04T20:32:08+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-11-03T20:17:53+00:00</lastmod>
+    <lastmod>2026-11-04T20:32:08+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-11-03T20:17:53+00:00</lastmod>
+    <lastmod>2026-11-04T20:32:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working/</loc>
+    <lastmod>2026-11-04T20:32:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-11-04T20:32:08+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-11-04T20:31:37+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-11-04T20:31:37+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/gemini-for-home-now-plugs-into-atts-smart-security-system-the-verge-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-11-04T20:31:37+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/devops/</loc>
     <lastmod>2026-11-03T20:17:53+00:00</lastmod>
@@ -17,23 +38,8 @@
     <loc>https://kasdevtech.com/devops/github-copilot-is-now-available-in-jetbrains-air-platform-engineering-guide/</loc>
     <lastmod>2026-11-03T20:17:53+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-11-03T20:17:53+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-11-03T20:17:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-11-03T20:17:04+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/crowdstrike-ai-security-acquisition/</loc>
     <lastmod>2026-11-03T20:17:04+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-11-02T22:27:24+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai-ai-implementation-guide/</loc>
     <lastmod>2026-11-02T22:27:24+00:00</lastmod>

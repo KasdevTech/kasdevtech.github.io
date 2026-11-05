@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 20:17:53 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2026 20:54:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Groundcover automates Kubernetes sizing. Engineers set the bounds. - The New Stack: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/groundcover-automates-kubernetes-sizing-engineers-set-the-bounds-the-new-stack-platform-engineering/</link>
+      <pubDate>Thu, 05 Nov 2026 20:54:24 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/groundcover-automates-kubernetes-sizing-engineers-set-the-bounds-the-new-stack-platform-engineering/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Groundcover automates Kubernetes sizing. Engineers set the bounds. - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>GitHub Copilot is now available in JetBrains Air: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/github-copilot-is-now-available-in-jetbrains-air-platform-engineering-guide/</link>

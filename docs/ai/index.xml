@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 04 Nov 2026 20:32:08 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2026 20:04:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Serverless MCP server for AI agent data lake access on Amazon ECS Fargate: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate-ai-implementation-guide/</link>
+      <pubDate>Fri, 06 Nov 2026 20:04:45 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Serverless MCP server for AI agent data lake access on Amazon ECS Fargate, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Four layers of context engineering for production AI agents: How Deep Insight applies them in working code: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working/</link>

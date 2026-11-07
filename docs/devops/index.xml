@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 05 Nov 2026 20:54:24 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Nov 2026 18:12:06 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot weekly releases — November 2: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/github-copilot-weekly-releases-november-2-platform-engineering-guide/</link>
+      <pubDate>Sat, 07 Nov 2026 18:12:06 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/github-copilot-weekly-releases-november-2-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around GitHub Copilot weekly releases — November 2, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Groundcover automates Kubernetes sizing. Engineers set the bounds. - The New Stack: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/groundcover-automates-kubernetes-sizing-engineers-set-the-bounds-the-new-stack-platform-engineering/</link>

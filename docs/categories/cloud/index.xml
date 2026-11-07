@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 20:04:45 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Nov 2026 18:12:06 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot weekly releases — November 2: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/github-copilot-weekly-releases-november-2-platform-engineering-guide/</link>
+      <pubDate>Sat, 07 Nov 2026 18:12:06 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/github-copilot-weekly-releases-november-2-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around GitHub Copilot weekly releases — November 2, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How we review 4x more AI code without reading every line - The New Stack</title>
+      <link>https://kasdevtech.com/azure/review-4x-more-ai-code/</link>
+      <pubDate>Sat, 07 Nov 2026 18:11:19 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/review-4x-more-ai-code/</guid>
+      <description>
+        
+          
+            The New Stack
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Serverless MCP server for AI agent data lake access on Amazon ECS Fargate: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate-ai-implementation-guide/</link>

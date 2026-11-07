@@ -2,38 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-11-07T18:12:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-11-07T18:12:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-11-07T18:12:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-11-07T18:12:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/github-copilot-weekly-releases-november-2-platform-engineering-guide/</loc>
+    <lastmod>2026-11-07T18:12:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-11-07T18:12:06+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-11-07T18:11:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-11-07T18:11:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/review-4x-more-ai-code/</loc>
+    <lastmod>2026-11-07T18:11:19+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-11-06T20:04:45+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-11-06T20:04:45+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-11-06T20:04:45+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-11-06T20:04:45+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-11-06T20:04:45+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate-ai-implementation-guide/</loc>
     <lastmod>2026-11-06T20:04:45+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-11-06T20:03:31+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-11-06T20:03:31+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/azure/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls-amazon-web/</loc>
     <lastmod>2026-11-06T20:03:31+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-11-05T20:54:24+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-11-05T20:54:24+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/groundcover-automates-kubernetes-sizing-engineers-set-the-bounds-the-new-stack-platform-engineering/</loc>
     <lastmod>2026-11-05T20:54:24+00:00</lastmod>

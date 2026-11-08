@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 07 Nov 2026 18:12:06 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2026 18:28:18 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling an Autonomous Agent from One Team to Fifty: A Serverless-to-Container Decision Framework</title>
+      <link>https://kasdevtech.com/devops/scaling-an-autonomous-agent/</link>
+      <pubDate>Sun, 08 Nov 2026 18:28:18 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/scaling-an-autonomous-agent/</guid>
+      <description>
+        
+          
+            This article explores the journey of scaling an autonomous agent from a single team to a team of fifty, focusing on the transition from serverless to container-based architectures. It provides a decision framework that helps teams make informed choices when moving their projects.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Moving from AI adoption to an AI operating model: How Docusign engineering went beyond tool rollout - The New Stack: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/moving-from-ai-adoption-to-an-ai-operating-model-how-docusign-engineering-went-beyond-tool-rollout-t/</link>
+      <pubDate>Sun, 08 Nov 2026 18:27:11 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/moving-from-ai-adoption-to-an-ai-operating-model-how-docusign-engineering-went-beyond-tool-rollout-t/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Moving from AI adoption to an AI operating model: How Docusign engineering went beyond tool rollout - The New Stack, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>GitHub Copilot weekly releases — November 2: Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/github-copilot-weekly-releases-november-2-platform-engineering-guide/</link>

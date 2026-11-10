@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-11-09T23:10:31+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-11-09T23:10:31+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-11-09T23:10:31+00:00</lastmod>
+    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-11-09T23:10:31+00:00</lastmod>
+    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/devops/</loc>
+    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/</loc>
+    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/how-ctbc-bank-modernizes-mainframe-reverse-engineering-with-a-multi-agent-pipeline-on-amazon-bedrock/</loc>
+    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-11-09T23:10:31+00:00</lastmod>
+    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-11-10T20:33:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-11-10T20:33:32+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore-a/</loc>
+    <lastmod>2026-11-10T20:33:32+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture/</loc>
     <lastmod>2026-11-09T23:10:31+00:00</lastmod>
@@ -28,12 +40,6 @@
   </url><url>
     <loc>https://kasdevtech.com/azure/control-room-a-central-system-to-track-and-stop-model-workloads-across-our-research-infrastructure-a/</loc>
     <lastmod>2026-11-09T23:09:51+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-11-08T18:28:18+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-11-08T18:28:18+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/scaling-an-autonomous-agent/</loc>
     <lastmod>2026-11-08T18:28:18+00:00</lastmod>

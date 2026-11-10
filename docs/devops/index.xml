@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sun, 08 Nov 2026 18:28:18 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2026 20:35:57 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How CTBC Bank modernizes mainframe reverse engineering with a multi-agent pipeline on Amazon Bedrock AgentCore - Amazon Web Services (AWS): Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/how-ctbc-bank-modernizes-mainframe-reverse-engineering-with-a-multi-agent-pipeline-on-amazon-bedrock/</link>
+      <pubDate>Tue, 10 Nov 2026 20:35:57 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/how-ctbc-bank-modernizes-mainframe-reverse-engineering-with-a-multi-agent-pipeline-on-amazon-bedrock/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How CTBC Bank modernizes mainframe reverse engineering with a multi-agent pipeline on Amazon Bedrock AgentCore - Amazon Web Services (AWS), with implications for engineering
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Scaling an Autonomous Agent from One Team to Fifty: A Serverless-to-Container Decision Framework</title>
       <link>https://kasdevtech.com/devops/scaling-an-autonomous-agent/</link>

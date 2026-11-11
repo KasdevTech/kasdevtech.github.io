@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 23:09:51 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2026 20:22:39 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KT ‘Meisters’ and Microsoft engineers build AI agents to spot network issues before customers do - Microsoft Source: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/kt-meisters-and-microsoft-engineers-build-ai-agents-to-spot-network-issues-before-customers-do-micro/</link>
+      <pubDate>Wed, 11 Nov 2026 20:22:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/kt-meisters-and-microsoft-engineers-build-ai-agents-to-spot-network-issues-before-customers-do-micro/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around KT ‘Meisters’ and Microsoft engineers build AI agents to spot network issues before customers do - Microsoft Source, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Control Room: A central system to track and stop model workloads across our research infrastructure: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/control-room-a-central-system-to-track-and-stop-model-workloads-across-our-research-infrastructure-a/</link>

@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 20:35:57 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2026 20:23:19 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Issue types and fields are available for personal accounts: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/issue-types-and-fields-are-available-for-personal-accounts-platform-engineering-guide/</link>
+      <pubDate>Wed, 11 Nov 2026 20:23:19 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/issue-types-and-fields-are-available-for-personal-accounts-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Issue types and fields are available for personal accounts, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>KT ‘Meisters’ and Microsoft engineers build AI agents to spot network issues before customers do - Microsoft Source: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/kt-meisters-and-microsoft-engineers-build-ai-agents-to-spot-network-issues-before-customers-do-micro/</link>
+      <pubDate>Wed, 11 Nov 2026 20:22:39 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/kt-meisters-and-microsoft-engineers-build-ai-agents-to-spot-network-issues-before-customers-do-micro/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around KT ‘Meisters’ and Microsoft engineers build AI agents to spot network issues before customers do - Microsoft Source, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How CTBC Bank modernizes mainframe reverse engineering with a multi-agent pipeline on Amazon Bedrock AgentCore - Amazon Web Services (AWS): Platform Engineering Guide</title>
       <link>https://kasdevtech.com/devops/how-ctbc-bank-modernizes-mainframe-reverse-engineering-with-a-multi-agent-pipeline-on-amazon-bedrock/</link>

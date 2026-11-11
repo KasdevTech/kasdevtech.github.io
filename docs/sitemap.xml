@@ -3,21 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+    <lastmod>2026-11-11T20:23:19+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+    <lastmod>2026-11-11T20:23:19+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/devops/</loc>
-    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+    <lastmod>2026-11-11T20:23:19+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/devops/</loc>
-    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+    <lastmod>2026-11-11T20:23:19+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/devops/how-ctbc-bank-modernizes-mainframe-reverse-engineering-with-a-multi-agent-pipeline-on-amazon-bedrock/</loc>
-    <lastmod>2026-11-10T20:35:57+00:00</lastmod>
+    <loc>https://kasdevtech.com/devops/issue-types-and-fields-are-available-for-personal-accounts-platform-engineering-guide/</loc>
+    <lastmod>2026-11-11T20:23:19+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-11-11T20:23:19+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-11-11T20:22:39+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-11-11T20:22:39+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/kt-meisters-and-microsoft-engineers-build-ai-agents-to-spot-network-issues-before-customers-do-micro/</loc>
+    <lastmod>2026-11-11T20:22:39+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/how-ctbc-bank-modernizes-mainframe-reverse-engineering-with-a-multi-agent-pipeline-on-amazon-bedrock/</loc>
     <lastmod>2026-11-10T20:35:57+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
@@ -31,12 +43,6 @@
   </url><url>
     <loc>https://kasdevtech.com/ai/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture/</loc>
     <lastmod>2026-11-09T23:10:31+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-11-09T23:09:51+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-11-09T23:09:51+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/control-room-a-central-system-to-track-and-stop-model-workloads-across-our-research-infrastructure-a/</loc>
     <lastmod>2026-11-09T23:09:51+00:00</lastmod>

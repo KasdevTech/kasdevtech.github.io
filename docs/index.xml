@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 20:39:05 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Nov 2026 18:55:11 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard-ai-impl/</link>
+      <pubDate>Sat, 14 Nov 2026 18:55:11 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard-ai-impl/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1 - Amazon Web Services (AWS): Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1-amazon-web-services-aws-azure-real/</link>
+      <pubDate>Sat, 14 Nov 2026 18:53:44 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1-amazon-web-services-aws-azure-real/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1 - Amazon Web Services (AWS), with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore-ai-implementation/</link>

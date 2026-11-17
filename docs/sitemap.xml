@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kasdevtech.com/devops/bulk-start-ai-scan-for-repositories-platform-engineering-guide/</loc>
-    <lastmod>2026-11-16T23:05:25+00:00</lastmod>
+    <loc>https://kasdevtech.com/ai/</loc>
+    <lastmod>2026-11-17T21:54:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/ai/</loc>
+    <lastmod>2026-11-17T21:54:59+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-11-16T23:05:25+00:00</lastmod>
+    <lastmod>2026-11-17T21:54:59+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-11-17T21:54:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-11-17T21:54:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/ai/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams-ai-implementation/</loc>
+    <lastmod>2026-11-17T21:54:59+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-11-17T21:54:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-11-17T21:54:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/st-lukes-scales-trusted-ai-returning-approximately-260-hours-to-security-analysts-each-month-microso/</loc>
+    <lastmod>2026-11-17T21:54:03+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/devops/bulk-start-ai-scan-for-repositories-platform-engineering-guide/</loc>
     <lastmod>2026-11-16T23:05:25+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/devops/</loc>
@@ -17,25 +38,10 @@
     <loc>https://kasdevtech.com/devops/</loc>
     <lastmod>2026-11-16T23:05:25+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-11-16T23:05:25+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/ai/</loc>
-    <lastmod>2026-11-16T23:05:02+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/ai/</loc>
-    <lastmod>2026-11-16T23:05:02+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore-ai-implementation-guide/</loc>
     <lastmod>2026-11-16T23:05:02+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/anthropic-in-london-ai-and-science-anthropic-azure-real-world-scenario-guide/</loc>
-    <lastmod>2026-11-15T19:29:27+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-11-15T19:29:27+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
     <lastmod>2026-11-15T19:29:27+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/chatgpt-wallet-openai/</loc>

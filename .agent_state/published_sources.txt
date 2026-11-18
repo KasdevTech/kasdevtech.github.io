@@ -483,6 +483,7 @@ https://openai.com/index/introducing-openai-presence
 https://openai.com/index/jalapeno-first-results
 https://openai.com/index/legora
 https://openai.com/index/malta-chatgpt-plus-partnership
+https://openai.com/index/managing-frontier-ai-risk
 https://openai.com/index/next-phase-of-microsoft-partnership
 https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws
 https://openai.com/index/openai-launches-the-deployment-company

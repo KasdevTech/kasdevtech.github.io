@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 17 Nov 2026 21:54:03 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2026 21:32:58 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized/</link>
+      <pubDate>Wed, 18 Nov 2026 21:32:58 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>St. Luke’s scales trusted AI, returning approximately 260 hours to security analysts each month - Microsoft: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/st-lukes-scales-trusted-ai-returning-approximately-260-hours-to-security-analysts-each-month-microso/</link>

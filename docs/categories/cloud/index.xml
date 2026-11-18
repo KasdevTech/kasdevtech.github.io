@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Tue, 17 Nov 2026 21:54:59 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2026 21:33:11 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing frontier AI risk: From training to deployment: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/managing-frontier-ai-risk-from-training-to-deployment-ai-implementation-guide/</link>
+      <pubDate>Wed, 18 Nov 2026 21:33:11 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/managing-frontier-ai-risk-from-training-to-deployment-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Managing frontier AI risk: From training to deployment, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized/</link>
+      <pubDate>Wed, 18 Nov 2026 21:32:58 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Responsible AI for agentic AI: A phased roadmap for platform and application teams: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams-ai-implementation/</link>

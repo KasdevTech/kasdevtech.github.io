@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 21:33:11 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2026 21:47:06 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise Live Migrations from Azure DevOps generally available: Platform Engineering Guide</title>
+      <link>https://kasdevtech.com/devops/enterprise-live-migrations-from-azure-devops-generally-available-platform-engineering-guide/</link>
+      <pubDate>Thu, 19 Nov 2026 21:47:06 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/devops/enterprise-live-migrations-from-azure-devops-generally-available-platform-engineering-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Enterprise Live Migrations from Azure DevOps generally available, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How OpenAI’s Performance Factory keeps ChatGPT fast: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/how-openais-performance-factory-keeps-chatgpt-fast-ai-implementation-guide/</link>
+      <pubDate>Thu, 19 Nov 2026 21:44:15 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/how-openais-performance-factory-keeps-chatgpt-fast-ai-implementation-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How OpenAI’s Performance Factory keeps ChatGPT fast, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>Managing frontier AI risk: From training to deployment: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/managing-frontier-ai-risk-from-training-to-deployment-ai-implementation-guide/</link>

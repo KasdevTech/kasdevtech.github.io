@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 21:44:15 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Nov 2026 21:31:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints: AI Implementation Guide</title>
+      <link>https://kasdevtech.com/ai/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-e/</link>
+      <pubDate>Fri, 20 Nov 2026 21:31:22 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/ai/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-e/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How OpenAI’s Performance Factory keeps ChatGPT fast: AI Implementation Guide</title>
       <link>https://kasdevtech.com/ai/how-openais-performance-factory-keeps-chatgpt-fast-ai-implementation-guide/</link>

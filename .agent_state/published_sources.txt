@@ -8,6 +8,7 @@ https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-ama
 https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/
 https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/
 https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/
+https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/
 https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/
 https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/
 https://aws.amazon.com/blogs/machine-learning/automate-repetitive-tasks-with-amazon-quick-flows/

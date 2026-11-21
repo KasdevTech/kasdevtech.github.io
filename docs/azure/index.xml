@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Fri, 20 Nov 2026 21:30:09 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Nov 2026 20:17:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI - Google for Developers Blog: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui-google-for-develop/</link>
+      <pubDate>Sat, 21 Nov 2026 20:17:22 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui-google-for-develop/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI - Google for Developers Blog, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to fix your team’s API keys - Google Cloud: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/how-to-fix-your-teams-api-keys-google-cloud-azure-real-world-scenario-guide/</link>

@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KASDEVTECH</copyright>
-    <lastBuildDate>Sat, 21 Nov 2026 20:17:22 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2026 20:28:15 +0000</lastBuildDate><atom:link href="https://kasdevtech.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perplexity and Intelligence - OpenAI: Azure Real-World Scenario Guide</title>
+      <link>https://kasdevtech.com/azure/perplexity-and-intelligence-openai-azure-real-world-scenario-guide/</link>
+      <pubDate>Sun, 22 Nov 2026 20:28:15 +0000</pubDate>
+      
+      <guid>https://kasdevtech.com/azure/perplexity-and-intelligence-openai-azure-real-world-scenario-guide/</guid>
+      <description>
+        
+          
+            Practical summary of the latest updates around Perplexity and Intelligence - OpenAI, with implications for engineering teams.
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI - Google for Developers Blog: Azure Real-World Scenario Guide</title>
       <link>https://kasdevtech.com/azure/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui-google-for-develop/</link>

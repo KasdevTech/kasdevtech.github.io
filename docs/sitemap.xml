@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kasdevtech.com/azure/</loc>
+    <lastmod>2026-11-25T22:45:14+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/azure/</loc>
+    <lastmod>2026-11-25T22:45:14+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/</loc>
+    <lastmod>2026-11-25T22:45:14+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/categories/cloud/</loc>
+    <lastmod>2026-11-25T22:45:14+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/do-inconsistent-docs-hurt-ai-coding-agents-azure-real-world-scenario-guide/</loc>
+    <lastmod>2026-11-25T22:45:14+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/</loc>
+    <lastmod>2026-11-25T22:45:14+00:00</lastmod>
+  </url><url>
+    <loc>https://kasdevtech.com/azure/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/</loc>
+    <lastmod>2026-11-25T22:42:21+00:00</lastmod>
+  </url><url>
     <loc>https://kasdevtech.com/ai/</loc>
     <lastmod>2026-11-24T23:20:00+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/categories/ai/</loc>
     <lastmod>2026-11-24T23:20:00+00:00</lastmod>
   </url><url>
-    <loc>https://kasdevtech.com/categories/</loc>
-    <lastmod>2026-11-24T23:20:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/cloud/</loc>
-    <lastmod>2026-11-24T23:20:00+00:00</lastmod>
-  </url><url>
     <loc>https://kasdevtech.com/ai/introducing-the-amazon-bedrock-trusted-access-api-with-enterprise-frontier-safeguards-and-enterprise/</loc>
     <lastmod>2026-11-24T23:20:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/</loc>
-    <lastmod>2026-11-24T23:20:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/azure/</loc>
-    <lastmod>2026-11-24T23:15:24+00:00</lastmod>
-  </url><url>
-    <loc>https://kasdevtech.com/categories/azure/</loc>
-    <lastmod>2026-11-24T23:15:24+00:00</lastmod>
   </url><url>
     <loc>https://kasdevtech.com/azure/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents-ventu/</loc>
     <lastmod>2026-11-24T23:15:24+00:00</lastmod>
